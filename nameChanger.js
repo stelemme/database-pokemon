@@ -1,12 +1,4 @@
-var http = require("http");
-
-http
-  .createServer(function (req, res) {
-    res.writeHead(200, { "Content-Type": "text/html" });
-    res.write("Hello World!");
-    res.end();
-
-    var pokedex = {
+var pokedex = {
       Bulbasaur: {
         id: 1,
         name: {
@@ -38541,21 +38533,20 @@ http
           sprite: "enamorus",
         },
       },
-    };
+};
 
-    const { rename } = require("fs");
-    const { resolve } = require("path");
+const { rename } = require("fs");
+const { resolve } = require("path");
 
-    const imageDirPath = resolve(__dirname, "test");
+const imageDirPath = resolve(__dirname, "test");
 
-    console.log(imageDirPath);
+console.log(imageDirPath);
 
-    Object.keys(pokedex).forEach(function (key) {
-      rename(
-        imageDirPath + `/${pokedex[key]["id"]}.png`,
-        imageDirPath + `/${pokedex[key]["image"]["sprite"]}.png`,
-        (err) => console.log(err)
-      );
-    });
-  })
-  .listen(8080);
+Object.keys(pokedex).forEach(function (key) {
+  rename(
+    imageDirPath + `/${pokedex[key]["id"]}.png`,
+    imageDirPath + `/${pokedex[key]["image"]["sprite"]}-f.png`,
+    (err) => console.log(err)
+  );
+});
+
