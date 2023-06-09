@@ -46,7 +46,7 @@ def check_max_size(input_dir_path):
     print(f'The Max Height is: {max_height} pixels')
     print(height_img_name)
 
-input_path = "pokemon/gen-1-rb"
+input_path = "pokemon-shiny/gen-2-s"
 output_path = "_output/"
 check_max_size(input_path)
 
