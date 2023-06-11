@@ -9,9 +9,9 @@ def change_canvas(input_dir_path, output_dir_path):
 
         original_width, original_height = image.size
         #max_size = max(original_height, original_width)
-        max_size = 56
+        max_size = 990
 
-        new_image = Image.new("RGBA", (max_size, max_size), "white")
+        new_image = Image.new("RGBA", (max_size, max_size), (0,0,0,0))
 
         offset_x = (max_size - original_width) // 2
         offset_y = (max_size - original_height)
@@ -46,7 +46,7 @@ def check_max_size(input_dir_path):
     print(f'The Max Height is: {max_height} pixels')
     print(height_img_name)
 
-input_path = "pokemon-shiny/gen-2-s"
+input_path = "_input/"
 output_path = "_output/"
 check_max_size(input_path)
 

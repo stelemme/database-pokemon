@@ -38538,7 +38538,7 @@ var pokedex = {
 const { rename } = require("fs");
 const { resolve } = require("path");
 
-const imageDirPath = resolve(__dirname, "test");
+const imageDirPath = resolve(__dirname, "_input");
 
 console.log(imageDirPath);
 

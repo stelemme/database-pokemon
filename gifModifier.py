@@ -34,7 +34,7 @@ def find_least_transparent_frame(input_gif_path, output_gif_path):
             least_transparent_frame = gif.copy()
             least_transparent_pixels = transparent_pixels
 
-    upscale_gif_nearest_neighbour(least_transparent_frame, output_gif_path, 10)
+    upscale_gif_nearest_neighbour(least_transparent_frame, output_gif_path, 1)
 
 def upscale_gif_nearest_neighbour(frame, output_gif_path, scale_factor):
     upscaled_frame = frame.resize((frame.width * scale_factor, frame.height * scale_factor), resample=Image.NEAREST)
@@ -43,13 +43,13 @@ def upscale_gif_nearest_neighbour(frame, output_gif_path, scale_factor):
 
 def on_all_gifs_in_folder(input_dir_path, output_dir_path):
     for filename in os.listdir(input_dir_path):
-        if 'XY' in filename:
+        #if 'SWSH' in filename:
             f1 = os.path.join(input_dir_path, filename)
             f2 = os.path.join(output_dir_path, filename)
 
             find_least_transparent_frame(f1, f'{f2[:-4]}.png')
 
-input_path = "_input"
+input_path = "C:/Users/stef-/Downloads/Battle models - downloaded 20230608/SWSH Models/SWSH"
 output_path = "_output"
 on_all_gifs_in_folder(input_path, output_path)
 

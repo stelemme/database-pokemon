@@ -1,0 +1,150 @@
+[
+    {
+      "name": "Beast Ball",
+      "sprite": "beast-ball"
+    },
+    {
+      "name": "Cherish Ball",
+      "sprite": "cherish-ball"
+    },
+    {
+      "name": "Dive Ball",
+      "sprite": "dive-ball"
+    },
+    {
+      "name": "Dream Ball",
+      "sprite": "dream-ball"
+    },
+    {
+      "name": "Dusk Ball",
+      "sprite": "dusk-ball"
+    },
+    {
+      "name": "Fast Ball",
+      "sprite": "fast-ball"
+    },
+    {
+      "name": "Feather Ball",
+      "sprite": "feather-ball"
+    },
+    {
+      "name": "Friend Ball",
+      "sprite": "friend-ball"
+    },
+    {
+      "name": "Gigaton Ball",
+      "sprite": "gigaton-ball"
+    },
+    {
+      "name": "Great Ball",
+      "sprite": "great-ball"
+    },
+    {
+      "name": "Great Ball (Legends)",
+      "sprite": "great-ball-legends"
+    },
+    {
+      "name": "Heal Ball",
+      "sprite": "heal-ball"
+    },
+    {
+      "name": "Heavy Ball",
+      "sprite": "heavy-ball"
+    },
+    {
+      "name": "Heavy Ball (Legends)",
+      "sprite": "heavy-ball-legends"
+    },
+    {
+      "name": "Jet Ball",
+      "sprite": "jet-ball"
+    },
+    {
+      "name": "Leaden Ball",
+      "sprite": "leaden-ball"
+    },
+    {
+      "name": "Level Ball",
+      "sprite": "level-ball"
+    },
+    {
+      "name": "Love Ball",
+      "sprite": "love-ball"
+    },
+    {
+      "name": "Lure Ball",
+      "sprite": "lure-ball"
+    },
+    {
+      "name": "Luxury Ball",
+      "sprite": "luxury-ball"
+    },
+    {
+      "name": "Master Ball",
+      "sprite": "master-ball"
+    },
+    {
+      "name": "Moon Ball",
+      "sprite": "moon-ball"
+    },
+    {
+      "name": "Nest Ball",
+      "sprite": "nest-ball"
+    },
+    {
+      "name": "Net Ball",
+      "sprite": "net-ball"
+    },
+    {
+      "name": "Origin Ball",
+      "sprite": "origin-ball"
+    },
+    {
+      "name": "Park Ball",
+      "sprite": "park-ball"
+    },
+    {
+      "name": "Poké Ball",
+      "sprite": "poke-ball"
+    },
+    {
+      "name": "Poké Ball (Legends)",
+      "sprite": "poke-ball-legends"
+    },
+    {
+      "name": "Premier Ball",
+      "sprite": "premier-ball"
+    },
+    {
+      "name": "Quick Ball",
+      "sprite": "quick-ball"
+    },
+    {
+      "name": "Repeat Ball",
+      "sprite": "repeat-ball"
+    },
+    {
+      "name": "Safari Ball",
+      "sprite": "safari-ball"
+    },
+    {
+      "name": "Sport Ball",
+      "sprite": "sport-ball"
+    },
+    {
+      "name": "Timer Ball",
+      "sprite": "timer-ball"
+    },
+    {
+      "name": "Ultra Ball",
+      "sprite": "ultra-ball"
+    },
+    {
+      "name": "Ultra Ball (Legends)",
+      "sprite": "ultra-ball-legends"
+    },
+    {
+      "name": "Wing Ball",
+      "sprite": "wing-ball"
+    }
+  ]

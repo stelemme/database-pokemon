@@ -1,0 +1,74 @@
+[
+    {
+      "sprite": "normal",
+      "name": "Normal"
+    },
+    {
+      "sprite": "fighting",
+      "name": "Fighting"
+    },
+    {
+      "sprite": "flying",
+      "name": "Flying"
+    },
+    {
+      "sprite": "poison",
+      "name": "Poison"
+    },
+    {
+      "sprite": "ground",
+      "name": "Ground"
+    },
+    {
+      "sprite": "rock",
+      "name": "Rock"
+    },
+    {
+      "sprite": "bug",
+      "name": "Bug"
+    },
+    {
+      "sprite": "ghost",
+      "name": "Ghost"
+    },
+    {
+      "sprite": "Steel",
+      "name": "Steel"
+    },
+    {
+      "sprite": "fire",
+      "name": "Fire"
+    },
+    {
+      "sprite": "water",
+      "name": "Water"
+    },
+    {
+      "sprite": "grass",
+      "name": "Grass"
+    },
+    {
+      "sprite": "electric",
+      "name": "Electric"
+    },
+    {
+      "sprite": "psychic",
+      "name": "Psychic"
+    },
+    {
+      "sprite": "ice",
+      "name": "Ice"
+    },
+    {
+      "sprite": "dragon",
+      "name": "Dragon"
+    },
+    {
+      "sprite": "dark",
+      "name": "Dark"
+    },
+    {
+      "sprite": "fairy",
+      "name": "Fairy"
+    }
+  ]
