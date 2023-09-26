@@ -9,11 +9,11 @@ def change_canvas(input_dir_path, output_dir_path):
 
         original_width, original_height = image.size
         #max_size = max(original_height, original_width)
-        max_size = 990
+        max_size = 56
 
         new_image = Image.new("RGBA", (max_size, max_size), (0,0,0,0))
 
-        offset_x = (max_size - original_width) // 2
+        offset_x = (max_size - original_height) // 2
         offset_y = (max_size - original_height)
 
         new_image.paste(image, (offset_x, offset_y))
@@ -48,6 +48,6 @@ def check_max_size(input_dir_path):
 
 input_path = "_input/"
 output_path = "_output/"
-check_max_size(input_path)
+""" check_max_size(input_path) """
 
 change_canvas(input_path, output_path)
