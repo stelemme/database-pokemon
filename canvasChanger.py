@@ -94,4 +94,4 @@ original_width, original_height = check_max_size(input_path)
 max_size = max(int(original_height), int(original_width))
 
 #change_canvas(input_path, output_path, max_size)
-change_canvas_animated(input_path, output_path, max_size)
+change_canvas_animated(input_path, output_path, 96)
