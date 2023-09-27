@@ -2268,7 +2268,7 @@
         "Weather Institute"
       ],
       "shinyCharm": false,
-      "dir": "gen-3-rse",
+      "dir": "gen-3-rs",
       "methods": [
         {
           "name": "Breeding",
@@ -2842,7 +2842,7 @@
         "Weather Institute"
       ],
       "shinyCharm": false,
-      "dir": "gen-3-rse",
+      "dir": "gen-3-rs",
       "methods": [
         {
           "name": "Breeding",
@@ -4594,7 +4594,7 @@
         "Weather Institute"
       ],
       "shinyCharm": false,
-      "dir": "gen-3-rse",
+      "dir": "gen-3-e",
       "methods": [
         {
           "name": "Breeding",

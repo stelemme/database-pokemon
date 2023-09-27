@@ -17534,7 +17534,7 @@ const outputDirPath = resolve(__dirname, "_output");
 console.log(inputDirPath);
 
 async function renameImage(key) {
-  const inputFilePath = `${inputDirPath}/Spr_2c_00${key["pokedexNo"]}_s.png`;
+  const inputFilePath = `${inputDirPath}/Spr_b_3r_${key["pokedexNo"]}_s.png`;
   const outputFilePath = `${outputDirPath}/${key["sprite"]}.png`;
 
   try {
