@@ -14154,7 +14154,6 @@
       "Caramel Swirl Clover Alcremie",
       "Caramel Swirl Flower Alcremie",
       "Caramel Swirl Love Alcremie",
-      "Caramel Swirl Plain Alcremie",
       "Caramel Swirl Ribbon Alcremie",
       "Caramel Swirl Star Alcremie",
       "Caramel Swirl Strawberry Alcremie",
@@ -14162,7 +14161,6 @@
       "Lemon Cream Clover Alcremie",
       "Lemon Cream Flower Alcremie",
       "Lemon Cream Love Alcremie",
-      "Lemon Cream Plain Alcremie",
       "Lemon Cream Ribbon Alcremie",
       "Lemon Cream Star Alcremie",
       "Lemon Cream Strawberry Alcremie",
@@ -14170,7 +14168,6 @@
       "Matcha Cream Clover Alcremie",
       "Matcha Cream Flower Alcremie",
       "Matcha Cream Love Alcremie",
-      "Matcha Cream Plain Alcremie",
       "Matcha Cream Ribbon Alcremie",
       "Matcha Cream Star Alcremie",
       "Matcha Cream Strawberry Alcremie",
@@ -14178,7 +14175,6 @@
       "Mint Cream Clover Alcremie",
       "Mint Cream Flower Alcremie",
       "Mint Cream Love Alcremie",
-      "Mint Cream Plain Alcremie",
       "Mint Cream Ribbon Alcremie",
       "Mint Cream Star Alcremie",
       "Mint Cream Strawberry Alcremie",
@@ -14186,7 +14182,6 @@
       "Rainbow Swirl Clover Alcremie",
       "Rainbow Swirl Flower Alcremie",
       "Rainbow Swirl Love Alcremie",
-      "Rainbow Swirl Plain Alcremie",
       "Rainbow Swirl Ribbon Alcremie",
       "Rainbow Swirl Star Alcremie",
       "Rainbow Swirl Strawberry Alcremie",
@@ -14194,7 +14189,6 @@
       "Ruby Cream Clover Alcremie",
       "Ruby Cream Flower Alcremie",
       "Ruby Cream Love Alcremie",
-      "Ruby Cream Plain Alcremie",
       "Ruby Cream Ribbon Alcremie",
       "Ruby Cream Star Alcremie",
       "Ruby Cream Strawberry Alcremie",
@@ -14202,7 +14196,6 @@
       "Ruby Swirl Clover Alcremie",
       "Ruby Swirl Flower Alcremie",
       "Ruby Swirl Love Alcremie",
-      "Ruby Swirl Plain Alcremie",
       "Ruby Swirl Ribbon Alcremie",
       "Ruby Swirl Star Alcremie",
       "Ruby Swirl Strawberry Alcremie",
@@ -14210,7 +14203,6 @@
       "Salted Cream Clover Alcremie",
       "Salted Cream Flower Alcremie",
       "Salted Cream Love Alcremie",
-      "Salted Cream Plain Alcremie",
       "Salted Cream Ribbon Alcremie",
       "Salted Cream Star Alcremie",
       "Salted Cream Strawberry Alcremie",
@@ -14218,7 +14210,6 @@
       "Vanilla Cream Clover Alcremie",
       "Vanilla Cream Flower Alcremie",
       "Vanilla Cream Love Alcremie",
-      "Vanilla Cream Plain Alcremie",
       "Vanilla Cream Ribbon Alcremie",
       "Vanilla Cream Star Alcremie",
       "Vanilla Cream Strawberry Alcremie"
@@ -14299,25 +14290,6 @@
     ],
     "gender": "0.0:100.0",
     "sprite": "alcremie-caramel-swirl-love",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Caramel Swirl Plain Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-caramel-swirl-plain",
     "forms": [
       {
         "sprite": "alcremie-gmax",
@@ -14461,25 +14433,6 @@
   },
   {
     "pokedexNo": 869,
-    "name": "Lemon Cream Plain Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-lemon-cream-plain",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
     "name": "Lemon Cream Ribbon Alcremie",
     "types": ["Fairy"],
     "evolutions": [],
@@ -14603,25 +14556,6 @@
     ],
     "gender": "0.0:100.0",
     "sprite": "alcremie-matcha-cream-love",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Matcha Cream Plain Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-matcha-cream-plain",
     "forms": [
       {
         "sprite": "alcremie-gmax",
@@ -14765,25 +14699,6 @@
   },
   {
     "pokedexNo": 869,
-    "name": "Mint Cream Plain Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-mint-cream-plain",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
     "name": "Mint Cream Ribbon Alcremie",
     "types": ["Fairy"],
     "evolutions": [],
@@ -14907,25 +14822,6 @@
     ],
     "gender": "0.0:100.0",
     "sprite": "alcremie-rainbow-swirl-love",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Rainbow Swirl Plain Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-rainbow-swirl-plain",
     "forms": [
       {
         "sprite": "alcremie-gmax",
@@ -15069,25 +14965,6 @@
   },
   {
     "pokedexNo": 869,
-    "name": "Ruby Cream Plain Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-ruby-cream-plain",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
     "name": "Ruby Cream Ribbon Alcremie",
     "types": ["Fairy"],
     "evolutions": [],
@@ -15211,25 +15088,6 @@
     ],
     "gender": "0.0:100.0",
     "sprite": "alcremie-ruby-swirl-love",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Ruby Swirl Plain Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-ruby-swirl-plain",
     "forms": [
       {
         "sprite": "alcremie-gmax",
@@ -15373,25 +15231,6 @@
   },
   {
     "pokedexNo": 869,
-    "name": "Salted Cream Plain Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-salted-cream-plain",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
     "name": "Salted Cream Ribbon Alcremie",
     "types": ["Fairy"],
     "evolutions": [],
@@ -15515,25 +15354,6 @@
     ],
     "gender": "0.0:100.0",
     "sprite": "alcremie-vanilla-cream-love",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Vanilla Cream Plain Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-vanilla-cream-plain",
     "forms": [
       {
         "sprite": "alcremie-gmax",
