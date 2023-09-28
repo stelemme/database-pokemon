@@ -6,23 +6,7 @@ def change_canvas(input_dir_path, output_dir_path, max_size=56):
         f = os.path.join(input_dir_path, filename)
 
         image = Image.open(f)
-
-        new_image = Image.new("RGBA", (max_size, max_size), (0,0,0,0))
-
-        offset_x = (max_size - original_height) // 2
-        offset_y = (max_size - original_height) // 2
-
-        new_image.paste(image, (offset_x, offset_y))
-
-        new_image.save(f'{output_dir_path}{filename}')
-
-def change_canvas_animated(input_dir_path, output_dir_path, max_size=56):
-    for filename in os.listdir(input_dir_path):
-        f = os.path.join(input_dir_path, filename)
-
-        image = Image.open(f)
-
-        # Check if the image is animated (has multiple frames)
+        
         if hasattr(image, 'n_frames') and image.n_frames > 1:
             frames = []
             durations = []
@@ -38,14 +22,14 @@ def change_canvas_animated(input_dir_path, output_dir_path, max_size=56):
                 new_frame.paste(frame, (offset_x, offset_y))
 
                 frames.append(new_frame)
-                durations.append(frame.info.get('duration', 100))  # Get frame duration
+                durations.append(frame.info.get('duration', 500))
 
             frames[0].save(
                 f'{output_dir_path}/{filename}',
                 save_all=True,
                 append_images=frames[1:],
-                duration=durations,  # Set frame durations
-                loop=image.info.get('loop', 0)  # Set loop count
+                duration=durations,
+                loop=image.info.get('loop', 0)
             )
         else:
             new_image = Image.new("RGBA", (max_size, max_size), (0, 0, 0, 0))
@@ -93,5 +77,4 @@ output_path = "_output/"
 original_width, original_height = check_max_size(input_path)
 max_size = max(int(original_height), int(original_width))
 
-#change_canvas(input_path, output_path, max_size)
-change_canvas_animated(input_path, output_path, 96)
+change_canvas(input_path, output_path, max_size=96)
