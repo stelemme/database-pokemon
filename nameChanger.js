@@ -11154,7 +11154,52 @@ var pokedex = [
     "abilities": [["Fur Coat", "false"]],
     "gender": "50:50",
     "sprite": "furfrou",
-    "forms": []
+    "forms": [
+      {
+        "sprite": "furfrou-dandy",
+        "types": ["Normal"],
+        "name": "Furfrou Dandy Trim"
+      },
+      {
+        "sprite": "furfrou-debutante",
+        "types": ["Normal"],
+        "name": "Furfrou Debutante Trim"
+      },
+      {
+        "sprite": "furfrou-diamond",
+        "types": ["Normal"],
+        "name": "Furfrou Diamond Trim"
+      },
+      {
+        "sprite": "furfrou-heart",
+        "types": ["Normal"],
+        "name": "Furfrou Heart Trim"
+      },
+      {
+        "sprite": "furfrou-kabuki",
+        "types": ["Normal"],
+        "name": "Furfrou Kabuki Trim"
+      },
+      {
+        "sprite": "furfrou-la-reine",
+        "types": ["Normal"],
+        "name": "Furfrou La Reine Trim"
+      },
+      {
+        "sprite": "furfrou-matron",
+        "types": ["Normal"],
+        "name": "Furfrou Matron Trim"
+      },
+      {
+        "sprite": "furfrou-pharaoh",
+        "types": ["Normal"],
+        "name": "Furfrou Pharaoh Trim"
+      },
+      {
+        "sprite": "furfrou-star",
+        "types": ["Normal"],
+        "name": "Furfrou Star Trim"
+      }]
   },
   {
     "pokedexNo": 677,
@@ -13640,7 +13685,7 @@ var pokedex = [
     "pokedexNo": 840,
     "name": "Applin",
     "types": ["Grass", "Dragon"],
-    "evolutions": ["Flapple", "Appletun"],
+    "evolutions": ["Flapple", "Appletun", "Dipplin"],
     "abilities": [
       ["Ripen", "false"],
       ["Gluttony", "false"],
@@ -13876,9 +13921,9 @@ var pokedex = [
   },
   {
     "pokedexNo": 854,
-    "name": "Sinistea",
+    "name": "Sinistea Phony Form",
     "types": ["Ghost"],
-    "evolutions": ["Polteageist"],
+    "evolutions": ["Polteageist Phony Form"],
     "abilities": [
       ["Weak-armor", "false"],
       ["Cursed-body", "true"]
@@ -13888,8 +13933,21 @@ var pokedex = [
     "forms": []
   },
   {
+    "pokedexNo": 854,
+    "name": "Sinistea Antique Form",
+    "types": ["Ghost"],
+    "evolutions": ["Polteageist Antique Form"],
+    "abilities": [
+      ["Weak-armor", "false"],
+      ["Cursed-body", "true"]
+    ],
+    "gender": "Genderless",
+    "sprite": "sinistea-antique",
+    "forms": []
+  },
+  {
     "pokedexNo": 855,
-    "name": "Polteageist",
+    "name": "Polteageist Phony Form",
     "types": ["Ghost"],
     "evolutions": [],
     "abilities": [
@@ -13898,6 +13956,19 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "polteageist",
+    "forms": []
+  },
+  {
+    "pokedexNo": 855,
+    "name": "Polteageist Antique Form",
+    "types": ["Ghost"],
+    "evolutions": [],
+    "abilities": [
+      ["Weak-armor", "false"],
+      ["Cursed-body", "true"]
+    ],
+    "gender": "Genderless",
+    "sprite": "polteageist-antique",
     "forms": []
   },
   {
@@ -14083,7 +14154,6 @@ var pokedex = [
       "Caramel Swirl Clover Alcremie",
       "Caramel Swirl Flower Alcremie",
       "Caramel Swirl Love Alcremie",
-      "Caramel Swirl Plain Alcremie",
       "Caramel Swirl Ribbon Alcremie",
       "Caramel Swirl Star Alcremie",
       "Caramel Swirl Strawberry Alcremie",
@@ -14091,7 +14161,6 @@ var pokedex = [
       "Lemon Cream Clover Alcremie",
       "Lemon Cream Flower Alcremie",
       "Lemon Cream Love Alcremie",
-      "Lemon Cream Plain Alcremie",
       "Lemon Cream Ribbon Alcremie",
       "Lemon Cream Star Alcremie",
       "Lemon Cream Strawberry Alcremie",
@@ -14099,7 +14168,6 @@ var pokedex = [
       "Matcha Cream Clover Alcremie",
       "Matcha Cream Flower Alcremie",
       "Matcha Cream Love Alcremie",
-      "Matcha Cream Plain Alcremie",
       "Matcha Cream Ribbon Alcremie",
       "Matcha Cream Star Alcremie",
       "Matcha Cream Strawberry Alcremie",
@@ -14107,7 +14175,6 @@ var pokedex = [
       "Mint Cream Clover Alcremie",
       "Mint Cream Flower Alcremie",
       "Mint Cream Love Alcremie",
-      "Mint Cream Plain Alcremie",
       "Mint Cream Ribbon Alcremie",
       "Mint Cream Star Alcremie",
       "Mint Cream Strawberry Alcremie",
@@ -14115,7 +14182,6 @@ var pokedex = [
       "Rainbow Swirl Clover Alcremie",
       "Rainbow Swirl Flower Alcremie",
       "Rainbow Swirl Love Alcremie",
-      "Rainbow Swirl Plain Alcremie",
       "Rainbow Swirl Ribbon Alcremie",
       "Rainbow Swirl Star Alcremie",
       "Rainbow Swirl Strawberry Alcremie",
@@ -14123,7 +14189,6 @@ var pokedex = [
       "Ruby Cream Clover Alcremie",
       "Ruby Cream Flower Alcremie",
       "Ruby Cream Love Alcremie",
-      "Ruby Cream Plain Alcremie",
       "Ruby Cream Ribbon Alcremie",
       "Ruby Cream Star Alcremie",
       "Ruby Cream Strawberry Alcremie",
@@ -14131,7 +14196,6 @@ var pokedex = [
       "Ruby Swirl Clover Alcremie",
       "Ruby Swirl Flower Alcremie",
       "Ruby Swirl Love Alcremie",
-      "Ruby Swirl Plain Alcremie",
       "Ruby Swirl Ribbon Alcremie",
       "Ruby Swirl Star Alcremie",
       "Ruby Swirl Strawberry Alcremie",
@@ -14139,7 +14203,6 @@ var pokedex = [
       "Salted Cream Clover Alcremie",
       "Salted Cream Flower Alcremie",
       "Salted Cream Love Alcremie",
-      "Salted Cream Plain Alcremie",
       "Salted Cream Ribbon Alcremie",
       "Salted Cream Star Alcremie",
       "Salted Cream Strawberry Alcremie",
@@ -14147,7 +14210,6 @@ var pokedex = [
       "Vanilla Cream Clover Alcremie",
       "Vanilla Cream Flower Alcremie",
       "Vanilla Cream Love Alcremie",
-      "Vanilla Cream Plain Alcremie",
       "Vanilla Cream Ribbon Alcremie",
       "Vanilla Cream Star Alcremie",
       "Vanilla Cream Strawberry Alcremie"
@@ -14228,25 +14290,6 @@ var pokedex = [
     ],
     "gender": "0.0:100.0",
     "sprite": "alcremie-caramel-swirl-love",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Caramel Swirl Plain Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-caramel-swirl-plain",
     "forms": [
       {
         "sprite": "alcremie-gmax",
@@ -14390,25 +14433,6 @@ var pokedex = [
   },
   {
     "pokedexNo": 869,
-    "name": "Lemon Cream Plain Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-lemon-cream-plain",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
     "name": "Lemon Cream Ribbon Alcremie",
     "types": ["Fairy"],
     "evolutions": [],
@@ -14532,25 +14556,6 @@ var pokedex = [
     ],
     "gender": "0.0:100.0",
     "sprite": "alcremie-matcha-cream-love",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Matcha Cream Plain Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-matcha-cream-plain",
     "forms": [
       {
         "sprite": "alcremie-gmax",
@@ -14694,25 +14699,6 @@ var pokedex = [
   },
   {
     "pokedexNo": 869,
-    "name": "Mint Cream Plain Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-mint-cream-plain",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
     "name": "Mint Cream Ribbon Alcremie",
     "types": ["Fairy"],
     "evolutions": [],
@@ -14836,25 +14822,6 @@ var pokedex = [
     ],
     "gender": "0.0:100.0",
     "sprite": "alcremie-rainbow-swirl-love",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Rainbow Swirl Plain Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-rainbow-swirl-plain",
     "forms": [
       {
         "sprite": "alcremie-gmax",
@@ -14998,25 +14965,6 @@ var pokedex = [
   },
   {
     "pokedexNo": 869,
-    "name": "Ruby Cream Plain Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-ruby-cream-plain",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
     "name": "Ruby Cream Ribbon Alcremie",
     "types": ["Fairy"],
     "evolutions": [],
@@ -15140,25 +15088,6 @@ var pokedex = [
     ],
     "gender": "0.0:100.0",
     "sprite": "alcremie-ruby-swirl-love",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Ruby Swirl Plain Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-ruby-swirl-plain",
     "forms": [
       {
         "sprite": "alcremie-gmax",
@@ -15302,25 +15231,6 @@ var pokedex = [
   },
   {
     "pokedexNo": 869,
-    "name": "Salted Cream Plain Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-salted-cream-plain",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
     "name": "Salted Cream Ribbon Alcremie",
     "types": ["Fairy"],
     "evolutions": [],
@@ -15444,25 +15354,6 @@ var pokedex = [
     ],
     "gender": "0.0:100.0",
     "sprite": "alcremie-vanilla-cream-love",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Vanilla Cream Plain Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-vanilla-cream-plain",
     "forms": [
       {
         "sprite": "alcremie-gmax",
@@ -17522,10 +17413,147 @@ var pokedex = [
     "gender": "Genderless",
     "sprite": "iron-leaves",
     "forms": []
+  },
+  {
+    "pokedexNo": 1011,
+    "name": "Dipplin",
+    "types": ["Grass", "Dragon"],
+    "evolutions": [],
+    "abilities": [
+      ["Supersweet Syrup", "false"],
+      ["Gluttony", "false"],
+      ["Sticky Hold", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "dipplin",
+    "forms": []
+  },
+  {
+    "pokedexNo": 1012,
+    "name": "Poltchageist Unremarkable Form",
+    "types": ["Grass", "Ghost"],
+    "evolutions": ["Sinistcha Unremarkable Form"],
+    "abilities": [
+      ["Hospitality", "false"],
+      ["Heatproof", "true"]
+    ],
+    "gender": "Genderless",
+    "sprite": "poltchageist",
+    "forms": []
+  },
+  {
+    "pokedexNo": 1012,
+    "name": "Poltchageist Masterpiece Form",
+    "types": ["Grass", "Ghost"],
+    "evolutions": ["Sinistcha Masterpiece Form"],
+    "abilities": [
+      ["Hospitality", "false"],
+      ["Heatproof", "true"]
+    ],
+    "gender": "Genderless",
+    "sprite": "poltchageist-masterpiece",
+    "forms": []
+  },
+  {
+    "pokedexNo": 1013,
+    "name": "Sinistcha Unremarkable Form",
+    "types": ["Grass", "Ghost"],
+    "evolutions": [],
+    "abilities": [
+      ["Hospitality", "false"],
+      ["Heatproof", "true"]
+    ],
+    "gender": "Genderless",
+    "sprite": "sinistcha",
+    "forms": []
+  },
+  {
+    "pokedexNo": 1013,
+    "name": "Sinistcha Masterpiece Form",
+    "types": ["Grass", "Ghost"],
+    "evolutions": [],
+    "abilities": [
+      ["Hospitality", "false"],
+      ["Heatproof", "true"]
+    ],
+    "gender": "Genderless",
+    "sprite": "sinistcha-masterpiece",
+    "forms": []
+  },
+  {
+    "pokedexNo": 1014,
+    "name": "Okidogi",
+    "types": ["Poison", "Fighting"],
+    "evolutions": [],
+    "abilities": [
+      ["Toxic Chain", "false"],
+      ["Guard Dog", "true"]
+    ],
+    "gender": "100:0",
+    "sprite": "okidogi",
+    "forms": []
+  },
+  {
+    "pokedexNo": 1015,
+    "name": "Munkidori",
+    "types": ["Poison", "Psychic"],
+    "evolutions": [],
+    "abilities": [
+      ["Toxic Chain", "false"],
+      ["Frisk", "true"]
+    ],
+    "gender": "100:0",
+    "sprite": "munkidori",
+    "forms": []
+  },
+  {
+    "pokedexNo": 1016,
+    "name": "Fezandipiti",
+    "types": ["Poison", "Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Toxic Chain", "false"],
+      ["Technician", "true"]
+    ],
+    "gender": "100:0",
+    "sprite": "fezandipiti",
+    "forms": []
+  },
+  {
+    "pokedexNo": 1017,
+    "name": "Ogerpon",
+    "types": ["Grass"],
+    "evolutions": [],
+    "abilities": [],
+    "gender": "0:100",
+    "sprite": "ogerpon",
+    "forms": [
+      {
+        "sprite": "ogerpon-teal-mask",
+        "types": ["Grass"],
+        "name": "Ogerpon Teal Mask"
+      },
+      {
+        "sprite": "ogerpon-wellspring-mask",
+        "types": ["Grass", "Water"],
+        "name": "Ogerpon Wellspring Mask"
+      },
+      {
+        "sprite": "ogerpon-heartflame-mask",
+        "types": ["Grass", "Fire"],
+        "name": "Ogerpon Heartflame Mask"
+      },
+      {
+        "sprite": "ogerpon-cornerstone-mask",
+        "types": ["Grass", "Rock"],
+        "name": "Ogerpon Cornerstone Mask"
+      }
+    ]
   }
 ]
 
-const { copyFile } = require("fs").promises; // Use promises version for asynchronous file operations
+
+const { copyFile } = require("fs").promises;
 const { resolve } = require("path");
 
 const inputDirPath = resolve(__dirname, "_input");
@@ -17534,12 +17562,12 @@ const outputDirPath = resolve(__dirname, "_output");
 console.log(inputDirPath);
 
 async function renameImage(key) {
-  const inputFilePath = `${inputDirPath}/poke_capture_0${key["pokedexNo"]}_000_fo_n_00000000_f_n.png`;
+  const inputFilePath = `${inputDirPath}/poke_capture_0${key["pokedexNo"]}_000_uk_n_00000000_f_r.png`;
   const outputFilePath = `${outputDirPath}/${key["sprite"]}.png`;
 
   try {
     // Copy the file from _input to _output
-    if (!key["sprite"].includes("galar") && !key["sprite"].includes("alola") && !key["sprite"].includes("hisui")  && !key["sprite"].includes("paldea")) {
+    if (!key["sprite"].includes("galar") && !key["sprite"].includes("alola") &&  !key["sprite"].includes("hisui") &&  !key["sprite"].includes("paldea")) {
       await copyFile(inputFilePath, outputFilePath);
     }
     
