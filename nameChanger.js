@@ -17562,8 +17562,8 @@ const outputDirPath = resolve(__dirname, "_output");
 console.log(inputDirPath);
 
 async function renameImage(key) {
-  const inputFilePath = `${inputDirPath}/poke_capture_0${key["pokedexNo"]}_000_uk_n_00000000_f_r.png`;
-  const outputFilePath = `${outputDirPath}/${key["sprite"]}.png`;
+  const inputFilePath = `${inputDirPath}/${key["pokedexNo"]}M XY-1.gif`;
+  const outputFilePath = `${outputDirPath}/${key["sprite"]}-mega.png`;
 
   try {
     // Copy the file from _input to _output

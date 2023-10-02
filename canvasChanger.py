@@ -22,14 +22,15 @@ def change_canvas(input_dir_path, output_dir_path, max_size=56):
                 new_frame.paste(frame, (offset_x, offset_y))
 
                 frames.append(new_frame)
-                durations.append(frame.info.get('duration', 500))
+                durations.append(frame.info.get('duration', 0))
 
             frames[0].save(
                 f'{output_dir_path}/{filename}',
                 save_all=True,
                 append_images=frames[1:],
                 duration=durations,
-                loop=image.info.get('loop', 0)
+                loop=image.info.get('loop', 0),
+                disposal=2
             )
         else:
             new_image = Image.new("RGBA", (max_size, max_size), (0, 0, 0, 0))
@@ -77,4 +78,4 @@ output_path = "_output/"
 original_width, original_height = check_max_size(input_path)
 max_size = max(int(original_height), int(original_width))
 
-change_canvas(input_path, output_path, max_size=96)
+change_canvas(input_path, output_path, max_size=200)
