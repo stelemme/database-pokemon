@@ -25,7 +25,7 @@ def change_canvas(input_dir_path, output_dir_path, max_size=56):
                 durations.append(frame.info.get('duration', 0))
 
             frames[0].save(
-                f'{output_dir_path}/{filename}',
+                f'{output_dir_path}/{filename[:-3] + "png"}',
                 save_all=True,
                 append_images=frames[1:],
                 duration=durations,
