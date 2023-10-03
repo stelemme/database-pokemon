@@ -7,7 +7,7 @@ def change_canvas(input_dir_path, output_dir_path, max_size=56):
 
         image = Image.open(f)
         
-        if hasattr(image, 'n_frames') and image.n_frames > 1:
+        if hasattr(image, 'n_frames'):
             frames = []
             durations = []
 
