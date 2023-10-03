@@ -49,7 +49,7 @@ def on_all_gifs_in_folder(input_dir_path, output_dir_path):
 
             find_least_transparent_frame(f1, f'{f2[:-4]}.png')
 
-input_path = "C:/Users/stef-/Downloads/Battle models - downloaded 20230608/SWSH Models/SWSH"
+input_path = "_input"
 output_path = "_output"
 on_all_gifs_in_folder(input_path, output_path)
 
