@@ -1,16 +1,30 @@
 [
   {
-    "_id": "64b0622cf8c2efe5e7432a3c",
     "name": "Pokémon Red",
     "sort": 1,
     "gen": "Gen 1",
     "sprite": "red",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Safari Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Safari Ball",
+        "sprite": "safari-ball"
+      }
     ],
     "locations": [
       "Celadon City",
@@ -82,7 +96,6 @@
     "dir": "gen-1-rb",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee7171261",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -94,7 +107,6 @@
         "rolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee7171262",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -262,17 +274,31 @@
     "forms": []
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a3d",
     "name": "Pokémon Blue",
     "sort": 2,
     "gen": "Gen 1",
     "sprite": "blue",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Safari Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Safari Ball",
+        "sprite": "safari-ball"
+      }
     ],
     "locations": [
       "Celadon City",
@@ -344,7 +370,6 @@
     "dir": "gen-1-rb",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee7171263",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -356,7 +381,6 @@
         "rolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee7171264",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -524,17 +548,31 @@
     "forms": []
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a3e",
     "name": "Pokémon Yellow",
     "sort": 3,
     "gen": "Gen 1",
     "sprite": "yellow",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Safari Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Safari Ball",
+        "sprite": "safari-ball"
+      }
     ],
     "locations": [
       "Celadon City",
@@ -606,7 +644,6 @@
     "dir": "gen-1-y",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee7171265",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -618,7 +655,6 @@
         "rolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee7171266",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -786,25 +822,63 @@
     "forms": []
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a3f",
     "name": "Pokémon Gold",
     "sort": 4,
     "gen": "Gen 2",
     "sprite": "gold",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Safari Ball",
-      "Fast Ball",
-      "Level Ball",
-      "Lure Ball",
-      "Heavy Ball",
-      "Love Ball",
-      "Friend Ball",
-      "Moon Ball",
-      "Sport Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Safari Ball",
+        "sprite": "safari-ball"
+      },
+      {
+        "name": "Fast Ball",
+        "sprite": "fast-ball"
+      },
+      {
+        "name": "Level Ball",
+        "sprite": "level-ball"
+      },
+      {
+        "name": "Lure Ball",
+        "sprite": "lure-ball"
+      },
+      {
+        "name": "Heavy Ball",
+        "sprite": "heavy-ball"
+      },
+      {
+        "name": "Love Ball",
+        "sprite": "love-ball"
+      },
+      {
+        "name": "Friend Ball",
+        "sprite": "friend-ball"
+      },
+      {
+        "name": "Moon Ball",
+        "sprite": "moon-ball"
+      },
+      {
+        "name": "Sport Ball",
+        "sprite": "sport-ball"
+      }
     ],
     "locations": [
       "Azalea Town",
@@ -929,14 +1003,14 @@
     "dir": "gen-2-g",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee7171267",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 8192,
         "rolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee7171268",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -949,20 +1023,17 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee7171269",
         "name": "Perfect IV Breeding (Ditto)",
         "odds": 64,
         "rolls": 1
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee717126a",
         "name": "Perfect IV Breeding (Other)",
         "odds": 128,
         "rolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee717126b",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -1257,25 +1328,63 @@
     "forms": []
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a40",
     "name": "Pokémon Silver",
     "sort": 5,
     "gen": "Gen 2",
     "sprite": "silver",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Safari Ball",
-      "Fast Ball",
-      "Level Ball",
-      "Lure Ball",
-      "Heavy Ball",
-      "Love Ball",
-      "Friend Ball",
-      "Moon Ball",
-      "Sport Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Safari Ball",
+        "sprite": "safari-ball"
+      },
+      {
+        "name": "Fast Ball",
+        "sprite": "fast-ball"
+      },
+      {
+        "name": "Level Ball",
+        "sprite": "level-ball"
+      },
+      {
+        "name": "Lure Ball",
+        "sprite": "lure-ball"
+      },
+      {
+        "name": "Heavy Ball",
+        "sprite": "heavy-ball"
+      },
+      {
+        "name": "Love Ball",
+        "sprite": "love-ball"
+      },
+      {
+        "name": "Friend Ball",
+        "sprite": "friend-ball"
+      },
+      {
+        "name": "Moon Ball",
+        "sprite": "moon-ball"
+      },
+      {
+        "name": "Sport Ball",
+        "sprite": "sport-ball"
+      }
     ],
     "locations": [
       "Azalea Town",
@@ -1400,14 +1509,14 @@
     "dir": "gen-2-s",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee717126c",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 8192,
         "rolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee717126d",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -1420,20 +1529,17 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee717126e",
         "name": "Perfect IV Breeding (Ditto)",
         "odds": 64,
         "rolls": 1
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee717126f",
         "name": "Perfect IV Breeding (Other)",
         "odds": 128,
         "rolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee7171270",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -1728,25 +1834,63 @@
     "forms": []
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a41",
     "name": "Pokémon Crystal",
     "sort": 6,
     "gen": "Gen 2",
     "sprite": "crystal",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Safari Ball",
-      "Fast Ball",
-      "Level Ball",
-      "Lure Ball",
-      "Heavy Ball",
-      "Love Ball",
-      "Friend Ball",
-      "Moon Ball",
-      "Sport Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Safari Ball",
+        "sprite": "safari-ball"
+      },
+      {
+        "name": "Fast Ball",
+        "sprite": "fast-ball"
+      },
+      {
+        "name": "Level Ball",
+        "sprite": "level-ball"
+      },
+      {
+        "name": "Lure Ball",
+        "sprite": "lure-ball"
+      },
+      {
+        "name": "Heavy Ball",
+        "sprite": "heavy-ball"
+      },
+      {
+        "name": "Love Ball",
+        "sprite": "love-ball"
+      },
+      {
+        "name": "Friend Ball",
+        "sprite": "friend-ball"
+      },
+      {
+        "name": "Moon Ball",
+        "sprite": "moon-ball"
+      },
+      {
+        "name": "Sport Ball",
+        "sprite": "sport-ball"
+      }
     ],
     "locations": [
       "Azalea Town",
@@ -1871,14 +2015,14 @@
     "dir": "gen-2-c",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee7171271",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 8192,
         "rolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee7171272",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -1891,20 +2035,17 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee7171273",
         "name": "Perfect IV Breeding (Ditto)",
         "odds": 64,
         "rolls": 1
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee7171274",
         "name": "Perfect IV Breeding (Other)",
         "odds": 128,
         "rolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee7171275",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -2199,24 +2340,59 @@
     "forms": []
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a42",
     "name": "Pokémon Ruby",
     "sort": 7,
     "gen": "Gen 3",
     "sprite": "ruby",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Safari Ball",
-      "Net Ball",
-      "Nest Ball",
-      "Repeat Ball",
-      "Timer Ball",
-      "Luxury Ball",
-      "Premier Ball",
-      "Dive Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Safari Ball",
+        "sprite": "safari-ball"
+      },
+      {
+        "name": "Net Ball",
+        "sprite": "net-ball"
+      },
+      {
+        "name": "Nest Ball",
+        "sprite": "nest-ball"
+      },
+      {
+        "name": "Repeat Ball",
+        "sprite": "repeat-ball"
+      },
+      {
+        "name": "Timer Ball",
+        "sprite": "timer-ball"
+      },
+      {
+        "name": "Luxury Ball",
+        "sprite": "luxury-ball"
+      },
+      {
+        "name": "Premier Ball",
+        "sprite": "premier-ball"
+      },
+      {
+        "name": "Dive Ball",
+        "sprite": "dive-ball"
+      }
     ],
     "locations": [
       "Abandoned Ship",
@@ -2321,14 +2497,14 @@
     "dir": "gen-3-rs",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee7171276",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 8192,
         "rolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee7171277",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -2342,7 +2518,6 @@
         "rolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee7171278",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -2776,24 +2951,59 @@
     ]
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a43",
     "name": "Pokémon Sapphire",
     "sort": 8,
     "gen": "Gen 3",
     "sprite": "sapphire",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Safari Ball",
-      "Net Ball",
-      "Nest Ball",
-      "Repeat Ball",
-      "Timer Ball",
-      "Luxury Ball",
-      "Premier Ball",
-      "Dive Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Safari Ball",
+        "sprite": "safari-ball"
+      },
+      {
+        "name": "Net Ball",
+        "sprite": "net-ball"
+      },
+      {
+        "name": "Nest Ball",
+        "sprite": "nest-ball"
+      },
+      {
+        "name": "Repeat Ball",
+        "sprite": "repeat-ball"
+      },
+      {
+        "name": "Timer Ball",
+        "sprite": "timer-ball"
+      },
+      {
+        "name": "Luxury Ball",
+        "sprite": "luxury-ball"
+      },
+      {
+        "name": "Premier Ball",
+        "sprite": "premier-ball"
+      },
+      {
+        "name": "Dive Ball",
+        "sprite": "dive-ball"
+      }
     ],
     "locations": [
       "Abandoned Ship",
@@ -2898,14 +3108,14 @@
     "dir": "gen-3-rs",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee7171279",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 8192,
         "rolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee717127a",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -2919,7 +3129,6 @@
         "rolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee717127b",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -3353,24 +3562,59 @@
     ]
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a44",
     "name": "Pokémon FireRed",
     "sort": 9,
     "gen": "Gen 3",
     "sprite": "firered",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Safari Ball",
-      "Net Ball",
-      "Nest Ball",
-      "Repeat Ball",
-      "Timer Ball",
-      "Luxury Ball",
-      "Premier Ball",
-      "Dive Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Safari Ball",
+        "sprite": "safari-ball"
+      },
+      {
+        "name": "Net Ball",
+        "sprite": "net-ball"
+      },
+      {
+        "name": "Nest Ball",
+        "sprite": "nest-ball"
+      },
+      {
+        "name": "Repeat Ball",
+        "sprite": "repeat-ball"
+      },
+      {
+        "name": "Timer Ball",
+        "sprite": "timer-ball"
+      },
+      {
+        "name": "Luxury Ball",
+        "sprite": "luxury-ball"
+      },
+      {
+        "name": "Premier Ball",
+        "sprite": "premier-ball"
+      },
+      {
+        "name": "Dive Ball",
+        "sprite": "dive-ball"
+      }
     ],
     "locations": [
       "Altering Cave",
@@ -3481,14 +3725,14 @@
     "dir": "gen-3-frlg",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee717127c",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 8192,
         "rolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee717127d",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -3502,7 +3746,6 @@
         "rolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee717127e",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -3936,24 +4179,59 @@
     ]
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a45",
     "name": "Pokémon LeafGreen",
     "sort": 10,
     "gen": "Gen 3",
     "sprite": "leafgreen",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Safari Ball",
-      "Net Ball",
-      "Nest Ball",
-      "Repeat Ball",
-      "Timer Ball",
-      "Luxury Ball",
-      "Premier Ball",
-      "Dive Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Safari Ball",
+        "sprite": "safari-ball"
+      },
+      {
+        "name": "Net Ball",
+        "sprite": "net-ball"
+      },
+      {
+        "name": "Nest Ball",
+        "sprite": "nest-ball"
+      },
+      {
+        "name": "Repeat Ball",
+        "sprite": "repeat-ball"
+      },
+      {
+        "name": "Timer Ball",
+        "sprite": "timer-ball"
+      },
+      {
+        "name": "Luxury Ball",
+        "sprite": "luxury-ball"
+      },
+      {
+        "name": "Premier Ball",
+        "sprite": "premier-ball"
+      },
+      {
+        "name": "Dive Ball",
+        "sprite": "dive-ball"
+      }
     ],
     "locations": [
       "Altering Cave",
@@ -4064,14 +4342,14 @@
     "dir": "gen-3-frlg",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee717127f",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 8192,
         "rolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee7171280",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -4085,7 +4363,6 @@
         "rolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee7171281",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -4519,24 +4796,59 @@
     ]
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a46",
     "name": "Pokémon Emerald",
     "sort": 11,
     "gen": "Gen 3",
     "sprite": "emerald",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Safari Ball",
-      "Net Ball",
-      "Nest Ball",
-      "Repeat Ball",
-      "Timer Ball",
-      "Luxury Ball",
-      "Premier Ball",
-      "Dive Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Safari Ball",
+        "sprite": "safari-ball"
+      },
+      {
+        "name": "Net Ball",
+        "sprite": "net-ball"
+      },
+      {
+        "name": "Nest Ball",
+        "sprite": "nest-ball"
+      },
+      {
+        "name": "Repeat Ball",
+        "sprite": "repeat-ball"
+      },
+      {
+        "name": "Timer Ball",
+        "sprite": "timer-ball"
+      },
+      {
+        "name": "Luxury Ball",
+        "sprite": "luxury-ball"
+      },
+      {
+        "name": "Premier Ball",
+        "sprite": "premier-ball"
+      },
+      {
+        "name": "Dive Ball",
+        "sprite": "dive-ball"
+      }
     ],
     "locations": [
       "Abandoned Ship",
@@ -4659,14 +4971,14 @@
     "dir": "gen-3-e",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee7171282",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 8192,
         "rolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee7171283",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -4680,7 +4992,6 @@
         "rolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee7171284",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -5114,27 +5425,71 @@
     ]
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a47",
     "name": "Pokémon Diamond",
     "sort": 12,
     "gen": "Gen 4",
     "sprite": "diamond",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Safari Ball",
-      "Net Ball",
-      "Nest Ball",
-      "Repeat Ball",
-      "Timer Ball",
-      "Luxury Ball",
-      "Premier Ball",
-      "Dive Ball",
-      "Dusk Ball",
-      "Heal Ball",
-      "Quick Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Safari Ball",
+        "sprite": "safari-ball"
+      },
+      {
+        "name": "Net Ball",
+        "sprite": "net-ball"
+      },
+      {
+        "name": "Nest Ball",
+        "sprite": "nest-ball"
+      },
+      {
+        "name": "Repeat Ball",
+        "sprite": "repeat-ball"
+      },
+      {
+        "name": "Timer Ball",
+        "sprite": "timer-ball"
+      },
+      {
+        "name": "Luxury Ball",
+        "sprite": "luxury-ball"
+      },
+      {
+        "name": "Premier Ball",
+        "sprite": "premier-ball"
+      },
+      {
+        "name": "Dive Ball",
+        "sprite": "dive-ball"
+      },
+      {
+        "name": "Dusk Ball",
+        "sprite": "dusk-ball"
+      },
+      {
+        "name": "Heal Ball",
+        "sprite": "heal-ball"
+      },
+      {
+        "name": "Quick Ball",
+        "sprite": "quick-ball"
+      }
     ],
     "locations": [
       "Acuity Lakefront",
@@ -5255,14 +5610,14 @@
     "dir": "gen-4-dp",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee7171285",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 8192,
         "rolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee7171286",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -5277,19 +5632,16 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee7171287",
         "name": "Masuda Method",
         "odds": 8192,
         "rolls": 5
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee7171288",
         "name": "Poké Radar",
         "function": "pokeradar-gen4"
       },
       {
-        "_id": "6523eb813e76b1aee7171289",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -5860,27 +6212,71 @@
     ]
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a48",
     "name": "Pokémon Pearl",
     "sort": 13,
     "gen": "Gen 4",
     "sprite": "pearl",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Safari Ball",
-      "Net Ball",
-      "Nest Ball",
-      "Repeat Ball",
-      "Timer Ball",
-      "Luxury Ball",
-      "Premier Ball",
-      "Dive Ball",
-      "Dusk Ball",
-      "Heal Ball",
-      "Quick Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Safari Ball",
+        "sprite": "safari-ball"
+      },
+      {
+        "name": "Net Ball",
+        "sprite": "net-ball"
+      },
+      {
+        "name": "Nest Ball",
+        "sprite": "nest-ball"
+      },
+      {
+        "name": "Repeat Ball",
+        "sprite": "repeat-ball"
+      },
+      {
+        "name": "Timer Ball",
+        "sprite": "timer-ball"
+      },
+      {
+        "name": "Luxury Ball",
+        "sprite": "luxury-ball"
+      },
+      {
+        "name": "Premier Ball",
+        "sprite": "premier-ball"
+      },
+      {
+        "name": "Dive Ball",
+        "sprite": "dive-ball"
+      },
+      {
+        "name": "Dusk Ball",
+        "sprite": "dusk-ball"
+      },
+      {
+        "name": "Heal Ball",
+        "sprite": "heal-ball"
+      },
+      {
+        "name": "Quick Ball",
+        "sprite": "quick-ball"
+      }
     ],
     "locations": [
       "Acuity Lakefront",
@@ -6001,14 +6397,14 @@
     "dir": "gen-4-dp",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee717128a",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 8192,
         "rolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee717128b",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -6023,19 +6419,16 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee717128c",
         "name": "Masuda Method",
         "odds": 8192,
         "rolls": 5
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee717128d",
         "name": "Poké Radar",
         "function": "pokeradar-gen4"
       },
       {
-        "_id": "6523eb813e76b1aee717128e",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -6606,27 +6999,71 @@
     ]
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a49",
     "name": "Pokémon Platinum",
     "sort": 14,
     "gen": "Gen 4",
     "sprite": "platinum",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Safari Ball",
-      "Net Ball",
-      "Nest Ball",
-      "Repeat Ball",
-      "Timer Ball",
-      "Luxury Ball",
-      "Premier Ball",
-      "Dive Ball",
-      "Dusk Ball",
-      "Heal Ball",
-      "Quick Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Safari Ball",
+        "sprite": "safari-ball"
+      },
+      {
+        "name": "Net Ball",
+        "sprite": "net-ball"
+      },
+      {
+        "name": "Nest Ball",
+        "sprite": "nest-ball"
+      },
+      {
+        "name": "Repeat Ball",
+        "sprite": "repeat-ball"
+      },
+      {
+        "name": "Timer Ball",
+        "sprite": "timer-ball"
+      },
+      {
+        "name": "Luxury Ball",
+        "sprite": "luxury-ball"
+      },
+      {
+        "name": "Premier Ball",
+        "sprite": "premier-ball"
+      },
+      {
+        "name": "Dive Ball",
+        "sprite": "dive-ball"
+      },
+      {
+        "name": "Dusk Ball",
+        "sprite": "dusk-ball"
+      },
+      {
+        "name": "Heal Ball",
+        "sprite": "heal-ball"
+      },
+      {
+        "name": "Quick Ball",
+        "sprite": "quick-ball"
+      }
     ],
     "locations": [
       "Acuity Lakefront",
@@ -6758,14 +7195,14 @@
     "dir": "gen-4-pl",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee717128f",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 8192,
         "rolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee7171290",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -6780,19 +7217,16 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee7171291",
         "name": "Masuda Method",
         "odds": 8192,
         "rolls": 5
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee7171292",
         "name": "Poké Radar",
         "function": "pokeradar-gen4"
       },
       {
-        "_id": "6523eb813e76b1aee7171293",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -7370,35 +7804,103 @@
     ]
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a4a",
     "name": "Pokémon HeartGold",
     "sort": 15,
     "gen": "Gen 4",
     "sprite": "heartgold",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Safari Ball",
-      "Fast Ball",
-      "Level Ball",
-      "Lure Ball",
-      "Heavy Ball",
-      "Love Ball",
-      "Friend Ball",
-      "Moon Ball",
-      "Sport Ball",
-      "Net Ball",
-      "Nest Ball",
-      "Repeat Ball",
-      "Timer Ball",
-      "Luxury Ball",
-      "Premier Ball",
-      "Dive Ball",
-      "Dusk Ball",
-      "Heal Ball",
-      "Quick Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Safari Ball",
+        "sprite": "safari-ball"
+      },
+      {
+        "name": "Fast Ball",
+        "sprite": "fast-ball"
+      },
+      {
+        "name": "Level Ball",
+        "sprite": "level-ball"
+      },
+      {
+        "name": "Lure Ball",
+        "sprite": "lure-ball"
+      },
+      {
+        "name": "Heavy Ball",
+        "sprite": "heavy-ball"
+      },
+      {
+        "name": "Love Ball",
+        "sprite": "love-ball"
+      },
+      {
+        "name": "Friend Ball",
+        "sprite": "friend-ball"
+      },
+      {
+        "name": "Moon Ball",
+        "sprite": "moon-ball"
+      },
+      {
+        "name": "Sport Ball",
+        "sprite": "sport-ball"
+      },
+      {
+        "name": "Net Ball",
+        "sprite": "net-ball"
+      },
+      {
+        "name": "Nest Ball",
+        "sprite": "nest-ball"
+      },
+      {
+        "name": "Repeat Ball",
+        "sprite": "repeat-ball"
+      },
+      {
+        "name": "Timer Ball",
+        "sprite": "timer-ball"
+      },
+      {
+        "name": "Luxury Ball",
+        "sprite": "luxury-ball"
+      },
+      {
+        "name": "Premier Ball",
+        "sprite": "premier-ball"
+      },
+      {
+        "name": "Dive Ball",
+        "sprite": "dive-ball"
+      },
+      {
+        "name": "Dusk Ball",
+        "sprite": "dusk-ball"
+      },
+      {
+        "name": "Heal Ball",
+        "sprite": "heal-ball"
+      },
+      {
+        "name": "Quick Ball",
+        "sprite": "quick-ball"
+      }
     ],
     "locations": [
       "Azalea Town",
@@ -7539,14 +8041,14 @@
     "dir": "gen-4-hgss",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee7171294",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 8192,
         "rolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee7171295",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -7562,13 +8064,11 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee7171296",
         "name": "Masuda Method",
         "odds": 8192,
         "rolls": 5
       },
       {
-        "_id": "6523eb813e76b1aee7171297",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -8146,35 +8646,103 @@
     ]
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a4b",
     "name": "Pokémon SoulSilver",
     "sort": 16,
     "gen": "Gen 4",
     "sprite": "soulsilver",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Safari Ball",
-      "Fast Ball",
-      "Level Ball",
-      "Lure Ball",
-      "Heavy Ball",
-      "Love Ball",
-      "Friend Ball",
-      "Moon Ball",
-      "Sport Ball",
-      "Net Ball",
-      "Nest Ball",
-      "Repeat Ball",
-      "Timer Ball",
-      "Luxury Ball",
-      "Premier Ball",
-      "Dive Ball",
-      "Dusk Ball",
-      "Heal Ball",
-      "Quick Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Safari Ball",
+        "sprite": "safari-ball"
+      },
+      {
+        "name": "Fast Ball",
+        "sprite": "fast-ball"
+      },
+      {
+        "name": "Level Ball",
+        "sprite": "level-ball"
+      },
+      {
+        "name": "Lure Ball",
+        "sprite": "lure-ball"
+      },
+      {
+        "name": "Heavy Ball",
+        "sprite": "heavy-ball"
+      },
+      {
+        "name": "Love Ball",
+        "sprite": "love-ball"
+      },
+      {
+        "name": "Friend Ball",
+        "sprite": "friend-ball"
+      },
+      {
+        "name": "Moon Ball",
+        "sprite": "moon-ball"
+      },
+      {
+        "name": "Sport Ball",
+        "sprite": "sport-ball"
+      },
+      {
+        "name": "Net Ball",
+        "sprite": "net-ball"
+      },
+      {
+        "name": "Nest Ball",
+        "sprite": "nest-ball"
+      },
+      {
+        "name": "Repeat Ball",
+        "sprite": "repeat-ball"
+      },
+      {
+        "name": "Timer Ball",
+        "sprite": "timer-ball"
+      },
+      {
+        "name": "Luxury Ball",
+        "sprite": "luxury-ball"
+      },
+      {
+        "name": "Premier Ball",
+        "sprite": "premier-ball"
+      },
+      {
+        "name": "Dive Ball",
+        "sprite": "dive-ball"
+      },
+      {
+        "name": "Dusk Ball",
+        "sprite": "dusk-ball"
+      },
+      {
+        "name": "Heal Ball",
+        "sprite": "heal-ball"
+      },
+      {
+        "name": "Quick Ball",
+        "sprite": "quick-ball"
+      }
     ],
     "locations": [
       "Azalea Town",
@@ -8315,14 +8883,14 @@
     "dir": "gen-4-hgss",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee7171298",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 8192,
         "rolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee7171299",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -8338,13 +8906,11 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee717129a",
         "name": "Masuda Method",
         "odds": 8192,
         "rolls": 5
       },
       {
-        "_id": "6523eb813e76b1aee717129b",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -8922,26 +9488,67 @@
     ]
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a4c",
     "name": "Pokémon Black",
     "sort": 17,
     "gen": "Gen 5",
     "sprite": "black",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Net Ball",
-      "Nest Ball",
-      "Repeat Ball",
-      "Timer Ball",
-      "Luxury Ball",
-      "Premier Ball",
-      "Dive Ball",
-      "Dusk Ball",
-      "Heal Ball",
-      "Quick Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Net Ball",
+        "sprite": "net-ball"
+      },
+      {
+        "name": "Nest Ball",
+        "sprite": "nest-ball"
+      },
+      {
+        "name": "Repeat Ball",
+        "sprite": "repeat-ball"
+      },
+      {
+        "name": "Timer Ball",
+        "sprite": "timer-ball"
+      },
+      {
+        "name": "Luxury Ball",
+        "sprite": "luxury-ball"
+      },
+      {
+        "name": "Premier Ball",
+        "sprite": "premier-ball"
+      },
+      {
+        "name": "Dive Ball",
+        "sprite": "dive-ball"
+      },
+      {
+        "name": "Dusk Ball",
+        "sprite": "dusk-ball"
+      },
+      {
+        "name": "Heal Ball",
+        "sprite": "heal-ball"
+      },
+      {
+        "name": "Quick Ball",
+        "sprite": "quick-ball"
+      }
     ],
     "locations": [
       "Abundant Shrine",
@@ -9021,14 +9628,14 @@
     "dir": "gen-5",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee717129c",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 8192,
         "rolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee717129d",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -9043,13 +9650,11 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee717129e",
         "name": "Masuda Method",
         "odds": 8192,
         "rolls": 5
       },
       {
-        "_id": "6523eb813e76b1aee717129f",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -9792,26 +10397,67 @@
     ]
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a4d",
     "name": "Pokémon White",
     "sort": 18,
     "gen": "Gen 5",
     "sprite": "white",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Net Ball",
-      "Nest Ball",
-      "Repeat Ball",
-      "Timer Ball",
-      "Luxury Ball",
-      "Premier Ball",
-      "Dive Ball",
-      "Dusk Ball",
-      "Heal Ball",
-      "Quick Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Net Ball",
+        "sprite": "net-ball"
+      },
+      {
+        "name": "Nest Ball",
+        "sprite": "nest-ball"
+      },
+      {
+        "name": "Repeat Ball",
+        "sprite": "repeat-ball"
+      },
+      {
+        "name": "Timer Ball",
+        "sprite": "timer-ball"
+      },
+      {
+        "name": "Luxury Ball",
+        "sprite": "luxury-ball"
+      },
+      {
+        "name": "Premier Ball",
+        "sprite": "premier-ball"
+      },
+      {
+        "name": "Dive Ball",
+        "sprite": "dive-ball"
+      },
+      {
+        "name": "Dusk Ball",
+        "sprite": "dusk-ball"
+      },
+      {
+        "name": "Heal Ball",
+        "sprite": "heal-ball"
+      },
+      {
+        "name": "Quick Ball",
+        "sprite": "quick-ball"
+      }
     ],
     "locations": [
       "Abundant Shrine",
@@ -9891,14 +10537,14 @@
     "dir": "gen-5",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee71712a0",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 8192,
         "rolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee71712a1",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -9913,13 +10559,11 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712a2",
         "name": "Masuda Method",
         "odds": 8192,
         "rolls": 5
       },
       {
-        "_id": "6523eb813e76b1aee71712a3",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -10662,26 +11306,67 @@
     ]
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a4e",
     "name": "Pokémon Black 2",
     "sort": 19,
     "gen": "Gen 5",
     "sprite": "black-2",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Net Ball",
-      "Nest Ball",
-      "Repeat Ball",
-      "Timer Ball",
-      "Luxury Ball",
-      "Premier Ball",
-      "Dive Ball",
-      "Dusk Ball",
-      "Heal Ball",
-      "Quick Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Net Ball",
+        "sprite": "net-ball"
+      },
+      {
+        "name": "Nest Ball",
+        "sprite": "nest-ball"
+      },
+      {
+        "name": "Repeat Ball",
+        "sprite": "repeat-ball"
+      },
+      {
+        "name": "Timer Ball",
+        "sprite": "timer-ball"
+      },
+      {
+        "name": "Luxury Ball",
+        "sprite": "luxury-ball"
+      },
+      {
+        "name": "Premier Ball",
+        "sprite": "premier-ball"
+      },
+      {
+        "name": "Dive Ball",
+        "sprite": "dive-ball"
+      },
+      {
+        "name": "Dusk Ball",
+        "sprite": "dusk-ball"
+      },
+      {
+        "name": "Heal Ball",
+        "sprite": "heal-ball"
+      },
+      {
+        "name": "Quick Ball",
+        "sprite": "quick-ball"
+      }
     ],
     "locations": [
       "Abundant Shrine",
@@ -10788,15 +11473,15 @@
     "dir": "gen-5",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee71712a4",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 8192,
         "rolls": 1,
         "charmRolls": 2
       },
       {
-        "_id": "6523eb813e76b1aee71712a5",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -10812,14 +11497,12 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712a6",
         "name": "Masuda Method",
         "odds": 8192,
         "rolls": 6,
         "charmRolls": 2
       },
       {
-        "_id": "6523eb813e76b1aee71712a7",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -11574,26 +12257,67 @@
     ]
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a4f",
     "name": "Pokémon White 2",
     "sort": 20,
     "gen": "Gen 5",
     "sprite": "white-2",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Net Ball",
-      "Nest Ball",
-      "Repeat Ball",
-      "Timer Ball",
-      "Luxury Ball",
-      "Premier Ball",
-      "Dive Ball",
-      "Dusk Ball",
-      "Heal Ball",
-      "Quick Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Net Ball",
+        "sprite": "net-ball"
+      },
+      {
+        "name": "Nest Ball",
+        "sprite": "nest-ball"
+      },
+      {
+        "name": "Repeat Ball",
+        "sprite": "repeat-ball"
+      },
+      {
+        "name": "Timer Ball",
+        "sprite": "timer-ball"
+      },
+      {
+        "name": "Luxury Ball",
+        "sprite": "luxury-ball"
+      },
+      {
+        "name": "Premier Ball",
+        "sprite": "premier-ball"
+      },
+      {
+        "name": "Dive Ball",
+        "sprite": "dive-ball"
+      },
+      {
+        "name": "Dusk Ball",
+        "sprite": "dusk-ball"
+      },
+      {
+        "name": "Heal Ball",
+        "sprite": "heal-ball"
+      },
+      {
+        "name": "Quick Ball",
+        "sprite": "quick-ball"
+      }
     ],
     "locations": [
       "Abundant Shrine",
@@ -11700,15 +12424,15 @@
     "dir": "gen-5",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee71712a8",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 8192,
         "rolls": 1,
         "charmRolls": 2
       },
       {
-        "_id": "6523eb813e76b1aee71712a9",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -11724,14 +12448,12 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712aa",
         "name": "Masuda Method",
         "odds": 8192,
         "rolls": 6,
         "charmRolls": 8
       },
       {
-        "_id": "6523eb813e76b1aee71712ab",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -12486,36 +13208,107 @@
     ]
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a50",
     "name": "Pokémon X",
     "sort": 21,
     "gen": "Gen 6",
     "sprite": "x",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Safari Ball",
-      "Fast Ball",
-      "Level Ball",
-      "Lure Ball",
-      "Heavy Ball",
-      "Love Ball",
-      "Friend Ball",
-      "Moon Ball",
-      "Sport Ball",
-      "Net Ball",
-      "Nest Ball",
-      "Repeat Ball",
-      "Timer Ball",
-      "Luxury Ball",
-      "Premier Ball",
-      "Dive Ball",
-      "Dusk Ball",
-      "Heal Ball",
-      "Quick Ball",
-      "Dream Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Safari Ball",
+        "sprite": "safari-ball"
+      },
+      {
+        "name": "Fast Ball",
+        "sprite": "fast-ball"
+      },
+      {
+        "name": "Level Ball",
+        "sprite": "level-ball"
+      },
+      {
+        "name": "Lure Ball",
+        "sprite": "lure-ball"
+      },
+      {
+        "name": "Heavy Ball",
+        "sprite": "heavy-ball"
+      },
+      {
+        "name": "Love Ball",
+        "sprite": "love-ball"
+      },
+      {
+        "name": "Friend Ball",
+        "sprite": "friend-ball"
+      },
+      {
+        "name": "Moon Ball",
+        "sprite": "moon-ball"
+      },
+      {
+        "name": "Sport Ball",
+        "sprite": "sport-ball"
+      },
+      {
+        "name": "Net Ball",
+        "sprite": "net-ball"
+      },
+      {
+        "name": "Nest Ball",
+        "sprite": "nest-ball"
+      },
+      {
+        "name": "Repeat Ball",
+        "sprite": "repeat-ball"
+      },
+      {
+        "name": "Timer Ball",
+        "sprite": "timer-ball"
+      },
+      {
+        "name": "Luxury Ball",
+        "sprite": "luxury-ball"
+      },
+      {
+        "name": "Premier Ball",
+        "sprite": "premier-ball"
+      },
+      {
+        "name": "Dive Ball",
+        "sprite": "dive-ball"
+      },
+      {
+        "name": "Dusk Ball",
+        "sprite": "dusk-ball"
+      },
+      {
+        "name": "Heal Ball",
+        "sprite": "heal-ball"
+      },
+      {
+        "name": "Quick Ball",
+        "sprite": "quick-ball"
+      },
+      {
+        "name": "Dream Ball",
+        "sprite": "dream-ball"
+      }
     ],
     "locations": [
       "Ambrette Town",
@@ -12594,21 +13387,20 @@
     "dir": "gen-7-usum",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee71712ac",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 4096,
         "rolls": 1,
         "charmRolls": 1
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712ad",
         "name": "Chain Fishing",
         "function": "chainfishing"
       },
       {
-        "_id": "6523eb813e76b1aee71712ae",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -12624,7 +13416,6 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712af",
         "name": "Friend Safari",
         "odds": 4096,
         "rolls": 5,
@@ -12632,7 +13423,6 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712b0",
         "name": "Masuda Method",
         "odds": 4096,
         "rolls": 6,
@@ -12640,12 +13430,10 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712b1",
         "name": "Poké Radar",
         "function": "pokeradar-gen6"
       },
       {
-        "_id": "6523eb813e76b1aee71712b2",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -13558,36 +14346,107 @@
     ]
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a51",
     "name": "Pokémon Y",
     "sort": 22,
     "gen": "Gen 6",
     "sprite": "y",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Safari Ball",
-      "Fast Ball",
-      "Level Ball",
-      "Lure Ball",
-      "Heavy Ball",
-      "Love Ball",
-      "Friend Ball",
-      "Moon Ball",
-      "Sport Ball",
-      "Net Ball",
-      "Nest Ball",
-      "Repeat Ball",
-      "Timer Ball",
-      "Luxury Ball",
-      "Premier Ball",
-      "Dive Ball",
-      "Dusk Ball",
-      "Heal Ball",
-      "Quick Ball",
-      "Dream Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Safari Ball",
+        "sprite": "safari-ball"
+      },
+      {
+        "name": "Fast Ball",
+        "sprite": "fast-ball"
+      },
+      {
+        "name": "Level Ball",
+        "sprite": "level-ball"
+      },
+      {
+        "name": "Lure Ball",
+        "sprite": "lure-ball"
+      },
+      {
+        "name": "Heavy Ball",
+        "sprite": "heavy-ball"
+      },
+      {
+        "name": "Love Ball",
+        "sprite": "love-ball"
+      },
+      {
+        "name": "Friend Ball",
+        "sprite": "friend-ball"
+      },
+      {
+        "name": "Moon Ball",
+        "sprite": "moon-ball"
+      },
+      {
+        "name": "Sport Ball",
+        "sprite": "sport-ball"
+      },
+      {
+        "name": "Net Ball",
+        "sprite": "net-ball"
+      },
+      {
+        "name": "Nest Ball",
+        "sprite": "nest-ball"
+      },
+      {
+        "name": "Repeat Ball",
+        "sprite": "repeat-ball"
+      },
+      {
+        "name": "Timer Ball",
+        "sprite": "timer-ball"
+      },
+      {
+        "name": "Luxury Ball",
+        "sprite": "luxury-ball"
+      },
+      {
+        "name": "Premier Ball",
+        "sprite": "premier-ball"
+      },
+      {
+        "name": "Dive Ball",
+        "sprite": "dive-ball"
+      },
+      {
+        "name": "Dusk Ball",
+        "sprite": "dusk-ball"
+      },
+      {
+        "name": "Heal Ball",
+        "sprite": "heal-ball"
+      },
+      {
+        "name": "Quick Ball",
+        "sprite": "quick-ball"
+      },
+      {
+        "name": "Dream Ball",
+        "sprite": "dream-ball"
+      }
     ],
     "locations": [
       "Ambrette Town",
@@ -13666,21 +14525,20 @@
     "dir": "gen-7-usum",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee71712b3",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 4096,
         "rolls": 1,
         "charmRolls": 1
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712b4",
         "name": "Chain Fishing",
         "function": "chainfishing"
       },
       {
-        "_id": "6523eb813e76b1aee71712b5",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -13696,7 +14554,6 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712b6",
         "name": "Friend Safari",
         "odds": 4096,
         "rolls": 5,
@@ -13704,7 +14561,6 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712b7",
         "name": "Masuda Method",
         "odds": 4096,
         "rolls": 6,
@@ -13712,12 +14568,10 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712b8",
         "name": "Poké Radar",
         "function": "pokeradar-gen6"
       },
       {
-        "_id": "6523eb813e76b1aee71712b9",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -14630,36 +15484,107 @@
     ]
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a52",
     "name": "Pokémon Omega Ruby",
     "sort": 23,
     "gen": "Gen 6",
     "sprite": "omega-ruby",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Safari Ball",
-      "Fast Ball",
-      "Level Ball",
-      "Lure Ball",
-      "Heavy Ball",
-      "Love Ball",
-      "Friend Ball",
-      "Moon Ball",
-      "Sport Ball",
-      "Net Ball",
-      "Nest Ball",
-      "Repeat Ball",
-      "Timer Ball",
-      "Luxury Ball",
-      "Premier Ball",
-      "Dive Ball",
-      "Dusk Ball",
-      "Heal Ball",
-      "Quick Ball",
-      "Dream Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Safari Ball",
+        "sprite": "safari-ball"
+      },
+      {
+        "name": "Fast Ball",
+        "sprite": "fast-ball"
+      },
+      {
+        "name": "Level Ball",
+        "sprite": "level-ball"
+      },
+      {
+        "name": "Lure Ball",
+        "sprite": "lure-ball"
+      },
+      {
+        "name": "Heavy Ball",
+        "sprite": "heavy-ball"
+      },
+      {
+        "name": "Love Ball",
+        "sprite": "love-ball"
+      },
+      {
+        "name": "Friend Ball",
+        "sprite": "friend-ball"
+      },
+      {
+        "name": "Moon Ball",
+        "sprite": "moon-ball"
+      },
+      {
+        "name": "Sport Ball",
+        "sprite": "sport-ball"
+      },
+      {
+        "name": "Net Ball",
+        "sprite": "net-ball"
+      },
+      {
+        "name": "Nest Ball",
+        "sprite": "nest-ball"
+      },
+      {
+        "name": "Repeat Ball",
+        "sprite": "repeat-ball"
+      },
+      {
+        "name": "Timer Ball",
+        "sprite": "timer-ball"
+      },
+      {
+        "name": "Luxury Ball",
+        "sprite": "luxury-ball"
+      },
+      {
+        "name": "Premier Ball",
+        "sprite": "premier-ball"
+      },
+      {
+        "name": "Dive Ball",
+        "sprite": "dive-ball"
+      },
+      {
+        "name": "Dusk Ball",
+        "sprite": "dusk-ball"
+      },
+      {
+        "name": "Heal Ball",
+        "sprite": "heal-ball"
+      },
+      {
+        "name": "Quick Ball",
+        "sprite": "quick-ball"
+      },
+      {
+        "name": "Dream Ball",
+        "sprite": "dream-ball"
+      }
     ],
     "locations": [
       "Ancient Tomb",
@@ -14777,27 +15702,25 @@
     "dir": "gen-7-usum",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee71712ba",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 4096,
         "rolls": 1,
         "charmRolls": 1
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712bb",
         "name": "Chain Fishing",
         "function": "chainfishing"
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712bc",
         "name": "DexNav",
         "function": "dexnav"
       },
       {
-        "_id": "6523eb813e76b1aee71712bd",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -14813,14 +15736,12 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712be",
         "name": "Masuda Method",
         "odds": 4096,
         "rolls": 6,
         "charmRolls": 2
       },
       {
-        "_id": "6523eb813e76b1aee71712bf",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -15733,36 +16654,107 @@
     ]
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a53",
     "name": "Pokémon Alpha Sapphire",
     "sort": 24,
     "gen": "Gen 6",
     "sprite": "alpha-sapphire",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Safari Ball",
-      "Fast Ball",
-      "Level Ball",
-      "Lure Ball",
-      "Heavy Ball",
-      "Love Ball",
-      "Friend Ball",
-      "Moon Ball",
-      "Sport Ball",
-      "Net Ball",
-      "Nest Ball",
-      "Repeat Ball",
-      "Timer Ball",
-      "Luxury Ball",
-      "Premier Ball",
-      "Dive Ball",
-      "Dusk Ball",
-      "Heal Ball",
-      "Quick Ball",
-      "Dream Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Safari Ball",
+        "sprite": "safari-ball"
+      },
+      {
+        "name": "Fast Ball",
+        "sprite": "fast-ball"
+      },
+      {
+        "name": "Level Ball",
+        "sprite": "level-ball"
+      },
+      {
+        "name": "Lure Ball",
+        "sprite": "lure-ball"
+      },
+      {
+        "name": "Heavy Ball",
+        "sprite": "heavy-ball"
+      },
+      {
+        "name": "Love Ball",
+        "sprite": "love-ball"
+      },
+      {
+        "name": "Friend Ball",
+        "sprite": "friend-ball"
+      },
+      {
+        "name": "Moon Ball",
+        "sprite": "moon-ball"
+      },
+      {
+        "name": "Sport Ball",
+        "sprite": "sport-ball"
+      },
+      {
+        "name": "Net Ball",
+        "sprite": "net-ball"
+      },
+      {
+        "name": "Nest Ball",
+        "sprite": "nest-ball"
+      },
+      {
+        "name": "Repeat Ball",
+        "sprite": "repeat-ball"
+      },
+      {
+        "name": "Timer Ball",
+        "sprite": "timer-ball"
+      },
+      {
+        "name": "Luxury Ball",
+        "sprite": "luxury-ball"
+      },
+      {
+        "name": "Premier Ball",
+        "sprite": "premier-ball"
+      },
+      {
+        "name": "Dive Ball",
+        "sprite": "dive-ball"
+      },
+      {
+        "name": "Dusk Ball",
+        "sprite": "dusk-ball"
+      },
+      {
+        "name": "Heal Ball",
+        "sprite": "heal-ball"
+      },
+      {
+        "name": "Quick Ball",
+        "sprite": "quick-ball"
+      },
+      {
+        "name": "Dream Ball",
+        "sprite": "dream-ball"
+      }
     ],
     "locations": [
       "Ancient Tomb",
@@ -15880,27 +16872,25 @@
     "dir": "gen-7-usum",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee71712c0",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 4096,
         "rolls": 1,
         "charmRolls": 1
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712c1",
         "name": "Chain Fishing",
         "function": "chainfishing"
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712c2",
         "name": "DexNav",
         "function": "dexnav"
       },
       {
-        "_id": "6523eb813e76b1aee71712c3",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -15916,14 +16906,12 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712c4",
         "name": "Masuda Method",
         "odds": 4096,
         "rolls": 6,
         "charmRolls": 2
       },
       {
-        "_id": "6523eb813e76b1aee71712c5",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -16836,37 +17824,111 @@
     ]
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a54",
     "name": "Pokémon Sun",
     "sort": 25,
     "gen": "Gen 7",
     "sprite": "sun",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Safari Ball",
-      "Fast Ball",
-      "Level Ball",
-      "Lure Ball",
-      "Heavy Ball",
-      "Love Ball",
-      "Friend Ball",
-      "Moon Ball",
-      "Sport Ball",
-      "Net Ball",
-      "Nest Ball",
-      "Repeat Ball",
-      "Timer Ball",
-      "Luxury Ball",
-      "Premier Ball",
-      "Dive Ball",
-      "Dusk Ball",
-      "Heal Ball",
-      "Quick Ball",
-      "Dream Ball",
-      "Beast Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Safari Ball",
+        "sprite": "safari-ball"
+      },
+      {
+        "name": "Fast Ball",
+        "sprite": "fast-ball"
+      },
+      {
+        "name": "Level Ball",
+        "sprite": "level-ball"
+      },
+      {
+        "name": "Lure Ball",
+        "sprite": "lure-ball"
+      },
+      {
+        "name": "Heavy Ball",
+        "sprite": "heavy-ball"
+      },
+      {
+        "name": "Love Ball",
+        "sprite": "love-ball"
+      },
+      {
+        "name": "Friend Ball",
+        "sprite": "friend-ball"
+      },
+      {
+        "name": "Moon Ball",
+        "sprite": "moon-ball"
+      },
+      {
+        "name": "Sport Ball",
+        "sprite": "sport-ball"
+      },
+      {
+        "name": "Net Ball",
+        "sprite": "net-ball"
+      },
+      {
+        "name": "Nest Ball",
+        "sprite": "nest-ball"
+      },
+      {
+        "name": "Repeat Ball",
+        "sprite": "repeat-ball"
+      },
+      {
+        "name": "Timer Ball",
+        "sprite": "timer-ball"
+      },
+      {
+        "name": "Luxury Ball",
+        "sprite": "luxury-ball"
+      },
+      {
+        "name": "Premier Ball",
+        "sprite": "premier-ball"
+      },
+      {
+        "name": "Dive Ball",
+        "sprite": "dive-ball"
+      },
+      {
+        "name": "Dusk Ball",
+        "sprite": "dusk-ball"
+      },
+      {
+        "name": "Heal Ball",
+        "sprite": "heal-ball"
+      },
+      {
+        "name": "Quick Ball",
+        "sprite": "quick-ball"
+      },
+      {
+        "name": "Dream Ball",
+        "sprite": "dream-ball"
+      },
+      {
+        "name": "Beast Ball",
+        "sprite": "beast-ball"
+      }
     ],
     "locations": [
       "Aether House",
@@ -16968,15 +18030,15 @@
     "dir": "gen-7-usum",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee71712c6",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 4096,
         "rolls": 1,
         "charmRolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee71712c7",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -16992,14 +18054,12 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712c8",
         "name": "Masuda Method",
         "odds": 4096,
         "rolls": 6,
         "charmRolls": 2
       },
       {
-        "_id": "6523eb813e76b1aee71712c9",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -17013,9 +18073,8 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712ca",
-        "name": "Sos Chain",
-        "function": "sos-chain"
+        "name": "SOS Chain",
+        "function": "sos-chain-sm"
       }
     ],
     "pokemons": [
@@ -18049,37 +19108,111 @@
     ]
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a55",
     "name": "Pokémon Moon",
     "sort": 26,
     "gen": "Gen 7",
     "sprite": "moon",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Safari Ball",
-      "Fast Ball",
-      "Level Ball",
-      "Lure Ball",
-      "Heavy Ball",
-      "Love Ball",
-      "Friend Ball",
-      "Moon Ball",
-      "Sport Ball",
-      "Net Ball",
-      "Nest Ball",
-      "Repeat Ball",
-      "Timer Ball",
-      "Luxury Ball",
-      "Premier Ball",
-      "Dive Ball",
-      "Dusk Ball",
-      "Heal Ball",
-      "Quick Ball",
-      "Dream Ball",
-      "Beast Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Safari Ball",
+        "sprite": "safari-ball"
+      },
+      {
+        "name": "Fast Ball",
+        "sprite": "fast-ball"
+      },
+      {
+        "name": "Level Ball",
+        "sprite": "level-ball"
+      },
+      {
+        "name": "Lure Ball",
+        "sprite": "lure-ball"
+      },
+      {
+        "name": "Heavy Ball",
+        "sprite": "heavy-ball"
+      },
+      {
+        "name": "Love Ball",
+        "sprite": "love-ball"
+      },
+      {
+        "name": "Friend Ball",
+        "sprite": "friend-ball"
+      },
+      {
+        "name": "Moon Ball",
+        "sprite": "moon-ball"
+      },
+      {
+        "name": "Sport Ball",
+        "sprite": "sport-ball"
+      },
+      {
+        "name": "Net Ball",
+        "sprite": "net-ball"
+      },
+      {
+        "name": "Nest Ball",
+        "sprite": "nest-ball"
+      },
+      {
+        "name": "Repeat Ball",
+        "sprite": "repeat-ball"
+      },
+      {
+        "name": "Timer Ball",
+        "sprite": "timer-ball"
+      },
+      {
+        "name": "Luxury Ball",
+        "sprite": "luxury-ball"
+      },
+      {
+        "name": "Premier Ball",
+        "sprite": "premier-ball"
+      },
+      {
+        "name": "Dive Ball",
+        "sprite": "dive-ball"
+      },
+      {
+        "name": "Dusk Ball",
+        "sprite": "dusk-ball"
+      },
+      {
+        "name": "Heal Ball",
+        "sprite": "heal-ball"
+      },
+      {
+        "name": "Quick Ball",
+        "sprite": "quick-ball"
+      },
+      {
+        "name": "Dream Ball",
+        "sprite": "dream-ball"
+      },
+      {
+        "name": "Beast Ball",
+        "sprite": "beast-ball"
+      }
     ],
     "locations": [
       "Aether House",
@@ -18181,15 +19314,15 @@
     "dir": "gen-7-usum",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee71712cb",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 4096,
         "rolls": 1,
         "charmRolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee71712cc",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -18205,14 +19338,12 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712cd",
         "name": "Masuda Method",
         "odds": 4096,
         "rolls": 6,
         "charmRolls": 2
       },
       {
-        "_id": "6523eb813e76b1aee71712ce",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -18226,9 +19357,8 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712cf",
-        "name": "Sos Chain",
-        "function": "sos-chain"
+        "name": "SOS Chain",
+        "function": "sos-chain-sm"
       }
     ],
     "pokemons": [
@@ -19262,37 +20392,111 @@
     ]
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a56",
     "name": "Pokémon Ultra Sun",
     "sort": 27,
     "gen": "Gen 7",
     "sprite": "ultra-sun",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Safari Ball",
-      "Fast Ball",
-      "Level Ball",
-      "Lure Ball",
-      "Heavy Ball",
-      "Love Ball",
-      "Friend Ball",
-      "Moon Ball",
-      "Sport Ball",
-      "Net Ball",
-      "Nest Ball",
-      "Repeat Ball",
-      "Timer Ball",
-      "Luxury Ball",
-      "Premier Ball",
-      "Dive Ball",
-      "Dusk Ball",
-      "Heal Ball",
-      "Quick Ball",
-      "Dream Ball",
-      "Beast Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Safari Ball",
+        "sprite": "safari-ball"
+      },
+      {
+        "name": "Fast Ball",
+        "sprite": "fast-ball"
+      },
+      {
+        "name": "Level Ball",
+        "sprite": "level-ball"
+      },
+      {
+        "name": "Lure Ball",
+        "sprite": "lure-ball"
+      },
+      {
+        "name": "Heavy Ball",
+        "sprite": "heavy-ball"
+      },
+      {
+        "name": "Love Ball",
+        "sprite": "love-ball"
+      },
+      {
+        "name": "Friend Ball",
+        "sprite": "friend-ball"
+      },
+      {
+        "name": "Moon Ball",
+        "sprite": "moon-ball"
+      },
+      {
+        "name": "Sport Ball",
+        "sprite": "sport-ball"
+      },
+      {
+        "name": "Net Ball",
+        "sprite": "net-ball"
+      },
+      {
+        "name": "Nest Ball",
+        "sprite": "nest-ball"
+      },
+      {
+        "name": "Repeat Ball",
+        "sprite": "repeat-ball"
+      },
+      {
+        "name": "Timer Ball",
+        "sprite": "timer-ball"
+      },
+      {
+        "name": "Luxury Ball",
+        "sprite": "luxury-ball"
+      },
+      {
+        "name": "Premier Ball",
+        "sprite": "premier-ball"
+      },
+      {
+        "name": "Dive Ball",
+        "sprite": "dive-ball"
+      },
+      {
+        "name": "Dusk Ball",
+        "sprite": "dusk-ball"
+      },
+      {
+        "name": "Heal Ball",
+        "sprite": "heal-ball"
+      },
+      {
+        "name": "Quick Ball",
+        "sprite": "quick-ball"
+      },
+      {
+        "name": "Dream Ball",
+        "sprite": "dream-ball"
+      },
+      {
+        "name": "Beast Ball",
+        "sprite": "beast-ball"
+      }
     ],
     "locations": [
       "Aether House",
@@ -19412,15 +20616,15 @@
     "dir": "gen-7-usum",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee71712d0",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 4096,
         "rolls": 1,
         "charmRolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee71712d1",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -19436,14 +20640,12 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712d2",
         "name": "Masuda Method",
         "odds": 4096,
         "rolls": 6,
         "charmRolls": 2
       },
       {
-        "_id": "6523eb813e76b1aee71712d3",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -19457,13 +20659,11 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712d4",
-        "name": "Sos Chain",
+        "name": "SOS Chain",
         "function": "sos-chain"
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712d5",
         "name": "Ultra Wormhole (Not Legendary)",
         "function": "ultra-wormhole"
       }
@@ -20507,37 +21707,111 @@
     ]
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a57",
     "name": "Pokémon Ultra Moon",
     "sort": 28,
     "gen": "Gen 7",
     "sprite": "ultra-moon",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Safari Ball",
-      "Fast Ball",
-      "Level Ball",
-      "Lure Ball",
-      "Heavy Ball",
-      "Love Ball",
-      "Friend Ball",
-      "Moon Ball",
-      "Sport Ball",
-      "Net Ball",
-      "Nest Ball",
-      "Repeat Ball",
-      "Timer Ball",
-      "Luxury Ball",
-      "Premier Ball",
-      "Dive Ball",
-      "Dusk Ball",
-      "Heal Ball",
-      "Quick Ball",
-      "Dream Ball",
-      "Beast Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Safari Ball",
+        "sprite": "safari-ball"
+      },
+      {
+        "name": "Fast Ball",
+        "sprite": "fast-ball"
+      },
+      {
+        "name": "Level Ball",
+        "sprite": "level-ball"
+      },
+      {
+        "name": "Lure Ball",
+        "sprite": "lure-ball"
+      },
+      {
+        "name": "Heavy Ball",
+        "sprite": "heavy-ball"
+      },
+      {
+        "name": "Love Ball",
+        "sprite": "love-ball"
+      },
+      {
+        "name": "Friend Ball",
+        "sprite": "friend-ball"
+      },
+      {
+        "name": "Moon Ball",
+        "sprite": "moon-ball"
+      },
+      {
+        "name": "Sport Ball",
+        "sprite": "sport-ball"
+      },
+      {
+        "name": "Net Ball",
+        "sprite": "net-ball"
+      },
+      {
+        "name": "Nest Ball",
+        "sprite": "nest-ball"
+      },
+      {
+        "name": "Repeat Ball",
+        "sprite": "repeat-ball"
+      },
+      {
+        "name": "Timer Ball",
+        "sprite": "timer-ball"
+      },
+      {
+        "name": "Luxury Ball",
+        "sprite": "luxury-ball"
+      },
+      {
+        "name": "Premier Ball",
+        "sprite": "premier-ball"
+      },
+      {
+        "name": "Dive Ball",
+        "sprite": "dive-ball"
+      },
+      {
+        "name": "Dusk Ball",
+        "sprite": "dusk-ball"
+      },
+      {
+        "name": "Heal Ball",
+        "sprite": "heal-ball"
+      },
+      {
+        "name": "Quick Ball",
+        "sprite": "quick-ball"
+      },
+      {
+        "name": "Dream Ball",
+        "sprite": "dream-ball"
+      },
+      {
+        "name": "Beast Ball",
+        "sprite": "beast-ball"
+      }
     ],
     "locations": [
       "Aether House",
@@ -20657,15 +21931,15 @@
     "dir": "gen-7-usum",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee71712d6",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 4096,
         "rolls": 1,
         "charmRolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee71712d7",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -20681,14 +21955,12 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712d8",
         "name": "Masuda Method",
         "odds": 4096,
         "rolls": 6,
         "charmRolls": 2
       },
       {
-        "_id": "6523eb813e76b1aee71712d9",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -20702,13 +21974,11 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712da",
-        "name": "Sos Chain",
+        "name": "SOS Chain",
         "function": "sos-chain"
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712db",
         "name": "Ultra Wormhole (Not Legendary)",
         "function": "ultra-wormhole"
       }
@@ -21752,17 +23022,31 @@
     ]
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a58",
     "name": "Pokémon Let's Go Pikachu",
     "sort": 29,
     "gen": "Gen 7",
     "sprite": "lets-go-pikachu",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Premier Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Premier Ball",
+        "sprite": "premier-ball"
+      }
     ],
     "locations": [
       "Celadon City",
@@ -21833,17 +23117,14 @@
     "methods": [
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712dc",
         "name": "Overworld Spawn",
         "function": "letsgospawn"
       },
       {
-        "_id": "6523eb813e76b1aee71712dd",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
           "Pokémon Gift",
-          "Starter Gift",
           "Static Encounter"
         ],
         "odds": 4096,
@@ -22045,17 +23326,31 @@
     ]
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a59",
     "name": "Pokémon Let's Go Eevee",
     "sort": 30,
     "gen": "Gen 7",
     "sprite": "lets-go-eevee",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Premier Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Premier Ball",
+        "sprite": "premier-ball"
+      }
     ],
     "locations": [
       "Celadon City",
@@ -22126,17 +23421,14 @@
     "methods": [
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712de",
         "name": "Overworld Spawn",
         "function": "letsgospawn"
       },
       {
-        "_id": "6523eb813e76b1aee71712df",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
           "Pokémon Gift",
-          "Starter Gift",
           "Static Encounter"
         ],
         "odds": 4096,
@@ -22338,37 +23630,111 @@
     ]
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a5a",
     "name": "Pokémon Sword",
     "sort": 31,
     "gen": "Gen 8",
     "sprite": "sword",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Safari Ball",
-      "Fast Ball",
-      "Level Ball",
-      "Lure Ball",
-      "Heavy Ball",
-      "Love Ball",
-      "Friend Ball",
-      "Moon Ball",
-      "Sport Ball",
-      "Net Ball",
-      "Nest Ball",
-      "Repeat Ball",
-      "Timer Ball",
-      "Luxury Ball",
-      "Premier Ball",
-      "Dive Ball",
-      "Dusk Ball",
-      "Heal Ball",
-      "Quick Ball",
-      "Dream Ball",
-      "Beast Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Safari Ball",
+        "sprite": "safari-ball"
+      },
+      {
+        "name": "Fast Ball",
+        "sprite": "fast-ball"
+      },
+      {
+        "name": "Level Ball",
+        "sprite": "level-ball"
+      },
+      {
+        "name": "Lure Ball",
+        "sprite": "lure-ball"
+      },
+      {
+        "name": "Heavy Ball",
+        "sprite": "heavy-ball"
+      },
+      {
+        "name": "Love Ball",
+        "sprite": "love-ball"
+      },
+      {
+        "name": "Friend Ball",
+        "sprite": "friend-ball"
+      },
+      {
+        "name": "Moon Ball",
+        "sprite": "moon-ball"
+      },
+      {
+        "name": "Sport Ball",
+        "sprite": "sport-ball"
+      },
+      {
+        "name": "Net Ball",
+        "sprite": "net-ball"
+      },
+      {
+        "name": "Nest Ball",
+        "sprite": "nest-ball"
+      },
+      {
+        "name": "Repeat Ball",
+        "sprite": "repeat-ball"
+      },
+      {
+        "name": "Timer Ball",
+        "sprite": "timer-ball"
+      },
+      {
+        "name": "Luxury Ball",
+        "sprite": "luxury-ball"
+      },
+      {
+        "name": "Premier Ball",
+        "sprite": "premier-ball"
+      },
+      {
+        "name": "Dive Ball",
+        "sprite": "dive-ball"
+      },
+      {
+        "name": "Dusk Ball",
+        "sprite": "dusk-ball"
+      },
+      {
+        "name": "Heal Ball",
+        "sprite": "heal-ball"
+      },
+      {
+        "name": "Quick Ball",
+        "sprite": "quick-ball"
+      },
+      {
+        "name": "Dream Ball",
+        "sprite": "dream-ball"
+      },
+      {
+        "name": "Beast Ball",
+        "sprite": "beast-ball"
+      }
     ],
     "locations": [
       "Axew's Eye",
@@ -22474,29 +23840,27 @@
     "dir": "gen-8-swsh",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee71712e0",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 4096,
         "rolls": 1,
         "charmRolls": 1
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712e1",
         "name": "Brilliant Pokémon",
         "function": "brilliantpokemon"
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712e2",
         "name": "Dynamax Adventures",
         "odds": 300,
         "rolls": 1,
         "charmRolls": 2
       },
       {
-        "_id": "6523eb813e76b1aee71712e3",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -22511,7 +23875,6 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712e4",
         "name": "Masuda Method",
         "odds": 4096,
         "rolls": 6,
@@ -22519,14 +23882,12 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712e5",
         "name": "Max Raid",
         "odds": 4096,
         "rolls": 1,
         "charmRolls": 0
       },
       {
-        "_id": "6523eb813e76b1aee71712e6",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -23411,37 +24772,111 @@
     ]
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a5b",
     "name": "Pokémon Shield",
     "sort": 32,
     "gen": "Gen 8",
     "sprite": "shield",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Safari Ball",
-      "Fast Ball",
-      "Level Ball",
-      "Lure Ball",
-      "Heavy Ball",
-      "Love Ball",
-      "Friend Ball",
-      "Moon Ball",
-      "Sport Ball",
-      "Net Ball",
-      "Nest Ball",
-      "Repeat Ball",
-      "Timer Ball",
-      "Luxury Ball",
-      "Premier Ball",
-      "Dive Ball",
-      "Dusk Ball",
-      "Heal Ball",
-      "Quick Ball",
-      "Dream Ball",
-      "Beast Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Safari Ball",
+        "sprite": "safari-ball"
+      },
+      {
+        "name": "Fast Ball",
+        "sprite": "fast-ball"
+      },
+      {
+        "name": "Level Ball",
+        "sprite": "level-ball"
+      },
+      {
+        "name": "Lure Ball",
+        "sprite": "lure-ball"
+      },
+      {
+        "name": "Heavy Ball",
+        "sprite": "heavy-ball"
+      },
+      {
+        "name": "Love Ball",
+        "sprite": "love-ball"
+      },
+      {
+        "name": "Friend Ball",
+        "sprite": "friend-ball"
+      },
+      {
+        "name": "Moon Ball",
+        "sprite": "moon-ball"
+      },
+      {
+        "name": "Sport Ball",
+        "sprite": "sport-ball"
+      },
+      {
+        "name": "Net Ball",
+        "sprite": "net-ball"
+      },
+      {
+        "name": "Nest Ball",
+        "sprite": "nest-ball"
+      },
+      {
+        "name": "Repeat Ball",
+        "sprite": "repeat-ball"
+      },
+      {
+        "name": "Timer Ball",
+        "sprite": "timer-ball"
+      },
+      {
+        "name": "Luxury Ball",
+        "sprite": "luxury-ball"
+      },
+      {
+        "name": "Premier Ball",
+        "sprite": "premier-ball"
+      },
+      {
+        "name": "Dive Ball",
+        "sprite": "dive-ball"
+      },
+      {
+        "name": "Dusk Ball",
+        "sprite": "dusk-ball"
+      },
+      {
+        "name": "Heal Ball",
+        "sprite": "heal-ball"
+      },
+      {
+        "name": "Quick Ball",
+        "sprite": "quick-ball"
+      },
+      {
+        "name": "Dream Ball",
+        "sprite": "dream-ball"
+      },
+      {
+        "name": "Beast Ball",
+        "sprite": "beast-ball"
+      }
     ],
     "locations": [
       "Axew's Eye",
@@ -23547,29 +24982,27 @@
     "dir": "gen-8-swsh",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee71712e7",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 4096,
         "rolls": 1,
         "charmRolls": 1
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712e8",
         "name": "Brilliant Pokémon",
         "function": "brilliantpokemon"
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712e9",
         "name": "Dynamax Adventures",
         "odds": 300,
         "rolls": 1,
         "charmRolls": 2
       },
       {
-        "_id": "6523eb813e76b1aee71712ea",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -23584,7 +25017,6 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712eb",
         "name": "Masuda Method",
         "odds": 4096,
         "rolls": 6,
@@ -23592,14 +25024,12 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712ec",
         "name": "Max Raid",
         "odds": 4096,
         "rolls": 1,
         "charmRolls": 0
       },
       {
-        "_id": "6523eb813e76b1aee71712ed",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -24484,37 +25914,111 @@
     ]
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a5c",
     "name": "Pokémon Brilliant Diamond",
     "sort": 33,
     "gen": "Gen 8",
     "sprite": "brilliant-diamond",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Safari Ball",
-      "Fast Ball",
-      "Level Ball",
-      "Lure Ball",
-      "Heavy Ball",
-      "Love Ball",
-      "Friend Ball",
-      "Moon Ball",
-      "Sport Ball",
-      "Net Ball",
-      "Nest Ball",
-      "Repeat Ball",
-      "Timer Ball",
-      "Luxury Ball",
-      "Premier Ball",
-      "Dive Ball",
-      "Dusk Ball",
-      "Heal Ball",
-      "Quick Ball",
-      "Dream Ball",
-      "Beast Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Safari Ball",
+        "sprite": "safari-ball"
+      },
+      {
+        "name": "Fast Ball",
+        "sprite": "fast-ball"
+      },
+      {
+        "name": "Level Ball",
+        "sprite": "level-ball"
+      },
+      {
+        "name": "Lure Ball",
+        "sprite": "lure-ball"
+      },
+      {
+        "name": "Heavy Ball",
+        "sprite": "heavy-ball"
+      },
+      {
+        "name": "Love Ball",
+        "sprite": "love-ball"
+      },
+      {
+        "name": "Friend Ball",
+        "sprite": "friend-ball"
+      },
+      {
+        "name": "Moon Ball",
+        "sprite": "moon-ball"
+      },
+      {
+        "name": "Sport Ball",
+        "sprite": "sport-ball"
+      },
+      {
+        "name": "Net Ball",
+        "sprite": "net-ball"
+      },
+      {
+        "name": "Nest Ball",
+        "sprite": "nest-ball"
+      },
+      {
+        "name": "Repeat Ball",
+        "sprite": "repeat-ball"
+      },
+      {
+        "name": "Timer Ball",
+        "sprite": "timer-ball"
+      },
+      {
+        "name": "Luxury Ball",
+        "sprite": "luxury-ball"
+      },
+      {
+        "name": "Premier Ball",
+        "sprite": "premier-ball"
+      },
+      {
+        "name": "Dive Ball",
+        "sprite": "dive-ball"
+      },
+      {
+        "name": "Dusk Ball",
+        "sprite": "dusk-ball"
+      },
+      {
+        "name": "Heal Ball",
+        "sprite": "heal-ball"
+      },
+      {
+        "name": "Quick Ball",
+        "sprite": "quick-ball"
+      },
+      {
+        "name": "Dream Ball",
+        "sprite": "dream-ball"
+      },
+      {
+        "name": "Beast Ball",
+        "sprite": "beast-ball"
+      }
     ],
     "locations": [
       "Acuity Lakefront",
@@ -24639,15 +26143,15 @@
     "dir": "gen-8-bdsp",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee71712ee",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 4096,
         "rolls": 1,
         "charmRolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee71712ef",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -24662,7 +26166,6 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712f0",
         "name": "Masuda Method",
         "odds": 4096,
         "rolls": 6,
@@ -24670,12 +26173,10 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712f1",
         "name": "Poké Radar",
         "function": "pokeradar-gen8"
       },
       {
-        "_id": "6523eb813e76b1aee71712f2",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -24689,7 +26190,6 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712f3",
         "name": "Underground Diglett",
         "odds": 4096,
         "rolls": 2,
@@ -25262,37 +26762,111 @@
     ]
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a5d",
     "name": "Pokémon Shining Pearl",
     "sort": 34,
     "gen": "Gen 8",
     "sprite": "shining-pearl",
     "balls": [
-      "Poké Ball",
-      "Great Ball",
-      "Ultra Ball",
-      "Master Ball",
-      "Safari Ball",
-      "Fast Ball",
-      "Level Ball",
-      "Lure Ball",
-      "Heavy Ball",
-      "Love Ball",
-      "Friend Ball",
-      "Moon Ball",
-      "Sport Ball",
-      "Net Ball",
-      "Nest Ball",
-      "Repeat Ball",
-      "Timer Ball",
-      "Luxury Ball",
-      "Premier Ball",
-      "Dive Ball",
-      "Dusk Ball",
-      "Heal Ball",
-      "Quick Ball",
-      "Dream Ball",
-      "Beast Ball"
+      {
+        "name": "Poké Ball",
+        "sprite": "poke-ball"
+      },
+      {
+        "name": "Great Ball",
+        "sprite": "great-ball"
+      },
+      {
+        "name": "Ultra Ball",
+        "sprite": "ultra-ball"
+      },
+      {
+        "name": "Master Ball",
+        "sprite": "master-ball"
+      },
+      {
+        "name": "Safari Ball",
+        "sprite": "safari-ball"
+      },
+      {
+        "name": "Fast Ball",
+        "sprite": "fast-ball"
+      },
+      {
+        "name": "Level Ball",
+        "sprite": "level-ball"
+      },
+      {
+        "name": "Lure Ball",
+        "sprite": "lure-ball"
+      },
+      {
+        "name": "Heavy Ball",
+        "sprite": "heavy-ball"
+      },
+      {
+        "name": "Love Ball",
+        "sprite": "love-ball"
+      },
+      {
+        "name": "Friend Ball",
+        "sprite": "friend-ball"
+      },
+      {
+        "name": "Moon Ball",
+        "sprite": "moon-ball"
+      },
+      {
+        "name": "Sport Ball",
+        "sprite": "sport-ball"
+      },
+      {
+        "name": "Net Ball",
+        "sprite": "net-ball"
+      },
+      {
+        "name": "Nest Ball",
+        "sprite": "nest-ball"
+      },
+      {
+        "name": "Repeat Ball",
+        "sprite": "repeat-ball"
+      },
+      {
+        "name": "Timer Ball",
+        "sprite": "timer-ball"
+      },
+      {
+        "name": "Luxury Ball",
+        "sprite": "luxury-ball"
+      },
+      {
+        "name": "Premier Ball",
+        "sprite": "premier-ball"
+      },
+      {
+        "name": "Dive Ball",
+        "sprite": "dive-ball"
+      },
+      {
+        "name": "Dusk Ball",
+        "sprite": "dusk-ball"
+      },
+      {
+        "name": "Heal Ball",
+        "sprite": "heal-ball"
+      },
+      {
+        "name": "Quick Ball",
+        "sprite": "quick-ball"
+      },
+      {
+        "name": "Dream Ball",
+        "sprite": "dream-ball"
+      },
+      {
+        "name": "Beast Ball",
+        "sprite": "beast-ball"
+      }
     ],
     "locations": [
       "Acuity Lakefront",
@@ -25417,15 +26991,15 @@
     "dir": "gen-8-bdsp",
     "methods": [
       {
-        "_id": "6523eb813e76b1aee71712f4",
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [
+          "Random Breeding"
+        ],
         "odds": 4096,
         "rolls": 1,
         "charmRolls": 1
       },
       {
-        "_id": "6523eb813e76b1aee71712f5",
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
@@ -25440,7 +27014,6 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712f6",
         "name": "Masuda Method",
         "odds": 4096,
         "rolls": 6,
@@ -25448,12 +27021,10 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712f7",
         "name": "Poké Radar",
         "function": "pokeradar-gen8"
       },
       {
-        "_id": "6523eb813e76b1aee71712f8",
         "name": "Soft Reset",
         "categories": [
           "Fossil Restoration",
@@ -25467,7 +27038,6 @@
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712f9",
         "name": "Underground Diglett",
         "odds": 2048,
         "rolls": 1,
@@ -26040,21 +27610,47 @@
     ]
   },
   {
-    "_id": "64b0622cf8c2efe5e7432a5e",
     "name": "Pokémon Legends: Arceus",
     "sort": 35,
     "gen": "Gen 8",
     "sprite": "legends-arceus",
     "balls": [
-      "Poké Ball (Hisui)",
-      "Great Ball (Hisui)",
-      "Ultra Ball (Hisui)",
-      "Heavy Ball (Hisui)",
-      "Leaden Ball",
-      "Gigaton Ball",
-      "Feather Ball",
-      "Wing Ball",
-      "Jet Ball"
+      {
+        "name": "Poké Ball (Hisui)",
+        "sprite": "poke-ball-legends"
+      },
+      {
+        "name": "Great Ball (Hisui)",
+        "sprite": "great-ball-legends"
+      },
+      {
+        "name": "Ultra Ball (Hisui)",
+        "sprite": "ultra-ball-legends"
+      },
+      {
+        "name": "Heavy Ball (Hisui)",
+        "sprite": "heavy-ball-legends"
+      },
+      {
+        "name": "Leaden Ball",
+        "sprite": "leaden-ball"
+      },
+      {
+        "name": "Gigaton Ball",
+        "sprite": "gigaton-ball"
+      },
+      {
+        "name": "Feather Ball",
+        "sprite": "feather-ball"
+      },
+      {
+        "name": "Wing Ball",
+        "sprite": "wing-ball"
+      },
+      {
+        "name": "Jet Ball",
+        "sprite": "jet-ball"
+      }
     ],
     "locations": [
       "Aipom Hill",
@@ -26156,19 +27752,16 @@
     "methods": [
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712fa",
         "name": "Overworld Spawn",
         "function": "arceusspawn"
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712fb",
         "name": "Mass Outbreak",
         "function": "arceusspawn"
       },
       {
         "categories": [],
-        "_id": "6523eb813e76b1aee71712fc",
         "name": "Massive Mass Outbreak",
         "function": "arceusspawn"
       }

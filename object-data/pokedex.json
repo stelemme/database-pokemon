@@ -13981,7 +13981,7 @@
       ["Anticipation", "false"],
       ["Magic-bounce", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "hatenna",
     "forms": []
   },
@@ -13995,7 +13995,7 @@
       ["Anticipation", "false"],
       ["Magic-bounce", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "hattrem",
     "forms": []
   },
@@ -14009,7 +14009,7 @@
       ["Anticipation", "false"],
       ["Magic-bounce", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "hatterene",
     "forms": [
       {
@@ -14029,7 +14029,7 @@
       ["Frisk", "false"],
       ["Pickpocket", "true"]
     ],
-    "gender": "100.0:0.0",
+    "gender": "100:0",
     "sprite": "impidimp",
     "forms": []
   },
@@ -14043,7 +14043,7 @@
       ["Frisk", "false"],
       ["Pickpocket", "true"]
     ],
-    "gender": "100.0:0.0",
+    "gender": "100:0",
     "sprite": "morgrem",
     "forms": []
   },
@@ -14057,7 +14057,7 @@
       ["Frisk", "false"],
       ["Pickpocket", "true"]
     ],
-    "gender": "100.0:0.0",
+    "gender": "100:0",
     "sprite": "grimmsnarl",
     "forms": [
       {
@@ -14218,7 +14218,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "milcery",
     "forms": []
   },
@@ -14231,7 +14231,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-caramel-swirl-berry",
     "forms": [
       {
@@ -14250,7 +14250,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-caramel-swirl-clover",
     "forms": [
       {
@@ -14269,7 +14269,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-caramel-swirl-flower",
     "forms": [
       {
@@ -14288,7 +14288,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-caramel-swirl-love",
     "forms": [
       {
@@ -14307,7 +14307,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-caramel-swirl-ribbon",
     "forms": [
       {
@@ -14326,7 +14326,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-caramel-swirl-star",
     "forms": [
       {
@@ -14345,7 +14345,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-caramel-swirl-strawberry",
     "forms": [
       {
@@ -14364,7 +14364,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-lemon-cream-berry",
     "forms": [
       {
@@ -14383,7 +14383,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-lemon-cream-clover",
     "forms": [
       {
@@ -14402,7 +14402,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-lemon-cream-flower",
     "forms": [
       {
@@ -14421,7 +14421,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-lemon-cream-love",
     "forms": [
       {
@@ -14440,7 +14440,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-lemon-cream-ribbon",
     "forms": [
       {
@@ -14459,7 +14459,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-lemon-cream-star",
     "forms": [
       {
@@ -14478,7 +14478,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-lemon-cream-strawberry",
     "forms": [
       {
@@ -14497,7 +14497,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-matcha-cream-berry",
     "forms": [
       {
@@ -14516,7 +14516,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-matcha-cream-clover",
     "forms": [
       {
@@ -14535,7 +14535,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-matcha-cream-flower",
     "forms": [
       {
@@ -14554,7 +14554,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-matcha-cream-love",
     "forms": [
       {
@@ -14573,7 +14573,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-matcha-cream-ribbon",
     "forms": [
       {
@@ -14592,7 +14592,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-matcha-cream-star",
     "forms": [
       {
@@ -14611,7 +14611,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-matcha-cream-strawberry",
     "forms": [
       {
@@ -14630,7 +14630,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-mint-cream-berry",
     "forms": [
       {
@@ -14649,7 +14649,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-mint-cream-clover",
     "forms": [
       {
@@ -14668,7 +14668,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-mint-cream-flower",
     "forms": [
       {
@@ -14687,7 +14687,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-mint-cream-love",
     "forms": [
       {
@@ -14706,7 +14706,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-mint-cream-ribbon",
     "forms": [
       {
@@ -14725,7 +14725,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-mint-cream-star",
     "forms": [
       {
@@ -14744,7 +14744,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-mint-cream-strawberry",
     "forms": [
       {
@@ -14763,7 +14763,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-rainbow-swirl-berry",
     "forms": [
       {
@@ -14782,7 +14782,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-rainbow-swirl-clover",
     "forms": [
       {
@@ -14801,7 +14801,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-rainbow-swirl-flower",
     "forms": [
       {
@@ -14820,7 +14820,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-rainbow-swirl-love",
     "forms": [
       {
@@ -14839,7 +14839,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-rainbow-swirl-ribbon",
     "forms": [
       {
@@ -14858,7 +14858,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-rainbow-swirl-star",
     "forms": [
       {
@@ -14877,7 +14877,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-rainbow-swirl-strawberry",
     "forms": [
       {
@@ -14896,7 +14896,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-ruby-cream-berry",
     "forms": [
       {
@@ -14915,7 +14915,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-ruby-cream-clover",
     "forms": [
       {
@@ -14934,7 +14934,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-ruby-cream-flower",
     "forms": [
       {
@@ -14953,7 +14953,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-ruby-cream-love",
     "forms": [
       {
@@ -14972,7 +14972,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-ruby-cream-ribbon",
     "forms": [
       {
@@ -14991,7 +14991,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-ruby-cream-star",
     "forms": [
       {
@@ -15010,7 +15010,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-ruby-cream-strawberry",
     "forms": [
       {
@@ -15029,7 +15029,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-ruby-swirl-berry",
     "forms": [
       {
@@ -15048,7 +15048,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-ruby-swirl-clover",
     "forms": [
       {
@@ -15067,7 +15067,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-ruby-swirl-flower",
     "forms": [
       {
@@ -15086,7 +15086,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-ruby-swirl-love",
     "forms": [
       {
@@ -15105,7 +15105,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-ruby-swirl-ribbon",
     "forms": [
       {
@@ -15124,7 +15124,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-ruby-swirl-star",
     "forms": [
       {
@@ -15143,7 +15143,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-ruby-swirl-strawberry",
     "forms": [
       {
@@ -15162,7 +15162,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-salted-cream-berry",
     "forms": [
       {
@@ -15181,7 +15181,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-salted-cream-clover",
     "forms": [
       {
@@ -15200,7 +15200,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-salted-cream-flower",
     "forms": [
       {
@@ -15219,7 +15219,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-salted-cream-love",
     "forms": [
       {
@@ -15238,7 +15238,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-salted-cream-ribbon",
     "forms": [
       {
@@ -15257,7 +15257,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-salted-cream-star",
     "forms": [
       {
@@ -15276,7 +15276,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-salted-cream-strawberry",
     "forms": [
       {
@@ -15295,7 +15295,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-vanilla-cream-berry",
     "forms": [
       {
@@ -15314,7 +15314,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-vanilla-cream-clover",
     "forms": [
       {
@@ -15333,7 +15333,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-vanilla-cream-flower",
     "forms": [
       {
@@ -15352,7 +15352,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-vanilla-cream-love",
     "forms": [
       {
@@ -15371,7 +15371,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-vanilla-cream-ribbon",
     "forms": [
       {
@@ -15390,7 +15390,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-vanilla-cream-star",
     "forms": [
       {
@@ -15409,7 +15409,7 @@
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-vanilla-cream-strawberry",
     "forms": [
       {
