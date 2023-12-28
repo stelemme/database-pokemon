@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const inputFilePath = 'object-data/games.json'; // Replace with your input JSON file path
+const inputFilePath = 'object-data/pokedex.json'; // Replace with your input JSON file path
 const outputFilePath = '_output/test.json'; // Replace with your output JSON file path
 
 // Read the JSON file

@@ -3,7 +3,7 @@
     "pokedexNo": 1,
     "name": "Bulbasaur",
     "types": ["Grass", "Poison"],
-    "evolutions": ["Ivysaur"],
+    "evolutions": ["Ivysaur", "Venusaur"],
     "abilities": [
       ["Overgrow", "false"],
       ["Chlorophyll", "true"]
@@ -40,12 +40,14 @@
       {
         "sprite": "venusaur-gmax",
         "types": ["Grass", "Poison"],
-        "name": "Gigantamax Venusaur"
+        "name": "Gigantamax Venusaur",
+        "pokedexNo": 3
       },
       {
         "sprite": "venusaur-mega",
         "types": ["Grass", "Poison"],
-        "name": "Mega Venusaur"
+        "name": "Mega Venusaur",
+        "pokedexNo": 3
       }
     ]
   },
@@ -53,7 +55,7 @@
     "pokedexNo": 4,
     "name": "Charmander",
     "types": ["Fire"],
-    "evolutions": ["Charmeleon"],
+    "evolutions": ["Charmeleon", "Charizard"],
     "abilities": [
       ["Blaze", "false"],
       ["Solar Power", "true"]
@@ -90,17 +92,20 @@
       {
         "sprite": "charizard-gmax",
         "types": ["Fire", "Flying"],
-        "name": "Gigantamax Charizard"
+        "name": "Gigantamax Charizard",
+        "pokedexNo": 6
       },
       {
         "sprite": "charizard-mega-x",
         "types": ["Fire", "Dragon"],
-        "name": "Mega Charizard X"
+        "name": "Mega Charizard X",
+        "pokedexNo": 6
       },
       {
         "sprite": "charizard-mega-y",
         "types": ["Fire", "Flying"],
-        "name": "Mega Charizard Y"
+        "name": "Mega Charizard Y",
+        "pokedexNo": 6
       }
     ]
   },
@@ -108,7 +113,7 @@
     "pokedexNo": 7,
     "name": "Squirtle",
     "types": ["Water"],
-    "evolutions": ["Wartortle"],
+    "evolutions": ["Wartortle", "Blastoise"],
     "abilities": [
       ["Torrent", "false"],
       ["Rain Dish", "true"]
@@ -145,12 +150,14 @@
       {
         "sprite": "blastoise-gmax",
         "types": ["Water"],
-        "name": "Gigantamax Blastoise"
+        "name": "Gigantamax Blastoise",
+        "pokedexNo": 9
       },
       {
         "sprite": "blastoise-mega",
         "types": ["Water"],
-        "name": "Mega Blastoise"
+        "name": "Mega Blastoise",
+        "pokedexNo": 9
       }
     ]
   },
@@ -158,7 +165,7 @@
     "pokedexNo": 10,
     "name": "Caterpie",
     "types": ["Bug"],
-    "evolutions": ["Metapod"],
+    "evolutions": ["Metapod", "Butterfree"],
     "abilities": [
       ["Shield Dust", "false"],
       ["Run Away", "true"]
@@ -192,7 +199,8 @@
       {
         "sprite": "butterfree-gmax",
         "types": ["Bug", "Flying"],
-        "name": "Gigantamax Butterfree"
+        "name": "Gigantamax Butterfree",
+        "pokedexNo": 12
       }
     ]
   },
@@ -200,7 +208,7 @@
     "pokedexNo": 13,
     "name": "Weedle",
     "types": ["Bug", "Poison"],
-    "evolutions": ["Kakuna"],
+    "evolutions": ["Kakuna", "Beedrill"],
     "abilities": [
       ["Shield Dust", "false"],
       ["Run Away", "true"]
@@ -234,7 +242,8 @@
       {
         "sprite": "beedrill-mega",
         "types": ["Bug", "Poison"],
-        "name": "Mega Beedrill"
+        "name": "Mega Beedrill",
+        "pokedexNo": 15
       }
     ]
   },
@@ -242,7 +251,7 @@
     "pokedexNo": 16,
     "name": "Pidgey",
     "types": ["Normal", "Flying"],
-    "evolutions": ["Pidgeotto"],
+    "evolutions": ["Pidgeotto", "Pidgeot"],
     "abilities": [
       ["Keen Eye", "false"],
       ["Tangled Feet", "false"],
@@ -282,7 +291,8 @@
       {
         "sprite": "pidgeot-mega",
         "types": ["Normal", "Flying"],
-        "name": "Mega Pidgeot"
+        "name": "Mega Pidgeot",
+        "pokedexNo": 18
       }
     ]
   },
@@ -316,20 +326,6 @@
   },
   {
     "pokedexNo": 20,
-    "name": "Raticate",
-    "types": ["Normal"],
-    "evolutions": [],
-    "abilities": [
-      ["Run Away", "false"],
-      ["Guts", "false"],
-      ["Hustle", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "raticate",
-    "forms": []
-  },
-  {
-    "pokedexNo": 20,
     "name": "Alolan Raticate",
     "types": ["Dark", "Normal"],
     "evolutions": [],
@@ -340,6 +336,20 @@
     ],
     "gender": "50:50",
     "sprite": "raticate-alola",
+    "forms": []
+  },
+  {
+    "pokedexNo": 20,
+    "name": "Raticate",
+    "types": ["Normal"],
+    "evolutions": [],
+    "abilities": [
+      ["Run Away", "false"],
+      ["Guts", "false"],
+      ["Hustle", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "raticate",
     "forms": []
   },
   {
@@ -409,23 +419,12 @@
     "sprite": "pikachu",
     "forms": [
       {
+        "types": [],
         "sprite": "pikachu-gmax",
-        "name": "Gigantamax Pikachu"
+        "name": "Gigantamax Pikachu",
+        "pokedexNo": 25
       }
     ]
-  },
-  {
-    "pokedexNo": 26,
-    "name": "Raichu",
-    "types": ["Electric"],
-    "evolutions": [],
-    "abilities": [
-      ["Static", "false"],
-      ["Lightning Rod", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "raichu",
-    "forms": []
   },
   {
     "pokedexNo": 26,
@@ -438,16 +437,16 @@
     "forms": []
   },
   {
-    "pokedexNo": 27,
-    "name": "Sandshrew",
-    "types": ["Ground"],
-    "evolutions": ["Sandslash"],
+    "pokedexNo": 26,
+    "name": "Raichu",
+    "types": ["Electric"],
+    "evolutions": [],
     "abilities": [
-      ["Sand Veil", "false"],
-      ["Sand Rush", "true"]
+      ["Static", "false"],
+      ["Lightning Rod", "true"]
     ],
     "gender": "50:50",
-    "sprite": "sandshrew",
+    "sprite": "raichu",
     "forms": []
   },
   {
@@ -464,16 +463,16 @@
     "forms": []
   },
   {
-    "pokedexNo": 28,
-    "name": "Sandslash",
+    "pokedexNo": 27,
+    "name": "Sandshrew",
     "types": ["Ground"],
-    "evolutions": [],
+    "evolutions": ["Sandslash"],
     "abilities": [
       ["Sand Veil", "false"],
       ["Sand Rush", "true"]
     ],
     "gender": "50:50",
-    "sprite": "sandslash",
+    "sprite": "sandshrew",
     "forms": []
   },
   {
@@ -490,10 +489,23 @@
     "forms": []
   },
   {
+    "pokedexNo": 28,
+    "name": "Sandslash",
+    "types": ["Ground"],
+    "evolutions": [],
+    "abilities": [
+      ["Sand Veil", "false"],
+      ["Sand Rush", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "sandslash",
+    "forms": []
+  },
+  {
     "pokedexNo": 29,
     "name": "Nidoran♀",
     "types": ["Poison"],
-    "evolutions": ["Nidorina"],
+    "evolutions": ["Nidorina", "Nidoqueen"],
     "abilities": [
       ["Poison Point", "false"],
       ["Rivalry", "false"],
@@ -535,7 +547,7 @@
     "pokedexNo": 32,
     "name": "Nidoran♂",
     "types": ["Poison"],
-    "evolutions": ["Nidorino"],
+    "evolutions": ["Nidorino", "Nidoking"],
     "abilities": [
       ["Poison Point", "false"],
       ["Rivalry", "false"],
@@ -685,7 +697,7 @@
     "pokedexNo": 41,
     "name": "Zubat",
     "types": ["Poison", "Flying"],
-    "evolutions": ["Golbat"],
+    "evolutions": ["Golbat", "Crobat"],
     "abilities": [
       ["Inner Focus", "false"],
       ["Infiltrator", "true"]
@@ -711,7 +723,7 @@
     "pokedexNo": 43,
     "name": "Oddish",
     "types": ["Grass", "Poison"],
-    "evolutions": ["Gloom"],
+    "evolutions": ["Gloom", "Vileplume", "Bellossom"],
     "abilities": [
       ["Chlorophyll", "false"],
       ["Run Away", "true"]
@@ -874,7 +886,8 @@
       {
         "sprite": "meowth-gmax",
         "types": ["Normal"],
-        "name": "Gigantamax Meowth"
+        "name": "Gigantamax Meowth",
+        "pokedexNo": 52
       }
     ]
   },
@@ -966,7 +979,7 @@
     "pokedexNo": 56,
     "name": "Mankey",
     "types": ["Fighting"],
-    "evolutions": ["Primeape"],
+    "evolutions": ["Primeape", "Annihilape"],
     "abilities": [
       ["Vital Spirit", "false"],
       ["Anger Point", "false"],
@@ -992,20 +1005,6 @@
   },
   {
     "pokedexNo": 58,
-    "name": "Growlithe",
-    "types": ["Fire"],
-    "evolutions": ["Arcanine"],
-    "abilities": [
-      ["Intimidate", "false"],
-      ["Flash Fire", "false"],
-      ["Justified", "true"]
-    ],
-    "gender": "75:25",
-    "sprite": "growlithe",
-    "forms": []
-  },
-  {
-    "pokedexNo": 58,
     "name": "Hisuian Growlithe",
     "types": ["Fire", "Rock"],
     "evolutions": ["Hisuian Arcanine"],
@@ -1019,17 +1018,17 @@
     "forms": []
   },
   {
-    "pokedexNo": 59,
-    "name": "Arcanine",
+    "pokedexNo": 58,
+    "name": "Growlithe",
     "types": ["Fire"],
-    "evolutions": [],
+    "evolutions": ["Arcanine"],
     "abilities": [
       ["Intimidate", "false"],
       ["Flash Fire", "false"],
       ["Justified", "true"]
     ],
     "gender": "75:25",
-    "sprite": "arcanine",
+    "sprite": "growlithe",
     "forms": []
   },
   {
@@ -1047,10 +1046,24 @@
     "forms": []
   },
   {
+    "pokedexNo": 59,
+    "name": "Arcanine",
+    "types": ["Fire"],
+    "evolutions": [],
+    "abilities": [
+      ["Intimidate", "false"],
+      ["Flash Fire", "false"],
+      ["Justified", "true"]
+    ],
+    "gender": "75:25",
+    "sprite": "arcanine",
+    "forms": []
+  },
+  {
     "pokedexNo": 60,
     "name": "Poliwag",
     "types": ["Water"],
-    "evolutions": ["Poliwhirl"],
+    "evolutions": ["Poliwhirl", "Poliwrath", "Politoed"],
     "abilities": [
       ["Water Absorb", "false"],
       ["Damp", "false"],
@@ -1092,7 +1105,7 @@
     "pokedexNo": 63,
     "name": "Abra",
     "types": ["Psychic"],
-    "evolutions": ["Kadabra"],
+    "evolutions": ["Kadabra", "Alakazam"],
     "abilities": [
       ["Synchronize", "false"],
       ["Inner Focus", "false"],
@@ -1132,7 +1145,8 @@
       {
         "sprite": "alakazam-mega",
         "types": ["Psychic"],
-        "name": "Mega Alakazam"
+        "name": "Mega Alakazam",
+        "pokedexNo": 65
       }
     ]
   },
@@ -1140,7 +1154,7 @@
     "pokedexNo": 66,
     "name": "Machop",
     "types": ["Fighting"],
-    "evolutions": ["Machoke"],
+    "evolutions": ["Machoke", "Machamp"],
     "abilities": [
       ["Guts", "false"],
       ["No Guard", "false"],
@@ -1180,7 +1194,8 @@
       {
         "sprite": "machamp-gmax",
         "types": ["Fighting"],
-        "name": "Gigantamax Machamp"
+        "name": "Gigantamax Machamp",
+        "pokedexNo": 68
       }
     ]
   },
@@ -1188,7 +1203,7 @@
     "pokedexNo": 69,
     "name": "Bellsprout",
     "types": ["Grass", "Poison"],
-    "evolutions": ["Weepinbell"],
+    "evolutions": ["Weepinbell", "Victreebel"],
     "abilities": [
       ["Chlorophyll", "false"],
       ["Gluttony", "true"]
@@ -1253,23 +1268,9 @@
   },
   {
     "pokedexNo": 74,
-    "name": "Geodude",
-    "types": ["Rock", "Ground"],
-    "evolutions": ["Geodude"],
-    "abilities": [
-      ["Rock Head", "false"],
-      ["Sturdy", "false"],
-      ["Sand Veil", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "geodude",
-    "forms": []
-  },
-  {
-    "pokedexNo": 74,
     "name": "Alolan Geodude",
     "types": ["Rock", "Electric"],
-    "evolutions": ["Alolan Graveler"],
+    "evolutions": ["Alolan Graveler", "Alolan Golem"],
     "abilities": [
       ["Magnet Pull", "false"],
       ["Sturdy", "false"],
@@ -1277,6 +1278,20 @@
     ],
     "gender": "50:50",
     "sprite": "geodude-alola",
+    "forms": []
+  },
+  {
+    "pokedexNo": 74,
+    "name": "Geodude",
+    "types": ["Rock", "Ground"],
+    "evolutions": ["Graveler", "Golem"],
+    "abilities": [
+      ["Rock Head", "false"],
+      ["Sturdy", "false"],
+      ["Sand Veil", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "geodude",
     "forms": []
   },
   {
@@ -1337,20 +1352,6 @@
   },
   {
     "pokedexNo": 77,
-    "name": "Ponyta",
-    "types": ["Fire"],
-    "evolutions": ["Rapidash"],
-    "abilities": [
-      ["Run Away", "false"],
-      ["Flash Fire", "false"],
-      ["Flame Body", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "ponyta",
-    "forms": []
-  },
-  {
-    "pokedexNo": 77,
     "name": "Galarian Ponyta",
     "types": ["Psychic"],
     "evolutions": ["Galarian Rapidash"],
@@ -1361,6 +1362,20 @@
     ],
     "gender": "50:50",
     "sprite": "ponyta-galar",
+    "forms": []
+  },
+  {
+    "pokedexNo": 77,
+    "name": "Ponyta",
+    "types": ["Fire"],
+    "evolutions": ["Rapidash"],
+    "abilities": [
+      ["Run Away", "false"],
+      ["Flash Fire", "false"],
+      ["Flame Body", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "ponyta",
     "forms": []
   },
   {
@@ -1393,6 +1408,20 @@
   },
   {
     "pokedexNo": 79,
+    "name": "Galarian Slowpoke",
+    "types": ["Psychic"],
+    "evolutions": ["Galarian Slowbro", "Galarian Slowking"],
+    "abilities": [
+      ["Gluttony", "false"],
+      ["Own Tempo", "false"],
+      ["Regenerator", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "slowpoke-galar",
+    "forms": []
+  },
+  {
+    "pokedexNo": 79,
     "name": "Slowpoke",
     "types": ["Water", "Psychic"],
     "evolutions": ["Slowbro", "Slowking"],
@@ -1406,17 +1435,17 @@
     "forms": []
   },
   {
-    "pokedexNo": 79,
-    "name": "Galarian Slowpoke",
-    "types": ["Psychic"],
-    "evolutions": ["Galarian Slowbro", "Galarian Slowking"],
+    "pokedexNo": 80,
+    "name": "Galarian Slowbro",
+    "types": ["Poison", "Psychic"],
+    "evolutions": [],
     "abilities": [
-      ["Gluttony", "false"],
+      ["Oblivious", "false"],
       ["Own Tempo", "false"],
       ["Regenerator", "true"]
     ],
     "gender": "50:50",
-    "sprite": "slowpoke-galar",
+    "sprite": "slowbro-galar",
     "forms": []
   },
   {
@@ -1435,29 +1464,16 @@
       {
         "sprite": "slowbro-mega",
         "types": ["Water", "Psychic"],
-        "name": "Mega Slowbro"
+        "name": "Mega Slowbro",
+        "pokedexNo": 80
       }
     ]
-  },
-  {
-    "pokedexNo": 80,
-    "name": "Galarian Slowbro",
-    "types": ["Poison", "Psychic"],
-    "evolutions": [],
-    "abilities": [
-      ["Oblivious", "false"],
-      ["Own Tempo", "false"],
-      ["Regenerator", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "slowbro-galar",
-    "forms": []
   },
   {
     "pokedexNo": 81,
     "name": "Magnemite",
     "types": ["Electric", "Steel"],
-    "evolutions": ["Magneton"],
+    "evolutions": ["Magneton", "Magnezone"],
     "abilities": [
       ["Magnet Pull", "false"],
       ["Sturdy", "false"],
@@ -1483,20 +1499,6 @@
   },
   {
     "pokedexNo": 83,
-    "name": "Farfetch'd",
-    "types": ["Normal", "Flying"],
-    "evolutions": [],
-    "abilities": [
-      ["Keen Eye", "false"],
-      ["Inner Focus", "false"],
-      ["Defiant", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "farfetchd",
-    "forms": []
-  },
-  {
-    "pokedexNo": 83,
     "name": "Galarian Farfetch'd",
     "types": ["Normal", "Flying"],
     "evolutions": ["Sirfetch'd"],
@@ -1507,6 +1509,20 @@
     ],
     "gender": "50:50",
     "sprite": "farfetchd-galar",
+    "forms": []
+  },
+  {
+    "pokedexNo": 83,
+    "name": "Farfetch'd",
+    "types": ["Normal", "Flying"],
+    "evolutions": [],
+    "abilities": [
+      ["Keen Eye", "false"],
+      ["Inner Focus", "false"],
+      ["Defiant", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "farfetchd",
     "forms": []
   },
   {
@@ -1595,20 +1611,6 @@
   },
   {
     "pokedexNo": 89,
-    "name": "Muk",
-    "types": ["Poison"],
-    "evolutions": [],
-    "abilities": [
-      ["Stench", "false"],
-      ["Sticky Hold", "false"],
-      ["Poison Touch", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "muk",
-    "forms": []
-  },
-  {
-    "pokedexNo": 89,
     "name": "Alolan Muk",
     "types": ["Poison", "Dark"],
     "evolutions": [],
@@ -1619,6 +1621,20 @@
     ],
     "gender": "50:50",
     "sprite": "muk-alola",
+    "forms": []
+  },
+  {
+    "pokedexNo": 89,
+    "name": "Muk",
+    "types": ["Poison"],
+    "evolutions": [],
+    "abilities": [
+      ["Stench", "false"],
+      ["Sticky Hold", "false"],
+      ["Poison Touch", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "muk",
     "forms": []
   },
   {
@@ -1653,7 +1669,7 @@
     "pokedexNo": 92,
     "name": "Gastly",
     "types": ["Ghost", "Poison"],
-    "evolutions": ["Haunter"],
+    "evolutions": ["Haunter", "Gengar"],
     "abilities": [["Levitate", "false"]],
     "gender": "50:50",
     "sprite": "gastly",
@@ -1681,12 +1697,14 @@
       {
         "sprite": "gengar-gmax",
         "types": ["Ghost", "Poison"],
-        "name": "Gigantamax Gengar"
+        "name": "Gigantamax Gengar",
+        "pokedexNo": 94
       },
       {
         "sprite": "gengar-mega",
         "types": ["Ghost", "Poison"],
-        "name": "Mega Gengar"
+        "name": "Mega Gengar",
+        "pokedexNo": 94
       }
     ]
   },
@@ -1762,7 +1780,8 @@
       {
         "sprite": "kingler-gmax",
         "types": ["Water"],
-        "name": "Gigantamax Kingler"
+        "name": "Gigantamax Kingler",
+        "pokedexNo": 99
       }
     ]
   },
@@ -1837,19 +1856,6 @@
   },
   {
     "pokedexNo": 103,
-    "name": "Exeggutor",
-    "types": ["Grass", "Psychic"],
-    "evolutions": [],
-    "abilities": [
-      ["Chlorophyll", "false"],
-      ["Harvest", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "exeggutor",
-    "forms": []
-  },
-  {
-    "pokedexNo": 103,
     "name": "Alolan Exeggutor",
     "types": ["Grass", "Dragon"],
     "evolutions": [],
@@ -1859,6 +1865,19 @@
     ],
     "gender": "50:50",
     "sprite": "exeggutor-alola",
+    "forms": []
+  },
+  {
+    "pokedexNo": 103,
+    "name": "Exeggutor",
+    "types": ["Grass", "Psychic"],
+    "evolutions": [],
+    "abilities": [
+      ["Chlorophyll", "false"],
+      ["Harvest", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "exeggutor",
     "forms": []
   },
   {
@@ -1979,7 +1998,7 @@
     "pokedexNo": 111,
     "name": "Rhyhorn",
     "types": ["Ground", "Rock"],
-    "evolutions": ["Rhydon"],
+    "evolutions": ["Rhydon", "Rhyperior"],
     "abilities": [
       ["Lightning Rod", "false"],
       ["Rock Head", "false"],
@@ -2047,7 +2066,8 @@
       {
         "sprite": "kangaskhan-mega",
         "types": ["Normal"],
-        "name": "Mega Kangaskhan"
+        "name": "Mega Kangaskhan",
+        "pokedexNo": 115
       }
     ]
   },
@@ -2055,7 +2075,7 @@
     "pokedexNo": 116,
     "name": "Horsea",
     "types": ["Water"],
-    "evolutions": ["Seadra"],
+    "evolutions": ["Seadra", "Kingdra"],
     "abilities": [
       ["Swift Swim", "false"],
       ["Sniper", "false"],
@@ -2233,9 +2253,24 @@
       {
         "sprite": "pinsir-mega",
         "types": ["Bug", "Flying"],
-        "name": "Mega Pinsir"
+        "name": "Mega Pinsir",
+        "pokedexNo": 127
       }
     ]
+  },
+  {
+    "pokedexNo": 128,
+    "name": "Paldean Tauros Aqua Breed",
+    "types": ["Fighting", "Water"],
+    "evolutions": [],
+    "abilities": [
+      ["Intimidate", "false"],
+      ["Anger Point", "false"],
+      ["Cud Chew", "true"]
+    ],
+    "gender": "100:0",
+    "sprite": "tauros-paldea-aqua",
+    "forms": []
   },
   {
     "pokedexNo": 128,
@@ -2280,20 +2315,6 @@
     "forms": []
   },
   {
-    "pokedexNo": 128,
-    "name": "Paldean Tauros Aqua Breed",
-    "types": ["Fighting", "Water"],
-    "evolutions": [],
-    "abilities": [
-      ["Intimidate", "false"],
-      ["Anger Point", "false"],
-      ["Cud Chew", "true"]
-    ],
-    "gender": "100:0",
-    "sprite": "tauros-paldea-aqua",
-    "forms": []
-  },
-  {
     "pokedexNo": 129,
     "name": "Magikarp",
     "types": ["Water"],
@@ -2321,7 +2342,8 @@
       {
         "sprite": "gyarados-mega",
         "types": ["Water", "Dark"],
-        "name": "Mega Gyarados"
+        "name": "Mega Gyarados",
+        "pokedexNo": 130
       }
     ]
   },
@@ -2341,7 +2363,8 @@
       {
         "sprite": "lapras-gmax",
         "types": ["Water", "Ice"],
-        "name": "Gigantamax Lapras"
+        "name": "Gigantamax Lapras",
+        "pokedexNo": 131
       }
     ]
   },
@@ -2383,7 +2406,8 @@
       {
         "sprite": "eevee-gmax",
         "types": ["Normal"],
-        "name": "Gigantamax Eevee"
+        "name": "Gigantamax Eevee",
+        "pokedexNo": 133
       }
     ]
   },
@@ -2430,7 +2454,7 @@
     "pokedexNo": 137,
     "name": "Porygon",
     "types": ["Normal"],
-    "evolutions": ["Porygon2"],
+    "evolutions": ["Porygon2", "Porygon-Z"],
     "abilities": [
       ["Trace", "false"],
       ["Download", "false"],
@@ -2512,7 +2536,8 @@
       {
         "sprite": "aerodactyl-mega",
         "types": ["Rock", "Flying"],
-        "name": "Mega Aerodactyl"
+        "name": "Mega Aerodactyl",
+        "pokedexNo": 142
       }
     ]
   },
@@ -2532,7 +2557,8 @@
       {
         "sprite": "snorlax-gmax",
         "types": ["Normal"],
-        "name": "Gigantamax Snorlax"
+        "name": "Gigantamax Snorlax",
+        "pokedexNo": 143
       }
     ]
   },
@@ -2609,7 +2635,7 @@
     "pokedexNo": 147,
     "name": "Dratini",
     "types": ["Dragon"],
-    "evolutions": ["Dragonair"],
+    "evolutions": ["Dragonair", "Dragonite"],
     "abilities": [
       ["Shed Skin", "false"],
       ["Marvel Scale", "true"]
@@ -2659,12 +2685,14 @@
       {
         "sprite": "mewtwo-mega-x",
         "types": ["Psychic", "Fighting"],
-        "name": "Mega Mewtwo X"
+        "name": "Mega Mewtwo X",
+        "pokedexNo": 150
       },
       {
         "sprite": "mewtwo-mega-y",
         "types": ["Psychic"],
-        "name": "Mega Mewtwo Y"
+        "name": "Mega Mewtwo Y",
+        "pokedexNo": 150
       }
     ]
   },
@@ -2682,7 +2710,7 @@
     "pokedexNo": 152,
     "name": "Chikorita",
     "types": ["Grass"],
-    "evolutions": ["Bayleef"],
+    "evolutions": ["Bayleef", "Meganium"],
     "abilities": [
       ["Overgrow", "false"],
       ["Leaf Guard", "true"]
@@ -2721,7 +2749,7 @@
     "pokedexNo": 155,
     "name": "Cyndaquil",
     "types": ["Fire"],
-    "evolutions": ["Quilava"],
+    "evolutions": ["Quilava", "Typhlosion", "Hisuian Typhlosion"],
     "abilities": [
       ["Blaze", "false"],
       ["Flash Fire", "true"]
@@ -2773,7 +2801,7 @@
     "pokedexNo": 158,
     "name": "Totodile",
     "types": ["Water"],
-    "evolutions": ["Croconaw"],
+    "evolutions": ["Croconaw", "Feraligatr"],
     "abilities": [
       ["Torrent", "false"],
       ["Sheer Force", "true"]
@@ -2965,7 +2993,7 @@
     "pokedexNo": 172,
     "name": "Pichu",
     "types": ["Electric"],
-    "evolutions": ["Pikachu"],
+    "evolutions": ["Pikachu", "Raichu", "Alolan Raichu"],
     "abilities": [
       ["Static", "false"],
       ["Lightning Rod", "true"]
@@ -2978,7 +3006,7 @@
     "pokedexNo": 173,
     "name": "Cleffa",
     "types": ["Fairy"],
-    "evolutions": ["Clefairy"],
+    "evolutions": ["Clefairy", "Clefable"],
     "abilities": [
       ["Cute Charm", "false"],
       ["Magic Guard", "false"],
@@ -2992,7 +3020,7 @@
     "pokedexNo": 174,
     "name": "Igglybuff",
     "types": ["Normal", "Fairy"],
-    "evolutions": ["Jigglypuff"],
+    "evolutions": ["Jigglypuff", "Wigglytuff"],
     "abilities": [
       ["Cute Charm", "false"],
       ["Competitive", "false"],
@@ -3006,7 +3034,7 @@
     "pokedexNo": 175,
     "name": "Togepi",
     "types": ["Fairy"],
-    "evolutions": ["Togetic"],
+    "evolutions": ["Togetic", "Togekiss"],
     "abilities": [
       ["Hustle", "false"],
       ["Serene Grace", "false"],
@@ -3062,7 +3090,7 @@
     "pokedexNo": 179,
     "name": "Mareep",
     "types": ["Electric"],
-    "evolutions": ["Flaaffy"],
+    "evolutions": ["Flaaffy", "Ampharos"],
     "abilities": [
       ["Static", "false"],
       ["Plus", "true"]
@@ -3099,7 +3127,8 @@
       {
         "sprite": "ampharos-mega",
         "types": ["Electric", "Dragon"],
-        "name": "Mega Ampharos"
+        "name": "Mega Ampharos",
+        "pokedexNo": 181
       }
     ]
   },
@@ -3176,7 +3205,7 @@
     "pokedexNo": 187,
     "name": "Hoppip",
     "types": ["Grass", "Flying"],
-    "evolutions": ["Skiploom"],
+    "evolutions": ["Skiploom", "Jumpluff"],
     "abilities": [
       ["Chlorophyll", "false"],
       ["Leaf Guard", "false"],
@@ -3392,26 +3421,6 @@
   },
   {
     "pokedexNo": 201,
-    "name": "Unown A",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown B",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-b",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
     "name": "Unown C",
     "types": ["Psychic"],
     "evolutions": [],
@@ -3432,52 +3441,12 @@
   },
   {
     "pokedexNo": 201,
-    "name": "Unown E",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-e",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
     "name": "Unown F",
     "types": ["Psychic"],
     "evolutions": [],
     "abilities": [["Levitate", "false"]],
     "gender": "Genderless",
     "sprite": "unown-f",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown G",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-g",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown H",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-h",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown I",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-i",
     "forms": []
   },
   {
@@ -3492,36 +3461,6 @@
   },
   {
     "pokedexNo": 201,
-    "name": "Unown K",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-k",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown L",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-l",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown M",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-m",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
     "name": "Unown N",
     "types": ["Psychic"],
     "evolutions": [],
@@ -3532,32 +3471,52 @@
   },
   {
     "pokedexNo": 201,
-    "name": "Unown O",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-o",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown P",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-p",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
     "name": "Unown Q",
     "types": ["Psychic"],
     "evolutions": [],
     "abilities": [["Levitate", "false"]],
     "gender": "Genderless",
     "sprite": "unown-q",
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown !",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-exclamation",
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown I",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-i",
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown K",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-k",
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown M",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-m",
     "forms": []
   },
   {
@@ -3612,16 +3571,6 @@
   },
   {
     "pokedexNo": 201,
-    "name": "Unown W",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-w",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
     "name": "Unown X",
     "types": ["Psychic"],
     "evolutions": [],
@@ -3642,6 +3591,56 @@
   },
   {
     "pokedexNo": 201,
+    "name": "Unown G",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-g",
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown H",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-h",
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown L",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-l",
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown O",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-o",
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown P",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-p",
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
     "name": "Unown Z",
     "types": ["Psychic"],
     "evolutions": [],
@@ -3652,12 +3651,42 @@
   },
   {
     "pokedexNo": 201,
-    "name": "Unown !",
+    "name": "Unown A",
     "types": ["Psychic"],
     "evolutions": [],
     "abilities": [["Levitate", "false"]],
     "gender": "Genderless",
-    "sprite": "unown-exclamation",
+    "sprite": "unown",
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown B",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-b",
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown E",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-e",
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown W",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-w",
     "forms": []
   },
   {
@@ -3770,7 +3799,8 @@
       {
         "sprite": "steelix-mega",
         "types": ["Steel", "Ground"],
-        "name": "Mega Steelix"
+        "name": "Mega Steelix",
+        "pokedexNo": 208
       }
     ]
   },
@@ -3846,7 +3876,8 @@
       {
         "sprite": "scizor-mega",
         "types": ["Bug", "Steel"],
-        "name": "Mega Scizor"
+        "name": "Mega Scizor",
+        "pokedexNo": 212
       }
     ]
   },
@@ -3880,7 +3911,8 @@
       {
         "sprite": "heracross-mega",
         "types": ["Bug", "Fighting"],
-        "name": "Mega Heracross"
+        "name": "Mega Heracross",
+        "pokedexNo": 214
       }
     ]
   },
@@ -3916,7 +3948,7 @@
     "pokedexNo": 216,
     "name": "Teddiursa",
     "types": ["Normal"],
-    "evolutions": ["Ursaring"],
+    "evolutions": ["Ursaring", "Ursaluna"],
     "abilities": [
       ["Pickup", "false"],
       ["Quick Feet", "false"],
@@ -3972,7 +4004,7 @@
     "pokedexNo": 220,
     "name": "Swinub",
     "types": ["Ice", "Ground"],
-    "evolutions": ["Piloswine"],
+    "evolutions": ["Piloswine", "Mamoswine"],
     "abilities": [
       ["Oblivious", "false"],
       ["Snow Cloak", "false"],
@@ -3998,6 +4030,19 @@
   },
   {
     "pokedexNo": 222,
+    "name": "Galarian Corsola",
+    "types": ["Ghost"],
+    "evolutions": ["Cursola"],
+    "abilities": [
+      ["Weak Armor", "false"],
+      ["Cursed Body", "true"]
+    ],
+    "gender": "25:75",
+    "sprite": "corsola-galar",
+    "forms": []
+  },
+  {
+    "pokedexNo": 222,
     "name": "Corsola",
     "types": ["Water", "Rock"],
     "evolutions": [],
@@ -4008,19 +4053,6 @@
     ],
     "gender": "25:75",
     "sprite": "corsola",
-    "forms": []
-  },
-  {
-    "pokedexNo": 222,
-    "name": "Galarian Corsola",
-    "types": ["Ghost"],
-    "evolutions": ["Cursola"],
-    "abilities": [
-      ["Weak Armor", "false"],
-      ["Cursed Body", "true"]
-    ],
-    "gender": "25:75",
-    "sprite": "corsola-galar",
     "forms": []
   },
   {
@@ -4123,7 +4155,8 @@
       {
         "sprite": "houndoom-mega",
         "types": ["Dark", "Fire"],
-        "name": "Mega Houndoom"
+        "name": "Mega Houndoom",
+        "pokedexNo": 229
       }
     ]
   },
@@ -4255,7 +4288,7 @@
     "pokedexNo": 239,
     "name": "Elekid",
     "types": ["Electric"],
-    "evolutions": ["Electabuzz"],
+    "evolutions": ["Electabuzz", "Electivire"],
     "abilities": [
       ["Static", "false"],
       ["Vital Spirit", "true"]
@@ -4268,7 +4301,7 @@
     "pokedexNo": 240,
     "name": "Magby",
     "types": ["Fire"],
-    "evolutions": ["Magmar"],
+    "evolutions": ["Magmar", "Magmortar"],
     "abilities": [
       ["Flame Body", "false"],
       ["Vital Spirit", "true"]
@@ -4348,7 +4381,7 @@
     "pokedexNo": 246,
     "name": "Larvitar",
     "types": ["Rock", "Ground"],
-    "evolutions": ["Pupitar"],
+    "evolutions": ["Pupitar", "Tyranitar"],
     "abilities": [
       ["Guts", "false"],
       ["Sand Veil", "true"]
@@ -4382,7 +4415,8 @@
       {
         "sprite": "tyranitar-mega",
         "types": ["Rock", "Dark"],
-        "name": "Mega Tyranitar"
+        "name": "Mega Tyranitar",
+        "pokedexNo": 248
       }
     ]
   },
@@ -4426,7 +4460,7 @@
     "pokedexNo": 252,
     "name": "Treecko",
     "types": ["Grass"],
-    "evolutions": ["Grovyle"],
+    "evolutions": ["Grovyle", "Sceptile"],
     "abilities": [
       ["Overgrow", "false"],
       ["Unburden", "true"]
@@ -4463,7 +4497,8 @@
       {
         "sprite": "sceptile-mega",
         "types": ["Grass", "Dragon"],
-        "name": "Mega Sceptile"
+        "name": "Mega Sceptile",
+        "pokedexNo": 254
       }
     ]
   },
@@ -4471,7 +4506,7 @@
     "pokedexNo": 255,
     "name": "Torchic",
     "types": ["Fire"],
-    "evolutions": ["Combusken"],
+    "evolutions": ["Combusken", "Blaziken"],
     "abilities": [
       ["Blaze", "false"],
       ["Speed Boost", "true"]
@@ -4508,7 +4543,8 @@
       {
         "sprite": "blaziken-mega",
         "types": ["Fire", "Fighting"],
-        "name": "Mega Blaziken"
+        "name": "Mega Blaziken",
+        "pokedexNo": 257
       }
     ]
   },
@@ -4516,7 +4552,7 @@
     "pokedexNo": 258,
     "name": "Mudkip",
     "types": ["Water"],
-    "evolutions": ["Marshtomp"],
+    "evolutions": ["Marshtomp", "Swampert"],
     "abilities": [
       ["Torrent", "false"],
       ["Damp", "true"]
@@ -4553,7 +4589,8 @@
       {
         "sprite": "swampert-mega",
         "types": ["Water", "Ground"],
-        "name": "Mega Swampert"
+        "name": "Mega Swampert",
+        "pokedexNo": 260
       }
     ]
   },
@@ -4603,7 +4640,7 @@
     "pokedexNo": 263,
     "name": "Galarian Zigzagoon",
     "types": ["Dark", "Normal"],
-    "evolutions": ["Galarian Linoone"],
+    "evolutions": ["Galarian Linoone", "Obstagoon"],
     "abilities": [
       ["Pickup", "false"],
       ["Gluttony", "false"],
@@ -4645,7 +4682,7 @@
     "pokedexNo": 265,
     "name": "Wurmple",
     "types": ["Bug"],
-    "evolutions": ["Silcoon", "Cascoon"],
+    "evolutions": ["Silcoon", "Cascoon", "Beautifly", "Dustox"],
     "abilities": [
       ["Shield Dust", "false"],
       ["Run Away", "true"]
@@ -4704,7 +4741,7 @@
     "pokedexNo": 270,
     "name": "Lotad",
     "types": ["Water", "Grass"],
-    "evolutions": ["Lombre"],
+    "evolutions": ["Lombre", "Ludicolo"],
     "abilities": [
       ["Swift Swim", "false"],
       ["Rain Dish", "false"],
@@ -4746,7 +4783,7 @@
     "pokedexNo": 273,
     "name": "Seedot",
     "types": ["Grass"],
-    "evolutions": ["Nuzleaf"],
+    "evolutions": ["Nuzleaf", "Shiftry"],
     "abilities": [
       ["Chlorophyll", "false"],
       ["Early Bird", "false"],
@@ -4842,7 +4879,7 @@
     "pokedexNo": 280,
     "name": "Ralts",
     "types": ["Psychic", "Fairy"],
-    "evolutions": ["Kirlia"],
+    "evolutions": ["Kirlia", "Gardevoir", "Gallade"],
     "abilities": [
       ["Synchronize", "false"],
       ["Trace", "false"],
@@ -4882,7 +4919,8 @@
       {
         "sprite": "gardevoir-mega",
         "types": ["Psychic", "Fairy"],
-        "name": "Mega Gardevoir"
+        "name": "Mega Gardevoir",
+        "pokedexNo": 282
       }
     ]
   },
@@ -4944,7 +4982,7 @@
     "pokedexNo": 287,
     "name": "Slakoth",
     "types": ["Normal"],
-    "evolutions": ["Vigoroth"],
+    "evolutions": ["Vigoroth", "Slaking"],
     "abilities": [["Truant", "false"]],
     "gender": "50:50",
     "sprite": "slakoth",
@@ -5010,7 +5048,7 @@
     "pokedexNo": 293,
     "name": "Whismur",
     "types": ["Normal"],
-    "evolutions": ["Loudred"],
+    "evolutions": ["Loudred", "Exploud"],
     "abilities": [
       ["Soundproof", "false"],
       ["Rattled", "true"]
@@ -5077,7 +5115,7 @@
     "pokedexNo": 298,
     "name": "Azurill",
     "types": ["Normal", "Fairy"],
-    "evolutions": ["Marill"],
+    "evolutions": ["Marill", "Azumarill"],
     "abilities": [
       ["Thick Fat", "false"],
       ["Huge Power", "false"],
@@ -5145,7 +5183,8 @@
       {
         "sprite": "sableye-mega",
         "types": ["Dark", "Ghost"],
-        "name": "Mega Sableye"
+        "name": "Mega Sableye",
+        "pokedexNo": 302
       }
     ]
   },
@@ -5165,7 +5204,8 @@
       {
         "sprite": "mawile-mega",
         "types": ["Steel", "Fairy"],
-        "name": "Mega Mawile"
+        "name": "Mega Mawile",
+        "pokedexNo": 303
       }
     ]
   },
@@ -5173,7 +5213,7 @@
     "pokedexNo": 304,
     "name": "Aron",
     "types": ["Steel", "Rock"],
-    "evolutions": ["Lairon"],
+    "evolutions": ["Lairon", "Aggron"],
     "abilities": [
       ["Sturdy", "false"],
       ["Rock Head", "false"],
@@ -5213,7 +5253,8 @@
       {
         "sprite": "aggron-mega",
         "types": ["Steel"],
-        "name": "Mega Aggron"
+        "name": "Mega Aggron",
+        "pokedexNo": 306
       }
     ]
   },
@@ -5245,7 +5286,8 @@
       {
         "sprite": "medicham-mega",
         "types": ["Fighting", "Psychic"],
-        "name": "Mega Medicham"
+        "name": "Mega Medicham",
+        "pokedexNo": 308
       }
     ]
   },
@@ -5279,7 +5321,8 @@
       {
         "sprite": "manectric-mega",
         "types": ["Electric"],
-        "name": "Mega Manectric"
+        "name": "Mega Manectric",
+        "pokedexNo": 310
       }
     ]
   },
@@ -5407,7 +5450,8 @@
       {
         "sprite": "sharpedo-mega",
         "types": ["Water", "Dark"],
-        "name": "Mega Sharpedo"
+        "name": "Mega Sharpedo",
+        "pokedexNo": 319
       }
     ]
   },
@@ -5469,7 +5513,8 @@
       {
         "sprite": "camerupt-mega",
         "types": ["Fire", "Ground"],
-        "name": "Mega Camerupt"
+        "name": "Mega Camerupt",
+        "pokedexNo": 323
       }
     ]
   },
@@ -5533,7 +5578,7 @@
     "pokedexNo": 328,
     "name": "Trapinch",
     "types": ["Ground"],
-    "evolutions": ["Vibrava"],
+    "evolutions": ["Vibrava", "Flygon"],
     "abilities": [
       ["Hyper Cutter", "false"],
       ["Arena Trap", "false"],
@@ -5617,7 +5662,8 @@
       {
         "sprite": "altaria-mega",
         "types": ["Dragon", "Fairy"],
-        "name": "Mega Altaria"
+        "name": "Mega Altaria",
+        "pokedexNo": 334
       }
     ]
   },
@@ -5835,17 +5881,20 @@
       {
         "sprite": "castform-rainy",
         "types": ["Normal"],
-        "name": "Rainy Form Castform"
+        "name": "Rainy Form Castform",
+        "pokedexNo": 351
       },
       {
         "sprite": "castform-snowy",
         "types": ["Normal"],
-        "name": "Snowy Form Castform"
+        "name": "Snowy Form Castform",
+        "pokedexNo": 351
       },
       {
         "sprite": "castform-sunny",
         "types": ["Normal"],
-        "name": "Sunny Form Castform"
+        "name": "Sunny Form Castform",
+        "pokedexNo": 351
       }
     ]
   },
@@ -5892,7 +5941,8 @@
       {
         "sprite": "banette-mega",
         "types": ["Ghost"],
-        "name": "Mega Banette"
+        "name": "Mega Banette",
+        "pokedexNo": 354
       }
     ]
   },
@@ -5900,7 +5950,7 @@
     "pokedexNo": 355,
     "name": "Duskull",
     "types": ["Ghost"],
-    "evolutions": ["Dusclops"],
+    "evolutions": ["Dusclops", "Dusknoir"],
     "abilities": [
       ["Levitate", "false"],
       ["Frisk", "true"]
@@ -5962,7 +6012,8 @@
       {
         "sprite": "absol-mega",
         "types": ["Dark"],
-        "name": "Mega Absol"
+        "name": "Mega Absol",
+        "pokedexNo": 359
       }
     ]
   },
@@ -6009,7 +6060,8 @@
       {
         "sprite": "glalie-mega",
         "types": ["Ice"],
-        "name": "Mega Glalie"
+        "name": "Mega Glalie",
+        "pokedexNo": 362
       }
     ]
   },
@@ -6017,7 +6069,7 @@
     "pokedexNo": 363,
     "name": "Spheal",
     "types": ["Ice", "Water"],
-    "evolutions": ["Sealeo"],
+    "evolutions": ["Sealeo", "Walrein"],
     "abilities": [
       ["Thick Fat", "false"],
       ["Ice Body", "false"],
@@ -6125,7 +6177,7 @@
     "pokedexNo": 371,
     "name": "Bagon",
     "types": ["Dragon"],
-    "evolutions": ["Shelgon"],
+    "evolutions": ["Shelgon", "Salamence"],
     "abilities": [
       ["Rock Head", "false"],
       ["Sheer Force", "true"]
@@ -6162,7 +6214,8 @@
       {
         "sprite": "salamence-mega",
         "types": ["Dragon", "Flying"],
-        "name": "Mega Salamence"
+        "name": "Mega Salamence",
+        "pokedexNo": 373
       }
     ]
   },
@@ -6170,7 +6223,7 @@
     "pokedexNo": 374,
     "name": "Beldum",
     "types": ["Steel", "Psychic"],
-    "evolutions": ["Metang"],
+    "evolutions": ["Metang", "Metagross"],
     "abilities": [
       ["Clear Body", "false"],
       ["Light Metal", "true"]
@@ -6207,7 +6260,8 @@
       {
         "sprite": "metagross-mega",
         "types": ["Steel", "Psychic"],
-        "name": "Mega Metagross"
+        "name": "Mega Metagross",
+        "pokedexNo": 376
       }
     ]
   },
@@ -6262,7 +6316,8 @@
       {
         "sprite": "latias-mega",
         "types": ["Dragon", "Psychic"],
-        "name": "Mega Latias"
+        "name": "Mega Latias",
+        "pokedexNo": 380
       }
     ]
   },
@@ -6278,7 +6333,8 @@
       {
         "sprite": "latios-mega",
         "types": ["Dragon", "Psychic"],
-        "name": "Mega Latios"
+        "name": "Mega Latios",
+        "pokedexNo": 381
       }
     ]
   },
@@ -6294,7 +6350,8 @@
       {
         "sprite": "kyogre-primal",
         "types": ["Water"],
-        "name": "Primal Kyogre"
+        "name": "Primal Kyogre",
+        "pokedexNo": 382
       }
     ]
   },
@@ -6310,7 +6367,8 @@
       {
         "sprite": "groudon-primal",
         "types": ["Ground", "Fire"],
-        "name": "Primal Groudon"
+        "name": "Primal Groudon",
+        "pokedexNo": 383
       }
     ]
   },
@@ -6326,7 +6384,8 @@
       {
         "sprite": "rayquaza-mega",
         "types": ["Dragon", "Flying"],
-        "name": "Mega Rayquaza"
+        "name": "Mega Rayquaza",
+        "pokedexNo": 384
       }
     ]
   },
@@ -6352,70 +6411,34 @@
       {
         "sprite": "deoxys-attack",
         "types": ["Psychic"],
-        "name": "Attack Form Deoxys"
+        "name": "Attack Form Deoxys",
+        "pokedexNo": 386
       },
       {
         "sprite": "deoxys-defense",
         "types": ["Psychic"],
-        "name": "Defense Form Deoxys"
+        "name": "Defense Form Deoxys",
+        "pokedexNo": 386
       },
       {
         "sprite": "deoxys-normal",
         "types": ["Psychic"],
-        "name": "Normal Form Deoxys"
+        "name": "Normal Form Deoxys",
+        "pokedexNo": 386
       },
       {
         "sprite": "deoxys-speed",
         "types": ["Psychic"],
-        "name": "Speed Form Deoxys"
+        "name": "Speed Form Deoxys",
+        "pokedexNo": 386
       }
     ]
-  },
-  {
-    "pokedexNo": 386,
-    "name": "Attack Form Deoxys",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Pressure", "false"]],
-    "gender": "Genderless",
-    "sprite": "deoxys-attack",
-    "forms": []
-  },
-  {
-    "pokedexNo": 386,
-    "name": "Defense Form Deoxys",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Pressure", "false"]],
-    "gender": "Genderless",
-    "sprite": "deoxys-defense",
-    "forms": []
-  },
-  {
-    "pokedexNo": 386,
-    "name": "Normal Form Deoxys",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Pressure", "false"]],
-    "gender": "Genderless",
-    "sprite": "deoxys-normal",
-    "forms": []
-  },
-  {
-    "pokedexNo": 386,
-    "name": "Speed Form Deoxys",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Pressure", "false"]],
-    "gender": "Genderless",
-    "sprite": "deoxys-speed",
-    "forms": []
   },
   {
     "pokedexNo": 387,
     "name": "Turtwig",
     "types": ["Grass"],
-    "evolutions": ["Grotle"],
+    "evolutions": ["Grotle", "Torterra"],
     "abilities": [
       ["Overgrow", "false"],
       ["Shell Armor", "true"]
@@ -6454,7 +6477,7 @@
     "pokedexNo": 390,
     "name": "Chimchar",
     "types": ["Fire"],
-    "evolutions": ["Monferno"],
+    "evolutions": ["Monferno", "Infernape"],
     "abilities": [
       ["Blaze", "false"],
       ["Iron Fist", "true"]
@@ -6493,7 +6516,7 @@
     "pokedexNo": 393,
     "name": "Piplup",
     "types": ["Water"],
-    "evolutions": ["Prinplup"],
+    "evolutions": ["Prinplup", "Empoleon"],
     "abilities": [
       ["Torrent", "false"],
       ["Defiant", "true"]
@@ -6532,7 +6555,7 @@
     "pokedexNo": 396,
     "name": "Starly",
     "types": ["Normal", "Flying"],
-    "evolutions": ["Staravia"],
+    "evolutions": ["Staravia", "Staraptor"],
     "abilities": [
       ["Keen Eye", "false"],
       ["Reckless", "true"]
@@ -6625,7 +6648,7 @@
     "pokedexNo": 403,
     "name": "Shinx",
     "types": ["Electric"],
-    "evolutions": ["Luxio"],
+    "evolutions": ["Luxio", "Luxray"],
     "abilities": [
       ["Rivalry", "false"],
       ["Intimidate", "false"],
@@ -6667,7 +6690,7 @@
     "pokedexNo": 406,
     "name": "Budew",
     "types": ["Grass", "Poison"],
-    "evolutions": ["Roselia"],
+    "evolutions": ["Roselia", "Roserade"],
     "abilities": [
       ["Natural Cure", "false"],
       ["Poison Point", "false"],
@@ -6747,7 +6770,7 @@
     "pokedexNo": 412,
     "name": "Burmy",
     "types": ["Bug"],
-    "evolutions": ["Mothim"],
+    "evolutions": ["Wormadam", "Mothim"],
     "abilities": [
       ["Shed Skin", "false"],
       ["Overcoat", "true"]
@@ -6758,17 +6781,20 @@
       {
         "sprite": "burmy-plant",
         "types": ["Bug"],
-        "name": "Plant Cloak Burmy"
+        "name": "Plant Cloak Burmy",
+        "pokedexNo": 412
       },
       {
         "sprite": "burmy-sandy",
         "types": ["Bug"],
-        "name": "Sandy Cloak Burmy"
+        "name": "Sandy Cloak Burmy",
+        "pokedexNo": 412
       },
       {
         "sprite": "burmy-trash",
         "types": ["Bug"],
-        "name": "Trash Cloak Burmy"
+        "name": "Trash Cloak Burmy",
+        "pokedexNo": 412
       }
     ]
   },
@@ -6787,17 +6813,20 @@
       {
         "sprite": "wormadam-plant",
         "types": ["Bug", "Grass"],
-        "name": "Plant Cloak Wormadam"
+        "name": "Plant Cloak Wormadam",
+        "pokedexNo": 413
       },
       {
         "sprite": "wormadam-sandy",
         "types": ["Bug", "Grass"],
-        "name": "Sandy Cloak Wormadam"
+        "name": "Sandy Cloak Wormadam",
+        "pokedexNo": 413
       },
       {
         "sprite": "wormadam-trash",
         "types": ["Bug", "Grass"],
-        "name": "Trash Cloak Wormadam"
+        "name": "Trash Cloak Wormadam",
+        "pokedexNo": 413
       }
     ]
   },
@@ -6902,23 +6931,10 @@
       {
         "sprite": "cherrim-sunshine",
         "types": ["Grass"],
-        "name": "Sunshine Form Cherrim"
+        "name": "Sunshine Form Cherrim",
+        "pokedexNo": 421
       }
     ]
-  },
-  {
-    "pokedexNo": 422,
-    "name": "West Sea Shellos",
-    "types": ["Water"],
-    "evolutions": ["West Sea Gastrodon"],
-    "abilities": [
-      ["Sticky Hold", "false"],
-      ["Storm Drain", "false"],
-      ["Sand Force", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "shellos",
-    "forms": []
   },
   {
     "pokedexNo": 422,
@@ -6932,6 +6948,20 @@
     ],
     "gender": "50:50",
     "sprite": "shellos-east",
+    "forms": []
+  },
+  {
+    "pokedexNo": 422,
+    "name": "West Sea Shellos",
+    "types": ["Water"],
+    "evolutions": ["West Sea Gastrodon"],
+    "abilities": [
+      ["Sticky Hold", "false"],
+      ["Storm Drain", "false"],
+      ["Sand Force", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "shellos",
     "forms": []
   },
   {
@@ -7034,7 +7064,8 @@
       {
         "sprite": "lopunny-mega",
         "types": ["Normal", "Fighting"],
-        "name": "Mega Lopunny"
+        "name": "Mega Lopunny",
+        "pokedexNo": 428
       }
     ]
   },
@@ -7174,7 +7205,7 @@
     "pokedexNo": 439,
     "name": "Mime Jr.",
     "types": ["Psychic", "Fairy"],
-    "evolutions": ["Mr. Mime", "Galarian Mr. Mime"],
+    "evolutions": ["Mr. Mime", "Galarian Mr. Mime", "Mr. Rime"],
     "abilities": [
       ["Soundproof", "false"],
       ["Filter", "false"],
@@ -7188,7 +7219,7 @@
     "pokedexNo": 440,
     "name": "Happiny",
     "types": ["Normal"],
-    "evolutions": ["Chansey"],
+    "evolutions": ["Chansey", "Blissey"],
     "abilities": [
       ["Natural Cure", "false"],
       ["Serene Grace", "false"],
@@ -7229,7 +7260,7 @@
     "pokedexNo": 443,
     "name": "Gible",
     "types": ["Dragon", "Ground"],
-    "evolutions": ["Gabite"],
+    "evolutions": ["Gabite", "Garchomp"],
     "abilities": [
       ["Sand Veil", "false"],
       ["Rough Skin", "true"]
@@ -7266,7 +7297,8 @@
       {
         "sprite": "garchomp-mega",
         "types": ["Dragon", "Ground"],
-        "name": "Mega Garchomp"
+        "name": "Mega Garchomp",
+        "pokedexNo": 445
       }
     ]
   },
@@ -7314,7 +7346,8 @@
       {
         "sprite": "lucario-mega",
         "types": ["Fighting", "Steel"],
-        "name": "Mega Lucario"
+        "name": "Mega Lucario",
+        "pokedexNo": 448
       }
     ]
   },
@@ -7480,7 +7513,8 @@
       {
         "sprite": "abomasnow-mega",
         "types": ["Grass", "Ice"],
-        "name": "Mega Abomasnow"
+        "name": "Mega Abomasnow",
+        "pokedexNo": 460
       }
     ]
   },
@@ -7690,7 +7724,8 @@
       {
         "sprite": "gallade-mega",
         "types": ["Psychic", "Fighting"],
-        "name": "Mega Gallade"
+        "name": "Mega Gallade",
+        "pokedexNo": 475
       }
     ]
   },
@@ -7746,27 +7781,32 @@
       {
         "sprite": "rotom-fan",
         "types": ["Electric", "Flying"],
-        "name": "Rotom Fan"
+        "name": "Rotom Fan",
+        "pokedexNo": 479
       },
       {
         "sprite": "rotom-frost",
         "types": ["Electric", "Ice"],
-        "name": "Rotom Frost"
+        "name": "Rotom Frost",
+        "pokedexNo": 479
       },
       {
         "sprite": "rotom-heat",
         "types": ["Electric", "Fire"],
-        "name": "Rotom Heat"
+        "name": "Rotom Heat",
+        "pokedexNo": 479
       },
       {
         "sprite": "rotom-mow",
         "types": ["Electric", "Grass"],
-        "name": "Rotom Mow"
+        "name": "Rotom Mow",
+        "pokedexNo": 479
       },
       {
         "sprite": "rotom-wash",
         "types": ["Electric", "Water"],
-        "name": "Rotom Wash"
+        "name": "Rotom Wash",
+        "pokedexNo": 479
       }
     ]
   },
@@ -7815,7 +7855,8 @@
       {
         "sprite": "dialga-origin",
         "types": ["Steel", "Dragon"],
-        "name": "Origin Form Dialga"
+        "name": "Origin Form Dialga",
+        "pokedexNo": 483
       }
     ]
   },
@@ -7834,7 +7875,8 @@
       {
         "sprite": "palkia-origin",
         "types": ["Water", "Dragon"],
-        "name": "Origin Form Palkia"
+        "name": "Origin Form Palkia",
+        "pokedexNo": 484
       }
     ]
   },
@@ -7876,7 +7918,8 @@
       {
         "sprite": "giratina-origin",
         "types": ["Ghost", "Dragon"],
-        "name": "Origin Form Giratina"
+        "name": "Origin Form Giratina",
+        "pokedexNo": 487
       }
     ]
   },
@@ -7932,7 +7975,8 @@
       {
         "sprite": "shaymin-sky",
         "types": ["Grass", "Flying"],
-        "name": "Sky Form Shaymin"
+        "name": "Sky Form Shaymin",
+        "pokedexNo": 492
       }
     ]
   },
@@ -7948,87 +7992,104 @@
       {
         "sprite": "arceus-bug",
         "types": ["Bug"],
-        "name": "Bug Type Arceus"
+        "name": "Bug Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-dark",
         "types": ["Dark"],
-        "name": "Dark Type Arceus"
+        "name": "Dark Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-dragon",
         "types": ["Dragon"],
-        "name": "Dragon Type Arceus"
+        "name": "Dragon Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-electric",
         "types": ["Electric"],
-        "name": "Electric Type Arceus"
+        "name": "Electric Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-fairy",
         "types": ["Fairy"],
-        "name": "Fairy Type Arceus"
+        "name": "Fairy Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-fighting",
         "types": ["Fighting"],
-        "name": "Fighting Type Arceus"
+        "name": "Fighting Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-fire",
         "types": ["Fire"],
-        "name": "Fire Type Arceus"
+        "name": "Fire Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-flying",
         "types": ["Flying"],
-        "name": "Flying Type Arceus"
+        "name": "Flying Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-ghost",
         "types": ["Ghost"],
-        "name": "Ghost Type Arceus"
+        "name": "Ghost Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-grass",
         "types": ["Grass"],
-        "name": "Grass Type Arceus"
+        "name": "Grass Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-ground",
         "types": ["Ground"],
-        "name": "Ground Type Arceus"
+        "name": "Ground Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-ice",
         "types": ["Ice"],
-        "name": "Ice Type Arceus"
+        "name": "Ice Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-poison",
         "types": ["Poison"],
-        "name": "Poison Type Arceus"
+        "name": "Poison Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-psychic",
         "types": ["Psychic"],
-        "name": "Psychic Type Arceus"
+        "name": "Psychic Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-rock",
         "types": ["Rock"],
-        "name": "Rock Type Arceus"
+        "name": "Rock Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-steel",
         "types": ["Steel"],
-        "name": "Steel Type Arceus"
+        "name": "Steel Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-water",
         "types": ["Water"],
-        "name": "Water Type Arceus"
+        "name": "Water Type Arceus",
+        "pokedexNo": 493
       }
     ]
   },
@@ -8046,7 +8107,7 @@
     "pokedexNo": 495,
     "name": "Snivy",
     "types": ["Grass"],
-    "evolutions": ["Servine"],
+    "evolutions": ["Servine", "Serperior"],
     "abilities": [
       ["Overgrow", "false"],
       ["Contrary", "true"]
@@ -8085,7 +8146,7 @@
     "pokedexNo": 498,
     "name": "Tepig",
     "types": ["Fire"],
-    "evolutions": ["Pignite"],
+    "evolutions": ["Pignite", "Emboar"],
     "abilities": [
       ["Blaze", "false"],
       ["Thick Fat", "true"]
@@ -8124,7 +8185,7 @@
     "pokedexNo": 501,
     "name": "Oshawott",
     "types": ["Water"],
-    "evolutions": ["Dewott"],
+    "evolutions": ["Dewott", "Samurott", "Hisuian Samurott"],
     "abilities": [
       ["Torrent", "false"],
       ["Shell Armor", "true"]
@@ -8148,19 +8209,6 @@
   },
   {
     "pokedexNo": 503,
-    "name": "Samurott",
-    "types": ["Water"],
-    "evolutions": [],
-    "abilities": [
-      ["Torrent", "false"],
-      ["Shell Armor", "true"]
-    ],
-    "gender": "87.5:12.5",
-    "sprite": "samurott",
-    "forms": []
-  },
-  {
-    "pokedexNo": 503,
     "name": "Hisuian Samurott",
     "types": ["Water", "Dark"],
     "evolutions": [],
@@ -8170,6 +8218,19 @@
     ],
     "gender": "87.5:12.5",
     "sprite": "samurott-hisui",
+    "forms": []
+  },
+  {
+    "pokedexNo": 503,
+    "name": "Samurott",
+    "types": ["Water"],
+    "evolutions": [],
+    "abilities": [
+      ["Torrent", "false"],
+      ["Shell Armor", "true"]
+    ],
+    "gender": "87.5:12.5",
+    "sprite": "samurott",
     "forms": []
   },
   {
@@ -8204,7 +8265,7 @@
     "pokedexNo": 506,
     "name": "Lillipup",
     "types": ["Normal"],
-    "evolutions": ["Herdier"],
+    "evolutions": ["Herdier", "Stoutland"],
     "abilities": [
       ["Vital Spirit", "false"],
       ["Pickup", "false"],
@@ -8380,7 +8441,7 @@
     "pokedexNo": 519,
     "name": "Pidove",
     "types": ["Normal", "Flying"],
-    "evolutions": ["Tranquill"],
+    "evolutions": ["Tranquill", "Unfezant"],
     "abilities": [
       ["Big Pecks", "false"],
       ["Super Luck", "false"],
@@ -8450,7 +8511,7 @@
     "pokedexNo": 524,
     "name": "Roggenrola",
     "types": ["Rock"],
-    "evolutions": ["Boldore"],
+    "evolutions": ["Boldore", "Gigalith"],
     "abilities": [
       ["Sturdy", "false"],
       ["Weak Armor", "false"],
@@ -8560,7 +8621,8 @@
       {
         "sprite": "audino-mega",
         "types": ["Normal", "Fairy"],
-        "name": "Mega Audino"
+        "name": "Mega Audino",
+        "pokedexNo": 531
       }
     ]
   },
@@ -8568,7 +8630,7 @@
     "pokedexNo": 532,
     "name": "Timburr",
     "types": ["Fighting"],
-    "evolutions": ["Gurdurr"],
+    "evolutions": ["Gurdurr", "Conkeldurr"],
     "abilities": [
       ["Guts", "false"],
       ["Sheer Force", "false"],
@@ -8610,7 +8672,7 @@
     "pokedexNo": 535,
     "name": "Tympole",
     "types": ["Water"],
-    "evolutions": ["Palpitoad"],
+    "evolutions": ["Palpitoad", "Seismitoad"],
     "abilities": [
       ["Swift Swim", "false"],
       ["Hydration", "false"],
@@ -8680,7 +8742,7 @@
     "pokedexNo": 540,
     "name": "Sewaddle",
     "types": ["Bug", "Grass"],
-    "evolutions": ["Swadloon"],
+    "evolutions": ["Swadloon", "Leavanny"],
     "abilities": [
       ["Swarm", "false"],
       ["Chlorophyll", "false"],
@@ -8722,7 +8784,7 @@
     "pokedexNo": 543,
     "name": "Venipede",
     "types": ["Bug", "Poison"],
-    "evolutions": ["Whirlipede"],
+    "evolutions": ["Whirlipede", "Scolipede"],
     "abilities": [
       ["Poison Point", "false"],
       ["Swarm", "false"],
@@ -8876,7 +8938,7 @@
     "pokedexNo": 551,
     "name": "Sandile",
     "types": ["Ground", "Dark"],
-    "evolutions": ["Krokorok"],
+    "evolutions": ["Krokorok", "Krookodile"],
     "abilities": [
       ["Intimidate", "false"],
       ["Moxie", "false"],
@@ -8916,19 +8978,6 @@
   },
   {
     "pokedexNo": 554,
-    "name": "Darumaka",
-    "types": ["Fire"],
-    "evolutions": ["Darmanitan"],
-    "abilities": [
-      ["Hustle", "false"],
-      ["Inner Focus", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "darumaka",
-    "forms": []
-  },
-  {
-    "pokedexNo": 554,
     "name": "Galarian Darumaka",
     "types": ["Ice"],
     "evolutions": ["Galarian Darmanitan"],
@@ -8938,6 +8987,19 @@
     ],
     "gender": "50:50",
     "sprite": "darumaka-galar",
+    "forms": []
+  },
+  {
+    "pokedexNo": 554,
+    "name": "Darumaka",
+    "types": ["Fire"],
+    "evolutions": ["Darmanitan"],
+    "abilities": [
+      ["Hustle", "false"],
+      ["Inner Focus", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "darumaka",
     "forms": []
   },
   {
@@ -8955,7 +9017,8 @@
       {
         "sprite": "darmanitan-zen",
         "types": ["Fire", "Fighting"],
-        "name": "Zen Mode Darmanitan"
+        "name": "Zen Mode Darmanitan",
+        "pokedexNo": 555
       }
     ]
   },
@@ -8974,7 +9037,8 @@
       {
         "sprite": "darmanitan-galar-zen",
         "types": ["Ice", "Fire"],
-        "name": "Galarian Zen Mode Darmanitan"
+        "name": "Galarian Zen Mode Darmanitan",
+        "pokedexNo": 555
       }
     ]
   },
@@ -9064,22 +9128,22 @@
   },
   {
     "pokedexNo": 562,
-    "name": "Yamask",
-    "types": ["Ghost"],
-    "evolutions": ["Cofagrigus"],
-    "abilities": [["Mummy", "false"]],
-    "gender": "50:50",
-    "sprite": "yamask",
-    "forms": []
-  },
-  {
-    "pokedexNo": 562,
     "name": "Galarian Yamask",
     "types": ["Ground", "Ghost"],
     "evolutions": ["Runerigus"],
     "abilities": [["Wandering Spirit", "false"]],
     "gender": "50:50",
     "sprite": "yamask-galar",
+    "forms": []
+  },
+  {
+    "pokedexNo": 562,
+    "name": "Yamask",
+    "types": ["Ghost"],
+    "evolutions": ["Cofagrigus"],
+    "abilities": [["Mummy", "false"]],
+    "gender": "50:50",
+    "sprite": "yamask",
     "forms": []
   },
   {
@@ -9170,7 +9234,8 @@
       {
         "sprite": "garbodor-gmax",
         "types": ["Poison"],
-        "name": "Gigantamax Garbodor"
+        "name": "Gigantamax Garbodor",
+        "pokedexNo": 569
       }
     ]
   },
@@ -9246,7 +9311,7 @@
     "pokedexNo": 574,
     "name": "Gothita",
     "types": ["Psychic"],
-    "evolutions": ["Gothorita"],
+    "evolutions": ["Gothorita", "Gothitelle"],
     "abilities": [
       ["Frisk", "false"],
       ["Competitive", "false"],
@@ -9288,7 +9353,7 @@
     "pokedexNo": 577,
     "name": "Solosis",
     "types": ["Psychic"],
-    "evolutions": ["Duosion"],
+    "evolutions": ["Duosion", "Reuniclus"],
     "abilities": [
       ["Overcoat", "false"],
       ["Magic Guard", "false"],
@@ -9358,7 +9423,7 @@
     "pokedexNo": 582,
     "name": "Vanillite",
     "types": ["Ice"],
-    "evolutions": ["Vanillish"],
+    "evolutions": ["Vanillish", "Vanilluxe"],
     "abilities": [
       ["Ice Body", "false"],
       ["Snow Cloak", "false"],
@@ -9412,22 +9477,26 @@
       {
         "sprite": "deerling-autumn",
         "types": ["Normal", "Grass"],
-        "name": "Autumn Form Deerling"
+        "name": "Autumn Form Deerling",
+        "pokedexNo": 585
       },
       {
         "sprite": "deerling-winter",
         "types": ["Normal", "Grass"],
-        "name": "Winter Form Deerling"
+        "name": "Winter Form Deerling",
+        "pokedexNo": 585
       },
       {
         "sprite": "deerling-spring",
         "types": ["Normal", "Grass"],
-        "name": "Spring Form Deerling"
+        "name": "Spring Form Deerling",
+        "pokedexNo": 585
       },
       {
         "sprite": "deerling-summer",
         "types": ["Normal", "Grass"],
-        "name": "Summer Form Deerling"
+        "name": "Summer Form Deerling",
+        "pokedexNo": 585
       }
     ]
   },
@@ -9447,22 +9516,26 @@
       {
         "sprite": "sawsbuck-autumn",
         "types": ["Normal", "Grass"],
-        "name": "Autumn Form Sawsbuck"
+        "name": "Autumn Form Sawsbuck",
+        "pokedexNo": 586
       },
       {
         "sprite": "sawsbuck-winter",
         "types": ["Normal", "Grass"],
-        "name": "Winter Form Sawsbuck"
+        "name": "Winter Form Sawsbuck",
+        "pokedexNo": 586
       },
       {
         "sprite": "sawsbuck-spring",
         "types": ["Normal", "Grass"],
-        "name": "Spring Form Sawsbuck"
+        "name": "Spring Form Sawsbuck",
+        "pokedexNo": 586
       },
       {
         "sprite": "sawsbuck-summer",
         "types": ["Normal", "Grass"],
-        "name": "Summer Form Sawsbuck"
+        "name": "Summer Form Sawsbuck",
+        "pokedexNo": 586
       }
     ]
   },
@@ -9630,7 +9703,7 @@
     "pokedexNo": 599,
     "name": "Klink",
     "types": ["Steel"],
-    "evolutions": ["Klang"],
+    "evolutions": ["Klang", "Klinklang"],
     "abilities": [
       ["Plus", "false"],
       ["Minus", "false"],
@@ -9672,7 +9745,7 @@
     "pokedexNo": 602,
     "name": "Tynamo",
     "types": ["Electric"],
-    "evolutions": ["Eelektrik"],
+    "evolutions": ["Eelektrik", "Eelektross"],
     "abilities": [["Levitate", "false"]],
     "gender": "50:50",
     "sprite": "tynamo",
@@ -9730,7 +9803,7 @@
     "pokedexNo": 607,
     "name": "Litwick",
     "types": ["Ghost", "Fire"],
-    "evolutions": ["Lampent"],
+    "evolutions": ["Lampent", "Chandelure"],
     "abilities": [
       ["Flash Fire", "false"],
       ["Flame Body", "false"],
@@ -9772,7 +9845,7 @@
     "pokedexNo": 610,
     "name": "Axew",
     "types": ["Dragon"],
-    "evolutions": ["Fraxure"],
+    "evolutions": ["Fraxure", "Haxorus"],
     "abilities": [
       ["Rivalry", "false"],
       ["Mold Breaker", "false"],
@@ -9974,7 +10047,7 @@
     "pokedexNo": 624,
     "name": "Pawniard",
     "types": ["Dark", "Steel"],
-    "evolutions": ["Bisharp"],
+    "evolutions": ["Bisharp", "Kingambit"],
     "abilities": [
       ["Defiant", "false"],
       ["Inner Focus", "false"],
@@ -10114,7 +10187,7 @@
     "pokedexNo": 633,
     "name": "Deino",
     "types": ["Dark", "Dragon"],
-    "evolutions": ["Zweilous"],
+    "evolutions": ["Zweilous", "Hydreigon"],
     "abilities": [["Hustle", "false"]],
     "gender": "50:50",
     "sprite": "deino",
@@ -10211,7 +10284,8 @@
       {
         "sprite": "tornadus-therian",
         "types": ["Flying"],
-        "name": "Therian Form Tornadus"
+        "name": "Therian Form Tornadus",
+        "pokedexNo": 641
       }
     ]
   },
@@ -10230,7 +10304,8 @@
       {
         "sprite": "thundurus-therian",
         "types": ["Electric", "Flying"],
-        "name": "Therian Form Thundurus"
+        "name": "Therian Form Thundurus",
+        "pokedexNo": 642
       }
     ]
   },
@@ -10269,7 +10344,8 @@
       {
         "sprite": "landorus-therian",
         "types": ["Ground", "Flying"],
-        "name": "Therian Form Landorus"
+        "name": "Therian Form Landorus",
+        "pokedexNo": 645
       }
     ]
   },
@@ -10285,12 +10361,14 @@
       {
         "sprite": "kyurem-black",
         "types": ["Dragon", "Ice"],
-        "name": "Kyurem Black"
+        "name": "Kyurem Black",
+        "pokedexNo": 646
       },
       {
         "sprite": "kyurem-white",
         "types": ["Dragon", "Ice"],
-        "name": "Kyurem White"
+        "name": "Kyurem White",
+        "pokedexNo": 646
       }
     ]
   },
@@ -10306,7 +10384,8 @@
       {
         "sprite": "keldeo-resolute",
         "types": ["Water", "Fighting"],
-        "name": "Resolute Form Keldeo"
+        "name": "Resolute Form Keldeo",
+        "pokedexNo": 647
       }
     ]
   },
@@ -10322,7 +10401,8 @@
       {
         "sprite": "meloetta-pirouette",
         "types": ["Normal", "Fighting"],
-        "name": "Pirouette Form Meloetta"
+        "name": "Piroette Form Meloetta",
+        "pokedexNo": 648
       }
     ]
   },
@@ -10338,22 +10418,26 @@
       {
         "sprite": "genesect-burn",
         "types": ["Normal", "Fighting"],
-        "name": "Burn Drive Genesect"
+        "name": "Burn Drive Genesect",
+        "pokedexNo": 649
       },
       {
         "sprite": "genesect-chill",
         "types": ["Normal", "Fighting"],
-        "name": "Chill Drive Genesect"
+        "name": "Chill Drive Genesect",
+        "pokedexNo": 649
       },
       {
         "sprite": "genesect-douse",
         "types": ["Normal", "Fighting"],
-        "name": "Douse Drive Genesect"
+        "name": "Douse Drive Genesect",
+        "pokedexNo": 649
       },
       {
         "sprite": "genesect-shock",
         "types": ["Normal", "Fighting"],
-        "name": "Shock Drive Genesect"
+        "name": "Shock Drive Genesect",
+        "pokedexNo": 649
       }
     ]
   },
@@ -10361,7 +10445,7 @@
     "pokedexNo": 650,
     "name": "Chespin",
     "types": ["Grass"],
-    "evolutions": ["Quilladin"],
+    "evolutions": ["Quilladin", "Chesnaught"],
     "abilities": [
       ["Overgrow", "false"],
       ["Bulletproof", "true"]
@@ -10400,7 +10484,7 @@
     "pokedexNo": 653,
     "name": "Fennekin",
     "types": ["Fire"],
-    "evolutions": ["Braixen"],
+    "evolutions": ["Braixen", "Delphox"],
     "abilities": [
       ["Blaze", "false"],
       ["Magician", "true"]
@@ -10439,7 +10523,7 @@
     "pokedexNo": 656,
     "name": "Froakie",
     "types": ["Water"],
-    "evolutions": ["Frogadier"],
+    "evolutions": ["Frogadier", "Greninja"],
     "abilities": [
       ["Torrent", "false"],
       ["Protean", "true"]
@@ -10506,7 +10590,7 @@
     "pokedexNo": 661,
     "name": "Fletchling",
     "types": ["Normal", "Flying"],
-    "evolutions": ["Fletchinder"],
+    "evolutions": ["Fletchinder", "Talonflame"],
     "abilities": [
       ["Big Pecks", "false"],
       ["Gale Wings", "true"]
@@ -10545,7 +10629,29 @@
     "pokedexNo": 664,
     "name": "Scatterbug",
     "types": ["Bug"],
-    "evolutions": ["Spewpa"],
+    "evolutions": [
+      "Spewpa",
+      "Archipelago Pattern Vivillon",
+      "Continental Pattern Vivillon",
+      "Elegant Pattern Vivillon",
+      "Fancy Pattern Vivillon",
+      "Garden Pattern Vivillon",
+      "High Plains Pattern Vivillon",
+      "Ice Snow Pattern Vivillon",
+      "Jungle Pattern Vivillon",
+      "Marine Pattern Vivillon",
+      "Meadow Pattern Vivillon",
+      "Modern Pattern Vivillon",
+      "Monsoon Pattern Vivillon",
+      "Ocean Pattern Vivillon",
+      "Poké Ball Pattern Vivillon",
+      "Polar Pattern Vivillon",
+      "River Pattern Vivillon",
+      "Sandstorm Pattern Vivillon",
+      "Savanna Pattern Vivillon",
+      "Sun Pattern Vivillon",
+      "Tundra Pattern Vivillon"
+    ],
     "abilities": [
       ["Shield Dust", "false"],
       ["Compound Eyes", "false"],
@@ -10605,7 +10711,7 @@
   },
   {
     "pokedexNo": 666,
-    "name": "Continental Pattern Vivillon",
+    "name": "Poké Ball Pattern Vivillon",
     "types": ["Bug", "Flying"],
     "evolutions": [],
     "abilities": [
@@ -10614,7 +10720,35 @@
       ["Friend Guard", "true"]
     ],
     "gender": "50:50",
-    "sprite": "vivillon-continental",
+    "sprite": "vivillon-poke-ball",
+    "forms": []
+  },
+  {
+    "pokedexNo": 666,
+    "name": "Polar Pattern Vivillon",
+    "types": ["Bug", "Flying"],
+    "evolutions": [],
+    "abilities": [
+      ["Shield Dust", "false"],
+      ["Compound Eyes", "false"],
+      ["Friend Guard", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "vivillon-polar",
+    "forms": []
+  },
+  {
+    "pokedexNo": 666,
+    "name": "Sandstorm Pattern Vivillon",
+    "types": ["Bug", "Flying"],
+    "evolutions": [],
+    "abilities": [
+      ["Shield Dust", "false"],
+      ["Compound Eyes", "false"],
+      ["Friend Guard", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "vivillon-sandstorm",
     "forms": []
   },
   {
@@ -10629,6 +10763,118 @@
     ],
     "gender": "50:50",
     "sprite": "vivillon-elegant",
+    "forms": []
+  },
+  {
+    "pokedexNo": 666,
+    "name": "Marine Pattern Vivillon",
+    "types": ["Bug", "Flying"],
+    "evolutions": [],
+    "abilities": [
+      ["Shield Dust", "false"],
+      ["Compound Eyes", "false"],
+      ["Friend Guard", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "vivillon-marine",
+    "forms": []
+  },
+  {
+    "pokedexNo": 666,
+    "name": "Savanna Pattern Vivillon",
+    "types": ["Bug", "Flying"],
+    "evolutions": [],
+    "abilities": [
+      ["Shield Dust", "false"],
+      ["Compound Eyes", "false"],
+      ["Friend Guard", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "vivillon-savanna",
+    "forms": []
+  },
+  {
+    "pokedexNo": 666,
+    "name": "Sun Pattern Vivillon",
+    "types": ["Bug", "Flying"],
+    "evolutions": [],
+    "abilities": [
+      ["Shield Dust", "false"],
+      ["Compound Eyes", "false"],
+      ["Friend Guard", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "vivillon-sun",
+    "forms": []
+  },
+  {
+    "pokedexNo": 666,
+    "name": "Tundra Pattern Vivillon",
+    "types": ["Bug", "Flying"],
+    "evolutions": [],
+    "abilities": [
+      ["Shield Dust", "false"],
+      ["Compound Eyes", "false"],
+      ["Friend Guard", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "vivillon-tundra",
+    "forms": []
+  },
+  {
+    "pokedexNo": 666,
+    "name": "Continental Pattern Vivillon",
+    "types": ["Bug", "Flying"],
+    "evolutions": [],
+    "abilities": [
+      ["Shield Dust", "false"],
+      ["Compound Eyes", "false"],
+      ["Friend Guard", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "vivillon-continental",
+    "forms": []
+  },
+  {
+    "pokedexNo": 666,
+    "name": "High Plains Pattern Vivillon",
+    "types": ["Bug", "Flying"],
+    "evolutions": [],
+    "abilities": [
+      ["Shield Dust", "false"],
+      ["Compound Eyes", "false"],
+      ["Friend Guard", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "vivillon-high-plains",
+    "forms": []
+  },
+  {
+    "pokedexNo": 666,
+    "name": "Jungle Pattern Vivillon",
+    "types": ["Bug", "Flying"],
+    "evolutions": [],
+    "abilities": [
+      ["Shield Dust", "false"],
+      ["Compound Eyes", "false"],
+      ["Friend Guard", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "vivillon-jungle",
+    "forms": []
+  },
+  {
+    "pokedexNo": 666,
+    "name": "Ocean Pattern Vivillon",
+    "types": ["Bug", "Flying"],
+    "evolutions": [],
+    "abilities": [
+      ["Shield Dust", "false"],
+      ["Compound Eyes", "false"],
+      ["Friend Guard", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "vivillon-ocean",
     "forms": []
   },
   {
@@ -10661,20 +10907,6 @@
   },
   {
     "pokedexNo": 666,
-    "name": "High Plains Pattern Vivillon",
-    "types": ["Bug", "Flying"],
-    "evolutions": [],
-    "abilities": [
-      ["Shield Dust", "false"],
-      ["Compound Eyes", "false"],
-      ["Friend Guard", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "vivillon-high-plains",
-    "forms": []
-  },
-  {
-    "pokedexNo": 666,
     "name": "Icy Snow Pattern Vivillon",
     "types": ["Bug", "Flying"],
     "evolutions": [],
@@ -10685,34 +10917,6 @@
     ],
     "gender": "50:50",
     "sprite": "vivillon-icy-snow",
-    "forms": []
-  },
-  {
-    "pokedexNo": 666,
-    "name": "Jungle Pattern Vivillon",
-    "types": ["Bug", "Flying"],
-    "evolutions": [],
-    "abilities": [
-      ["Shield Dust", "false"],
-      ["Compound Eyes", "false"],
-      ["Friend Guard", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "vivillon-jungle",
-    "forms": []
-  },
-  {
-    "pokedexNo": 666,
-    "name": "Marine Pattern Vivillon",
-    "types": ["Bug", "Flying"],
-    "evolutions": [],
-    "abilities": [
-      ["Shield Dust", "false"],
-      ["Compound Eyes", "false"],
-      ["Friend Guard", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "vivillon-marine",
     "forms": []
   },
   {
@@ -10759,48 +10963,6 @@
   },
   {
     "pokedexNo": 666,
-    "name": "Ocean Pattern Vivillon",
-    "types": ["Bug", "Flying"],
-    "evolutions": [],
-    "abilities": [
-      ["Shield Dust", "false"],
-      ["Compound Eyes", "false"],
-      ["Friend Guard", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "vivillon-ocean",
-    "forms": []
-  },
-  {
-    "pokedexNo": 666,
-    "name": "Poké Ball Pattern Vivillon",
-    "types": ["Bug", "Flying"],
-    "evolutions": [],
-    "abilities": [
-      ["Shield Dust", "false"],
-      ["Compound Eyes", "false"],
-      ["Friend Guard", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "vivillon-poke-ball",
-    "forms": []
-  },
-  {
-    "pokedexNo": 666,
-    "name": "Polar Pattern Vivillon",
-    "types": ["Bug", "Flying"],
-    "evolutions": [],
-    "abilities": [
-      ["Shield Dust", "false"],
-      ["Compound Eyes", "false"],
-      ["Friend Guard", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "vivillon-polar",
-    "forms": []
-  },
-  {
-    "pokedexNo": 666,
     "name": "River Pattern Vivillon",
     "types": ["Bug", "Flying"],
     "evolutions": [],
@@ -10811,62 +10973,6 @@
     ],
     "gender": "50:50",
     "sprite": "vivillon-river",
-    "forms": []
-  },
-  {
-    "pokedexNo": 666,
-    "name": "Sandstorm Pattern Vivillon",
-    "types": ["Bug", "Flying"],
-    "evolutions": [],
-    "abilities": [
-      ["Shield Dust", "false"],
-      ["Compound Eyes", "false"],
-      ["Friend Guard", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "vivillon-sandstorm",
-    "forms": []
-  },
-  {
-    "pokedexNo": 666,
-    "name": "Savanna Pattern Vivillon",
-    "types": ["Bug", "Flying"],
-    "evolutions": [],
-    "abilities": [
-      ["Shield Dust", "false"],
-      ["Compound Eyes", "false"],
-      ["Friend Guard", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "vivillon-savanna",
-    "forms": []
-  },
-  {
-    "pokedexNo": 666,
-    "name": "Sun Pattern Vivillon",
-    "types": ["Bug", "Flying"],
-    "evolutions": [],
-    "abilities": [
-      ["Shield Dust", "false"],
-      ["Compound Eyes", "false"],
-      ["Friend Guard", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "vivillon-sun",
-    "forms": []
-  },
-  {
-    "pokedexNo": 666,
-    "name": "Tundra Pattern Vivillon",
-    "types": ["Bug", "Flying"],
-    "evolutions": [],
-    "abilities": [
-      ["Shield Dust", "false"],
-      ["Compound Eyes", "false"],
-      ["Friend Guard", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "vivillon-tundra",
     "forms": []
   },
   {
@@ -10899,22 +11005,9 @@
   },
   {
     "pokedexNo": 669,
-    "name": "Blue Flower Flabébé",
-    "types": ["Fairy"],
-    "evolutions": ["Blue Flower Floette"],
-    "abilities": [
-      ["Flower Veil", "false"],
-      ["Symbiosis", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "flabebe-blue",
-    "forms": []
-  },
-  {
-    "pokedexNo": 669,
     "name": "Orange Flower Flabébé",
     "types": ["Fairy"],
-    "evolutions": ["Orange Flower Floette"],
+    "evolutions": ["Orange Flower Floette", "Orange Flower Florges"],
     "abilities": [
       ["Flower Veil", "false"],
       ["Symbiosis", "true"]
@@ -10927,7 +11020,7 @@
     "pokedexNo": 669,
     "name": "Red Flower Flabébé",
     "types": ["Fairy"],
-    "evolutions": ["Red Flower Floette"],
+    "evolutions": ["Red Flower Floette", "Red Flower Florges"],
     "abilities": [
       ["Flower Veil", "false"],
       ["Symbiosis", "true"]
@@ -10940,7 +11033,7 @@
     "pokedexNo": 669,
     "name": "White Flower Flabébé",
     "types": ["Fairy"],
-    "evolutions": ["White Flower Floette"],
+    "evolutions": ["White Flower Floette", "White Flower Florges"],
     "abilities": [
       ["Flower Veil", "false"],
       ["Symbiosis", "true"]
@@ -10953,7 +11046,7 @@
     "pokedexNo": 669,
     "name": "Yellow Flower Flabébé",
     "types": ["Fairy"],
-    "evolutions": ["Yellow Flower Floette"],
+    "evolutions": ["Yellow Flower Floette", "Yellow Flower Florges"],
     "abilities": [
       ["Flower Veil", "false"],
       ["Symbiosis", "true"]
@@ -10963,29 +11056,16 @@
     "forms": []
   },
   {
-    "pokedexNo": 670,
-    "name": "Blue Flower Floette",
+    "pokedexNo": 669,
+    "name": "Blue Flower Flabébé",
     "types": ["Fairy"],
-    "evolutions": ["Blue Flower Florges"],
+    "evolutions": ["Blue Flower Floette", "Blue Flower Florges"],
     "abilities": [
       ["Flower Veil", "false"],
       ["Symbiosis", "true"]
     ],
     "gender": "0:100",
-    "sprite": "floette-blue",
-    "forms": []
-  },
-  {
-    "pokedexNo": 670,
-    "name": "Orange Flower Floette",
-    "types": ["Fairy"],
-    "evolutions": ["Orange Flower Florges"],
-    "abilities": [
-      ["Flower Veil", "false"],
-      ["Symbiosis", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "floette-orange",
+    "sprite": "flabebe-blue",
     "forms": []
   },
   {
@@ -10999,6 +11079,19 @@
     ],
     "gender": "0:100",
     "sprite": "floette",
+    "forms": []
+  },
+  {
+    "pokedexNo": 670,
+    "name": "Blue Flower Floette",
+    "types": ["Fairy"],
+    "evolutions": ["Blue Flower Florges"],
+    "abilities": [
+      ["Flower Veil", "false"],
+      ["Symbiosis", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "floette-blue",
     "forms": []
   },
   {
@@ -11028,42 +11121,16 @@
     "forms": []
   },
   {
-    "pokedexNo": 671,
-    "name": "Blue Flower Florges",
+    "pokedexNo": 670,
+    "name": "Orange Flower Floette",
     "types": ["Fairy"],
-    "evolutions": [],
+    "evolutions": ["Orange Flower Florges"],
     "abilities": [
       ["Flower Veil", "false"],
       ["Symbiosis", "true"]
     ],
     "gender": "0:100",
-    "sprite": "florges-blue",
-    "forms": []
-  },
-  {
-    "pokedexNo": 671,
-    "name": "Orange Flower Florges",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Flower Veil", "false"],
-      ["Symbiosis", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "florges-orange",
-    "forms": []
-  },
-  {
-    "pokedexNo": 671,
-    "name": "Red Flower Florges",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Flower Veil", "false"],
-      ["Symbiosis", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "florges",
+    "sprite": "floette-orange",
     "forms": []
   },
   {
@@ -11081,6 +11148,32 @@
   },
   {
     "pokedexNo": 671,
+    "name": "Blue Flower Florges",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Flower Veil", "false"],
+      ["Symbiosis", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "florges-blue",
+    "forms": []
+  },
+  {
+    "pokedexNo": 671,
+    "name": "Red Flower Florges",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Flower Veil", "false"],
+      ["Symbiosis", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "florges",
+    "forms": []
+  },
+  {
+    "pokedexNo": 671,
     "name": "Yellow Flower Florges",
     "types": ["Fairy"],
     "evolutions": [],
@@ -11090,6 +11183,19 @@
     ],
     "gender": "0:100",
     "sprite": "florges-yellow",
+    "forms": []
+  },
+  {
+    "pokedexNo": 671,
+    "name": "Orange Flower Florges",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Flower Veil", "false"],
+      ["Symbiosis", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "florges-orange",
     "forms": []
   },
   {
@@ -11158,48 +11264,58 @@
       {
         "sprite": "furfrou-dandy",
         "types": ["Normal"],
-        "name": "Furfrou Dandy Trim"
+        "name": "Furfrou Dandy Trim",
+        "pokedexNo": 676
       },
       {
         "sprite": "furfrou-debutante",
         "types": ["Normal"],
-        "name": "Furfrou Debutante Trim"
+        "name": "Furfrou Debutante Trim",
+        "pokedexNo": 676
       },
       {
         "sprite": "furfrou-diamond",
         "types": ["Normal"],
-        "name": "Furfrou Diamond Trim"
+        "name": "Furfrou Diamond Trim",
+        "pokedexNo": 676
       },
       {
         "sprite": "furfrou-heart",
         "types": ["Normal"],
-        "name": "Furfrou Heart Trim"
+        "name": "Furfrou Heart Trim",
+        "pokedexNo": 676
       },
       {
         "sprite": "furfrou-kabuki",
         "types": ["Normal"],
-        "name": "Furfrou Kabuki Trim"
+        "name": "Furfrou Kabuki Trim",
+        "pokedexNo": 676
       },
       {
         "sprite": "furfrou-la-reine",
         "types": ["Normal"],
-        "name": "Furfrou La Reine Trim"
+        "name": "Furfrou La Reine Trim",
+        "pokedexNo": 676
       },
       {
         "sprite": "furfrou-matron",
         "types": ["Normal"],
-        "name": "Furfrou Matron Trim"
+        "name": "Furfrou Matron Trim",
+        "pokedexNo": 676
       },
       {
         "sprite": "furfrou-pharaoh",
         "types": ["Normal"],
-        "name": "Furfrou Pharaoh Trim"
+        "name": "Furfrou Pharaoh Trim",
+        "pokedexNo": 676
       },
       {
         "sprite": "furfrou-star",
         "types": ["Normal"],
-        "name": "Furfrou Star Trim"
-      }]
+        "name": "Furfrou Star Trim",
+        "pokedexNo": 676
+      }
+    ]
   },
   {
     "pokedexNo": 677,
@@ -11247,7 +11363,7 @@
     "pokedexNo": 679,
     "name": "Honedge",
     "types": ["Steel", "Ghost"],
-    "evolutions": ["Doublade"],
+    "evolutions": ["Doublade", "Aegislash"],
     "abilities": [["No Guard", "false"]],
     "gender": "50:50",
     "sprite": "honedge",
@@ -11275,7 +11391,8 @@
       {
         "sprite": "aegislash-blade",
         "types": ["Steel", "Ghost"],
-        "name": "Blade Form Aegislash"
+        "name": "Blade Form Aegislash",
+        "pokedexNo": 681
       }
     ]
   },
@@ -11573,7 +11690,7 @@
     "pokedexNo": 704,
     "name": "Goomy",
     "types": ["Dragon"],
-    "evolutions": ["Sliggoo", "Hisuian Sliggoo"],
+    "evolutions": ["Sliggoo", "Hisuian Sliggoo", "Goodra", "Hisuian Goodra"],
     "abilities": [
       ["Sap Sipper", "false"],
       ["Hydration", "false"],
@@ -11581,20 +11698,6 @@
     ],
     "gender": "50:50",
     "sprite": "goomy",
-    "forms": []
-  },
-  {
-    "pokedexNo": 705,
-    "name": "Sliggoo",
-    "types": ["Dragon"],
-    "evolutions": ["Goodra"],
-    "abilities": [
-      ["Sap Sipper", "false"],
-      ["Hydration", "false"],
-      ["Gooey", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "sliggoo",
     "forms": []
   },
   {
@@ -11612,17 +11715,17 @@
     "forms": []
   },
   {
-    "pokedexNo": 706,
-    "name": "Goodra",
+    "pokedexNo": 705,
+    "name": "Sliggoo",
     "types": ["Dragon"],
-    "evolutions": [],
+    "evolutions": ["Goodra"],
     "abilities": [
       ["Sap Sipper", "false"],
       ["Hydration", "false"],
       ["Gooey", "true"]
     ],
     "gender": "50:50",
-    "sprite": "goodra",
+    "sprite": "sliggoo",
     "forms": []
   },
   {
@@ -11637,6 +11740,20 @@
     ],
     "gender": "50:50",
     "sprite": "goodra-hisui",
+    "forms": []
+  },
+  {
+    "pokedexNo": 706,
+    "name": "Goodra",
+    "types": ["Dragon"],
+    "evolutions": [],
+    "abilities": [
+      ["Sap Sipper", "false"],
+      ["Hydration", "false"],
+      ["Gooey", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "goodra",
     "forms": []
   },
   {
@@ -11810,17 +11927,20 @@
       {
         "sprite": "zygarde-10",
         "types": ["Dragon", "Ground"],
-        "name": "10% Form Zygarde"
+        "name": "10% Form Zygarde",
+        "pokedexNo": 718
       },
       {
         "sprite": "zygarde-50",
         "types": ["Dragon", "Ground"],
-        "name": "50% Form Zygarde"
+        "name": "50% Form Zygarde",
+        "pokedexNo": 718
       },
       {
         "sprite": "zygarde-complete",
         "types": ["Dragon", "Ground"],
-        "name": "Complete Form Zygarde"
+        "name": "Complete Form Zygarde",
+        "pokedexNo": 718
       }
     ]
   },
@@ -11836,7 +11956,8 @@
       {
         "sprite": "diancie-mega",
         "types": ["Rock", "Fairy"],
-        "name": "Mega Diancie"
+        "name": "Mega Diancie",
+        "pokedexNo": 719
       }
     ]
   },
@@ -11852,7 +11973,8 @@
       {
         "sprite": "hoopa-unbound",
         "types": ["Psychic", "Dark"],
-        "name": "Hoopa Unbound"
+        "name": "Hoopa Unbound",
+        "pokedexNo": 720
       }
     ]
   },
@@ -11870,7 +11992,7 @@
     "pokedexNo": 722,
     "name": "Rowlet",
     "types": ["Grass", "Flying"],
-    "evolutions": ["Dartrix"],
+    "evolutions": ["Dartrix", "Decidueye", "Hisuian Decidueye"],
     "abilities": [
       ["Overgrow", "false"],
       ["Long Reach", "true"]
@@ -11922,7 +12044,7 @@
     "pokedexNo": 725,
     "name": "Litten",
     "types": ["Fire"],
-    "evolutions": ["Torracat"],
+    "evolutions": ["Torracat", "Incineroar"],
     "abilities": [
       ["Blaze", "false"],
       ["Intimidate", "true"]
@@ -11961,7 +12083,7 @@
     "pokedexNo": 728,
     "name": "Popplio",
     "types": ["Water"],
-    "evolutions": ["Brionne"],
+    "evolutions": ["Brionne", "Primarina"],
     "abilities": [
       ["Torrent", "false"],
       ["Liquid Voice", "true"]
@@ -12000,7 +12122,7 @@
     "pokedexNo": 731,
     "name": "Pikipek",
     "types": ["Normal", "Flying"],
-    "evolutions": ["Trumbeak"],
+    "evolutions": ["Trumbeak", "Toucannon"],
     "abilities": [
       ["Keen Eye", "false"],
       ["Skill Link", "false"],
@@ -12070,7 +12192,7 @@
     "pokedexNo": 736,
     "name": "Grubbin",
     "types": ["Bug"],
-    "evolutions": ["Charjabug"],
+    "evolutions": ["Charjabug", "Vikavolt"],
     "abilities": [["Swarm", "false"]],
     "gender": "50:50",
     "sprite": "grubbin",
@@ -12126,6 +12248,26 @@
   },
   {
     "pokedexNo": 741,
+    "name": "Sensu Style Oricorio",
+    "types": ["Fire", "Flying"],
+    "evolutions": [],
+    "abilities": [["Dancer", "false"]],
+    "gender": "25:75",
+    "sprite": "oricorio-sensu",
+    "forms": []
+  },
+  {
+    "pokedexNo": 741,
+    "name": "Pom-Pom Style Oricorio",
+    "types": ["Fire", "Flying"],
+    "evolutions": [],
+    "abilities": [["Dancer", "false"]],
+    "gender": "25:75",
+    "sprite": "oricorio-pom-pom",
+    "forms": []
+  },
+  {
+    "pokedexNo": 741,
     "name": "Baile Style Oricorio",
     "types": ["Fire", "Flying"],
     "evolutions": [],
@@ -12142,26 +12284,6 @@
     "abilities": [["Dancer", "false"]],
     "gender": "25:75",
     "sprite": "oricorio-pau",
-    "forms": []
-  },
-  {
-    "pokedexNo": 741,
-    "name": "Pom-Pom Style Oricorio",
-    "types": ["Fire", "Flying"],
-    "evolutions": [],
-    "abilities": [["Dancer", "false"]],
-    "gender": "25:75",
-    "sprite": "oricorio-pom-pom",
-    "forms": []
-  },
-  {
-    "pokedexNo": 741,
-    "name": "Sensu Style Oricorio",
-    "types": ["Fire", "Flying"],
-    "evolutions": [],
-    "abilities": [["Dancer", "false"]],
-    "gender": "25:75",
-    "sprite": "oricorio-sensu",
     "forms": []
   },
   {
@@ -12226,20 +12348,6 @@
   },
   {
     "pokedexNo": 745,
-    "name": "Midnight Form Lycanroc",
-    "types": ["Rock"],
-    "evolutions": [],
-    "abilities": [
-      ["Keen Eye", "false"],
-      ["Sand Rush", "false"],
-      ["Steadfast", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "lycanroc-midnight",
-    "forms": []
-  },
-  {
-    "pokedexNo": 745,
     "name": "Dusk Form Lycanroc",
     "types": ["Rock"],
     "evolutions": [],
@@ -12250,6 +12358,20 @@
     ],
     "gender": "50:50",
     "sprite": "lycanroc-dusk",
+    "forms": []
+  },
+  {
+    "pokedexNo": 745,
+    "name": "Midnight Form Lycanroc",
+    "types": ["Rock"],
+    "evolutions": [],
+    "abilities": [
+      ["Keen Eye", "false"],
+      ["Sand Rush", "false"],
+      ["Steadfast", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "lycanroc-midnight",
     "forms": []
   },
   {
@@ -12264,7 +12386,8 @@
       {
         "sprite": "wishiwashi-school",
         "types": ["Water"],
-        "name": "School Form Wishiwashi"
+        "name": "School Form Wishiwashi",
+        "pokedexNo": 746
       }
     ]
   },
@@ -12462,7 +12585,7 @@
     "pokedexNo": 761,
     "name": "Bounsweet",
     "types": ["Grass"],
-    "evolutions": ["Steenee"],
+    "evolutions": ["Steenee", "Tsareena"],
     "abilities": [
       ["Leaf Guard", "false"],
       ["Oblivious", "false"],
@@ -12622,151 +12745,104 @@
       {
         "sprite": "silvally-bug",
         "types": ["Bug"],
-        "name": "Bug Type Silvally"
+        "name": "Bug Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-dark",
         "types": ["Dark"],
-        "name": "Dark Type Silvally"
+        "name": "Dark Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-dragon",
         "types": ["Dragon"],
-        "name": "Dragon Type Silvally"
+        "name": "Dragon Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-electric",
         "types": ["Electric"],
-        "name": "Electric Type Silvally"
+        "name": "Electric Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-fairy",
         "types": ["Fairy"],
-        "name": "Fairy Type Silvally"
+        "name": "Fairy Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-fighting",
         "types": ["Fighting"],
-        "name": "Fighting Type Silvally"
+        "name": "Fighting Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-fire",
         "types": ["Fire"],
-        "name": "Fire Type Silvally"
+        "name": "Fire Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-flying",
         "types": ["Flying"],
-        "name": "Flying Type Silvally"
+        "name": "Flying Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-ghost",
         "types": ["Ghost"],
-        "name": "Ghost Type Silvally"
+        "name": "Ghost Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-grass",
         "types": ["Grass"],
-        "name": "Grass Type Silvally"
+        "name": "Grass Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-ground",
         "types": ["Ground"],
-        "name": "Ground Type Silvally"
+        "name": "Ground Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-ice",
         "types": ["Ice"],
-        "name": "Ice Type Silvally"
+        "name": "Ice Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-poison",
         "types": ["Poison"],
-        "name": "Poison Type Silvally"
+        "name": "Poison Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-psychic",
         "types": ["Psychic"],
-        "name": "Psychic Type Silvally"
+        "name": "Psychic Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-rock",
         "types": ["Rock"],
-        "name": "Rock Type Silvally"
+        "name": "Rock Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-steel",
         "types": ["Steel"],
-        "name": "Steel Type Silvally"
+        "name": "Steel Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-water",
         "types": ["Water"],
-        "name": "Water Type Silvally"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 774,
-    "name": "Minior Blue Core",
-    "types": ["Rock", "Flying"],
-    "evolutions": [],
-    "abilities": [["Shields Down", "false"]],
-    "gender": "Genderless",
-    "sprite": "minior-blue",
-    "forms": [
-      {
-        "sprite": "minior-blue-meteor",
-        "types": ["Rock", "Flying"],
-        "name": "Minior Meteor Form"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 774,
-    "name": "Minior Green Core",
-    "types": ["Rock", "Flying"],
-    "evolutions": [],
-    "abilities": [["Shields Down", "false"]],
-    "gender": "Genderless",
-    "sprite": "minior-green",
-    "forms": [
-      {
-        "sprite": "minior-green-meteor",
-        "types": ["Rock", "Flying"],
-        "name": "Minior Meteor Form"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 774,
-    "name": "Minior Indigo Core",
-    "types": ["Rock", "Flying"],
-    "evolutions": [],
-    "abilities": [["Shields Down", "false"]],
-    "gender": "Genderless",
-    "sprite": "minior-indigo",
-    "forms": [
-      {
-        "sprite": "minior-indigo-meteor",
-        "types": ["Rock", "Flying"],
-        "name": "Minior Meteor Form"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 774,
-    "name": "Minior Orange Core",
-    "types": ["Rock", "Flying"],
-    "evolutions": [],
-    "abilities": [["Shields Down", "false"]],
-    "gender": "Genderless",
-    "sprite": "minior-orange",
-    "forms": [
-      {
-        "sprite": "minior-orange-meteor",
-        "types": ["Rock", "Flying"],
-        "name": "Minior Meteor Form"
+        "name": "Water Type Silvally",
+        "pokedexNo": 773
       }
     ]
   },
@@ -12782,7 +12858,42 @@
       {
         "sprite": "minior-red-meteor",
         "types": ["Rock", "Flying"],
-        "name": "Minior Meteor Form"
+        "name": "Minior Meteor Form",
+        "pokedexNo": 774
+      }
+    ]
+  },
+  {
+    "pokedexNo": 774,
+    "name": "Minior Indigo Core",
+    "types": ["Rock", "Flying"],
+    "evolutions": [],
+    "abilities": [["Shields Down", "false"]],
+    "gender": "Genderless",
+    "sprite": "minior-indigo",
+    "forms": [
+      {
+        "sprite": "minior-indigo-meteor",
+        "types": ["Rock", "Flying"],
+        "name": "Minior Meteor Form",
+        "pokedexNo": 774
+      }
+    ]
+  },
+  {
+    "pokedexNo": 774,
+    "name": "Minior Orange Core",
+    "types": ["Rock", "Flying"],
+    "evolutions": [],
+    "abilities": [["Shields Down", "false"]],
+    "gender": "Genderless",
+    "sprite": "minior-orange",
+    "forms": [
+      {
+        "sprite": "minior-orange-meteor",
+        "types": ["Rock", "Flying"],
+        "name": "Minior Meteor Form",
+        "pokedexNo": 774
       }
     ]
   },
@@ -12798,7 +12909,42 @@
       {
         "sprite": "minior-violet-meteor",
         "types": ["Rock", "Flying"],
-        "name": "Minior Meteor Form"
+        "name": "Minior Meteor Form",
+        "pokedexNo": 774
+      }
+    ]
+  },
+  {
+    "pokedexNo": 774,
+    "name": "Minior Blue Core",
+    "types": ["Rock", "Flying"],
+    "evolutions": [],
+    "abilities": [["Shields Down", "false"]],
+    "gender": "Genderless",
+    "sprite": "minior-blue",
+    "forms": [
+      {
+        "sprite": "minior-blue-meteor",
+        "types": ["Rock", "Flying"],
+        "name": "Minior Meteor Form",
+        "pokedexNo": 774
+      }
+    ]
+  },
+  {
+    "pokedexNo": 774,
+    "name": "Minior Green Core",
+    "types": ["Rock", "Flying"],
+    "evolutions": [],
+    "abilities": [["Shields Down", "false"]],
+    "gender": "Genderless",
+    "sprite": "minior-green",
+    "forms": [
+      {
+        "sprite": "minior-green-meteor",
+        "types": ["Rock", "Flying"],
+        "name": "Minior Meteor Form",
+        "pokedexNo": 774
       }
     ]
   },
@@ -12814,7 +12960,8 @@
       {
         "sprite": "minior-yellow-meteor",
         "types": ["Rock", "Flying"],
-        "name": "Minior Meteor Form"
+        "name": "Minior Meteor Form",
+        "pokedexNo": 774
       }
     ]
   },
@@ -12904,7 +13051,7 @@
     "pokedexNo": 782,
     "name": "Jangmo-o",
     "types": ["Dragon"],
-    "evolutions": ["Hakamo-o"],
+    "evolutions": ["Hakamo-o", "Kommo-o"],
     "abilities": [
       ["Bulletproof", "false"],
       ["Soundproof", "false"],
@@ -12998,7 +13145,7 @@
     "pokedexNo": 789,
     "name": "Cosmog",
     "types": ["Psychic"],
-    "evolutions": ["Cosmoem"],
+    "evolutions": ["Cosmoem", "Solgaleo", "Lunala"],
     "abilities": [["Unaware", "false"]],
     "gender": "Genderless",
     "sprite": "cosmog",
@@ -13116,17 +13263,20 @@
       {
         "sprite": "necrozma-dawn",
         "types": ["Psychic", "Ghost"],
-        "name": "Dawn Wings Necrozma"
+        "name": "Dawn Wings Necrozma",
+        "pokedexNo": 800
       },
       {
         "sprite": "necrozma-dusk",
         "types": ["Psychic", "Steel"],
-        "name": "Dusk Mane Necrozma"
+        "name": "Dusk Mane Necrozma",
+        "pokedexNo": 800
       },
       {
         "sprite": "necrozma-ultra",
         "types": ["Psychic", "Dragon"],
-        "name": "Ultra Necrozma"
+        "name": "Ultra Necrozma",
+        "pokedexNo": 800
       }
     ]
   },
@@ -13142,7 +13292,8 @@
       {
         "sprite": "magearna-original",
         "types": ["Steel", "Fairy"],
-        "name": "Original Form Magearna"
+        "name": "Original Form Magearna",
+        "pokedexNo": 800
       }
     ]
   },
@@ -13228,7 +13379,8 @@
       {
         "sprite": "melmetal-gmax",
         "types": ["Steel"],
-        "name": "Gigantamax Melmetal"
+        "name": "Gigantamax Melmetal",
+        "pokedexNo": 809
       }
     ]
   },
@@ -13236,7 +13388,7 @@
     "pokedexNo": 810,
     "name": "Grookey",
     "types": ["Grass"],
-    "evolutions": ["Thwackey"],
+    "evolutions": ["Thwackey", "Rillaboom"],
     "abilities": [
       ["Overgrow", "false"],
       ["Grassy-surge", "true"]
@@ -13273,7 +13425,8 @@
       {
         "sprite": "rillaboom-gmax",
         "types": ["Grass"],
-        "name": "Gigantamax Rillaboom"
+        "name": "Gigantamax Rillaboom",
+        "pokedexNo": 812
       }
     ]
   },
@@ -13281,7 +13434,7 @@
     "pokedexNo": 813,
     "name": "Scorbunny",
     "types": ["Fire"],
-    "evolutions": ["Raboot"],
+    "evolutions": ["Raboot", "Cinderace"],
     "abilities": [
       ["Blaze", "false"],
       ["Libero", "true"]
@@ -13318,7 +13471,8 @@
       {
         "sprite": "cinderace-gmax",
         "types": ["Fire"],
-        "name": "Gigantamax Cinderace"
+        "name": "Gigantamax Cinderace",
+        "pokedexNo": 815
       }
     ]
   },
@@ -13326,7 +13480,7 @@
     "pokedexNo": 816,
     "name": "Sobble",
     "types": ["Water"],
-    "evolutions": ["Drizzile"],
+    "evolutions": ["Drizzile", "Inteleon"],
     "abilities": [
       ["Torrent", "false"],
       ["Sniper", "true"]
@@ -13363,7 +13517,8 @@
       {
         "sprite": "inteleon-gmax",
         "types": ["Water"],
-        "name": "Gigantamax Inteleon"
+        "name": "Gigantamax Inteleon",
+        "pokedexNo": 818
       }
     ]
   },
@@ -13397,7 +13552,7 @@
     "pokedexNo": 821,
     "name": "Rookidee",
     "types": ["Flying"],
-    "evolutions": ["Corvisquire"],
+    "evolutions": ["Corvisquire", "Corviknight"],
     "abilities": [
       ["Keen-eye", "false"],
       ["Unnerve", "false"],
@@ -13437,7 +13592,8 @@
       {
         "sprite": "corviknight-gmax",
         "types": ["Flying", "Steel"],
-        "name": "Gigantamax Corviknight"
+        "name": "Gigantamax Corviknight",
+        "pokedexNo": 823
       }
     ]
   },
@@ -13445,7 +13601,7 @@
     "pokedexNo": 824,
     "name": "Blipbug",
     "types": ["Bug"],
-    "evolutions": ["Dottler"],
+    "evolutions": ["Dottler", "Orbeetle"],
     "abilities": [
       ["Swarm", "false"],
       ["Compound-eyes", "false"],
@@ -13485,7 +13641,8 @@
       {
         "sprite": "orbeetle-gmax",
         "types": ["Bug", "Psychic"],
-        "name": "Gigantamax Orbeetle"
+        "name": "Gigantamax Orbeetle",
+        "pokedexNo": 826
       }
     ]
   },
@@ -13603,7 +13760,8 @@
       {
         "sprite": "drednaw-gmax",
         "types": ["Water", "Rock"],
-        "name": "Gigantamax Drednaw"
+        "name": "Gigantamax Drednaw",
+        "pokedexNo": 834
       }
     ]
   },
@@ -13637,7 +13795,7 @@
     "pokedexNo": 837,
     "name": "Rolycoly",
     "types": ["Rock"],
-    "evolutions": ["Carkol"],
+    "evolutions": ["Carkol", "Coalossal"],
     "abilities": [
       ["Steam-engine", "false"],
       ["Heatproof", "false"],
@@ -13677,7 +13835,8 @@
       {
         "sprite": "coalossal-gmax",
         "types": ["Rock", "Fire"],
-        "name": "Gigantamax Coalossal"
+        "name": "Gigantamax Coalossal",
+        "pokedexNo": 839
       }
     ]
   },
@@ -13711,7 +13870,8 @@
       {
         "sprite": "flapple-gmax",
         "types": ["Grass", "Dragon"],
-        "name": "Gigantamax Flapple"
+        "name": "Gigantamax Flapple",
+        "pokedexNo": 841
       }
     ]
   },
@@ -13731,7 +13891,8 @@
       {
         "sprite": "appletun-gmax",
         "types": ["Grass", "Dragon"],
-        "name": "Gigantamax Appletun"
+        "name": "Gigantamax Appletun",
+        "pokedexNo": 842
       }
     ]
   },
@@ -13765,7 +13926,8 @@
       {
         "sprite": "sandaconda-gmax",
         "types": ["Ground"],
-        "name": "Gigantamax Sandaconda"
+        "name": "Gigantamax Sandaconda",
+        "pokedexNo": 844
       }
     ]
   },
@@ -13835,7 +13997,8 @@
       {
         "sprite": "toxtricity-gmax",
         "types": ["Electric", "Poison"],
-        "name": "Gigantamax Toxtricity"
+        "name": "Gigantamax Toxtricity",
+        "pokedexNo": 849
       }
     ]
   },
@@ -13855,7 +14018,8 @@
       {
         "sprite": "toxtricity-gmax",
         "types": ["Electric", "Poison"],
-        "name": "Gigantamax Toxtricity"
+        "name": "Gigantamax Toxtricity",
+        "pokedexNo": 849
       }
     ]
   },
@@ -13889,7 +14053,8 @@
       {
         "sprite": "centiskorch-gmax",
         "types": ["Fire", "Bug"],
-        "name": "Gigantamax Centiskorch"
+        "name": "Gigantamax Centiskorch",
+        "pokedexNo": 851
       }
     ]
   },
@@ -13975,7 +14140,7 @@
     "pokedexNo": 856,
     "name": "Hatenna",
     "types": ["Psychic"],
-    "evolutions": ["Hattrem"],
+    "evolutions": ["Hattrem", "Hatterene"],
     "abilities": [
       ["Healer", "false"],
       ["Anticipation", "false"],
@@ -14015,7 +14180,8 @@
       {
         "sprite": "hatterene-gmax",
         "types": ["Psychic", "Fairy"],
-        "name": "Gigantamax Hatterene"
+        "name": "Gigantamax Hatterene",
+        "pokedexNo": 858
       }
     ]
   },
@@ -14023,7 +14189,7 @@
     "pokedexNo": 859,
     "name": "Impidimp",
     "types": ["Dark", "Fairy"],
-    "evolutions": ["Morgrem"],
+    "evolutions": ["Morgrem", "Grimmsnarl"],
     "abilities": [
       ["Prankster", "false"],
       ["Frisk", "false"],
@@ -14063,7 +14229,8 @@
       {
         "sprite": "grimmsnarl-gmax",
         "types": ["Dark", "Fairy"],
-        "name": "Gigantamax Grimmsnarl"
+        "name": "Gigantamax Grimmsnarl",
+        "pokedexNo": 861
       }
     ]
   },
@@ -14224,44 +14391,6 @@
   },
   {
     "pokedexNo": 869,
-    "name": "Caramel Swirl Berry Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-caramel-swirl-berry",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Caramel Swirl Clover Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-caramel-swirl-clover",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
     "name": "Caramel Swirl Flower Alcremie",
     "types": ["Fairy"],
     "evolutions": [],
@@ -14275,102 +14404,8 @@
       {
         "sprite": "alcremie-gmax",
         "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Caramel Swirl Love Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-caramel-swirl-love",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Caramel Swirl Ribbon Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-caramel-swirl-ribbon",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Caramel Swirl Star Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-caramel-swirl-star",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Caramel Swirl Strawberry Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-caramel-swirl-strawberry",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Lemon Cream Berry Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-lemon-cream-berry",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
       }
     ]
   },
@@ -14389,26 +14424,8 @@
       {
         "sprite": "alcremie-gmax",
         "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Lemon Cream Flower Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-lemon-cream-flower",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
       }
     ]
   },
@@ -14427,178 +14444,8 @@
       {
         "sprite": "alcremie-gmax",
         "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Lemon Cream Ribbon Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-lemon-cream-ribbon",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Lemon Cream Star Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-lemon-cream-star",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Lemon Cream Strawberry Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-lemon-cream-strawberry",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Matcha Cream Berry Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-matcha-cream-berry",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Matcha Cream Clover Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-matcha-cream-clover",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Matcha Cream Flower Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-matcha-cream-flower",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Matcha Cream Love Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-matcha-cream-love",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Matcha Cream Ribbon Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-matcha-cream-ribbon",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Matcha Cream Star Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-matcha-cream-star",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
       }
     ]
   },
@@ -14617,7 +14464,8 @@
       {
         "sprite": "alcremie-gmax",
         "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
       }
     ]
   },
@@ -14636,102 +14484,8 @@
       {
         "sprite": "alcremie-gmax",
         "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Mint Cream Clover Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-mint-cream-clover",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Mint Cream Flower Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-mint-cream-flower",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Mint Cream Love Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-mint-cream-love",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Mint Cream Ribbon Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-mint-cream-ribbon",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Mint Cream Star Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-mint-cream-star",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
       }
     ]
   },
@@ -14750,159 +14504,8 @@
       {
         "sprite": "alcremie-gmax",
         "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Rainbow Swirl Berry Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-rainbow-swirl-berry",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Rainbow Swirl Clover Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-rainbow-swirl-clover",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Rainbow Swirl Flower Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-rainbow-swirl-flower",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Rainbow Swirl Love Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-rainbow-swirl-love",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Rainbow Swirl Ribbon Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-rainbow-swirl-ribbon",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Rainbow Swirl Star Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-rainbow-swirl-star",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Rainbow Swirl Strawberry Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-rainbow-swirl-strawberry",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Ruby Cream Berry Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-ruby-cream-berry",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
       }
     ]
   },
@@ -14921,26 +14524,8 @@
       {
         "sprite": "alcremie-gmax",
         "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Ruby Cream Flower Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-ruby-cream-flower",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
       }
     ]
   },
@@ -14959,7 +14544,8 @@
       {
         "sprite": "alcremie-gmax",
         "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
       }
     ]
   },
@@ -14978,45 +14564,8 @@
       {
         "sprite": "alcremie-gmax",
         "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Ruby Cream Star Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-ruby-cream-star",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Ruby Cream Strawberry Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-ruby-cream-strawberry",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
       }
     ]
   },
@@ -15035,45 +14584,8 @@
       {
         "sprite": "alcremie-gmax",
         "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Ruby Swirl Clover Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-ruby-swirl-clover",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Ruby Swirl Flower Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-ruby-swirl-flower",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
       }
     ]
   },
@@ -15092,102 +14604,8 @@
       {
         "sprite": "alcremie-gmax",
         "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Ruby Swirl Ribbon Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-ruby-swirl-ribbon",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Ruby Swirl Star Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-ruby-swirl-star",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Ruby Swirl Strawberry Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-ruby-swirl-strawberry",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Salted Cream Berry Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-salted-cream-berry",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Salted Cream Clover Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-salted-cream-clover",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
       }
     ]
   },
@@ -15206,102 +14624,8 @@
       {
         "sprite": "alcremie-gmax",
         "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Salted Cream Love Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-salted-cream-love",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Salted Cream Ribbon Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-salted-cream-ribbon",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Salted Cream Star Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-salted-cream-star",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Salted Cream Strawberry Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-salted-cream-strawberry",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Vanilla Cream Berry Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-vanilla-cream-berry",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
       }
     ]
   },
@@ -15320,7 +14644,8 @@
       {
         "sprite": "alcremie-gmax",
         "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
       }
     ]
   },
@@ -15339,45 +14664,8 @@
       {
         "sprite": "alcremie-gmax",
         "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Vanilla Cream Love Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-vanilla-cream-love",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Vanilla Cream Ribbon Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "alcremie-vanilla-cream-ribbon",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
       }
     ]
   },
@@ -15396,7 +14684,568 @@
       {
         "sprite": "alcremie-gmax",
         "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Caramel Swirl Berry Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-caramel-swirl-berry",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Caramel Swirl Love Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-caramel-swirl-love",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Caramel Swirl Ribbon Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-caramel-swirl-ribbon",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Caramel Swirl Strawberry Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-caramel-swirl-strawberry",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Lemon Cream Ribbon Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-lemon-cream-ribbon",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Lemon Cream Star Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-lemon-cream-star",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Matcha Cream Berry Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-matcha-cream-berry",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Matcha Cream Clover Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-matcha-cream-clover",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Matcha Cream Flower Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-matcha-cream-flower",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Matcha Cream Love Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-matcha-cream-love",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Mint Cream Clover Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-mint-cream-clover",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Mint Cream Love Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-mint-cream-love",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Mint Cream Ribbon Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-mint-cream-ribbon",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Rainbow Swirl Berry Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-rainbow-swirl-berry",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Rainbow Swirl Clover Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-rainbow-swirl-clover",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Rainbow Swirl Flower Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-rainbow-swirl-flower",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Rainbow Swirl Love Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-rainbow-swirl-love",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Rainbow Swirl Ribbon Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-rainbow-swirl-ribbon",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Rainbow Swirl Star Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-rainbow-swirl-star",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Ruby Cream Flower Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-ruby-cream-flower",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Ruby Cream Star Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-ruby-cream-star",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Ruby Cream Strawberry Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-ruby-cream-strawberry",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Ruby Swirl Clover Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-ruby-swirl-clover",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Ruby Swirl Flower Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-ruby-swirl-flower",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Salted Cream Ribbon Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-salted-cream-ribbon",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Salted Cream Star Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-salted-cream-star",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Vanilla Cream Berry Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-vanilla-cream-berry",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Vanilla Cream Ribbon Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-vanilla-cream-ribbon",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
       }
     ]
   },
@@ -15415,7 +15264,388 @@
       {
         "sprite": "alcremie-gmax",
         "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Caramel Swirl Clover Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-caramel-swirl-clover",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Matcha Cream Ribbon Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-matcha-cream-ribbon",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Matcha Cream Star Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-matcha-cream-star",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Mint Cream Star Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-mint-cream-star",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Rainbow Swirl Strawberry Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-rainbow-swirl-strawberry",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Salted Cream Love Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-salted-cream-love",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Salted Cream Strawberry Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-salted-cream-strawberry",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Caramel Swirl Star Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-caramel-swirl-star",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Lemon Cream Berry Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-lemon-cream-berry",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Lemon Cream Flower Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-lemon-cream-flower",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Lemon Cream Strawberry Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-lemon-cream-strawberry",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Mint Cream Flower Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-mint-cream-flower",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Ruby Cream Berry Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-ruby-cream-berry",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Ruby Swirl Ribbon Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-ruby-swirl-ribbon",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Ruby Swirl Star Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-ruby-swirl-star",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Ruby Swirl Strawberry Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-ruby-swirl-strawberry",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Salted Cream Berry Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-salted-cream-berry",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Salted Cream Clover Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-salted-cream-clover",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Vanilla Cream Love Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-vanilla-cream-love",
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
       }
     ]
   },
@@ -15493,23 +15723,10 @@
       {
         "sprite": "eiscue-noice",
         "types": ["Ice"],
-        "name": "Noice Face Eiscue"
+        "name": "Noice Face Eiscue",
+        "pokedexNo": 875
       }
     ]
-  },
-  {
-    "pokedexNo": 876,
-    "name": "Male Indeedee",
-    "types": ["Psychic", "Normal"],
-    "evolutions": [],
-    "abilities": [
-      ["Inner focus", "false"],
-      ["Synchronize", "false"],
-      ["Psychic surge", "true"]
-    ],
-    "gender": "100:0",
-    "sprite": "indeedee",
-    "forms": []
   },
   {
     "pokedexNo": 876,
@@ -15526,6 +15743,20 @@
     "forms": []
   },
   {
+    "pokedexNo": 876,
+    "name": "Male Indeedee",
+    "types": ["Psychic", "Normal"],
+    "evolutions": [],
+    "abilities": [
+      ["Inner focus", "false"],
+      ["Synchronize", "false"],
+      ["Psychic surge", "true"]
+    ],
+    "gender": "100:0",
+    "sprite": "indeedee",
+    "forms": []
+  },
+  {
     "pokedexNo": 877,
     "name": "Full Belly Mode Morpeko",
     "types": ["Electric", "Dark"],
@@ -15537,7 +15768,8 @@
       {
         "sprite": "morpeko-hangry",
         "types": ["Electric", "Dark"],
-        "name": "Hangry Mode Morpeko"
+        "name": "Hangry Mode Morpeko",
+        "pokedexNo": 877
       }
     ]
   },
@@ -15569,7 +15801,8 @@
       {
         "sprite": "copperajah-gmax",
         "types": ["Steel"],
-        "name": "Gigantamax Copperajah"
+        "name": "Gigantamax Copperajah",
+        "pokedexNo": 879
       }
     ]
   },
@@ -15645,7 +15878,8 @@
       {
         "sprite": "duraludon-gmax",
         "types": ["Steel", "Dragon"],
-        "name": "Gigantamax Duraludon"
+        "name": "Gigantamax Duraludon",
+        "pokedexNo": 884
       }
     ]
   },
@@ -15653,7 +15887,7 @@
     "pokedexNo": 885,
     "name": "Dreepy",
     "types": ["Dragon", "Ghost"],
-    "evolutions": ["Drakloak"],
+    "evolutions": ["Drakloak", "Dragapult"],
     "abilities": [
       ["Clear-body", "false"],
       ["Infiltrator", "false"],
@@ -15703,7 +15937,8 @@
       {
         "sprite": "zacian-crowned",
         "types": ["Fairy", "Steel"],
-        "name": "Crowned Sword Zacian"
+        "name": "Crowned Sword Zacian",
+        "pokedexNo": 888
       }
     ]
   },
@@ -15719,7 +15954,8 @@
       {
         "sprite": "zamazenta-crowned",
         "types": ["Fighting", "Steel"],
-        "name": "Crowned Shield Zamazenta"
+        "name": "Crowned Shield Zamazenta",
+        "pokedexNo": 889
       }
     ]
   },
@@ -15745,22 +15981,6 @@
   },
   {
     "pokedexNo": 892,
-    "name": "Single Strike Urshifu",
-    "types": ["Fighting", "Dark"],
-    "evolutions": [],
-    "abilities": [["Unseen-fist", "false"]],
-    "gender": "87.5:12.5",
-    "sprite": "urshifu-single-strike",
-    "forms": [
-      {
-        "sprite": "urshifu-single-strike-gmax",
-        "types": ["Fighting", "Dark"],
-        "name": "Gigantamax Single Strike Urshifu"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 892,
     "name": "Rapid Strike Urshifu",
     "types": ["Fighting", "Water"],
     "evolutions": [],
@@ -15771,7 +15991,25 @@
       {
         "sprite": "urshifu-rapid-strike-gmax",
         "types": ["Fighting", "Water"],
-        "name": "Gigantamax Rapid Strike Urshifu"
+        "name": "Gigantamax Rapid Strike Urshifu",
+        "pokedexNo": 892
+      }
+    ]
+  },
+  {
+    "pokedexNo": 892,
+    "name": "Single Strike Urshifu",
+    "types": ["Fighting", "Dark"],
+    "evolutions": [],
+    "abilities": [["Unseen-fist", "false"]],
+    "gender": "87.5:12.5",
+    "sprite": "urshifu-single-strike",
+    "forms": [
+      {
+        "sprite": "urshifu-single-strike-gmax",
+        "types": ["Fighting", "Dark"],
+        "name": "Gigantamax Single Strike Urshifu",
+        "pokedexNo": 892
       }
     ]
   },
@@ -15787,7 +16025,8 @@
       {
         "sprite": "zarude-dada",
         "types": ["Dark", "Grass"],
-        "name": "Dada Form Zarude"
+        "name": "Dada Form Zarude",
+        "pokedexNo": 893
       }
     ]
   },
@@ -15843,12 +16082,14 @@
       {
         "sprite": "calyrex-ice-rider",
         "types": ["Psychic", "Ice"],
-        "name": "Ice Ride Calyrex"
+        "name": "Ice Ride Calyrex",
+        "pokedexNo": 898
       },
       {
         "sprite": "calyrex-shadow-rider",
         "types": ["Psychic", "Ghost"],
-        "name": "Shadow Ride Calyrex"
+        "name": "Shadow Ride Calyrex",
+        "pokedexNo": 898
       }
     ]
   },
@@ -15896,20 +16137,6 @@
   },
   {
     "pokedexNo": 902,
-    "name": "Male Basculegion",
-    "types": ["Water", "Ghost"],
-    "evolutions": [],
-    "abilities": [
-      ["Swift Swim", "false"],
-      ["Adaptability", "false"],
-      ["Mold Breaker", "true"]
-    ],
-    "gender": "100:0",
-    "sprite": "basculegion",
-    "forms": []
-  },
-  {
-    "pokedexNo": 902,
     "name": "Female Basculegion",
     "types": ["Water", "Ghost"],
     "evolutions": [],
@@ -15920,6 +16147,20 @@
     ],
     "gender": "0:100",
     "sprite": "basculegion-f",
+    "forms": []
+  },
+  {
+    "pokedexNo": 902,
+    "name": "Male Basculegion",
+    "types": ["Water", "Ghost"],
+    "evolutions": [],
+    "abilities": [
+      ["Swift Swim", "false"],
+      ["Adaptability", "false"],
+      ["Mold Breaker", "true"]
+    ],
+    "gender": "100:0",
+    "sprite": "basculegion",
     "forms": []
   },
   {
@@ -15964,7 +16205,8 @@
       {
         "sprite": "enamorus-therian",
         "types": ["Fairy", "Flying"],
-        "name": "Therian Form Enamorus"
+        "name": "Therian Form Enamorus",
+        "pokedexNo": 905
       }
     ]
   },
@@ -15972,7 +16214,7 @@
     "pokedexNo": 906,
     "name": "Sprigatito",
     "types": ["Grass"],
-    "evolutions": ["Floragato"],
+    "evolutions": ["Floragato", "Meowscarada"],
     "abilities": [
       ["Overgrow", "false"],
       ["Protean", "true"]
@@ -16011,7 +16253,7 @@
     "pokedexNo": 909,
     "name": "Fuecoco",
     "types": ["Fire"],
-    "evolutions": ["Crocalor"],
+    "evolutions": ["Crocalor", "Skeledirge"],
     "abilities": [
       ["Blaze", "false"],
       ["Unaware", "true"]
@@ -16050,7 +16292,7 @@
     "pokedexNo": 912,
     "name": "Quaxly",
     "types": ["Water"],
-    "evolutions": ["Quaxwell"],
+    "evolutions": ["Quaxwell", "Quaquaval"],
     "abilities": [
       ["Torrent", "false"],
       ["Moxie", "true"]
@@ -16183,7 +16425,7 @@
     "pokedexNo": 921,
     "name": "Pawmi",
     "types": ["Electric"],
-    "evolutions": ["Pawmo"],
+    "evolutions": ["Pawmo", "Pawmot"],
     "abilities": [
       ["Static", "false"],
       ["Natural Cure", "false"],
@@ -16293,7 +16535,7 @@
     "pokedexNo": 928,
     "name": "Smoliv",
     "types": ["Grass", "Normal"],
-    "evolutions": ["Dolliv"],
+    "evolutions": ["Dolliv", "Arboliva"],
     "abilities": [
       ["Early Bird", "false"],
       ["Harvest", "true"]
@@ -16330,20 +16572,6 @@
   },
   {
     "pokedexNo": 931,
-    "name": "Green Plumage Squawkabilly",
-    "types": ["Normal", "Flying"],
-    "evolutions": [],
-    "abilities": [
-      ["Intimidate", "false"],
-      ["Hustle", "false"],
-      ["Guts", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "squawkabilly-green",
-    "forms": []
-  },
-  {
-    "pokedexNo": 931,
     "name": "Blue Plumage Squawkabilly",
     "types": ["Normal", "Flying"],
     "evolutions": [],
@@ -16372,6 +16600,20 @@
   },
   {
     "pokedexNo": 931,
+    "name": "Green Plumage Squawkabilly",
+    "types": ["Normal", "Flying"],
+    "evolutions": [],
+    "abilities": [
+      ["Intimidate", "false"],
+      ["Hustle", "false"],
+      ["Guts", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "squawkabilly-green",
+    "forms": []
+  },
+  {
+    "pokedexNo": 931,
     "name": "White Plumage Squawkabilly",
     "types": ["Normal", "Flying"],
     "evolutions": [],
@@ -16388,7 +16630,7 @@
     "pokedexNo": 932,
     "name": "Nacli",
     "types": ["Rock"],
-    "evolutions": ["Naclstack"],
+    "evolutions": ["Naclstack", "Garganacl"],
     "abilities": [
       ["Purifying Salt", "false"],
       ["Sturdy", "false"],
@@ -16723,7 +16965,7 @@
     "pokedexNo": 957,
     "name": "Tinkatink",
     "types": ["Fairy", "Steel"],
-    "evolutions": ["Tinkatuff"],
+    "evolutions": ["Tinkatuff", "Tinkaton"],
     "abilities": [
       ["Mold Breaker", "false"],
       ["Own Tempo", "false"],
@@ -16825,7 +17067,8 @@
       {
         "sprite": "palafin-hero",
         "types": ["Water"],
-        "name": "Hero Form Palafin"
+        "name": "Hero Form Palafin",
+        "pokedexNo": 964
       }
     ]
   },
@@ -17249,7 +17492,7 @@
     "pokedexNo": 996,
     "name": "Frigibax",
     "types": ["Dragon", "Ice"],
-    "evolutions": ["Arctibax"],
+    "evolutions": ["Arctibax", "Baxcalibur"],
     "abilities": [
       ["Thermal Exchange", "false"],
       ["Ice Body", "true"]
@@ -17456,19 +17699,6 @@
   },
   {
     "pokedexNo": 1013,
-    "name": "Sinistcha Unremarkable Form",
-    "types": ["Grass", "Ghost"],
-    "evolutions": [],
-    "abilities": [
-      ["Hospitality", "false"],
-      ["Heatproof", "true"]
-    ],
-    "gender": "Genderless",
-    "sprite": "sinistcha",
-    "forms": []
-  },
-  {
-    "pokedexNo": 1013,
     "name": "Sinistcha Masterpiece Form",
     "types": ["Grass", "Ghost"],
     "evolutions": [],
@@ -17478,6 +17708,19 @@
     ],
     "gender": "Genderless",
     "sprite": "sinistcha-masterpiece",
+    "forms": []
+  },
+  {
+    "pokedexNo": 1013,
+    "name": "Sinistcha Unremarkable Form",
+    "types": ["Grass", "Ghost"],
+    "evolutions": [],
+    "abilities": [
+      ["Hospitality", "false"],
+      ["Heatproof", "true"]
+    ],
+    "gender": "Genderless",
+    "sprite": "sinistcha",
     "forms": []
   },
   {
@@ -17531,22 +17774,26 @@
       {
         "sprite": "ogerpon-teal-mask",
         "types": ["Grass"],
-        "name": "Ogerpon Teal Mask"
+        "name": "Ogerpon Teal Mask",
+        "pokedexNo": 1017
       },
       {
         "sprite": "ogerpon-wellspring-mask",
         "types": ["Grass", "Water"],
-        "name": "Ogerpon Wellspring Mask"
+        "name": "Ogerpon Wellspring Mask",
+        "pokedexNo": 1017
       },
       {
         "sprite": "ogerpon-heartflame-mask",
         "types": ["Grass", "Fire"],
-        "name": "Ogerpon Heartflame Mask"
+        "name": "Ogerpon Heartflame Mask",
+        "pokedexNo": 1017
       },
       {
         "sprite": "ogerpon-cornerstone-mask",
         "types": ["Grass", "Rock"],
-        "name": "Ogerpon Cornerstone Mask"
+        "name": "Ogerpon Cornerstone Mask",
+        "pokedexNo": 1017
       }
     ]
   }
