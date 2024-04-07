@@ -17560,12 +17560,12 @@ const inputDirPath = resolve(__dirname, "_input");
 const outputDirPath = resolve(__dirname, "_output");
 
 async function renameImage(key) {
-  const inputFilePath = `${inputDirPath}/Spr_5b_${key["pokedexNo"]}_s.png`;
-  const outputFilePath = `${outputDirPath}/${key["sprite"]}.png`;
+  const inputFilePath = `${inputDirPath}/180px-Sprite_${key["pokedexNo"].toString().padStart(4, '0')}_♀_chromatique_EV.png`;
+  const outputFilePath = `${outputDirPath}/${key["sprite"]}-f.png`;
 
   try {
     // Copy the file from _input to _output
-    if (!key["sprite"].includes("galar") && !key["sprite"].includes("alola") &&  !key["sprite"].includes("hisui") &&  !key["sprite"].includes("paldea")) {
+    if (!key["sprite"].includes("galar") && !key["sprite"].includes("alola") && !key["sprite"].includes("hisui") && !key["sprite"].includes("paldea")) {
       await copyFile(inputFilePath, outputFilePath);
     }
   } catch (err) {
