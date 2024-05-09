@@ -28,8 +28,12 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [],
@@ -312,8 +316,12 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [],
@@ -596,8 +604,12 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [],
@@ -912,12 +924,16 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
       },
       {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "name": "Roaming",
+        "sprite": "roaming"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [],
@@ -1433,12 +1449,16 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
       },
       {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "name": "Roaming",
+        "sprite": "roaming"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [],
@@ -1954,12 +1974,16 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
       },
       {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "name": "Roaming",
+        "sprite": "roaming"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [],
@@ -2471,12 +2495,16 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
       },
       {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "name": "Roaming",
+        "sprite": "roaming"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [],
@@ -3212,12 +3240,16 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
       },
       {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "name": "Roaming",
+        "sprite": "roaming"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [],
@@ -3953,12 +3985,16 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
       },
       {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "name": "Roaming",
+        "sprite": "roaming"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [],
@@ -4700,12 +4736,16 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
       },
       {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "name": "Roaming",
+        "sprite": "roaming"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [],
@@ -5447,12 +5487,16 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
       },
       {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "name": "Roaming",
+        "sprite": "roaming"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [],
@@ -6218,12 +6262,20 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
       },
       {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "name": "Roaming",
+        "sprite": "roaming"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
+      },
+      {
+        "name": "Shiny Leaf Crown",
+        "sprite": "shiny-leaf-crown"
       }
     ],
     "marks": [],
@@ -7193,12 +7245,20 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
       },
       {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "name": "Roaming",
+        "sprite": "roaming"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
+      },
+      {
+        "name": "Shiny Leaf Crown",
+        "sprite": "shiny-leaf-crown"
       }
     ],
     "marks": [],
@@ -8168,12 +8228,20 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
       },
       {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "name": "Roaming",
+        "sprite": "roaming"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
+      },
+      {
+        "name": "Shiny Leaf Crown",
+        "sprite": "shiny-leaf-crown"
       }
     ],
     "marks": [],
@@ -9193,12 +9261,20 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
       },
       {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "name": "Roaming",
+        "sprite": "roaming"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
+      },
+      {
+        "name": "Shiny Leaf Crown",
+        "sprite": "shiny-leaf-crown"
       }
     ],
     "marks": [],
@@ -10222,12 +10298,20 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
       },
       {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "name": "Roaming",
+        "sprite": "roaming"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
+      },
+      {
+        "name": "Shiny Leaf Crown",
+        "sprite": "shiny-leaf-crown"
       }
     ],
     "marks": [],
@@ -11215,12 +11299,16 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
       },
       {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "name": "Roaming",
+        "sprite": "roaming"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [],
@@ -12183,12 +12271,16 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
       },
       {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "name": "Roaming",
+        "sprite": "roaming"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [],
@@ -13151,12 +13243,16 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
       },
       {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "name": "Roaming",
+        "sprite": "roaming"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [],
@@ -14161,12 +14257,16 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
       },
       {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "name": "Roaming",
+        "sprite": "roaming"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [],
@@ -15211,12 +15311,16 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
       },
       {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "name": "Roaming",
+        "sprite": "roaming"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [],
@@ -16507,12 +16611,16 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
       },
       {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "name": "Roaming",
+        "sprite": "roaming"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [],
@@ -17803,12 +17911,16 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
       },
       {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "name": "Roaming",
+        "sprite": "roaming"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [],
@@ -19130,12 +19242,16 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
       },
       {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "name": "Roaming",
+        "sprite": "roaming"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [],
@@ -20461,8 +20577,16 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
+      },
+      {
+        "name": "Roaming",
+        "sprite": "roaming"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [],
@@ -21818,8 +21942,12 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [],
@@ -23175,8 +23303,12 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [],
@@ -24565,8 +24697,12 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [],
@@ -25875,8 +26011,12 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [],
@@ -26190,8 +26330,12 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [],
@@ -26585,12 +26729,16 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
       },
       {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "name": "Roaming",
+        "sprite": "roaming"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [
@@ -28085,12 +28233,16 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
       },
       {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "name": "Roaming",
+        "sprite": "roaming"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [
@@ -29585,12 +29737,16 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
       },
       {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "name": "Roaming",
+        "sprite": "roaming"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [
@@ -30792,12 +30948,16 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
       },
       {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "name": "Roaming",
+        "sprite": "roaming"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [
@@ -31935,12 +32095,16 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
       },
       {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "name": "Roaming",
+        "sprite": "roaming"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [
@@ -32831,8 +32995,12 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [
@@ -34864,8 +35032,12 @@
     ],
     "specs": [
       {
-        "name": "Level-100 Mark",
-        "sprite": "level-100mark"
+        "name": "Level-100",
+        "sprite": "level-100"
+      },
+      {
+        "name": "Random",
+        "sprite": "random"
       }
     ],
     "marks": [
