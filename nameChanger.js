@@ -17560,8 +17560,8 @@ const inputDirPath = resolve(__dirname, "_input");
 const outputDirPath = resolve(__dirname, "_output");
 
 async function renameImage(key) {
-  const inputFilePath = `${inputDirPath}/180px-Sprite_${key["pokedexNo"].toString().padStart(4, '0')}_♀_chromatique_EV.png`;
-  const outputFilePath = `${outputDirPath}/${key["sprite"]}-f.png`;
+  const inputFilePath = `${inputDirPath}/180px-Sprite_${key["pokedexNo"].toString().padStart(4, '0')}_Paldea_chromatique_EV.png`;
+  const outputFilePath = `${outputDirPath}/${key["sprite"]}-paldea.png`;
 
   try {
     // Copy the file from _input to _output
