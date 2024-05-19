@@ -112,7 +112,6 @@
         "categories": [
           "Cave Encounter",
           "Grass Encounter",
-          "Random Encounter",
           "Surfing Encounter"
         ],
         "odds": 8192,
@@ -400,7 +399,6 @@
         "categories": [
           "Cave Encounter",
           "Grass Encounter",
-          "Random Encounter",
           "Surfing Encounter"
         ],
         "odds": 8192,
@@ -688,7 +686,6 @@
         "categories": [
           "Cave Encounter",
           "Grass Encounter",
-          "Random Encounter",
           "Surfing Encounter"
         ],
         "odds": 8192,
@@ -1062,7 +1059,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 8192,
         "rolls": 1,
         "countable": true
@@ -1072,7 +1069,6 @@
         "categories": [
           "Cave Encounter",
           "Grass Encounter",
-          "Random Encounter",
           "Surfing Encounter"
         ],
         "odds": 8192,
@@ -1587,7 +1583,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 8192,
         "rolls": 1,
         "countable": true
@@ -1597,7 +1593,6 @@
         "categories": [
           "Cave Encounter",
           "Grass Encounter",
-          "Random Encounter",
           "Surfing Encounter"
         ],
         "odds": 8192,
@@ -2112,7 +2107,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 8192,
         "rolls": 1,
         "countable": true
@@ -2122,7 +2117,6 @@
         "categories": [
           "Cave Encounter",
           "Grass Encounter",
-          "Random Encounter",
           "Surfing Encounter"
         ],
         "odds": 8192,
@@ -2730,7 +2724,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 8192,
         "rolls": 1,
         "countable": true
@@ -2741,7 +2735,6 @@
           "Cave Encounter",
           "Fishing Encounter",
           "Grass Encounter",
-          "Random Encounter",
           "Safari Encounter",
           "Surfing Encounter"
         ],
@@ -3475,7 +3468,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 8192,
         "rolls": 1,
         "countable": true
@@ -3486,7 +3479,6 @@
           "Cave Encounter",
           "Fishing Encounter",
           "Grass Encounter",
-          "Random Encounter",
           "Safari Encounter",
           "Surfing Encounter"
         ],
@@ -4226,7 +4218,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 8192,
         "rolls": 1,
         "countable": true
@@ -4237,7 +4229,6 @@
           "Cave Encounter",
           "Fishing Encounter",
           "Grass Encounter",
-          "Random Encounter",
           "Safari Encounter",
           "Surfing Encounter"
         ],
@@ -4977,7 +4968,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 8192,
         "rolls": 1,
         "countable": true
@@ -4987,8 +4978,7 @@
         "categories": [
           "Cave Encounter",
           "Fishing Encounter",
-          "Grass Encounter",
-          "Random Encounter",
+          "Grass Encounter", 
           "Safari Encounter",
           "Surfing Encounter"
         ],
@@ -5740,7 +5730,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 8192,
         "rolls": 1,
         "countable": true
@@ -5751,7 +5741,6 @@
           "Cave Encounter",
           "Fishing Encounter",
           "Grass Encounter",
-          "Random Encounter",
           "Safari Encounter",
           "Surfing Encounter"
         ],
@@ -6573,7 +6562,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 8192,
         "rolls": 1,
         "countable": true
@@ -6585,7 +6574,6 @@
           "Fishing Encounter",
           "Grass Encounter",
           "Safari Encounter",
-          "Random Encounter",
           "Surfing Encounter"
         ],
         "odds": 8192,
@@ -6593,7 +6581,7 @@
         "countable": true
       },
       {
-        "categories": ["Random Masuda Method"],
+        "categories": [],
         "name": "Masuda Method",
         "odds": 8192,
         "rolls": 5,
@@ -7556,7 +7544,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 8192,
         "rolls": 1,
         "countable": true
@@ -7568,7 +7556,6 @@
           "Fishing Encounter",
           "Grass Encounter",
           "Safari Encounter",
-          "Random Encounter",
           "Surfing Encounter"
         ],
         "odds": 8192,
@@ -7576,7 +7563,7 @@
         "countable": true
       },
       {
-        "categories": ["Random Masuda Method"],
+        "categories": [],
         "name": "Masuda Method",
         "odds": 8192,
         "rolls": 5,
@@ -8550,7 +8537,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 8192,
         "rolls": 1,
         "countable": true
@@ -8562,7 +8549,6 @@
           "Fishing Encounter",
           "Grass Encounter",
           "Safari Encounter",
-          "Random Encounter",
           "Surfing Encounter"
         ],
         "odds": 8192,
@@ -8570,7 +8556,7 @@
         "countable": true
       },
       {
-        "categories": ["Random Masuda Method"],
+        "categories": [],
         "name": "Masuda Method",
         "odds": 8192,
         "rolls": 5,
@@ -9592,7 +9578,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 8192,
         "rolls": 1,
         "countable": true
@@ -9604,7 +9590,6 @@
           "Fishing Encounter",
           "Grass Encounter",
           "Headbutt Encounter",
-          "Random Encounter",
           "Safari Encounter",
           "Surfing Encounter"
         ],
@@ -9613,7 +9598,7 @@
         "countable": true
       },
       {
-        "categories": ["Random Masuda Method"],
+        "categories": [],
         "name": "Masuda Method",
         "odds": 8192,
         "rolls": 5,
@@ -10629,7 +10614,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 8192,
         "rolls": 1,
         "countable": true
@@ -10641,7 +10626,6 @@
           "Fishing Encounter",
           "Grass Encounter",
           "Headbutt Encounter",
-          "Random Encounter",
           "Safari Encounter",
           "Surfing Encounter"
         ],
@@ -10650,7 +10634,7 @@
         "countable": true
       },
       {
-        "categories": ["Random Masuda Method"],
+        "categories": [],
         "name": "Masuda Method",
         "odds": 8192,
         "rolls": 5,
@@ -11437,7 +11421,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 8192,
         "rolls": 1,
         "countable": true
@@ -11449,7 +11433,6 @@
           "Dark Grass Encounter",
           "Fishing Encounter",
           "Grass Encounter",
-          "Random Encounter",
           "Surfing Encounter"
         ],
         "odds": 8192,
@@ -11457,7 +11440,7 @@
         "countable": true
       },
       {
-        "categories": ["Random Masuda Method"],
+        "categories": [],
         "name": "Masuda Method",
         "odds": 8192,
         "rolls": 5,
@@ -12409,7 +12392,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 8192,
         "rolls": 1,
         "countable": true
@@ -12421,7 +12404,6 @@
           "Dark Grass Encounter",
           "Fishing Encounter",
           "Grass Encounter",
-          "Random Encounter",
           "Surfing Encounter"
         ],
         "odds": 8192,
@@ -12429,7 +12411,7 @@
         "countable": true
       },
       {
-        "categories": ["Random Masuda Method"],
+        "categories": [],
         "name": "Masuda Method",
         "odds": 8192,
         "rolls": 5,
@@ -13408,7 +13390,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 8192,
         "rolls": 1,
         "charmRolls": 2,
@@ -13421,7 +13403,6 @@
           "Dark Grass Encounter",
           "Fishing Encounter",
           "Grass Encounter",
-          "Random Encounter",
           "Surfing Encounter"
         ],
         "odds": 8192,
@@ -13430,7 +13411,7 @@
         "countable": true
       },
       {
-        "categories": ["Random Masuda Method"],
+        "categories": [],
         "name": "Masuda Method",
         "odds": 8192,
         "rolls": 6,
@@ -14422,7 +14403,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 8192,
         "rolls": 1,
         "charmRolls": 2,
@@ -14435,7 +14416,6 @@
           "Dark Grass Encounter",
           "Fishing Encounter",
           "Grass Encounter",
-          "Random Encounter",
           "Surfing Encounter"
         ],
         "odds": 8192,
@@ -14444,7 +14424,7 @@
         "countable": true
       },
       {
-        "categories": ["Random Masuda Method"],
+        "categories": [],
         "name": "Masuda Method",
         "odds": 8192,
         "rolls": 6,
@@ -15544,7 +15524,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 4096,
         "rolls": 1,
         "charmRolls": 1,
@@ -15560,10 +15540,10 @@
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
+          "Dirt Encounter",
           "Fishing Encounter",
           "Grass Encounter",
           "Horde Encounter",
-          "Random Encounter",
           "Surfing Encounter"
         ],
         "odds": 4096,
@@ -15580,7 +15560,7 @@
         "countable": true
       },
       {
-        "categories": ["Random Masuda Method"],
+        "categories": [],
         "name": "Masuda Method",
         "odds": 4096,
         "rolls": 6,
@@ -16844,7 +16824,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 4096,
         "rolls": 1,
         "charmRolls": 1,
@@ -16860,10 +16840,10 @@
         "name": "Encounter",
         "categories": [
           "Cave Encounter",
+          "Dirt Encounter",
           "Fishing Encounter",
           "Grass Encounter",
           "Horde Encounter",
-          "Random Encounter",
           "Surfing Encounter"
         ],
         "odds": 4096,
@@ -16880,7 +16860,7 @@
         "countable": true
       },
       {
-        "categories": ["Random Masuda Method"],
+        "categories": [],
         "name": "Masuda Method",
         "odds": 4096,
         "rolls": 6,
@@ -18183,7 +18163,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 4096,
         "rolls": 1,
         "charmRolls": 1,
@@ -18208,7 +18188,6 @@
           "Fishing Encounter",
           "Grass Encounter",
           "Horde Encounter",
-          "Random Encounter",
           "Surfing Encounter"
         ],
         "odds": 4096,
@@ -18217,7 +18196,7 @@
         "countable": true
       },
       {
-        "categories": ["Random Masuda Method"],
+        "categories": [],
         "name": "Masuda Method",
         "odds": 4096,
         "rolls": 6,
@@ -19514,7 +19493,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 4096,
         "rolls": 1,
         "charmRolls": 1,
@@ -19539,7 +19518,6 @@
           "Fishing Encounter",
           "Grass Encounter",
           "Horde Encounter",
-          "Random Encounter",
           "Surfing Encounter"
         ],
         "odds": 4096,
@@ -19548,7 +19526,7 @@
         "countable": true
       },
       {
-        "categories": ["Random Masuda Method"],
+        "categories": [],
         "name": "Masuda Method",
         "odds": 4096,
         "rolls": 6,
@@ -20753,7 +20731,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 4096,
         "rolls": 1,
         "charmRolls": 1,
@@ -20766,7 +20744,6 @@
           "Fishing Encounter",
           "Grass Encounter",
           "Poké Pelago",
-          "Random Encounter",
           "Surfing Encounter"
         ],
         "odds": 4096,
@@ -20775,7 +20752,7 @@
         "countable": true
       },
       {
-        "categories": ["Random Masuda Method"],
+        "categories": [],
         "name": "Masuda Method",
         "odds": 4096,
         "rolls": 6,
@@ -20796,7 +20773,7 @@
         "countable": true
       },
       {
-        "categories": ["Random SOS Chain"],
+        "categories": [],
         "name": "SOS Chain",
         "function": "sos-chain-sm",
         "countable": true
@@ -22114,7 +22091,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 4096,
         "rolls": 1,
         "charmRolls": 1,
@@ -22127,7 +22104,6 @@
           "Fishing Encounter",
           "Grass Encounter",
           "Poké Pelago",
-          "Random Encounter",
           "Surfing Encounter"
         ],
         "odds": 4096,
@@ -22136,7 +22112,7 @@
         "countable": true
       },
       {
-        "categories": ["Random Masuda Method"],
+        "categories": [],
         "name": "Masuda Method",
         "odds": 4096,
         "rolls": 6,
@@ -22157,7 +22133,7 @@
         "countable": true
       },
       {
-        "categories": ["Random SOS Chain"],
+        "categories": [],
         "name": "SOS Chain",
         "function": "sos-chain-sm",
         "countable": true
@@ -23494,7 +23470,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 4096,
         "rolls": 1,
         "charmRolls": 1,
@@ -23507,7 +23483,6 @@
           "Fishing Encounter",
           "Grass Encounter",
           "Poké Pelago",
-          "Random Encounter",
           "Surfing Encounter"
         ],
         "odds": 4096,
@@ -23516,7 +23491,7 @@
         "countable": true
       },
       {
-        "categories": ["Random Masuda Method"],
+        "categories": [],
         "name": "Masuda Method",
         "odds": 4096,
         "rolls": 6,
@@ -23537,7 +23512,7 @@
         "countable": true
       },
       {
-        "categories": ["Random SOS Chain"],
+        "categories": [],
         "name": "SOS Chain",
         "function": "sos-chain",
         "countable": true
@@ -24888,7 +24863,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 4096,
         "rolls": 1,
         "charmRolls": 1,
@@ -24901,7 +24876,6 @@
           "Fishing Encounter",
           "Grass Encounter",
           "Poké Pelago",
-          "Random Encounter",
           "Surfing Encounter"
         ],
         "odds": 4096,
@@ -24910,7 +24884,7 @@
         "countable": true
       },
       {
-        "categories": ["Random Masuda Method"],
+        "categories": [],
         "name": "Masuda Method",
         "odds": 4096,
         "rolls": 6,
@@ -24931,7 +24905,7 @@
         "countable": true
       },
       {
-        "categories": ["Random SOS Chain"],
+        "categories": [],
         "name": "SOS Chain",
         "function": "sos-chain",
         "countable": true
@@ -27186,7 +27160,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 4096,
         "rolls": 1,
         "charmRolls": 1,
@@ -27212,7 +27186,7 @@
           "Cave Encounter",
           "Fishing Encounter",
           "Grass Encounter",
-          "Random Encounter",
+          "Overworld Encounter",
           "Surfing Encounter"
         ],
         "odds": 4096,
@@ -27221,7 +27195,7 @@
         "countable": true
       },
       {
-        "categories": ["Random Masuda Method"],
+        "categories": [],
         "name": "Masuda Method",
         "odds": 4096,
         "rolls": 6,
@@ -28686,7 +28660,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 4096,
         "rolls": 1,
         "charmRolls": 1,
@@ -28712,7 +28686,7 @@
           "Cave Encounter",
           "Fishing Encounter",
           "Grass Encounter",
-          "Random Encounter",
+          "Overworld Encounter",
           "Surfing Encounter"
         ],
         "odds": 4096,
@@ -28721,7 +28695,7 @@
         "countable": true
       },
       {
-        "categories": ["Random Masuda Method"],
+        "categories": [],
         "name": "Masuda Method",
         "odds": 4096,
         "rolls": 6,
@@ -30205,7 +30179,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 4096,
         "rolls": 1,
         "charmRolls": 1,
@@ -30217,7 +30191,6 @@
           "Cave Encounter",
           "Fishing Encounter",
           "Grass Encounter",
-          "Random Encounter",
           "Safari Encounter",
           "Surfing Encounter"
         ],
@@ -30227,7 +30200,7 @@
         "countable": true
       },
       {
-        "categories": ["Random Masuda Method"],
+        "categories": [],
         "name": "Masuda Method",
         "odds": 4096,
         "rolls": 6,
@@ -31412,7 +31385,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 4096,
         "rolls": 1,
         "charmRolls": 1,
@@ -31424,7 +31397,6 @@
           "Cave Encounter",
           "Fishing Encounter",
           "Grass Encounter",
-          "Random Encounter",
           "Safari Encounter",
           "Surfing Encounter"
         ],
@@ -31434,7 +31406,7 @@
         "countable": true
       },
       {
-        "categories": ["Random Masuda Method"],
+        "categories": [],
         "name": "Masuda Method",
         "odds": 4096,
         "rolls": 6,
@@ -33362,7 +33334,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 4096,
         "rolls": 1,
         "charmRolls": 1,
@@ -33379,7 +33351,7 @@
         "countable": false
       },
       {
-        "categories": ["Random Masuda Method"],
+        "categories": [],
         "name": "Masuda Method",
         "odds": 4096,
         "rolls": 6,
@@ -35395,7 +35367,7 @@
     "methods": [
       {
         "name": "Breeding",
-        "categories": ["Random Breeding"],
+        "categories": [],
         "odds": 4096,
         "rolls": 1,
         "charmRolls": 1,
@@ -35412,7 +35384,7 @@
         "countable": false
       },
       {
-        "categories": ["Random Masuda Method"],
+        "categories": [],
         "name": "Masuda Method",
         "odds": 4096,
         "rolls": 6,
