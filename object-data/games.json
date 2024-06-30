@@ -26718,207 +26718,203 @@
     "marks": [
       {
         "name": "Destiny Mark",
-        "sprite": "destinymark"
+        "sprite": "destiny-mark"
       },
       {
         "name": "Itemfinder Mark",
-        "sprite": "itemfindermark"
+        "sprite": "itemfinder-mark"
       },
       {
         "name": "Gourmand Mark",
-        "sprite": "gourmandmark"
+        "sprite": "gourmand-mark"
       },
       {
         "name": "Jumbo Mark",
-        "sprite": "jumbomark"
+        "sprite": "jumbo-mark"
       },
       {
         "name": "Mightiest Mark",
-        "sprite": "mightiestmark"
+        "sprite": "mightiest-mark"
       },
       {
         "name": "Mini Mark",
-        "sprite": "minimark"
+        "sprite": "mini-mark"
       },
       {
         "name": "Partner Mark",
-        "sprite": "partnermark"
-      },
-      {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "sprite": "partner-mark"
       },
       {
         "name": "Titan Mark",
-        "sprite": "titanmark"
+        "sprite": "titan-mark"
       },
       {
         "name": "Alpha Mark",
-        "sprite": "alphamark"
+        "sprite": "alpha-mark"
       },
       {
         "name": "Lunchtime Mark",
-        "sprite": "lunchtimemark"
+        "sprite": "lunchtime-mark"
       },
       {
         "name": "Sleepy-Time Mark",
-        "sprite": "sleepy-timemark"
+        "sprite": "sleepy-time-mark"
       },
       {
         "name": "Dusk Mark",
-        "sprite": "duskmark"
+        "sprite": "dusk-mark"
       },
       {
         "name": "Dawn Mark",
-        "sprite": "dawnmark"
+        "sprite": "dawn-mark"
       },
       {
         "name": "Cloudy Mark",
-        "sprite": "cloudymark"
+        "sprite": "cloudy-mark"
       },
       {
         "name": "Rainy Mark",
-        "sprite": "rainymark"
+        "sprite": "rainy-mark"
       },
       {
         "name": "Stormy Mark",
-        "sprite": "stormymark"
+        "sprite": "stormy-mark"
       },
       {
         "name": "Snowy Mark",
-        "sprite": "snowymark"
+        "sprite": "snowy-mark"
       },
       {
         "name": "Blizzard Mark",
-        "sprite": "blizzardmark"
+        "sprite": "blizzard-mark"
       },
       {
         "name": "Sandstorm Mark",
-        "sprite": "sandstormmark"
+        "sprite": "sandstorm-mark"
       },
       {
         "name": "Misty Mark",
-        "sprite": "mistymark"
+        "sprite": "misty-mark"
       },
       {
         "name": "Rare Mark",
-        "sprite": "raremark"
+        "sprite": "rare-mark"
       },
       {
         "name": "Uncommon Mark",
-        "sprite": "uncommonmark"
+        "sprite": "uncommon-mark"
       },
       {
         "name": "Rowdy Mark",
-        "sprite": "rowdymark"
+        "sprite": "rowdy-mark"
       },
       {
         "name": "Absent-Minded Mark",
-        "sprite": "Absent-mindedmark"
+        "sprite": "absent-minded-mark"
       },
       {
         "name": "Jittery Mark",
-        "sprite": "jitterymark"
+        "sprite": "jittery-mark"
       },
       {
         "name": "Excited Mark",
-        "sprite": "excitedmark"
+        "sprite": "excited-mark"
       },
       {
         "name": "Charismatic Mark",
-        "sprite": "charismaticmark"
+        "sprite": "charismatic-mark"
       },
       {
         "name": "Calmness Mark",
-        "sprite": "calmnessmark"
+        "sprite": "calmness-mark"
       },
       {
         "name": "Intense Mark",
-        "sprite": "intensemark"
+        "sprite": "intense-mark"
       },
       {
         "name": "Zoned-Out Mark",
-        "sprite": "zoned-outmark"
+        "sprite": "zoned-out-mark"
       },
       {
         "name": "Joyful Mark",
-        "sprite": "joyfulmark"
+        "sprite": "joyful-mark"
       },
       {
         "name": "Angry Mark",
-        "sprite": "angrymark"
+        "sprite": "angry-mark"
       },
       {
         "name": "Smiley Mark",
-        "sprite": "smileymark"
+        "sprite": "smiley-mark"
       },
       {
         "name": "Teary Mark",
-        "sprite": "tearymark"
+        "sprite": "teary-mark"
       },
       {
         "name": "Upbeat Mark",
-        "sprite": "upbeatmark"
+        "sprite": "upbeat-mark"
       },
       {
         "name": "Peeved Mark",
-        "sprite": "peevedmark"
+        "sprite": "peeved-mark"
       },
       {
         "name": "Intellectual Mark",
-        "sprite": "intellectuelmark"
+        "sprite": "intellectual-mark"
       },
       {
         "name": "Ferocious Mark",
-        "sprite": "ferociousmark"
+        "sprite": "ferocious-mark"
       },
       {
         "name": "Crafty Mark",
-        "sprite": "craftymark"
+        "sprite": "crafty-mark"
       },
       {
         "name": "Scowling Mark",
-        "sprite": "scowlingmark"
+        "sprite": "scowling-mark"
       },
       {
         "name": "Kindly Mark",
-        "sprite": "kindlymark"
+        "sprite": "kindly-mark"
       },
       {
         "name": "Flustered Mark",
-        "sprite": "flusteredmark"
+        "sprite": "flustered-mark"
       },
       {
         "name": "Pumped-Up Mark",
-        "sprite": "pumped-upmark"
+        "sprite": "pumped-up-mark"
       },
       {
         "name": "Zero Energy Mark",
-        "sprite": "zeroenergymark"
+        "sprite": "zeroenergy-mark"
       },
       {
         "name": "Prideful Mark",
-        "sprite": "pridefulmark"
+        "sprite": "prideful-mark"
       },
       {
         "name": "Unsure Mark",
-        "sprite": "unsuremark"
+        "sprite": "unsure-mark"
       },
       {
         "name": "Humble Mark",
-        "sprite": "humblemark"
+        "sprite": "humble-mark"
       },
       {
         "name": "Thorny Mark",
-        "sprite": "thornymark"
+        "sprite": "thorny-mark"
       },
       {
         "name": "Vigor Mark",
-        "sprite": "vigormark"
+        "sprite": "vigor-mark"
       },
       {
         "name": "Slump Mark",
-        "sprite": "slumpmark"
+        "sprite": "slump-mark"
       }
     ],
     "ribbons": [
@@ -28218,207 +28214,203 @@
     "marks": [
       {
         "name": "Destiny Mark",
-        "sprite": "destinymark"
+        "sprite": "destiny-mark"
       },
       {
         "name": "Itemfinder Mark",
-        "sprite": "itemfindermark"
+        "sprite": "itemfinder-mark"
       },
       {
         "name": "Gourmand Mark",
-        "sprite": "gourmandmark"
+        "sprite": "gourmand-mark"
       },
       {
         "name": "Jumbo Mark",
-        "sprite": "jumbomark"
+        "sprite": "jumbo-mark"
       },
       {
         "name": "Mightiest Mark",
-        "sprite": "mightiestmark"
+        "sprite": "mightiest-mark"
       },
       {
         "name": "Mini Mark",
-        "sprite": "minimark"
+        "sprite": "mini-mark"
       },
       {
         "name": "Partner Mark",
-        "sprite": "partnermark"
-      },
-      {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "sprite": "partner-mark"
       },
       {
         "name": "Titan Mark",
-        "sprite": "titanmark"
+        "sprite": "titan-mark"
       },
       {
         "name": "Alpha Mark",
-        "sprite": "alphamark"
+        "sprite": "alpha-mark"
       },
       {
         "name": "Lunchtime Mark",
-        "sprite": "lunchtimemark"
+        "sprite": "lunchtime-mark"
       },
       {
         "name": "Sleepy-Time Mark",
-        "sprite": "sleepy-timemark"
+        "sprite": "sleepy-time-mark"
       },
       {
         "name": "Dusk Mark",
-        "sprite": "duskmark"
+        "sprite": "dusk-mark"
       },
       {
         "name": "Dawn Mark",
-        "sprite": "dawnmark"
+        "sprite": "dawn-mark"
       },
       {
         "name": "Cloudy Mark",
-        "sprite": "cloudymark"
+        "sprite": "cloudy-mark"
       },
       {
         "name": "Rainy Mark",
-        "sprite": "rainymark"
+        "sprite": "rainy-mark"
       },
       {
         "name": "Stormy Mark",
-        "sprite": "stormymark"
+        "sprite": "stormy-mark"
       },
       {
         "name": "Snowy Mark",
-        "sprite": "snowymark"
+        "sprite": "snowy-mark"
       },
       {
         "name": "Blizzard Mark",
-        "sprite": "blizzardmark"
+        "sprite": "blizzard-mark"
       },
       {
         "name": "Sandstorm Mark",
-        "sprite": "sandstormmark"
+        "sprite": "sandstorm-mark"
       },
       {
         "name": "Misty Mark",
-        "sprite": "mistymark"
+        "sprite": "misty-mark"
       },
       {
         "name": "Rare Mark",
-        "sprite": "raremark"
+        "sprite": "rare-mark"
       },
       {
         "name": "Uncommon Mark",
-        "sprite": "uncommonmark"
+        "sprite": "uncommon-mark"
       },
       {
         "name": "Rowdy Mark",
-        "sprite": "rowdymark"
+        "sprite": "rowdy-mark"
       },
       {
         "name": "Absent-Minded Mark",
-        "sprite": "Absent-mindedmark"
+        "sprite": "absent-minded-mark"
       },
       {
         "name": "Jittery Mark",
-        "sprite": "jitterymark"
+        "sprite": "jittery-mark"
       },
       {
         "name": "Excited Mark",
-        "sprite": "excitedmark"
+        "sprite": "excited-mark"
       },
       {
         "name": "Charismatic Mark",
-        "sprite": "charismaticmark"
+        "sprite": "charismatic-mark"
       },
       {
         "name": "Calmness Mark",
-        "sprite": "calmnessmark"
+        "sprite": "calmness-mark"
       },
       {
         "name": "Intense Mark",
-        "sprite": "intensemark"
+        "sprite": "intense-mark"
       },
       {
         "name": "Zoned-Out Mark",
-        "sprite": "zoned-outmark"
+        "sprite": "zoned-out-mark"
       },
       {
         "name": "Joyful Mark",
-        "sprite": "joyfulmark"
+        "sprite": "joyful-mark"
       },
       {
         "name": "Angry Mark",
-        "sprite": "angrymark"
+        "sprite": "angry-mark"
       },
       {
         "name": "Smiley Mark",
-        "sprite": "smileymark"
+        "sprite": "smiley-mark"
       },
       {
         "name": "Teary Mark",
-        "sprite": "tearymark"
+        "sprite": "teary-mark"
       },
       {
         "name": "Upbeat Mark",
-        "sprite": "upbeatmark"
+        "sprite": "upbeat-mark"
       },
       {
         "name": "Peeved Mark",
-        "sprite": "peevedmark"
+        "sprite": "peeved-mark"
       },
       {
         "name": "Intellectual Mark",
-        "sprite": "intellectuelmark"
+        "sprite": "intellectual-mark"
       },
       {
         "name": "Ferocious Mark",
-        "sprite": "ferociousmark"
+        "sprite": "ferocious-mark"
       },
       {
         "name": "Crafty Mark",
-        "sprite": "craftymark"
+        "sprite": "crafty-mark"
       },
       {
         "name": "Scowling Mark",
-        "sprite": "scowlingmark"
+        "sprite": "scowling-mark"
       },
       {
         "name": "Kindly Mark",
-        "sprite": "kindlymark"
+        "sprite": "kindly-mark"
       },
       {
         "name": "Flustered Mark",
-        "sprite": "flusteredmark"
+        "sprite": "flustered-mark"
       },
       {
         "name": "Pumped-Up Mark",
-        "sprite": "pumped-upmark"
+        "sprite": "pumped-up-mark"
       },
       {
         "name": "Zero Energy Mark",
-        "sprite": "zeroenergymark"
+        "sprite": "zeroenergy-mark"
       },
       {
         "name": "Prideful Mark",
-        "sprite": "pridefulmark"
+        "sprite": "prideful-mark"
       },
       {
         "name": "Unsure Mark",
-        "sprite": "unsuremark"
+        "sprite": "unsure-mark"
       },
       {
         "name": "Humble Mark",
-        "sprite": "humblemark"
+        "sprite": "humble-mark"
       },
       {
         "name": "Thorny Mark",
-        "sprite": "thornymark"
+        "sprite": "thorny-mark"
       },
       {
         "name": "Vigor Mark",
-        "sprite": "vigormark"
+        "sprite": "vigor-mark"
       },
       {
         "name": "Slump Mark",
-        "sprite": "slumpmark"
+        "sprite": "slump-mark"
       }
     ],
     "ribbons": [
@@ -29718,207 +29710,203 @@
     "marks": [
       {
         "name": "Destiny Mark",
-        "sprite": "destinymark"
+        "sprite": "destiny-mark"
       },
       {
         "name": "Itemfinder Mark",
-        "sprite": "itemfindermark"
+        "sprite": "itemfinder-mark"
       },
       {
         "name": "Gourmand Mark",
-        "sprite": "gourmandmark"
+        "sprite": "gourmand-mark"
       },
       {
         "name": "Jumbo Mark",
-        "sprite": "jumbomark"
+        "sprite": "jumbo-mark"
       },
       {
         "name": "Mightiest Mark",
-        "sprite": "mightiestmark"
+        "sprite": "mightiest-mark"
       },
       {
         "name": "Mini Mark",
-        "sprite": "minimark"
+        "sprite": "mini-mark"
       },
       {
         "name": "Partner Mark",
-        "sprite": "partnermark"
-      },
-      {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "sprite": "partner-mark"
       },
       {
         "name": "Titan Mark",
-        "sprite": "titanmark"
+        "sprite": "titan-mark"
       },
       {
         "name": "Alpha Mark",
-        "sprite": "alphamark"
+        "sprite": "alpha-mark"
       },
       {
         "name": "Lunchtime Mark",
-        "sprite": "lunchtimemark"
+        "sprite": "lunchtime-mark"
       },
       {
         "name": "Sleepy-Time Mark",
-        "sprite": "sleepy-timemark"
+        "sprite": "sleepy-time-mark"
       },
       {
         "name": "Dusk Mark",
-        "sprite": "duskmark"
+        "sprite": "dusk-mark"
       },
       {
         "name": "Dawn Mark",
-        "sprite": "dawnmark"
+        "sprite": "dawn-mark"
       },
       {
         "name": "Cloudy Mark",
-        "sprite": "cloudymark"
+        "sprite": "cloudy-mark"
       },
       {
         "name": "Rainy Mark",
-        "sprite": "rainymark"
+        "sprite": "rainy-mark"
       },
       {
         "name": "Stormy Mark",
-        "sprite": "stormymark"
+        "sprite": "stormy-mark"
       },
       {
         "name": "Snowy Mark",
-        "sprite": "snowymark"
+        "sprite": "snowy-mark"
       },
       {
         "name": "Blizzard Mark",
-        "sprite": "blizzardmark"
+        "sprite": "blizzard-mark"
       },
       {
         "name": "Sandstorm Mark",
-        "sprite": "sandstormmark"
+        "sprite": "sandstorm-mark"
       },
       {
         "name": "Misty Mark",
-        "sprite": "mistymark"
+        "sprite": "misty-mark"
       },
       {
         "name": "Rare Mark",
-        "sprite": "raremark"
+        "sprite": "rare-mark"
       },
       {
         "name": "Uncommon Mark",
-        "sprite": "uncommonmark"
+        "sprite": "uncommon-mark"
       },
       {
         "name": "Rowdy Mark",
-        "sprite": "rowdymark"
+        "sprite": "rowdy-mark"
       },
       {
         "name": "Absent-Minded Mark",
-        "sprite": "Absent-mindedmark"
+        "sprite": "absent-minded-mark"
       },
       {
         "name": "Jittery Mark",
-        "sprite": "jitterymark"
+        "sprite": "jittery-mark"
       },
       {
         "name": "Excited Mark",
-        "sprite": "excitedmark"
+        "sprite": "excited-mark"
       },
       {
         "name": "Charismatic Mark",
-        "sprite": "charismaticmark"
+        "sprite": "charismatic-mark"
       },
       {
         "name": "Calmness Mark",
-        "sprite": "calmnessmark"
+        "sprite": "calmness-mark"
       },
       {
         "name": "Intense Mark",
-        "sprite": "intensemark"
+        "sprite": "intense-mark"
       },
       {
         "name": "Zoned-Out Mark",
-        "sprite": "zoned-outmark"
+        "sprite": "zoned-out-mark"
       },
       {
         "name": "Joyful Mark",
-        "sprite": "joyfulmark"
+        "sprite": "joyful-mark"
       },
       {
         "name": "Angry Mark",
-        "sprite": "angrymark"
+        "sprite": "angry-mark"
       },
       {
         "name": "Smiley Mark",
-        "sprite": "smileymark"
+        "sprite": "smiley-mark"
       },
       {
         "name": "Teary Mark",
-        "sprite": "tearymark"
+        "sprite": "teary-mark"
       },
       {
         "name": "Upbeat Mark",
-        "sprite": "upbeatmark"
+        "sprite": "upbeat-mark"
       },
       {
         "name": "Peeved Mark",
-        "sprite": "peevedmark"
+        "sprite": "peeved-mark"
       },
       {
         "name": "Intellectual Mark",
-        "sprite": "intellectuelmark"
+        "sprite": "intellectual-mark"
       },
       {
         "name": "Ferocious Mark",
-        "sprite": "ferociousmark"
+        "sprite": "ferocious-mark"
       },
       {
         "name": "Crafty Mark",
-        "sprite": "craftymark"
+        "sprite": "crafty-mark"
       },
       {
         "name": "Scowling Mark",
-        "sprite": "scowlingmark"
+        "sprite": "scowling-mark"
       },
       {
         "name": "Kindly Mark",
-        "sprite": "kindlymark"
+        "sprite": "kindly-mark"
       },
       {
         "name": "Flustered Mark",
-        "sprite": "flusteredmark"
+        "sprite": "flustered-mark"
       },
       {
         "name": "Pumped-Up Mark",
-        "sprite": "pumped-upmark"
+        "sprite": "pumped-up-mark"
       },
       {
         "name": "Zero Energy Mark",
-        "sprite": "zeroenergymark"
+        "sprite": "zeroenergy-mark"
       },
       {
         "name": "Prideful Mark",
-        "sprite": "pridefulmark"
+        "sprite": "prideful-mark"
       },
       {
         "name": "Unsure Mark",
-        "sprite": "unsuremark"
+        "sprite": "unsure-mark"
       },
       {
         "name": "Humble Mark",
-        "sprite": "humblemark"
+        "sprite": "humble-mark"
       },
       {
         "name": "Thorny Mark",
-        "sprite": "thornymark"
+        "sprite": "thorny-mark"
       },
       {
         "name": "Vigor Mark",
-        "sprite": "vigormark"
+        "sprite": "vigor-mark"
       },
       {
         "name": "Slump Mark",
-        "sprite": "slumpmark"
+        "sprite": "slump-mark"
       }
     ],
     "ribbons": [
@@ -30924,207 +30912,203 @@
     "marks": [
       {
         "name": "Destiny Mark",
-        "sprite": "destinymark"
+        "sprite": "destiny-mark"
       },
       {
         "name": "Itemfinder Mark",
-        "sprite": "itemfindermark"
+        "sprite": "itemfinder-mark"
       },
       {
         "name": "Gourmand Mark",
-        "sprite": "gourmandmark"
+        "sprite": "gourmand-mark"
       },
       {
         "name": "Jumbo Mark",
-        "sprite": "jumbomark"
+        "sprite": "jumbo-mark"
       },
       {
         "name": "Mightiest Mark",
-        "sprite": "mightiestmark"
+        "sprite": "mightiest-mark"
       },
       {
         "name": "Mini Mark",
-        "sprite": "minimark"
+        "sprite": "mini-mark"
       },
       {
         "name": "Partner Mark",
-        "sprite": "partnermark"
-      },
-      {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "sprite": "partner-mark"
       },
       {
         "name": "Titan Mark",
-        "sprite": "titanmark"
+        "sprite": "titan-mark"
       },
       {
         "name": "Alpha Mark",
-        "sprite": "alphamark"
+        "sprite": "alpha-mark"
       },
       {
         "name": "Lunchtime Mark",
-        "sprite": "lunchtimemark"
+        "sprite": "lunchtime-mark"
       },
       {
         "name": "Sleepy-Time Mark",
-        "sprite": "sleepy-timemark"
+        "sprite": "sleepy-time-mark"
       },
       {
         "name": "Dusk Mark",
-        "sprite": "duskmark"
+        "sprite": "dusk-mark"
       },
       {
         "name": "Dawn Mark",
-        "sprite": "dawnmark"
+        "sprite": "dawn-mark"
       },
       {
         "name": "Cloudy Mark",
-        "sprite": "cloudymark"
+        "sprite": "cloudy-mark"
       },
       {
         "name": "Rainy Mark",
-        "sprite": "rainymark"
+        "sprite": "rainy-mark"
       },
       {
         "name": "Stormy Mark",
-        "sprite": "stormymark"
+        "sprite": "stormy-mark"
       },
       {
         "name": "Snowy Mark",
-        "sprite": "snowymark"
+        "sprite": "snowy-mark"
       },
       {
         "name": "Blizzard Mark",
-        "sprite": "blizzardmark"
+        "sprite": "blizzard-mark"
       },
       {
         "name": "Sandstorm Mark",
-        "sprite": "sandstormmark"
+        "sprite": "sandstorm-mark"
       },
       {
         "name": "Misty Mark",
-        "sprite": "mistymark"
+        "sprite": "misty-mark"
       },
       {
         "name": "Rare Mark",
-        "sprite": "raremark"
+        "sprite": "rare-mark"
       },
       {
         "name": "Uncommon Mark",
-        "sprite": "uncommonmark"
+        "sprite": "uncommon-mark"
       },
       {
         "name": "Rowdy Mark",
-        "sprite": "rowdymark"
+        "sprite": "rowdy-mark"
       },
       {
         "name": "Absent-Minded Mark",
-        "sprite": "Absent-mindedmark"
+        "sprite": "absent-minded-mark"
       },
       {
         "name": "Jittery Mark",
-        "sprite": "jitterymark"
+        "sprite": "jittery-mark"
       },
       {
         "name": "Excited Mark",
-        "sprite": "excitedmark"
+        "sprite": "excited-mark"
       },
       {
         "name": "Charismatic Mark",
-        "sprite": "charismaticmark"
+        "sprite": "charismatic-mark"
       },
       {
         "name": "Calmness Mark",
-        "sprite": "calmnessmark"
+        "sprite": "calmness-mark"
       },
       {
         "name": "Intense Mark",
-        "sprite": "intensemark"
+        "sprite": "intense-mark"
       },
       {
         "name": "Zoned-Out Mark",
-        "sprite": "zoned-outmark"
+        "sprite": "zoned-out-mark"
       },
       {
         "name": "Joyful Mark",
-        "sprite": "joyfulmark"
+        "sprite": "joyful-mark"
       },
       {
         "name": "Angry Mark",
-        "sprite": "angrymark"
+        "sprite": "angry-mark"
       },
       {
         "name": "Smiley Mark",
-        "sprite": "smileymark"
+        "sprite": "smiley-mark"
       },
       {
         "name": "Teary Mark",
-        "sprite": "tearymark"
+        "sprite": "teary-mark"
       },
       {
         "name": "Upbeat Mark",
-        "sprite": "upbeatmark"
+        "sprite": "upbeat-mark"
       },
       {
         "name": "Peeved Mark",
-        "sprite": "peevedmark"
+        "sprite": "peeved-mark"
       },
       {
         "name": "Intellectual Mark",
-        "sprite": "intellectuelmark"
+        "sprite": "intellectual-mark"
       },
       {
         "name": "Ferocious Mark",
-        "sprite": "ferociousmark"
+        "sprite": "ferocious-mark"
       },
       {
         "name": "Crafty Mark",
-        "sprite": "craftymark"
+        "sprite": "crafty-mark"
       },
       {
         "name": "Scowling Mark",
-        "sprite": "scowlingmark"
+        "sprite": "scowling-mark"
       },
       {
         "name": "Kindly Mark",
-        "sprite": "kindlymark"
+        "sprite": "kindly-mark"
       },
       {
         "name": "Flustered Mark",
-        "sprite": "flusteredmark"
+        "sprite": "flustered-mark"
       },
       {
         "name": "Pumped-Up Mark",
-        "sprite": "pumped-upmark"
+        "sprite": "pumped-up-mark"
       },
       {
         "name": "Zero Energy Mark",
-        "sprite": "zeroenergymark"
+        "sprite": "zeroenergy-mark"
       },
       {
         "name": "Prideful Mark",
-        "sprite": "pridefulmark"
+        "sprite": "prideful-mark"
       },
       {
         "name": "Unsure Mark",
-        "sprite": "unsuremark"
+        "sprite": "unsure-mark"
       },
       {
         "name": "Humble Mark",
-        "sprite": "humblemark"
+        "sprite": "humble-mark"
       },
       {
         "name": "Thorny Mark",
-        "sprite": "thornymark"
+        "sprite": "thorny-mark"
       },
       {
         "name": "Vigor Mark",
-        "sprite": "vigormark"
+        "sprite": "vigor-mark"
       },
       {
         "name": "Slump Mark",
-        "sprite": "slumpmark"
+        "sprite": "slump-mark"
       }
     ],
     "ribbons": [
@@ -32066,207 +32050,203 @@
     "marks": [
       {
         "name": "Destiny Mark",
-        "sprite": "destinymark"
+        "sprite": "destiny-mark"
       },
       {
         "name": "Itemfinder Mark",
-        "sprite": "itemfindermark"
+        "sprite": "itemfinder-mark"
       },
       {
         "name": "Gourmand Mark",
-        "sprite": "gourmandmark"
+        "sprite": "gourmand-mark"
       },
       {
         "name": "Jumbo Mark",
-        "sprite": "jumbomark"
+        "sprite": "jumbo-mark"
       },
       {
         "name": "Mightiest Mark",
-        "sprite": "mightiestmark"
+        "sprite": "mightiest-mark"
       },
       {
         "name": "Mini Mark",
-        "sprite": "minimark"
+        "sprite": "mini-mark"
       },
       {
         "name": "Partner Mark",
-        "sprite": "partnermark"
-      },
-      {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "sprite": "partner-mark"
       },
       {
         "name": "Titan Mark",
-        "sprite": "titanmark"
+        "sprite": "titan-mark"
       },
       {
         "name": "Alpha Mark",
-        "sprite": "alphamark"
+        "sprite": "alpha-mark"
       },
       {
         "name": "Lunchtime Mark",
-        "sprite": "lunchtimemark"
+        "sprite": "lunchtime-mark"
       },
       {
         "name": "Sleepy-Time Mark",
-        "sprite": "sleepy-timemark"
+        "sprite": "sleepy-time-mark"
       },
       {
         "name": "Dusk Mark",
-        "sprite": "duskmark"
+        "sprite": "dusk-mark"
       },
       {
         "name": "Dawn Mark",
-        "sprite": "dawnmark"
+        "sprite": "dawn-mark"
       },
       {
         "name": "Cloudy Mark",
-        "sprite": "cloudymark"
+        "sprite": "cloudy-mark"
       },
       {
         "name": "Rainy Mark",
-        "sprite": "rainymark"
+        "sprite": "rainy-mark"
       },
       {
         "name": "Stormy Mark",
-        "sprite": "stormymark"
+        "sprite": "stormy-mark"
       },
       {
         "name": "Snowy Mark",
-        "sprite": "snowymark"
+        "sprite": "snowy-mark"
       },
       {
         "name": "Blizzard Mark",
-        "sprite": "blizzardmark"
+        "sprite": "blizzard-mark"
       },
       {
         "name": "Sandstorm Mark",
-        "sprite": "sandstormmark"
+        "sprite": "sandstorm-mark"
       },
       {
         "name": "Misty Mark",
-        "sprite": "mistymark"
+        "sprite": "misty-mark"
       },
       {
         "name": "Rare Mark",
-        "sprite": "raremark"
+        "sprite": "rare-mark"
       },
       {
         "name": "Uncommon Mark",
-        "sprite": "uncommonmark"
+        "sprite": "uncommon-mark"
       },
       {
         "name": "Rowdy Mark",
-        "sprite": "rowdymark"
+        "sprite": "rowdy-mark"
       },
       {
         "name": "Absent-Minded Mark",
-        "sprite": "Absent-mindedmark"
+        "sprite": "absent-minded-mark"
       },
       {
         "name": "Jittery Mark",
-        "sprite": "jitterymark"
+        "sprite": "jittery-mark"
       },
       {
         "name": "Excited Mark",
-        "sprite": "excitedmark"
+        "sprite": "excited-mark"
       },
       {
         "name": "Charismatic Mark",
-        "sprite": "charismaticmark"
+        "sprite": "charismatic-mark"
       },
       {
         "name": "Calmness Mark",
-        "sprite": "calmnessmark"
+        "sprite": "calmness-mark"
       },
       {
         "name": "Intense Mark",
-        "sprite": "intensemark"
+        "sprite": "intense-mark"
       },
       {
         "name": "Zoned-Out Mark",
-        "sprite": "zoned-outmark"
+        "sprite": "zoned-out-mark"
       },
       {
         "name": "Joyful Mark",
-        "sprite": "joyfulmark"
+        "sprite": "joyful-mark"
       },
       {
         "name": "Angry Mark",
-        "sprite": "angrymark"
+        "sprite": "angry-mark"
       },
       {
         "name": "Smiley Mark",
-        "sprite": "smileymark"
+        "sprite": "smiley-mark"
       },
       {
         "name": "Teary Mark",
-        "sprite": "tearymark"
+        "sprite": "teary-mark"
       },
       {
         "name": "Upbeat Mark",
-        "sprite": "upbeatmark"
+        "sprite": "upbeat-mark"
       },
       {
         "name": "Peeved Mark",
-        "sprite": "peevedmark"
+        "sprite": "peeved-mark"
       },
       {
         "name": "Intellectual Mark",
-        "sprite": "intellectuelmark"
+        "sprite": "intellectual-mark"
       },
       {
         "name": "Ferocious Mark",
-        "sprite": "ferociousmark"
+        "sprite": "ferocious-mark"
       },
       {
         "name": "Crafty Mark",
-        "sprite": "craftymark"
+        "sprite": "crafty-mark"
       },
       {
         "name": "Scowling Mark",
-        "sprite": "scowlingmark"
+        "sprite": "scowling-mark"
       },
       {
         "name": "Kindly Mark",
-        "sprite": "kindlymark"
+        "sprite": "kindly-mark"
       },
       {
         "name": "Flustered Mark",
-        "sprite": "flusteredmark"
+        "sprite": "flustered-mark"
       },
       {
         "name": "Pumped-Up Mark",
-        "sprite": "pumped-upmark"
+        "sprite": "pumped-up-mark"
       },
       {
         "name": "Zero Energy Mark",
-        "sprite": "zeroenergymark"
+        "sprite": "zeroenergy-mark"
       },
       {
         "name": "Prideful Mark",
-        "sprite": "pridefulmark"
+        "sprite": "prideful-mark"
       },
       {
         "name": "Unsure Mark",
-        "sprite": "unsuremark"
+        "sprite": "unsure-mark"
       },
       {
         "name": "Humble Mark",
-        "sprite": "humblemark"
+        "sprite": "humble-mark"
       },
       {
         "name": "Thorny Mark",
-        "sprite": "thornymark"
+        "sprite": "thorny-mark"
       },
       {
         "name": "Vigor Mark",
-        "sprite": "vigormark"
+        "sprite": "vigor-mark"
       },
       {
         "name": "Slump Mark",
-        "sprite": "slumpmark"
+        "sprite": "slump-mark"
       }
     ],
     "ribbons": [
@@ -32958,207 +32938,203 @@
     "marks": [
       {
         "name": "Destiny Mark",
-        "sprite": "destinymark"
+        "sprite": "destiny-mark"
       },
       {
         "name": "Itemfinder Mark",
-        "sprite": "itemfindermark"
+        "sprite": "itemfinder-mark"
       },
       {
         "name": "Gourmand Mark",
-        "sprite": "gourmandmark"
+        "sprite": "gourmand-mark"
       },
       {
         "name": "Jumbo Mark",
-        "sprite": "jumbomark"
+        "sprite": "jumbo-mark"
       },
       {
         "name": "Mightiest Mark",
-        "sprite": "mightiestmark"
+        "sprite": "mightiest-mark"
       },
       {
         "name": "Mini Mark",
-        "sprite": "minimark"
+        "sprite": "mini-mark"
       },
       {
         "name": "Partner Mark",
-        "sprite": "partnermark"
-      },
-      {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "sprite": "partner-mark"
       },
       {
         "name": "Titan Mark",
-        "sprite": "titanmark"
+        "sprite": "titan-mark"
       },
       {
         "name": "Alpha Mark",
-        "sprite": "alphamark"
+        "sprite": "alpha-mark"
       },
       {
         "name": "Lunchtime Mark",
-        "sprite": "lunchtimemark"
+        "sprite": "lunchtime-mark"
       },
       {
         "name": "Sleepy-Time Mark",
-        "sprite": "sleepy-timemark"
+        "sprite": "sleepy-time-mark"
       },
       {
         "name": "Dusk Mark",
-        "sprite": "duskmark"
+        "sprite": "dusk-mark"
       },
       {
         "name": "Dawn Mark",
-        "sprite": "dawnmark"
+        "sprite": "dawn-mark"
       },
       {
         "name": "Cloudy Mark",
-        "sprite": "cloudymark"
+        "sprite": "cloudy-mark"
       },
       {
         "name": "Rainy Mark",
-        "sprite": "rainymark"
+        "sprite": "rainy-mark"
       },
       {
         "name": "Stormy Mark",
-        "sprite": "stormymark"
+        "sprite": "stormy-mark"
       },
       {
         "name": "Snowy Mark",
-        "sprite": "snowymark"
+        "sprite": "snowy-mark"
       },
       {
         "name": "Blizzard Mark",
-        "sprite": "blizzardmark"
+        "sprite": "blizzard-mark"
       },
       {
         "name": "Sandstorm Mark",
-        "sprite": "sandstormmark"
+        "sprite": "sandstorm-mark"
       },
       {
         "name": "Misty Mark",
-        "sprite": "mistymark"
+        "sprite": "misty-mark"
       },
       {
         "name": "Rare Mark",
-        "sprite": "raremark"
+        "sprite": "rare-mark"
       },
       {
         "name": "Uncommon Mark",
-        "sprite": "uncommonmark"
+        "sprite": "uncommon-mark"
       },
       {
         "name": "Rowdy Mark",
-        "sprite": "rowdymark"
+        "sprite": "rowdy-mark"
       },
       {
         "name": "Absent-Minded Mark",
-        "sprite": "Absent-mindedmark"
+        "sprite": "absent-minded-mark"
       },
       {
         "name": "Jittery Mark",
-        "sprite": "jitterymark"
+        "sprite": "jittery-mark"
       },
       {
         "name": "Excited Mark",
-        "sprite": "excitedmark"
+        "sprite": "excited-mark"
       },
       {
         "name": "Charismatic Mark",
-        "sprite": "charismaticmark"
+        "sprite": "charismatic-mark"
       },
       {
         "name": "Calmness Mark",
-        "sprite": "calmnessmark"
+        "sprite": "calmness-mark"
       },
       {
         "name": "Intense Mark",
-        "sprite": "intensemark"
+        "sprite": "intense-mark"
       },
       {
         "name": "Zoned-Out Mark",
-        "sprite": "zoned-outmark"
+        "sprite": "zoned-out-mark"
       },
       {
         "name": "Joyful Mark",
-        "sprite": "joyfulmark"
+        "sprite": "joyful-mark"
       },
       {
         "name": "Angry Mark",
-        "sprite": "angrymark"
+        "sprite": "angry-mark"
       },
       {
         "name": "Smiley Mark",
-        "sprite": "smileymark"
+        "sprite": "smiley-mark"
       },
       {
         "name": "Teary Mark",
-        "sprite": "tearymark"
+        "sprite": "teary-mark"
       },
       {
         "name": "Upbeat Mark",
-        "sprite": "upbeatmark"
+        "sprite": "upbeat-mark"
       },
       {
         "name": "Peeved Mark",
-        "sprite": "peevedmark"
+        "sprite": "peeved-mark"
       },
       {
         "name": "Intellectual Mark",
-        "sprite": "intellectuelmark"
+        "sprite": "intellectual-mark"
       },
       {
         "name": "Ferocious Mark",
-        "sprite": "ferociousmark"
+        "sprite": "ferocious-mark"
       },
       {
         "name": "Crafty Mark",
-        "sprite": "craftymark"
+        "sprite": "crafty-mark"
       },
       {
         "name": "Scowling Mark",
-        "sprite": "scowlingmark"
+        "sprite": "scowling-mark"
       },
       {
         "name": "Kindly Mark",
-        "sprite": "kindlymark"
+        "sprite": "kindly-mark"
       },
       {
         "name": "Flustered Mark",
-        "sprite": "flusteredmark"
+        "sprite": "flustered-mark"
       },
       {
         "name": "Pumped-Up Mark",
-        "sprite": "pumped-upmark"
+        "sprite": "pumped-up-mark"
       },
       {
         "name": "Zero Energy Mark",
-        "sprite": "zeroenergymark"
+        "sprite": "zeroenergy-mark"
       },
       {
         "name": "Prideful Mark",
-        "sprite": "pridefulmark"
+        "sprite": "prideful-mark"
       },
       {
         "name": "Unsure Mark",
-        "sprite": "unsuremark"
+        "sprite": "unsure-mark"
       },
       {
         "name": "Humble Mark",
-        "sprite": "humblemark"
+        "sprite": "humble-mark"
       },
       {
         "name": "Thorny Mark",
-        "sprite": "thornymark"
+        "sprite": "thorny-mark"
       },
       {
         "name": "Vigor Mark",
-        "sprite": "vigormark"
+        "sprite": "vigor-mark"
       },
       {
         "name": "Slump Mark",
-        "sprite": "slumpmark"
+        "sprite": "slump-mark"
       }
     ],
     "ribbons": [
@@ -33223,7 +33199,7 @@
       "Alfornada",
       "Alfornada Cavern",
       "Apple Hills",
-      "Aquiesta Supermarket",
+      "Aquiesta Super-market",
       "Area Zero",
       "Artazon",
       "Artisan Bakery",
@@ -34592,9 +34568,9 @@
       "Walking Wake",
       "Iron Leaves",
       "Dipplin",
-      "Poltchageist Unremarkable Form",
+      "Poltchageist Unre-markable Form",
       "Poltchageist Masterpiece Form",
-      "Sinistcha Unremarkable Form",
+      "Sinistcha Unre-markable Form",
       "Sinistcha Masterpiece Form",
       "Okidogi",
       "Munkidori",
@@ -34991,207 +34967,203 @@
     "marks": [
       {
         "name": "Destiny Mark",
-        "sprite": "destinymark"
+        "sprite": "destiny-mark"
       },
       {
         "name": "Itemfinder Mark",
-        "sprite": "itemfindermark"
+        "sprite": "itemfinder-mark"
       },
       {
         "name": "Gourmand Mark",
-        "sprite": "gourmandmark"
+        "sprite": "gourmand-mark"
       },
       {
         "name": "Jumbo Mark",
-        "sprite": "jumbomark"
+        "sprite": "jumbo-mark"
       },
       {
         "name": "Mightiest Mark",
-        "sprite": "mightiestmark"
+        "sprite": "mightiest-mark"
       },
       {
         "name": "Mini Mark",
-        "sprite": "minimark"
+        "sprite": "mini-mark"
       },
       {
         "name": "Partner Mark",
-        "sprite": "partnermark"
-      },
-      {
-        "name": "Roaming Mark",
-        "sprite": "roamingmark"
+        "sprite": "partner-mark"
       },
       {
         "name": "Titan Mark",
-        "sprite": "titanmark"
+        "sprite": "titan-mark"
       },
       {
         "name": "Alpha Mark",
-        "sprite": "alphamark"
+        "sprite": "alpha-mark"
       },
       {
         "name": "Lunchtime Mark",
-        "sprite": "lunchtimemark"
+        "sprite": "lunchtime-mark"
       },
       {
         "name": "Sleepy-Time Mark",
-        "sprite": "sleepy-timemark"
+        "sprite": "sleepy-time-mark"
       },
       {
         "name": "Dusk Mark",
-        "sprite": "duskmark"
+        "sprite": "dusk-mark"
       },
       {
         "name": "Dawn Mark",
-        "sprite": "dawnmark"
+        "sprite": "dawn-mark"
       },
       {
         "name": "Cloudy Mark",
-        "sprite": "cloudymark"
+        "sprite": "cloudy-mark"
       },
       {
         "name": "Rainy Mark",
-        "sprite": "rainymark"
+        "sprite": "rainy-mark"
       },
       {
         "name": "Stormy Mark",
-        "sprite": "stormymark"
+        "sprite": "stormy-mark"
       },
       {
         "name": "Snowy Mark",
-        "sprite": "snowymark"
+        "sprite": "snowy-mark"
       },
       {
         "name": "Blizzard Mark",
-        "sprite": "blizzardmark"
+        "sprite": "blizzard-mark"
       },
       {
         "name": "Sandstorm Mark",
-        "sprite": "sandstormmark"
+        "sprite": "sandstorm-mark"
       },
       {
         "name": "Misty Mark",
-        "sprite": "mistymark"
+        "sprite": "misty-mark"
       },
       {
         "name": "Rare Mark",
-        "sprite": "raremark"
+        "sprite": "rare-mark"
       },
       {
         "name": "Uncommon Mark",
-        "sprite": "uncommonmark"
+        "sprite": "uncommon-mark"
       },
       {
         "name": "Rowdy Mark",
-        "sprite": "rowdymark"
+        "sprite": "rowdy-mark"
       },
       {
         "name": "Absent-Minded Mark",
-        "sprite": "Absent-mindedmark"
+        "sprite": "absent-minded-mark"
       },
       {
         "name": "Jittery Mark",
-        "sprite": "jitterymark"
+        "sprite": "jittery-mark"
       },
       {
         "name": "Excited Mark",
-        "sprite": "excitedmark"
+        "sprite": "excited-mark"
       },
       {
         "name": "Charismatic Mark",
-        "sprite": "charismaticmark"
+        "sprite": "charismatic-mark"
       },
       {
         "name": "Calmness Mark",
-        "sprite": "calmnessmark"
+        "sprite": "calmness-mark"
       },
       {
         "name": "Intense Mark",
-        "sprite": "intensemark"
+        "sprite": "intense-mark"
       },
       {
         "name": "Zoned-Out Mark",
-        "sprite": "zoned-outmark"
+        "sprite": "zoned-out-mark"
       },
       {
         "name": "Joyful Mark",
-        "sprite": "joyfulmark"
+        "sprite": "joyful-mark"
       },
       {
         "name": "Angry Mark",
-        "sprite": "angrymark"
+        "sprite": "angry-mark"
       },
       {
         "name": "Smiley Mark",
-        "sprite": "smileymark"
+        "sprite": "smiley-mark"
       },
       {
         "name": "Teary Mark",
-        "sprite": "tearymark"
+        "sprite": "teary-mark"
       },
       {
         "name": "Upbeat Mark",
-        "sprite": "upbeatmark"
+        "sprite": "upbeat-mark"
       },
       {
         "name": "Peeved Mark",
-        "sprite": "peevedmark"
+        "sprite": "peeved-mark"
       },
       {
         "name": "Intellectual Mark",
-        "sprite": "intellectuelmark"
+        "sprite": "intellectual-mark"
       },
       {
         "name": "Ferocious Mark",
-        "sprite": "ferociousmark"
+        "sprite": "ferocious-mark"
       },
       {
         "name": "Crafty Mark",
-        "sprite": "craftymark"
+        "sprite": "crafty-mark"
       },
       {
         "name": "Scowling Mark",
-        "sprite": "scowlingmark"
+        "sprite": "scowling-mark"
       },
       {
         "name": "Kindly Mark",
-        "sprite": "kindlymark"
+        "sprite": "kindly-mark"
       },
       {
         "name": "Flustered Mark",
-        "sprite": "flusteredmark"
+        "sprite": "flustered-mark"
       },
       {
         "name": "Pumped-Up Mark",
-        "sprite": "pumped-upmark"
+        "sprite": "pumped-up-mark"
       },
       {
         "name": "Zero Energy Mark",
-        "sprite": "zeroenergymark"
+        "sprite": "zeroenergy-mark"
       },
       {
         "name": "Prideful Mark",
-        "sprite": "pridefulmark"
+        "sprite": "prideful-mark"
       },
       {
         "name": "Unsure Mark",
-        "sprite": "unsuremark"
+        "sprite": "unsure-mark"
       },
       {
         "name": "Humble Mark",
-        "sprite": "humblemark"
+        "sprite": "humble-mark"
       },
       {
         "name": "Thorny Mark",
-        "sprite": "thornymark"
+        "sprite": "thorny-mark"
       },
       {
         "name": "Vigor Mark",
-        "sprite": "vigormark"
+        "sprite": "vigor-mark"
       },
       {
         "name": "Slump Mark",
-        "sprite": "slumpmark"
+        "sprite": "slump-mark"
       }
     ],
     "ribbons": [
@@ -35256,7 +35228,7 @@
       "Alfornada",
       "Alfornada Cavern",
       "Apple Hills",
-      "Aquiesta Supermarket",
+      "Aquiesta Super-market",
       "Area Zero",
       "Artazon",
       "Artisan Bakery",
@@ -36625,9 +36597,9 @@
       "Walking Wake",
       "Iron Leaves",
       "Dipplin",
-      "Poltchageist Unremarkable Form",
+      "Poltchageist Unre-markable Form",
       "Poltchageist Masterpiece Form",
-      "Sinistcha Unremarkable Form",
+      "Sinistcha Unre-markable Form",
       "Sinistcha Masterpiece Form",
       "Okidogi",
       "Munkidori",
