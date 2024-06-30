@@ -6382,6 +6382,10 @@
         "sprite": "world-ability-ribbon"
       },
       {
+        "name": "Effort Ribbon",
+        "sprite": "effort-ribbon"
+      },
+      {
         "name": "Alert Ribbon",
         "sprite": "alert-ribbon"
       },
@@ -7364,6 +7368,10 @@
         "sprite": "world-ability-ribbon"
       },
       {
+        "name": "Effort Ribbon",
+        "sprite": "effort-ribbon"
+      },
+      {
         "name": "Alert Ribbon",
         "sprite": "alert-ribbon"
       },
@@ -8344,6 +8352,10 @@
       {
         "name": "World Ability Ribbon",
         "sprite": "world-ability-ribbon"
+      },
+      {
+        "name": "Effort Ribbon",
+        "sprite": "effort-ribbon"
       },
       {
         "name": "Alert Ribbon",
@@ -9376,6 +9388,10 @@
       {
         "name": "World Ability Ribbon",
         "sprite": "world-ability-ribbon"
+      },
+      {
+        "name": "Effort Ribbon",
+        "sprite": "effort-ribbon"
       },
       {
         "name": "Alert Ribbon",
@@ -10412,6 +10428,10 @@
       {
         "name": "World Ability Ribbon",
         "sprite": "world-ability-ribbon"
+      },
+      {
+        "name": "Effort Ribbon",
+        "sprite": "effort-ribbon"
       },
       {
         "name": "Alert Ribbon",
