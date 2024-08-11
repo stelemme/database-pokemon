@@ -1,5 +1,7 @@
-
 /_input
+/_input/*
 /_output
+/_output/*
 /_temp
+/_temp/*
 non-edit/
