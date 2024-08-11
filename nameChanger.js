@@ -3,13 +3,19 @@ var pokedex = [
     "pokedexNo": 1,
     "name": "Bulbasaur",
     "types": ["Grass", "Poison"],
-    "evolutions": ["Ivysaur"],
+    "evolutions": ["Ivysaur", "Venusaur"],
     "abilities": [
       ["Overgrow", "false"],
       ["Chlorophyll", "true"]
     ],
     "gender": "87.5:12.5",
     "sprite": "bulbasaur",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -23,6 +29,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "ivysaur",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -36,16 +48,24 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "venusaur",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "venusaur-gmax",
         "types": ["Grass", "Poison"],
-        "name": "Gigantamax Venusaur"
+        "name": "Gigantamax Venusaur",
+        "pokedexNo": 3
       },
       {
         "sprite": "venusaur-mega",
         "types": ["Grass", "Poison"],
-        "name": "Mega Venusaur"
+        "name": "Mega Venusaur",
+        "pokedexNo": 3
       }
     ]
   },
@@ -53,13 +73,19 @@ var pokedex = [
     "pokedexNo": 4,
     "name": "Charmander",
     "types": ["Fire"],
-    "evolutions": ["Charmeleon"],
+    "evolutions": ["Charmeleon", "Charizard"],
     "abilities": [
       ["Blaze", "false"],
       ["Solar Power", "true"]
     ],
     "gender": "87.5:12.5",
     "sprite": "charmander",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -73,6 +99,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "charmeleon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -86,21 +118,30 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "charizard",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "charizard-gmax",
         "types": ["Fire", "Flying"],
-        "name": "Gigantamax Charizard"
+        "name": "Gigantamax Charizard",
+        "pokedexNo": 6
       },
       {
         "sprite": "charizard-mega-x",
         "types": ["Fire", "Dragon"],
-        "name": "Mega Charizard X"
+        "name": "Mega Charizard X",
+        "pokedexNo": 6
       },
       {
         "sprite": "charizard-mega-y",
         "types": ["Fire", "Flying"],
-        "name": "Mega Charizard Y"
+        "name": "Mega Charizard Y",
+        "pokedexNo": 6
       }
     ]
   },
@@ -108,13 +149,19 @@ var pokedex = [
     "pokedexNo": 7,
     "name": "Squirtle",
     "types": ["Water"],
-    "evolutions": ["Wartortle"],
+    "evolutions": ["Wartortle", "Blastoise"],
     "abilities": [
       ["Torrent", "false"],
       ["Rain Dish", "true"]
     ],
     "gender": "87.5:12.5",
     "sprite": "squirtle",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -128,6 +175,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "wartortle",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -141,16 +194,24 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "blastoise",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "blastoise-gmax",
         "types": ["Water"],
-        "name": "Gigantamax Blastoise"
+        "name": "Gigantamax Blastoise",
+        "pokedexNo": 9
       },
       {
         "sprite": "blastoise-mega",
         "types": ["Water"],
-        "name": "Mega Blastoise"
+        "name": "Mega Blastoise",
+        "pokedexNo": 9
       }
     ]
   },
@@ -158,13 +219,19 @@ var pokedex = [
     "pokedexNo": 10,
     "name": "Caterpie",
     "types": ["Bug"],
-    "evolutions": ["Metapod"],
+    "evolutions": ["Metapod", "Butterfree"],
     "abilities": [
       ["Shield Dust", "false"],
       ["Run Away", "true"]
     ],
     "gender": "50:50",
     "sprite": "caterpie",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -175,6 +242,12 @@ var pokedex = [
     "abilities": [["Shed Skin", "false"]],
     "gender": "50:50",
     "sprite": "metapod",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -188,11 +261,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "butterfree",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "butterfree-gmax",
         "types": ["Bug", "Flying"],
-        "name": "Gigantamax Butterfree"
+        "name": "Gigantamax Butterfree",
+        "pokedexNo": 12
       }
     ]
   },
@@ -200,13 +280,19 @@ var pokedex = [
     "pokedexNo": 13,
     "name": "Weedle",
     "types": ["Bug", "Poison"],
-    "evolutions": ["Kakuna"],
+    "evolutions": ["Kakuna", "Beedrill"],
     "abilities": [
       ["Shield Dust", "false"],
       ["Run Away", "true"]
     ],
     "gender": "50:50",
     "sprite": "weedle",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -217,6 +303,12 @@ var pokedex = [
     "abilities": [["Shed Skin", "false"]],
     "gender": "50:50",
     "sprite": "kakuna",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -230,11 +322,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "beedrill",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "beedrill-mega",
         "types": ["Bug", "Poison"],
-        "name": "Mega Beedrill"
+        "name": "Mega Beedrill",
+        "pokedexNo": 15
       }
     ]
   },
@@ -242,7 +341,7 @@ var pokedex = [
     "pokedexNo": 16,
     "name": "Pidgey",
     "types": ["Normal", "Flying"],
-    "evolutions": ["Pidgeotto"],
+    "evolutions": ["Pidgeotto", "Pidgeot"],
     "abilities": [
       ["Keen Eye", "false"],
       ["Tangled Feet", "false"],
@@ -250,6 +349,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "pidgey",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -264,6 +369,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "pidgeotto",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -278,27 +389,20 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "pidgeot",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "pidgeot-mega",
         "types": ["Normal", "Flying"],
-        "name": "Mega Pidgeot"
+        "name": "Mega Pidgeot",
+        "pokedexNo": 18
       }
     ]
-  },
-  {
-    "pokedexNo": 19,
-    "name": "Rattata",
-    "types": ["Normal"],
-    "evolutions": ["Raticate"],
-    "abilities": [
-      ["Run Away", "false"],
-      ["Guts", "false"],
-      ["Hustle", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "rattata",
-    "forms": []
   },
   {
     "pokedexNo": 19,
@@ -312,6 +416,32 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "rattata-alola",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 19,
+    "name": "Rattata",
+    "types": ["Normal"],
+    "evolutions": ["Raticate"],
+    "abilities": [
+      ["Run Away", "false"],
+      ["Guts", "false"],
+      ["Hustle", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "rattata",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -326,6 +456,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "raticate",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -340,6 +476,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "raticate-alola",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -353,6 +495,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "spearow",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -366,6 +514,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "fearow",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -380,6 +534,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "ekans",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -394,6 +554,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "arbok",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -407,12 +573,36 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "pikachu",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
+        "types": [],
         "sprite": "pikachu-gmax",
-        "name": "Gigantamax Pikachu"
+        "name": "Gigantamax Pikachu",
+        "pokedexNo": 25
       }
     ]
+  },
+  {
+    "pokedexNo": 26,
+    "name": "Alolan Raichu",
+    "types": ["Electric", "Psychic"],
+    "evolutions": [],
+    "abilities": [["Surge Surfer", "false"]],
+    "gender": "50:50",
+    "sprite": "raichu-alola",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
   },
   {
     "pokedexNo": 26,
@@ -425,29 +615,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "raichu",
-    "forms": []
-  },
-  {
-    "pokedexNo": 26,
-    "name": "Alolan Raichu",
-    "types": ["Electric", "Psychic"],
-    "evolutions": [],
-    "abilities": [["Surge Surfer", "false"]],
-    "gender": "50:50",
-    "sprite": "raichu-alola",
-    "forms": []
-  },
-  {
-    "pokedexNo": 27,
-    "name": "Sandshrew",
-    "types": ["Ground"],
-    "evolutions": ["Sandslash"],
-    "abilities": [
-      ["Sand Veil", "false"],
-      ["Sand Rush", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "sandshrew",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -461,19 +634,31 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "sandshrew-alola",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
-    "pokedexNo": 28,
-    "name": "Sandslash",
+    "pokedexNo": 27,
+    "name": "Sandshrew",
     "types": ["Ground"],
-    "evolutions": [],
+    "evolutions": ["Sandslash"],
     "abilities": [
       ["Sand Veil", "false"],
       ["Sand Rush", "true"]
     ],
     "gender": "50:50",
-    "sprite": "sandslash",
+    "sprite": "sandshrew",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -487,13 +672,38 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "sandslash-alola",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 28,
+    "name": "Sandslash",
+    "types": ["Ground"],
+    "evolutions": [],
+    "abilities": [
+      ["Sand Veil", "false"],
+      ["Sand Rush", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "sandslash",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 29,
     "name": "Nidoran♀",
     "types": ["Poison"],
-    "evolutions": ["Nidorina"],
+    "evolutions": ["Nidorina", "Nidoqueen"],
     "abilities": [
       ["Poison Point", "false"],
       ["Rivalry", "false"],
@@ -501,6 +711,12 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "nidoran-f",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -515,6 +731,12 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "nidorina",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -529,13 +751,19 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "nidoqueen",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 32,
     "name": "Nidoran♂",
     "types": ["Poison"],
-    "evolutions": ["Nidorino"],
+    "evolutions": ["Nidorino", "Nidoking"],
     "abilities": [
       ["Poison Point", "false"],
       ["Rivalry", "false"],
@@ -543,6 +771,12 @@ var pokedex = [
     ],
     "gender": "100:0",
     "sprite": "nidoran-m",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -557,6 +791,12 @@ var pokedex = [
     ],
     "gender": "100:0",
     "sprite": "nidorino",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -571,6 +811,12 @@ var pokedex = [
     ],
     "gender": "100:0",
     "sprite": "nidoking",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -585,6 +831,12 @@ var pokedex = [
     ],
     "gender": "25:75",
     "sprite": "clefairy",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -599,19 +851,12 @@ var pokedex = [
     ],
     "gender": "25:75",
     "sprite": "clefable",
-    "forms": []
-  },
-  {
-    "pokedexNo": 37,
-    "name": "Vulpix",
-    "types": ["Fire"],
-    "evolutions": ["Ninetales"],
-    "abilities": [
-      ["Flash Fire", "false"],
-      ["Drought", "true"]
-    ],
-    "gender": "25:75",
-    "sprite": "vulpix",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -625,6 +870,31 @@ var pokedex = [
     ],
     "gender": "25:75",
     "sprite": "vulpix-alola",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 37,
+    "name": "Vulpix",
+    "types": ["Fire"],
+    "evolutions": ["Ninetales"],
+    "abilities": [
+      ["Flash Fire", "false"],
+      ["Drought", "true"]
+    ],
+    "gender": "25:75",
+    "sprite": "vulpix",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -638,6 +908,12 @@ var pokedex = [
     ],
     "gender": "25:75",
     "sprite": "ninetales",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -651,6 +927,12 @@ var pokedex = [
     ],
     "gender": "25:75",
     "sprite": "ninetales-alola",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -665,6 +947,12 @@ var pokedex = [
     ],
     "gender": "25:75",
     "sprite": "jigglypuff",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -679,19 +967,31 @@ var pokedex = [
     ],
     "gender": "25:75",
     "sprite": "wigglytuff",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 41,
     "name": "Zubat",
     "types": ["Poison", "Flying"],
-    "evolutions": ["Golbat"],
+    "evolutions": ["Golbat", "Crobat"],
     "abilities": [
       ["Inner Focus", "false"],
       ["Infiltrator", "true"]
     ],
     "gender": "50:50",
     "sprite": "zubat",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -705,19 +1005,31 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "golbat",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 43,
     "name": "Oddish",
     "types": ["Grass", "Poison"],
-    "evolutions": ["Gloom"],
+    "evolutions": ["Gloom", "Vileplume", "Bellossom"],
     "abilities": [
       ["Chlorophyll", "false"],
       ["Run Away", "true"]
     ],
     "gender": "50:50",
     "sprite": "oddish",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -731,6 +1043,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "gloom",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -744,6 +1062,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "vileplume",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -758,6 +1082,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "paras",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -772,6 +1102,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "parasect",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -786,6 +1122,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "venonat",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -800,6 +1142,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "venomoth",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -814,6 +1162,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "diglett",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -828,20 +1182,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "diglett-alola",
-    "forms": []
-  },
-  {
-    "pokedexNo": 51,
-    "name": "Dugtrio",
-    "types": ["Ground"],
-    "evolutions": [],
-    "abilities": [
-      ["Sand Veil", "false"],
-      ["Arena Trap", "false"],
-      ["Sand Force", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "dugtrio",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -856,27 +1202,33 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "dugtrio-alola",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
-    "pokedexNo": 52,
-    "name": "Meowth",
-    "types": ["Normal"],
-    "evolutions": ["Persian"],
+    "pokedexNo": 51,
+    "name": "Dugtrio",
+    "types": ["Ground"],
+    "evolutions": [],
     "abilities": [
-      ["Pickup", "false"],
-      ["Technician", "false"],
-      ["Unnerve", "true"]
+      ["Sand Veil", "false"],
+      ["Arena Trap", "false"],
+      ["Sand Force", "true"]
     ],
     "gender": "50:50",
-    "sprite": "meowth",
-    "forms": [
-      {
-        "sprite": "meowth-gmax",
-        "types": ["Normal"],
-        "name": "Gigantamax Meowth"
-      }
-    ]
+    "sprite": "dugtrio",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
   },
   {
     "pokedexNo": 52,
@@ -890,6 +1242,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "meowth-alola",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -904,7 +1262,40 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "meowth-galar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
+  },
+  {
+    "pokedexNo": 52,
+    "name": "Meowth",
+    "types": ["Normal"],
+    "evolutions": ["Persian"],
+    "abilities": [
+      ["Pickup", "false"],
+      ["Technician", "false"],
+      ["Unnerve", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "meowth",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "meowth-gmax",
+        "types": ["Normal"],
+        "name": "Gigantamax Meowth",
+        "pokedexNo": 52
+      }
+    ]
   },
   {
     "pokedexNo": 53,
@@ -918,6 +1309,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "persian",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -932,6 +1329,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "persian-alola",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -946,6 +1349,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "psyduck",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -960,13 +1369,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "golduck",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 56,
     "name": "Mankey",
     "types": ["Fighting"],
-    "evolutions": ["Primeape"],
+    "evolutions": ["Primeape", "Annihilape"],
     "abilities": [
       ["Vital Spirit", "false"],
       ["Anger Point", "false"],
@@ -974,6 +1389,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "mankey",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -988,6 +1409,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "primeape",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1002,6 +1429,12 @@ var pokedex = [
     ],
     "gender": "75:25",
     "sprite": "growlithe",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1016,20 +1449,12 @@ var pokedex = [
     ],
     "gender": "75:25",
     "sprite": "growlithe-hisui",
-    "forms": []
-  },
-  {
-    "pokedexNo": 59,
-    "name": "Arcanine",
-    "types": ["Fire"],
-    "evolutions": [],
-    "abilities": [
-      ["Intimidate", "false"],
-      ["Flash Fire", "false"],
-      ["Justified", "true"]
-    ],
-    "gender": "75:25",
-    "sprite": "arcanine",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1044,13 +1469,39 @@ var pokedex = [
     ],
     "gender": "75:25",
     "sprite": "arcanine-hisui",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 59,
+    "name": "Arcanine",
+    "types": ["Fire"],
+    "evolutions": [],
+    "abilities": [
+      ["Intimidate", "false"],
+      ["Flash Fire", "false"],
+      ["Justified", "true"]
+    ],
+    "gender": "75:25",
+    "sprite": "arcanine",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 60,
     "name": "Poliwag",
     "types": ["Water"],
-    "evolutions": ["Poliwhirl"],
+    "evolutions": ["Poliwhirl", "Poliwrath", "Politoed"],
     "abilities": [
       ["Water Absorb", "false"],
       ["Damp", "false"],
@@ -1058,6 +1509,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "poliwag",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1072,6 +1529,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "poliwhirl",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1086,13 +1549,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "poliwrath",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 63,
     "name": "Abra",
     "types": ["Psychic"],
-    "evolutions": ["Kadabra"],
+    "evolutions": ["Kadabra", "Alakazam"],
     "abilities": [
       ["Synchronize", "false"],
       ["Inner Focus", "false"],
@@ -1100,6 +1569,12 @@ var pokedex = [
     ],
     "gender": "75:25",
     "sprite": "abra",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1114,6 +1589,12 @@ var pokedex = [
     ],
     "gender": "75:25",
     "sprite": "kadabra",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1128,11 +1609,18 @@ var pokedex = [
     ],
     "gender": "75:25",
     "sprite": "alakazam",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "alakazam-mega",
         "types": ["Psychic"],
-        "name": "Mega Alakazam"
+        "name": "Mega Alakazam",
+        "pokedexNo": 65
       }
     ]
   },
@@ -1140,7 +1628,7 @@ var pokedex = [
     "pokedexNo": 66,
     "name": "Machop",
     "types": ["Fighting"],
-    "evolutions": ["Machoke"],
+    "evolutions": ["Machoke", "Machamp"],
     "abilities": [
       ["Guts", "false"],
       ["No Guard", "false"],
@@ -1148,6 +1636,12 @@ var pokedex = [
     ],
     "gender": "75:25",
     "sprite": "machop",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1162,6 +1656,12 @@ var pokedex = [
     ],
     "gender": "75:25",
     "sprite": "machoke",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1176,11 +1676,18 @@ var pokedex = [
     ],
     "gender": "75:25",
     "sprite": "machamp",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "machamp-gmax",
         "types": ["Fighting"],
-        "name": "Gigantamax Machamp"
+        "name": "Gigantamax Machamp",
+        "pokedexNo": 68
       }
     ]
   },
@@ -1188,13 +1695,19 @@ var pokedex = [
     "pokedexNo": 69,
     "name": "Bellsprout",
     "types": ["Grass", "Poison"],
-    "evolutions": ["Weepinbell"],
+    "evolutions": ["Weepinbell", "Victreebel"],
     "abilities": [
       ["Chlorophyll", "false"],
       ["Gluttony", "true"]
     ],
     "gender": "50:50",
     "sprite": "bellsprout",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1208,6 +1721,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "weepinbell",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1221,6 +1740,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "victreebel",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1235,6 +1760,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "tentacool",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1249,13 +1780,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "tentacruel",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 74,
     "name": "Geodude",
     "types": ["Rock", "Ground"],
-    "evolutions": ["Geodude"],
+    "evolutions": ["Graveler", "Golem"],
     "abilities": [
       ["Rock Head", "false"],
       ["Sturdy", "false"],
@@ -1263,13 +1800,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "geodude",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 74,
     "name": "Alolan Geodude",
     "types": ["Rock", "Electric"],
-    "evolutions": ["Alolan Graveler"],
+    "evolutions": ["Alolan Graveler", "Alolan Golem"],
     "abilities": [
       ["Magnet Pull", "false"],
       ["Sturdy", "false"],
@@ -1277,20 +1820,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "geodude-alola",
-    "forms": []
-  },
-  {
-    "pokedexNo": 75,
-    "name": "Graveler",
-    "types": ["Rock", "Ground"],
-    "evolutions": ["Golem"],
-    "abilities": [
-      ["Rock Head", "false"],
-      ["Sturdy", "false"],
-      ["Sand Veil", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "graveler",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1305,20 +1840,32 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "graveler-alola",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
-    "pokedexNo": 76,
-    "name": "Golem",
+    "pokedexNo": 75,
+    "name": "Graveler",
     "types": ["Rock", "Ground"],
-    "evolutions": [],
+    "evolutions": ["Golem"],
     "abilities": [
       ["Rock Head", "false"],
       ["Sturdy", "false"],
       ["Sand Veil", "true"]
     ],
     "gender": "50:50",
-    "sprite": "golem",
+    "sprite": "graveler",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1333,20 +1880,32 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "golem-alola",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
-    "pokedexNo": 77,
-    "name": "Ponyta",
-    "types": ["Fire"],
-    "evolutions": ["Rapidash"],
+    "pokedexNo": 76,
+    "name": "Golem",
+    "types": ["Rock", "Ground"],
+    "evolutions": [],
     "abilities": [
-      ["Run Away", "false"],
-      ["Flash Fire", "false"],
-      ["Flame Body", "true"]
+      ["Rock Head", "false"],
+      ["Sturdy", "false"],
+      ["Sand Veil", "true"]
     ],
     "gender": "50:50",
-    "sprite": "ponyta",
+    "sprite": "golem",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1361,20 +1920,32 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "ponyta-galar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
-    "pokedexNo": 78,
-    "name": "Rapidash",
+    "pokedexNo": 77,
+    "name": "Ponyta",
     "types": ["Fire"],
-    "evolutions": [],
+    "evolutions": ["Rapidash"],
     "abilities": [
       ["Run Away", "false"],
       ["Flash Fire", "false"],
       ["Flame Body", "true"]
     ],
     "gender": "50:50",
-    "sprite": "rapidash",
+    "sprite": "ponyta",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1389,6 +1960,32 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "rapidash-galar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 78,
+    "name": "Rapidash",
+    "types": ["Fire"],
+    "evolutions": [],
+    "abilities": [
+      ["Run Away", "false"],
+      ["Flash Fire", "false"],
+      ["Flame Body", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "rapidash",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1403,6 +2000,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "slowpoke",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1417,6 +2020,32 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "slowpoke-galar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 80,
+    "name": "Galarian Slowbro",
+    "types": ["Poison", "Psychic"],
+    "evolutions": [],
+    "abilities": [
+      ["Oblivious", "false"],
+      ["Own Tempo", "false"],
+      ["Regenerator", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "slowbro-galar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1431,33 +2060,26 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "slowbro",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "slowbro-mega",
         "types": ["Water", "Psychic"],
-        "name": "Mega Slowbro"
+        "name": "Mega Slowbro",
+        "pokedexNo": 80
       }
     ]
-  },
-  {
-    "pokedexNo": 80,
-    "name": "Galarian Slowbro",
-    "types": ["Poison", "Psychic"],
-    "evolutions": [],
-    "abilities": [
-      ["Oblivious", "false"],
-      ["Own Tempo", "false"],
-      ["Regenerator", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "slowbro-galar",
-    "forms": []
   },
   {
     "pokedexNo": 81,
     "name": "Magnemite",
     "types": ["Electric", "Steel"],
-    "evolutions": ["Magneton"],
+    "evolutions": ["Magneton", "Magnezone"],
     "abilities": [
       ["Magnet Pull", "false"],
       ["Sturdy", "false"],
@@ -1465,6 +2087,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "magnemite",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1479,6 +2107,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "magneton",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1493,6 +2127,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "farfetchd",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1507,6 +2147,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "farfetchd-galar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1521,6 +2167,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "doduo",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1535,6 +2187,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "dodrio",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1549,6 +2207,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "seel",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1563,20 +2227,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "dewgong",
-    "forms": []
-  },
-  {
-    "pokedexNo": 88,
-    "name": "Grimer",
-    "types": ["Poison"],
-    "evolutions": ["Muk"],
-    "abilities": [
-      ["Stench", "false"],
-      ["Sticky Hold", "false"],
-      ["Poison Touch", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "grimer",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1591,20 +2247,32 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "grimer-alola",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
-    "pokedexNo": 89,
-    "name": "Muk",
+    "pokedexNo": 88,
+    "name": "Grimer",
     "types": ["Poison"],
-    "evolutions": [],
+    "evolutions": ["Muk"],
     "abilities": [
       ["Stench", "false"],
       ["Sticky Hold", "false"],
       ["Poison Touch", "true"]
     ],
     "gender": "50:50",
-    "sprite": "muk",
+    "sprite": "grimer",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1619,6 +2287,32 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "muk-alola",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 89,
+    "name": "Muk",
+    "types": ["Poison"],
+    "evolutions": [],
+    "abilities": [
+      ["Stench", "false"],
+      ["Sticky Hold", "false"],
+      ["Poison Touch", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "muk",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1633,6 +2327,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "shellder",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1647,16 +2347,28 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "cloyster",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 92,
     "name": "Gastly",
     "types": ["Ghost", "Poison"],
-    "evolutions": ["Haunter"],
+    "evolutions": ["Haunter", "Gengar"],
     "abilities": [["Levitate", "false"]],
     "gender": "50:50",
     "sprite": "gastly",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1667,6 +2379,12 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "50:50",
     "sprite": "haunter",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1677,16 +2395,24 @@ var pokedex = [
     "abilities": [["Cursed Body", "false"]],
     "gender": "50:50",
     "sprite": "gengar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "gengar-gmax",
         "types": ["Ghost", "Poison"],
-        "name": "Gigantamax Gengar"
+        "name": "Gigantamax Gengar",
+        "pokedexNo": 94
       },
       {
         "sprite": "gengar-mega",
         "types": ["Ghost", "Poison"],
-        "name": "Mega Gengar"
+        "name": "Mega Gengar",
+        "pokedexNo": 94
       }
     ]
   },
@@ -1702,6 +2428,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "onix",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1716,6 +2448,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "drowzee",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1730,6 +2468,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "hypno",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1744,6 +2488,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "krabby",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1758,11 +2508,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "kingler",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "kingler-gmax",
         "types": ["Water"],
-        "name": "Gigantamax Kingler"
+        "name": "Gigantamax Kingler",
+        "pokedexNo": 99
       }
     ]
   },
@@ -1778,6 +2535,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "voltorb",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1792,20 +2555,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "voltorb-hisui",
-    "forms": []
-  },
-  {
-    "pokedexNo": 101,
-    "name": "Electrode",
-    "types": ["Electric"],
-    "evolutions": [],
-    "abilities": [
-      ["Soundproof", "false"],
-      ["Static", "false"],
-      ["Aftermath", "true"]
-    ],
-    "gender": "Genderless",
-    "sprite": "electrode",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1820,6 +2575,32 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "electrode-hisui",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 101,
+    "name": "Electrode",
+    "types": ["Electric"],
+    "evolutions": [],
+    "abilities": [
+      ["Soundproof", "false"],
+      ["Static", "false"],
+      ["Aftermath", "true"]
+    ],
+    "gender": "Genderless",
+    "sprite": "electrode",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1833,19 +2614,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "exeggcute",
-    "forms": []
-  },
-  {
-    "pokedexNo": 103,
-    "name": "Exeggutor",
-    "types": ["Grass", "Psychic"],
-    "evolutions": [],
-    "abilities": [
-      ["Chlorophyll", "false"],
-      ["Harvest", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "exeggutor",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1859,6 +2633,31 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "exeggutor-alola",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 103,
+    "name": "Exeggutor",
+    "types": ["Grass", "Psychic"],
+    "evolutions": [],
+    "abilities": [
+      ["Chlorophyll", "false"],
+      ["Harvest", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "exeggutor",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1873,6 +2672,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "cubone",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1887,6 +2692,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "marowak",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1901,6 +2712,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "marowak-alola",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1915,6 +2732,12 @@ var pokedex = [
     ],
     "gender": "100:0",
     "sprite": "hitmonlee",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1929,6 +2752,12 @@ var pokedex = [
     ],
     "gender": "100:0",
     "sprite": "hitmonchan",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1943,6 +2772,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "lickitung",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1953,6 +2788,12 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "50:50",
     "sprite": "koffing",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1963,6 +2804,12 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "50:50",
     "sprite": "weezing",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -1973,13 +2820,19 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "50:50",
     "sprite": "weezing-galar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 111,
     "name": "Rhyhorn",
     "types": ["Ground", "Rock"],
-    "evolutions": ["Rhydon"],
+    "evolutions": ["Rhydon", "Rhyperior"],
     "abilities": [
       ["Lightning Rod", "false"],
       ["Rock Head", "false"],
@@ -1987,6 +2840,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "rhyhorn",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2001,6 +2860,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "rhydon",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2015,6 +2880,12 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "chansey",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2029,6 +2900,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "tangela",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2043,11 +2920,18 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "kangaskhan",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "kangaskhan-mega",
         "types": ["Normal"],
-        "name": "Mega Kangaskhan"
+        "name": "Mega Kangaskhan",
+        "pokedexNo": 115
       }
     ]
   },
@@ -2055,7 +2939,7 @@ var pokedex = [
     "pokedexNo": 116,
     "name": "Horsea",
     "types": ["Water"],
-    "evolutions": ["Seadra"],
+    "evolutions": ["Seadra", "Kingdra"],
     "abilities": [
       ["Swift Swim", "false"],
       ["Sniper", "false"],
@@ -2063,6 +2947,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "horsea",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2077,6 +2967,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "seadra",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2091,6 +2987,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "goldeen",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2105,6 +3007,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "seaking",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2119,6 +3027,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "staryu",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2133,20 +3047,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "starmie",
-    "forms": []
-  },
-  {
-    "pokedexNo": 122,
-    "name": "Mr. Mime",
-    "types": ["Psychic", "Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Soundproof", "false"],
-      ["Filter", "false"],
-      ["Technician", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "mr-mime",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2161,6 +3067,32 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "mr-mime-galar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 122,
+    "name": "Mr. Mime",
+    "types": ["Psychic", "Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Soundproof", "false"],
+      ["Filter", "false"],
+      ["Technician", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "mr-mime",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2175,6 +3107,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "scyther",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2189,6 +3127,12 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "jynx",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2202,6 +3146,12 @@ var pokedex = [
     ],
     "gender": "75:25",
     "sprite": "electabuzz",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2215,6 +3165,12 @@ var pokedex = [
     ],
     "gender": "75:25",
     "sprite": "magmar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2229,41 +3185,20 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "pinsir",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "pinsir-mega",
         "types": ["Bug", "Flying"],
-        "name": "Mega Pinsir"
+        "name": "Mega Pinsir",
+        "pokedexNo": 127
       }
     ]
-  },
-  {
-    "pokedexNo": 128,
-    "name": "Tauros",
-    "types": ["Normal"],
-    "evolutions": [],
-    "abilities": [
-      ["Intimidate", "false"],
-      ["Anger Point", "false"],
-      ["Sheer Force", "true"]
-    ],
-    "gender": "100:0",
-    "sprite": "tauros",
-    "forms": []
-  },
-  {
-    "pokedexNo": 128,
-    "name": "Paldean Tauros",
-    "types": ["Fighting"],
-    "evolutions": [],
-    "abilities": [
-      ["Intimidate", "false"],
-      ["Anger Point", "false"],
-      ["Cud Chew", "true"]
-    ],
-    "gender": "100:0",
-    "sprite": "tauros-paldea",
-    "forms": []
   },
   {
     "pokedexNo": 128,
@@ -2277,6 +3212,12 @@ var pokedex = [
     ],
     "gender": "100:0",
     "sprite": "tauros-paldea-blaze",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2291,6 +3232,52 @@ var pokedex = [
     ],
     "gender": "100:0",
     "sprite": "tauros-paldea-aqua",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 128,
+    "name": "Paldean Tauros",
+    "types": ["Fighting"],
+    "evolutions": [],
+    "abilities": [
+      ["Intimidate", "false"],
+      ["Anger Point", "false"],
+      ["Cud Chew", "true"]
+    ],
+    "gender": "100:0",
+    "sprite": "tauros-paldea",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 128,
+    "name": "Tauros",
+    "types": ["Normal"],
+    "evolutions": [],
+    "abilities": [
+      ["Intimidate", "false"],
+      ["Anger Point", "false"],
+      ["Sheer Force", "true"]
+    ],
+    "gender": "100:0",
+    "sprite": "tauros",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2304,6 +3291,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "magikarp",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2317,11 +3310,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "gyarados",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "gyarados-mega",
         "types": ["Water", "Dark"],
-        "name": "Mega Gyarados"
+        "name": "Mega Gyarados",
+        "pokedexNo": 130
       }
     ]
   },
@@ -2337,11 +3337,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "lapras",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "lapras-gmax",
         "types": ["Water", "Ice"],
-        "name": "Gigantamax Lapras"
+        "name": "Gigantamax Lapras",
+        "pokedexNo": 131
       }
     ]
   },
@@ -2356,6 +3363,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "ditto",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2379,11 +3392,18 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "eevee",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "eevee-gmax",
         "types": ["Normal"],
-        "name": "Gigantamax Eevee"
+        "name": "Gigantamax Eevee",
+        "pokedexNo": 133
       }
     ]
   },
@@ -2398,6 +3418,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "vaporeon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2411,6 +3437,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "jolteon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2424,13 +3456,19 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "flareon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 137,
     "name": "Porygon",
     "types": ["Normal"],
-    "evolutions": ["Porygon2"],
+    "evolutions": ["Porygon2", "Porygon-Z"],
     "abilities": [
       ["Trace", "false"],
       ["Download", "false"],
@@ -2438,6 +3476,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "porygon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2452,6 +3496,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "omanyte",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2466,6 +3516,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "omastar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2480,6 +3536,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "kabuto",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2494,6 +3556,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "kabutops",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2508,11 +3576,18 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "aerodactyl",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "aerodactyl-mega",
         "types": ["Rock", "Flying"],
-        "name": "Mega Aerodactyl"
+        "name": "Mega Aerodactyl",
+        "pokedexNo": 142
       }
     ]
   },
@@ -2528,11 +3603,18 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "snorlax",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "snorlax-gmax",
         "types": ["Normal"],
-        "name": "Gigantamax Snorlax"
+        "name": "Gigantamax Snorlax",
+        "pokedexNo": 143
       }
     ]
   },
@@ -2547,6 +3629,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "articuno",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2557,6 +3645,12 @@ var pokedex = [
     "abilities": [["Competitive", "false"]],
     "gender": "Genderless",
     "sprite": "articuno-galar",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2570,6 +3664,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "zapdos",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2580,6 +3680,12 @@ var pokedex = [
     "abilities": [["Defiant", "false"]],
     "gender": "Genderless",
     "sprite": "zapdos-galar",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2593,6 +3699,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "moltres",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2603,19 +3715,31 @@ var pokedex = [
     "abilities": [["Berserk", "false"]],
     "gender": "Genderless",
     "sprite": "moltres-galar",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 147,
     "name": "Dratini",
     "types": ["Dragon"],
-    "evolutions": ["Dragonair"],
+    "evolutions": ["Dragonair", "Dragonite"],
     "abilities": [
       ["Shed Skin", "false"],
       ["Marvel Scale", "true"]
     ],
     "gender": "50:50",
     "sprite": "dratini",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2629,6 +3753,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "dragonair",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2642,6 +3772,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "dragonite",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2655,16 +3791,24 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "mewtwo",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "mewtwo-mega-x",
         "types": ["Psychic", "Fighting"],
-        "name": "Mega Mewtwo X"
+        "name": "Mega Mewtwo X",
+        "pokedexNo": 150
       },
       {
         "sprite": "mewtwo-mega-y",
         "types": ["Psychic"],
-        "name": "Mega Mewtwo Y"
+        "name": "Mega Mewtwo Y",
+        "pokedexNo": 150
       }
     ]
   },
@@ -2676,19 +3820,31 @@ var pokedex = [
     "abilities": [["Synchronize", "false"]],
     "gender": "Genderless",
     "sprite": "mew",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": true,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 152,
     "name": "Chikorita",
     "types": ["Grass"],
-    "evolutions": ["Bayleef"],
+    "evolutions": ["Bayleef", "Meganium"],
     "abilities": [
       ["Overgrow", "false"],
       ["Leaf Guard", "true"]
     ],
     "gender": "87.5:12.5",
     "sprite": "chikorita",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2702,6 +3858,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "bayleef",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2715,19 +3877,31 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "meganium",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 155,
     "name": "Cyndaquil",
     "types": ["Fire"],
-    "evolutions": ["Quilava"],
+    "evolutions": ["Quilava", "Typhlosion", "Hisuian Typhlosion"],
     "abilities": [
       ["Blaze", "false"],
       ["Flash Fire", "true"]
     ],
     "gender": "87.5:12.5",
     "sprite": "cyndaquil",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2741,6 +3915,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "quilava",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2754,6 +3934,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "typhlosion",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2767,19 +3953,31 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "typhlosion-hisui",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 158,
     "name": "Totodile",
     "types": ["Water"],
-    "evolutions": ["Croconaw"],
+    "evolutions": ["Croconaw", "Feraligatr"],
     "abilities": [
       ["Torrent", "false"],
       ["Sheer Force", "true"]
     ],
     "gender": "87.5:12.5",
     "sprite": "totodile",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2793,6 +3991,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "croconaw",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2806,6 +4010,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "feraligatr",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2820,6 +4030,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "sentret",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2834,6 +4050,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "furret",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2848,6 +4070,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "hoothoot",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2862,6 +4090,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "noctowl",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2876,6 +4110,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "ledyba",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2890,6 +4130,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "ledian",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2904,6 +4150,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "spinarak",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2918,6 +4170,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "ariados",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2931,6 +4189,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "crobat",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2945,6 +4209,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "chinchou",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -2959,26 +4229,38 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "lanturn",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 172,
     "name": "Pichu",
     "types": ["Electric"],
-    "evolutions": ["Pikachu"],
+    "evolutions": ["Pikachu", "Raichu", "Alolan Raichu"],
     "abilities": [
       ["Static", "false"],
       ["Lightning Rod", "true"]
     ],
     "gender": "50:50",
     "sprite": "pichu",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 173,
     "name": "Cleffa",
     "types": ["Fairy"],
-    "evolutions": ["Clefairy"],
+    "evolutions": ["Clefairy", "Clefable"],
     "abilities": [
       ["Cute Charm", "false"],
       ["Magic Guard", "false"],
@@ -2986,13 +4268,19 @@ var pokedex = [
     ],
     "gender": "25:75",
     "sprite": "cleffa",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 174,
     "name": "Igglybuff",
     "types": ["Normal", "Fairy"],
-    "evolutions": ["Jigglypuff"],
+    "evolutions": ["Jigglypuff", "Wigglytuff"],
     "abilities": [
       ["Cute Charm", "false"],
       ["Competitive", "false"],
@@ -3000,13 +4288,19 @@ var pokedex = [
     ],
     "gender": "25:75",
     "sprite": "igglybuff",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 175,
     "name": "Togepi",
     "types": ["Fairy"],
-    "evolutions": ["Togetic"],
+    "evolutions": ["Togetic", "Togekiss"],
     "abilities": [
       ["Hustle", "false"],
       ["Serene Grace", "false"],
@@ -3014,6 +4308,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "togepi",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3028,6 +4328,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "togetic",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3042,6 +4348,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "natu",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3056,19 +4368,31 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "xatu",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 179,
     "name": "Mareep",
     "types": ["Electric"],
-    "evolutions": ["Flaaffy"],
+    "evolutions": ["Flaaffy", "Ampharos"],
     "abilities": [
       ["Static", "false"],
       ["Plus", "true"]
     ],
     "gender": "50:50",
     "sprite": "mareep",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3082,6 +4406,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "flaaffy",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3095,11 +4425,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "ampharos",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "ampharos-mega",
         "types": ["Electric", "Dragon"],
-        "name": "Mega Ampharos"
+        "name": "Mega Ampharos",
+        "pokedexNo": 181
       }
     ]
   },
@@ -3114,6 +4451,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "bellossom",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3128,6 +4471,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "marill",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3142,6 +4491,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "azumarill",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3156,6 +4511,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "sudowoodo",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3170,13 +4531,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "politoed",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 187,
     "name": "Hoppip",
     "types": ["Grass", "Flying"],
-    "evolutions": ["Skiploom"],
+    "evolutions": ["Skiploom", "Jumpluff"],
     "abilities": [
       ["Chlorophyll", "false"],
       ["Leaf Guard", "false"],
@@ -3184,6 +4551,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "hoppip",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3198,6 +4571,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "skiploom",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3212,6 +4591,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "jumpluff",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3226,6 +4611,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "aipom",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3240,6 +4631,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "sunkern",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3254,6 +4651,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "sunflora",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3268,20 +4671,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "yanma",
-    "forms": []
-  },
-  {
-    "pokedexNo": 194,
-    "name": "Wooper",
-    "types": ["Water", "Ground"],
-    "evolutions": ["Quagsire"],
-    "abilities": [
-      ["Damp", "false"],
-      ["Water Absorb", "false"],
-      ["Unaware", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "wooper",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3296,6 +4691,32 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "wooper-paldea",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 194,
+    "name": "Wooper",
+    "types": ["Water", "Ground"],
+    "evolutions": ["Quagsire"],
+    "abilities": [
+      ["Damp", "false"],
+      ["Water Absorb", "false"],
+      ["Unaware", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "wooper",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3310,6 +4731,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "quagsire",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3323,6 +4750,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "espeon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3336,6 +4769,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "umbreon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3350,6 +4789,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "murkrow",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3364,6 +4809,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "slowking",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3378,6 +4829,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "slowking-galar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3388,166 +4845,12 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "50:50",
     "sprite": "misdreavus",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown A",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown B",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-b",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown C",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-c",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown D",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-d",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown E",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-e",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown F",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-f",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown G",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-g",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown H",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-h",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown I",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-i",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown J",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-j",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown K",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-k",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown L",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-l",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown M",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-m",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown N",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-n",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown O",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-o",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown P",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-p",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3558,96 +4861,12 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "Genderless",
     "sprite": "unown-q",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown R",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-r",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown S",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-s",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown T",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-t",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown U",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-u",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown V",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-v",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown W",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-w",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown X",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-x",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown Y",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-y",
-    "forms": []
-  },
-  {
-    "pokedexNo": 201,
-    "name": "Unown Z",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Levitate", "false"]],
-    "gender": "Genderless",
-    "sprite": "unown-z",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3658,6 +4877,284 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "Genderless",
     "sprite": "unown-exclamation",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown O",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-o",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown Z",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-z",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown A",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown E",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-e",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown F",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-f",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown J",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-j",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown N",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-n",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown I",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-i",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown M",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-m",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown T",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-t",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown C",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-c",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown D",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-d",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown K",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-k",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown R",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-r",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown S",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-s",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown P",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-p",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown W",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-w",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3668,6 +5165,140 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "Genderless",
     "sprite": "unown-question",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown L",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-l",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown B",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-b",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown U",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-u",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown V",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-v",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown X",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-x",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown Y",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-y",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown G",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-g",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 201,
+    "name": "Unown H",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [["Levitate", "false"]],
+    "gender": "Genderless",
+    "sprite": "unown-h",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3681,6 +5312,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "wobbuffet",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3695,6 +5332,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "girafarig",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3708,6 +5351,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "pineco",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3721,6 +5370,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "forretress",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3738,6 +5393,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "dunsparce",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3752,6 +5413,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "gligar",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3766,11 +5433,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "steelix",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "steelix-mega",
         "types": ["Steel", "Ground"],
-        "name": "Mega Steelix"
+        "name": "Mega Steelix",
+        "pokedexNo": 208
       }
     ]
   },
@@ -3786,6 +5460,12 @@ var pokedex = [
     ],
     "gender": "25:75",
     "sprite": "snubbull",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3800,6 +5480,12 @@ var pokedex = [
     ],
     "gender": "25:75",
     "sprite": "granbull",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3814,6 +5500,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "qwilfish",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3828,6 +5520,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "qwilfish-hisui",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3842,11 +5540,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "scizor",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "scizor-mega",
         "types": ["Bug", "Steel"],
-        "name": "Mega Scizor"
+        "name": "Mega Scizor",
+        "pokedexNo": 212
       }
     ]
   },
@@ -3862,6 +5567,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "shuckle",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3876,11 +5587,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "heracross",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "heracross-mega",
         "types": ["Bug", "Fighting"],
-        "name": "Mega Heracross"
+        "name": "Mega Heracross",
+        "pokedexNo": 214
       }
     ]
   },
@@ -3896,6 +5614,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "sneasel",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3910,13 +5634,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "sneasel-hisui",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 216,
     "name": "Teddiursa",
     "types": ["Normal"],
-    "evolutions": ["Ursaring"],
+    "evolutions": ["Ursaring", "Ursaluna"],
     "abilities": [
       ["Pickup", "false"],
       ["Quick Feet", "false"],
@@ -3924,6 +5654,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "teddiursa",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3938,6 +5674,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "ursaring",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3952,6 +5694,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "slugma",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3966,13 +5714,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "magcargo",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 220,
     "name": "Swinub",
     "types": ["Ice", "Ground"],
-    "evolutions": ["Piloswine"],
+    "evolutions": ["Piloswine", "Mamoswine"],
     "abilities": [
       ["Oblivious", "false"],
       ["Snow Cloak", "false"],
@@ -3980,6 +5734,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "swinub",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -3994,6 +5754,31 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "piloswine",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 222,
+    "name": "Galarian Corsola",
+    "types": ["Ghost"],
+    "evolutions": ["Cursola"],
+    "abilities": [
+      ["Weak Armor", "false"],
+      ["Cursed Body", "true"]
+    ],
+    "gender": "25:75",
+    "sprite": "corsola-galar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4008,19 +5793,12 @@ var pokedex = [
     ],
     "gender": "25:75",
     "sprite": "corsola",
-    "forms": []
-  },
-  {
-    "pokedexNo": 222,
-    "name": "Galarian Corsola",
-    "types": ["Ghost"],
-    "evolutions": ["Cursola"],
-    "abilities": [
-      ["Weak Armor", "false"],
-      ["Cursed Body", "true"]
-    ],
-    "gender": "25:75",
-    "sprite": "corsola-galar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4035,6 +5813,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "remoraid",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4049,6 +5833,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "octillery",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4063,6 +5853,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "delibird",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4077,6 +5873,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "mantine",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4091,6 +5893,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "skarmory",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4105,6 +5913,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "houndour",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4119,11 +5933,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "houndoom",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "houndoom-mega",
         "types": ["Dark", "Fire"],
-        "name": "Mega Houndoom"
+        "name": "Mega Houndoom",
+        "pokedexNo": 229
       }
     ]
   },
@@ -4139,6 +5960,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "kingdra",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4152,6 +5979,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "phanpy",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4165,6 +5998,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "donphan",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4179,6 +6018,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "porygon2",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4193,6 +6038,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "stantler",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4207,6 +6058,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "smeargle",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4221,6 +6078,12 @@ var pokedex = [
     ],
     "gender": "100:0",
     "sprite": "tyrogue",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4235,6 +6098,12 @@ var pokedex = [
     ],
     "gender": "100:0",
     "sprite": "hitmontop",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4249,32 +6118,50 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "smoochum",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 239,
     "name": "Elekid",
     "types": ["Electric"],
-    "evolutions": ["Electabuzz"],
+    "evolutions": ["Electabuzz", "Electivire"],
     "abilities": [
       ["Static", "false"],
       ["Vital Spirit", "true"]
     ],
     "gender": "75:25",
     "sprite": "elekid",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 240,
     "name": "Magby",
     "types": ["Fire"],
-    "evolutions": ["Magmar"],
+    "evolutions": ["Magmar", "Magmortar"],
     "abilities": [
       ["Flame Body", "false"],
       ["Vital Spirit", "true"]
     ],
     "gender": "75:25",
     "sprite": "magby",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4289,6 +6176,12 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "miltank",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4303,6 +6196,12 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "blissey",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4316,6 +6215,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "raikou",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4329,6 +6234,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "entei",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4342,19 +6253,31 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "suicune",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 246,
     "name": "Larvitar",
     "types": ["Rock", "Ground"],
-    "evolutions": ["Pupitar"],
+    "evolutions": ["Pupitar", "Tyranitar"],
     "abilities": [
       ["Guts", "false"],
       ["Sand Veil", "true"]
     ],
     "gender": "50:50",
     "sprite": "larvitar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4365,6 +6288,12 @@ var pokedex = [
     "abilities": [["Shed Skin", "false"]],
     "gender": "50:50",
     "sprite": "pupitar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4378,11 +6307,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "tyranitar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "tyranitar-mega",
         "types": ["Rock", "Dark"],
-        "name": "Mega Tyranitar"
+        "name": "Mega Tyranitar",
+        "pokedexNo": 248
       }
     ]
   },
@@ -4397,6 +6333,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "lugia",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4410,6 +6352,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "ho-oh",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4420,19 +6368,31 @@ var pokedex = [
     "abilities": [["Natural Cure", "false"]],
     "gender": "Genderless",
     "sprite": "celebi",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": true,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 252,
     "name": "Treecko",
     "types": ["Grass"],
-    "evolutions": ["Grovyle"],
+    "evolutions": ["Grovyle", "Sceptile"],
     "abilities": [
       ["Overgrow", "false"],
       ["Unburden", "true"]
     ],
     "gender": "87.5:12.5",
     "sprite": "treecko",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4446,6 +6406,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "grovyle",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4459,11 +6425,18 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "sceptile",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "sceptile-mega",
         "types": ["Grass", "Dragon"],
-        "name": "Mega Sceptile"
+        "name": "Mega Sceptile",
+        "pokedexNo": 254
       }
     ]
   },
@@ -4471,13 +6444,19 @@ var pokedex = [
     "pokedexNo": 255,
     "name": "Torchic",
     "types": ["Fire"],
-    "evolutions": ["Combusken"],
+    "evolutions": ["Combusken", "Blaziken"],
     "abilities": [
       ["Blaze", "false"],
       ["Speed Boost", "true"]
     ],
     "gender": "87.5:12.5",
     "sprite": "torchic",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4491,6 +6470,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "combusken",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4504,11 +6489,18 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "blaziken",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "blaziken-mega",
         "types": ["Fire", "Fighting"],
-        "name": "Mega Blaziken"
+        "name": "Mega Blaziken",
+        "pokedexNo": 257
       }
     ]
   },
@@ -4516,13 +6508,19 @@ var pokedex = [
     "pokedexNo": 258,
     "name": "Mudkip",
     "types": ["Water"],
-    "evolutions": ["Marshtomp"],
+    "evolutions": ["Marshtomp", "Swampert"],
     "abilities": [
       ["Torrent", "false"],
       ["Damp", "true"]
     ],
     "gender": "87.5:12.5",
     "sprite": "mudkip",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4536,6 +6534,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "marshtomp",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4549,11 +6553,18 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "swampert",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "swampert-mega",
         "types": ["Water", "Ground"],
-        "name": "Mega Swampert"
+        "name": "Mega Swampert",
+        "pokedexNo": 260
       }
     ]
   },
@@ -4569,6 +6580,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "poochyena",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4583,6 +6600,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "mightyena",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4597,13 +6620,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "zigzagoon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 263,
     "name": "Galarian Zigzagoon",
     "types": ["Dark", "Normal"],
-    "evolutions": ["Galarian Linoone"],
+    "evolutions": ["Galarian Linoone", "Obstagoon"],
     "abilities": [
       ["Pickup", "false"],
       ["Gluttony", "false"],
@@ -4611,6 +6640,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "zigzagoon-galar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4625,6 +6660,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "linoone",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4639,19 +6680,31 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "linoone-galar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 265,
     "name": "Wurmple",
     "types": ["Bug"],
-    "evolutions": ["Silcoon", "Cascoon"],
+    "evolutions": ["Silcoon", "Cascoon", "Beautifly", "Dustox"],
     "abilities": [
       ["Shield Dust", "false"],
       ["Run Away", "true"]
     ],
     "gender": "50:50",
     "sprite": "wurmple",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4662,6 +6715,12 @@ var pokedex = [
     "abilities": [["Shed Skin", "false"]],
     "gender": "50:50",
     "sprite": "silcoon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4675,6 +6734,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "beautifly",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4685,6 +6750,12 @@ var pokedex = [
     "abilities": [["Shed Skin", "false"]],
     "gender": "50:50",
     "sprite": "cascoon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4698,13 +6769,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "dustox",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 270,
     "name": "Lotad",
     "types": ["Water", "Grass"],
-    "evolutions": ["Lombre"],
+    "evolutions": ["Lombre", "Ludicolo"],
     "abilities": [
       ["Swift Swim", "false"],
       ["Rain Dish", "false"],
@@ -4712,6 +6789,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "lotad",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4726,6 +6809,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "lombre",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4740,13 +6829,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "ludicolo",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 273,
     "name": "Seedot",
     "types": ["Grass"],
-    "evolutions": ["Nuzleaf"],
+    "evolutions": ["Nuzleaf", "Shiftry"],
     "abilities": [
       ["Chlorophyll", "false"],
       ["Early Bird", "false"],
@@ -4754,6 +6849,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "seedot",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4768,6 +6869,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "nuzleaf",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4782,6 +6889,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "shiftry",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4795,6 +6908,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "taillow",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4808,6 +6927,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "swellow",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4822,6 +6947,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "wingull",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4836,13 +6967,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "pelipper",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 280,
     "name": "Ralts",
     "types": ["Psychic", "Fairy"],
-    "evolutions": ["Kirlia"],
+    "evolutions": ["Kirlia", "Gardevoir", "Gallade"],
     "abilities": [
       ["Synchronize", "false"],
       ["Trace", "false"],
@@ -4850,6 +6987,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "ralts",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4864,6 +7007,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "kirlia",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4878,11 +7027,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "gardevoir",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "gardevoir-mega",
         "types": ["Psychic", "Fairy"],
-        "name": "Mega Gardevoir"
+        "name": "Mega Gardevoir",
+        "pokedexNo": 282
       }
     ]
   },
@@ -4897,6 +7053,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "surskit",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4910,6 +7072,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "masquerain",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4924,6 +7092,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "shroomish",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4938,16 +7112,28 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "breloom",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 287,
     "name": "Slakoth",
     "types": ["Normal"],
-    "evolutions": ["Vigoroth"],
+    "evolutions": ["Vigoroth", "Slaking"],
     "abilities": [["Truant", "false"]],
     "gender": "50:50",
     "sprite": "slakoth",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4958,6 +7144,12 @@ var pokedex = [
     "abilities": [["Vital Spirit", "false"]],
     "gender": "50:50",
     "sprite": "vigoroth",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4968,6 +7160,12 @@ var pokedex = [
     "abilities": [["Truant", "false"]],
     "gender": "50:50",
     "sprite": "slaking",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4981,6 +7179,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "nincada",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -4994,6 +7198,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "ninjask",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5004,19 +7214,31 @@ var pokedex = [
     "abilities": [["Wonder Guard", "false"]],
     "gender": "Genderless",
     "sprite": "shedinja",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 293,
     "name": "Whismur",
     "types": ["Normal"],
-    "evolutions": ["Loudred"],
+    "evolutions": ["Loudred", "Exploud"],
     "abilities": [
       ["Soundproof", "false"],
       ["Rattled", "true"]
     ],
     "gender": "50:50",
     "sprite": "whismur",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5030,6 +7252,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "loudred",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5043,6 +7271,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "exploud",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5057,6 +7291,12 @@ var pokedex = [
     ],
     "gender": "75:25",
     "sprite": "makuhita",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5071,13 +7311,19 @@ var pokedex = [
     ],
     "gender": "75:25",
     "sprite": "hariyama",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 298,
     "name": "Azurill",
     "types": ["Normal", "Fairy"],
-    "evolutions": ["Marill"],
+    "evolutions": ["Marill", "Azumarill"],
     "abilities": [
       ["Thick Fat", "false"],
       ["Huge Power", "false"],
@@ -5085,6 +7331,12 @@ var pokedex = [
     ],
     "gender": "25:75",
     "sprite": "azurill",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5099,6 +7351,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "nosepass",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5113,6 +7371,12 @@ var pokedex = [
     ],
     "gender": "25:75",
     "sprite": "skitty",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5127,6 +7391,12 @@ var pokedex = [
     ],
     "gender": "25:75",
     "sprite": "delcatty",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5141,11 +7411,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "sableye",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "sableye-mega",
         "types": ["Dark", "Ghost"],
-        "name": "Mega Sableye"
+        "name": "Mega Sableye",
+        "pokedexNo": 302
       }
     ]
   },
@@ -5161,11 +7438,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "mawile",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "mawile-mega",
         "types": ["Steel", "Fairy"],
-        "name": "Mega Mawile"
+        "name": "Mega Mawile",
+        "pokedexNo": 303
       }
     ]
   },
@@ -5173,7 +7457,7 @@ var pokedex = [
     "pokedexNo": 304,
     "name": "Aron",
     "types": ["Steel", "Rock"],
-    "evolutions": ["Lairon"],
+    "evolutions": ["Lairon", "Aggron"],
     "abilities": [
       ["Sturdy", "false"],
       ["Rock Head", "false"],
@@ -5181,6 +7465,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "aron",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5195,6 +7485,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "lairon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5209,11 +7505,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "aggron",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "aggron-mega",
         "types": ["Steel"],
-        "name": "Mega Aggron"
+        "name": "Mega Aggron",
+        "pokedexNo": 306
       }
     ]
   },
@@ -5228,6 +7531,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "meditite",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5241,11 +7550,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "medicham",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "medicham-mega",
         "types": ["Fighting", "Psychic"],
-        "name": "Mega Medicham"
+        "name": "Mega Medicham",
+        "pokedexNo": 308
       }
     ]
   },
@@ -5261,6 +7577,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "electrike",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5275,11 +7597,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "manectric",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "manectric-mega",
         "types": ["Electric"],
-        "name": "Mega Manectric"
+        "name": "Mega Manectric",
+        "pokedexNo": 310
       }
     ]
   },
@@ -5294,6 +7623,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "plusle",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5307,6 +7642,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "minun",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5321,6 +7662,12 @@ var pokedex = [
     ],
     "gender": "100:0",
     "sprite": "volbeat",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5335,6 +7682,12 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "illumise",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5349,6 +7702,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "roselia",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5363,6 +7722,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "gulpin",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5377,6 +7742,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "swalot",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5390,6 +7761,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "carvanha",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5403,11 +7780,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "sharpedo",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "sharpedo-mega",
         "types": ["Water", "Dark"],
-        "name": "Mega Sharpedo"
+        "name": "Mega Sharpedo",
+        "pokedexNo": 319
       }
     ]
   },
@@ -5423,6 +7807,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "wailmer",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5437,6 +7827,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "wailord",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5451,6 +7847,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "numel",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5465,11 +7867,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "camerupt",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "camerupt-mega",
         "types": ["Fire", "Ground"],
-        "name": "Mega Camerupt"
+        "name": "Mega Camerupt",
+        "pokedexNo": 323
       }
     ]
   },
@@ -5485,6 +7894,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "torkoal",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5499,6 +7914,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "spoink",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5513,6 +7934,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "grumpig",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5527,13 +7954,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "spinda",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 328,
     "name": "Trapinch",
     "types": ["Ground"],
-    "evolutions": ["Vibrava"],
+    "evolutions": ["Vibrava", "Flygon"],
     "abilities": [
       ["Hyper Cutter", "false"],
       ["Arena Trap", "false"],
@@ -5541,6 +7974,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "trapinch",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5551,6 +7990,12 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "50:50",
     "sprite": "vibrava",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5561,6 +8006,12 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "50:50",
     "sprite": "flygon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5574,6 +8025,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "cacnea",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5587,6 +8044,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "cacturne",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5600,6 +8063,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "swablu",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5613,11 +8082,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "altaria",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "altaria-mega",
         "types": ["Dragon", "Fairy"],
-        "name": "Mega Altaria"
+        "name": "Mega Altaria",
+        "pokedexNo": 334
       }
     ]
   },
@@ -5632,6 +8108,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "zangoose",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5645,6 +8127,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "seviper",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5655,6 +8143,12 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "Genderless",
     "sprite": "lunatone",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5665,6 +8159,12 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "Genderless",
     "sprite": "solrock",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5679,6 +8179,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "barboach",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5693,6 +8199,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "whiscash",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5707,6 +8219,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "corphish",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5721,6 +8239,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "crawdaunt",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5731,6 +8255,12 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "Genderless",
     "sprite": "baltoy",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5741,6 +8271,12 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "Genderless",
     "sprite": "claydol",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5754,6 +8290,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "lileep",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5767,6 +8309,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "cradily",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5780,6 +8328,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "anorith",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5793,6 +8347,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "armaldo",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5807,6 +8367,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "feebas",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5821,6 +8387,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "milotic",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5831,21 +8403,30 @@ var pokedex = [
     "abilities": [["Forecast", "false"]],
     "gender": "50:50",
     "sprite": "castform",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "castform-rainy",
         "types": ["Normal"],
-        "name": "Rainy Form Castform"
+        "name": "Rainy Form Castform",
+        "pokedexNo": 351
       },
       {
         "sprite": "castform-snowy",
         "types": ["Normal"],
-        "name": "Snowy Form Castform"
+        "name": "Snowy Form Castform",
+        "pokedexNo": 351
       },
       {
         "sprite": "castform-sunny",
         "types": ["Normal"],
-        "name": "Sunny Form Castform"
+        "name": "Sunny Form Castform",
+        "pokedexNo": 351
       }
     ]
   },
@@ -5860,6 +8441,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "kecleon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5874,6 +8461,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "shuppet",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5888,11 +8481,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "banette",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "banette-mega",
         "types": ["Ghost"],
-        "name": "Mega Banette"
+        "name": "Mega Banette",
+        "pokedexNo": 354
       }
     ]
   },
@@ -5900,13 +8500,19 @@ var pokedex = [
     "pokedexNo": 355,
     "name": "Duskull",
     "types": ["Ghost"],
-    "evolutions": ["Dusclops"],
+    "evolutions": ["Dusclops", "Dusknoir"],
     "abilities": [
       ["Levitate", "false"],
       ["Frisk", "true"]
     ],
     "gender": "50:50",
     "sprite": "duskull",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5920,6 +8526,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "dusclops",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5934,6 +8546,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "tropius",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5944,6 +8562,12 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "50:50",
     "sprite": "chimecho",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5958,11 +8582,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "absol",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "absol-mega",
         "types": ["Dark"],
-        "name": "Mega Absol"
+        "name": "Mega Absol",
+        "pokedexNo": 359
       }
     ]
   },
@@ -5977,6 +8608,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "wynaut",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -5991,6 +8628,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "snorunt",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6005,11 +8648,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "glalie",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "glalie-mega",
         "types": ["Ice"],
-        "name": "Mega Glalie"
+        "name": "Mega Glalie",
+        "pokedexNo": 362
       }
     ]
   },
@@ -6017,7 +8667,7 @@ var pokedex = [
     "pokedexNo": 363,
     "name": "Spheal",
     "types": ["Ice", "Water"],
-    "evolutions": ["Sealeo"],
+    "evolutions": ["Sealeo", "Walrein"],
     "abilities": [
       ["Thick Fat", "false"],
       ["Ice Body", "false"],
@@ -6025,6 +8675,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "spheal",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6039,6 +8695,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "sealeo",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6053,6 +8715,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "walrein",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6066,6 +8734,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "clamperl",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6079,6 +8753,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "huntail",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6092,6 +8772,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "gorebyss",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6106,6 +8792,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "relicanth",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6119,19 +8811,31 @@ var pokedex = [
     ],
     "gender": "25:75",
     "sprite": "luvdisc",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 371,
     "name": "Bagon",
     "types": ["Dragon"],
-    "evolutions": ["Shelgon"],
+    "evolutions": ["Shelgon", "Salamence"],
     "abilities": [
       ["Rock Head", "false"],
       ["Sheer Force", "true"]
     ],
     "gender": "50:50",
     "sprite": "bagon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6145,6 +8849,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "shelgon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6158,11 +8868,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "salamence",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "salamence-mega",
         "types": ["Dragon", "Flying"],
-        "name": "Mega Salamence"
+        "name": "Mega Salamence",
+        "pokedexNo": 373
       }
     ]
   },
@@ -6170,13 +8887,19 @@ var pokedex = [
     "pokedexNo": 374,
     "name": "Beldum",
     "types": ["Steel", "Psychic"],
-    "evolutions": ["Metang"],
+    "evolutions": ["Metang", "Metagross"],
     "abilities": [
       ["Clear Body", "false"],
       ["Light Metal", "true"]
     ],
     "gender": "Genderless",
     "sprite": "beldum",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6190,6 +8913,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "metang",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6203,11 +8932,18 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "metagross",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "metagross-mega",
         "types": ["Steel", "Psychic"],
-        "name": "Mega Metagross"
+        "name": "Mega Metagross",
+        "pokedexNo": 376
       }
     ]
   },
@@ -6222,6 +8958,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "regirock",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6235,6 +8977,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "regice",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6248,6 +8996,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "registeel",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6258,11 +9012,18 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "0:100",
     "sprite": "latias",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "latias-mega",
         "types": ["Dragon", "Psychic"],
-        "name": "Mega Latias"
+        "name": "Mega Latias",
+        "pokedexNo": 380
       }
     ]
   },
@@ -6274,11 +9035,18 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "100:0",
     "sprite": "latios",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "latios-mega",
         "types": ["Dragon", "Psychic"],
-        "name": "Mega Latios"
+        "name": "Mega Latios",
+        "pokedexNo": 381
       }
     ]
   },
@@ -6290,11 +9058,18 @@ var pokedex = [
     "abilities": [["Drizzle", "false"]],
     "gender": "Genderless",
     "sprite": "kyogre",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "kyogre-primal",
         "types": ["Water"],
-        "name": "Primal Kyogre"
+        "name": "Primal Kyogre",
+        "pokedexNo": 382
       }
     ]
   },
@@ -6306,11 +9081,18 @@ var pokedex = [
     "abilities": [["Drought", "false"]],
     "gender": "Genderless",
     "sprite": "groudon",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "groudon-primal",
         "types": ["Ground", "Fire"],
-        "name": "Primal Groudon"
+        "name": "Primal Groudon",
+        "pokedexNo": 383
       }
     ]
   },
@@ -6322,11 +9104,18 @@ var pokedex = [
     "abilities": [["Air Lock", "false"]],
     "gender": "Genderless",
     "sprite": "rayquaza",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "rayquaza-mega",
         "types": ["Dragon", "Flying"],
-        "name": "Mega Rayquaza"
+        "name": "Mega Rayquaza",
+        "pokedexNo": 384
       }
     ]
   },
@@ -6338,6 +9127,12 @@ var pokedex = [
     "abilities": [["Serene Grace", "false"]],
     "gender": "Genderless",
     "sprite": "jirachi",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": true,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6348,80 +9143,56 @@ var pokedex = [
     "abilities": [["Pressure", "false"]],
     "gender": "Genderless",
     "sprite": "deoxys",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": true,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "deoxys-attack",
         "types": ["Psychic"],
-        "name": "Attack Form Deoxys"
+        "name": "Attack Form Deoxys",
+        "pokedexNo": 386
       },
       {
         "sprite": "deoxys-defense",
         "types": ["Psychic"],
-        "name": "Defense Form Deoxys"
+        "name": "Defense Form Deoxys",
+        "pokedexNo": 386
       },
       {
         "sprite": "deoxys-normal",
         "types": ["Psychic"],
-        "name": "Normal Form Deoxys"
+        "name": "Normal Form Deoxys",
+        "pokedexNo": 386
       },
       {
         "sprite": "deoxys-speed",
         "types": ["Psychic"],
-        "name": "Speed Form Deoxys"
+        "name": "Speed Form Deoxys",
+        "pokedexNo": 386
       }
     ]
-  },
-  {
-    "pokedexNo": 386,
-    "name": "Attack Form Deoxys",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Pressure", "false"]],
-    "gender": "Genderless",
-    "sprite": "deoxys-attack",
-    "forms": []
-  },
-  {
-    "pokedexNo": 386,
-    "name": "Defense Form Deoxys",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Pressure", "false"]],
-    "gender": "Genderless",
-    "sprite": "deoxys-defense",
-    "forms": []
-  },
-  {
-    "pokedexNo": 386,
-    "name": "Normal Form Deoxys",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Pressure", "false"]],
-    "gender": "Genderless",
-    "sprite": "deoxys-normal",
-    "forms": []
-  },
-  {
-    "pokedexNo": 386,
-    "name": "Speed Form Deoxys",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [["Pressure", "false"]],
-    "gender": "Genderless",
-    "sprite": "deoxys-speed",
-    "forms": []
   },
   {
     "pokedexNo": 387,
     "name": "Turtwig",
     "types": ["Grass"],
-    "evolutions": ["Grotle"],
+    "evolutions": ["Grotle", "Torterra"],
     "abilities": [
       ["Overgrow", "false"],
       ["Shell Armor", "true"]
     ],
     "gender": "87.5:12.5",
     "sprite": "turtwig",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6435,6 +9206,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "grotle",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6448,19 +9225,31 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "torterra",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 390,
     "name": "Chimchar",
     "types": ["Fire"],
-    "evolutions": ["Monferno"],
+    "evolutions": ["Monferno", "Infernape"],
     "abilities": [
       ["Blaze", "false"],
       ["Iron Fist", "true"]
     ],
     "gender": "87.5:12.5",
     "sprite": "chimchar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6474,6 +9263,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "monferno",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6487,19 +9282,31 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "infernape",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 393,
     "name": "Piplup",
     "types": ["Water"],
-    "evolutions": ["Prinplup"],
+    "evolutions": ["Prinplup", "Empoleon"],
     "abilities": [
       ["Torrent", "false"],
       ["Defiant", "true"]
     ],
     "gender": "87.5:12.5",
     "sprite": "piplup",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6513,6 +9320,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "prinplup",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6526,19 +9339,31 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "empoleon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 396,
     "name": "Starly",
     "types": ["Normal", "Flying"],
-    "evolutions": ["Staravia"],
+    "evolutions": ["Staravia", "Staraptor"],
     "abilities": [
       ["Keen Eye", "false"],
       ["Reckless", "true"]
     ],
     "gender": "50:50",
     "sprite": "starly",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6552,6 +9377,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "staravia",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6565,6 +9396,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "staraptor",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6579,6 +9416,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "bidoof",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6593,6 +9436,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "bibarel",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6606,6 +9455,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "kricketot",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6619,13 +9474,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "kricketune",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 403,
     "name": "Shinx",
     "types": ["Electric"],
-    "evolutions": ["Luxio"],
+    "evolutions": ["Luxio", "Luxray"],
     "abilities": [
       ["Rivalry", "false"],
       ["Intimidate", "false"],
@@ -6633,6 +9494,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "shinx",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6647,6 +9514,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "luxio",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6661,13 +9534,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "luxray",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 406,
     "name": "Budew",
     "types": ["Grass", "Poison"],
-    "evolutions": ["Roselia"],
+    "evolutions": ["Roselia", "Roserade"],
     "abilities": [
       ["Natural Cure", "false"],
       ["Poison Point", "false"],
@@ -6675,6 +9554,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "budew",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6689,6 +9574,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "roserade",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6702,6 +9593,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "cranidos",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6715,6 +9612,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "rampardos",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6728,6 +9631,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "shieldon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6741,34 +9650,49 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "bastiodon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 412,
     "name": "Burmy",
     "types": ["Bug"],
-    "evolutions": ["Mothim"],
+    "evolutions": ["Wormadam", "Mothim"],
     "abilities": [
       ["Shed Skin", "false"],
       ["Overcoat", "true"]
     ],
     "gender": "50:50",
     "sprite": "burmy",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "burmy-plant",
         "types": ["Bug"],
-        "name": "Plant Cloak Burmy"
+        "name": "Plant Cloak Burmy",
+        "pokedexNo": 412
       },
       {
         "sprite": "burmy-sandy",
         "types": ["Bug"],
-        "name": "Sandy Cloak Burmy"
+        "name": "Sandy Cloak Burmy",
+        "pokedexNo": 412
       },
       {
         "sprite": "burmy-trash",
         "types": ["Bug"],
-        "name": "Trash Cloak Burmy"
+        "name": "Trash Cloak Burmy",
+        "pokedexNo": 412
       }
     ]
   },
@@ -6783,21 +9707,30 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "wormadam",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "wormadam-plant",
         "types": ["Bug", "Grass"],
-        "name": "Plant Cloak Wormadam"
+        "name": "Plant Cloak Wormadam",
+        "pokedexNo": 413
       },
       {
         "sprite": "wormadam-sandy",
         "types": ["Bug", "Grass"],
-        "name": "Sandy Cloak Wormadam"
+        "name": "Sandy Cloak Wormadam",
+        "pokedexNo": 413
       },
       {
         "sprite": "wormadam-trash",
         "types": ["Bug", "Grass"],
-        "name": "Trash Cloak Wormadam"
+        "name": "Trash Cloak Wormadam",
+        "pokedexNo": 413
       }
     ]
   },
@@ -6812,6 +9745,12 @@ var pokedex = [
     ],
     "gender": "100:0",
     "sprite": "mothim",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6825,6 +9764,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "combee",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6838,6 +9783,12 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "vespiquen",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6852,6 +9803,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "pachirisu",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6865,6 +9822,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "buizel",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6878,6 +9841,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "floatzel",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6888,6 +9857,12 @@ var pokedex = [
     "abilities": [["Chlorophyll", "false"]],
     "gender": "50:50",
     "sprite": "cherubi",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6898,27 +9873,20 @@ var pokedex = [
     "abilities": [["Flower Gift", "false"]],
     "gender": "50:50",
     "sprite": "cherrim",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "cherrim-sunshine",
         "types": ["Grass"],
-        "name": "Sunshine Form Cherrim"
+        "name": "Sunshine Form Cherrim",
+        "pokedexNo": 421
       }
     ]
-  },
-  {
-    "pokedexNo": 422,
-    "name": "West Sea Shellos",
-    "types": ["Water"],
-    "evolutions": ["West Sea Gastrodon"],
-    "abilities": [
-      ["Sticky Hold", "false"],
-      ["Storm Drain", "false"],
-      ["Sand Force", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "shellos",
-    "forms": []
   },
   {
     "pokedexNo": 422,
@@ -6932,6 +9900,32 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "shellos-east",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 422,
+    "name": "West Sea Shellos",
+    "types": ["Water"],
+    "evolutions": ["West Sea Gastrodon"],
+    "abilities": [
+      ["Sticky Hold", "false"],
+      ["Storm Drain", "false"],
+      ["Sand Force", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "shellos",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6946,6 +9940,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "gastrodon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6960,6 +9960,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "gastrodon-east",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6974,6 +9980,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "ambipom",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -6988,6 +10000,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "drifloon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7002,6 +10020,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "drifblim",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7016,6 +10040,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "buneary",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7030,11 +10060,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "lopunny",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "lopunny-mega",
         "types": ["Normal", "Fighting"],
-        "name": "Mega Lopunny"
+        "name": "Mega Lopunny",
+        "pokedexNo": 428
       }
     ]
   },
@@ -7046,6 +10083,12 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "50:50",
     "sprite": "mismagius",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7060,6 +10103,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "honchkrow",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7074,6 +10123,12 @@ var pokedex = [
     ],
     "gender": "25:75",
     "sprite": "glameow",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7088,6 +10143,12 @@ var pokedex = [
     ],
     "gender": "25:75",
     "sprite": "purugly",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7098,6 +10159,12 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "50:50",
     "sprite": "chingling",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7112,6 +10179,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "stunky",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7126,6 +10199,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "skuntank",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7140,6 +10219,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "bronzor",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7154,6 +10239,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "bronzong",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7168,13 +10259,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "bonsly",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 439,
     "name": "Mime Jr.",
     "types": ["Psychic", "Fairy"],
-    "evolutions": ["Mr. Mime", "Galarian Mr. Mime"],
+    "evolutions": ["Mr. Mime", "Galarian Mr. Mime", "Mr. Rime"],
     "abilities": [
       ["Soundproof", "false"],
       ["Filter", "false"],
@@ -7182,13 +10279,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "mime-jr",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 440,
     "name": "Happiny",
     "types": ["Normal"],
-    "evolutions": ["Chansey"],
+    "evolutions": ["Chansey", "Blissey"],
     "abilities": [
       ["Natural Cure", "false"],
       ["Serene Grace", "false"],
@@ -7196,6 +10299,12 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "happiny",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7210,6 +10319,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "chatot",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7223,19 +10338,31 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "spiritomb",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 443,
     "name": "Gible",
     "types": ["Dragon", "Ground"],
-    "evolutions": ["Gabite"],
+    "evolutions": ["Gabite", "Garchomp"],
     "abilities": [
       ["Sand Veil", "false"],
       ["Rough Skin", "true"]
     ],
     "gender": "50:50",
     "sprite": "gible",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7249,6 +10376,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "gabite",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7262,11 +10395,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "garchomp",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "garchomp-mega",
         "types": ["Dragon", "Ground"],
-        "name": "Mega Garchomp"
+        "name": "Mega Garchomp",
+        "pokedexNo": 445
       }
     ]
   },
@@ -7282,6 +10422,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "munchlax",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7296,6 +10442,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "riolu",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7310,11 +10462,18 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "lucario",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "lucario-mega",
         "types": ["Fighting", "Steel"],
-        "name": "Mega Lucario"
+        "name": "Mega Lucario",
+        "pokedexNo": 448
       }
     ]
   },
@@ -7329,6 +10488,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "hippopotas",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7342,6 +10507,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "hippowdon",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7356,6 +10527,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "skorupi",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7370,6 +10547,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "drapion",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7384,6 +10567,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "croagunk",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7398,6 +10587,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "toxicroak",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7408,6 +10603,12 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "50:50",
     "sprite": "carnivine",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7422,6 +10623,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "finneon",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7436,6 +10643,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "lumineon",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7450,6 +10663,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "mantyke",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7463,6 +10682,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "snover",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7476,11 +10701,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "abomasnow",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "abomasnow-mega",
         "types": ["Grass", "Ice"],
-        "name": "Mega Abomasnow"
+        "name": "Mega Abomasnow",
+        "pokedexNo": 460
       }
     ]
   },
@@ -7495,6 +10727,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "weavile",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7509,6 +10747,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "magnezone",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7523,6 +10767,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "lickilicky",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7537,6 +10787,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "rhyperior",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7551,6 +10807,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "tangrowth",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7564,6 +10826,12 @@ var pokedex = [
     ],
     "gender": "75:25",
     "sprite": "electivire",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7577,6 +10845,12 @@ var pokedex = [
     ],
     "gender": "75:25",
     "sprite": "magmortar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7591,6 +10865,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "togekiss",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7605,6 +10885,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "yanmega",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7618,6 +10904,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "leafeon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7631,6 +10923,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "glaceon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7645,6 +10943,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "gliscor",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7659,6 +10963,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "mamoswine",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7673,6 +10983,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "porygon-z",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7686,11 +11002,18 @@ var pokedex = [
     ],
     "gender": "100:0",
     "sprite": "gallade",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "gallade-mega",
         "types": ["Psychic", "Fighting"],
-        "name": "Mega Gallade"
+        "name": "Mega Gallade",
+        "pokedexNo": 475
       }
     ]
   },
@@ -7706,6 +11029,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "probopass",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7719,6 +11048,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "dusknoir",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7732,6 +11067,12 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "froslass",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7742,31 +11083,42 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "Genderless",
     "sprite": "rotom",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "rotom-fan",
         "types": ["Electric", "Flying"],
-        "name": "Rotom Fan"
+        "name": "Rotom Fan",
+        "pokedexNo": 479
       },
       {
         "sprite": "rotom-frost",
         "types": ["Electric", "Ice"],
-        "name": "Rotom Frost"
+        "name": "Rotom Frost",
+        "pokedexNo": 479
       },
       {
         "sprite": "rotom-heat",
         "types": ["Electric", "Fire"],
-        "name": "Rotom Heat"
+        "name": "Rotom Heat",
+        "pokedexNo": 479
       },
       {
         "sprite": "rotom-mow",
         "types": ["Electric", "Grass"],
-        "name": "Rotom Mow"
+        "name": "Rotom Mow",
+        "pokedexNo": 479
       },
       {
         "sprite": "rotom-wash",
         "types": ["Electric", "Water"],
-        "name": "Rotom Wash"
+        "name": "Rotom Wash",
+        "pokedexNo": 479
       }
     ]
   },
@@ -7778,6 +11130,12 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "Genderless",
     "sprite": "uxie",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7788,6 +11146,12 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "Genderless",
     "sprite": "mesprit",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7798,6 +11162,12 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "Genderless",
     "sprite": "azelf",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7811,11 +11181,18 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "dialga",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "dialga-origin",
         "types": ["Steel", "Dragon"],
-        "name": "Origin Form Dialga"
+        "name": "Origin Form Dialga",
+        "pokedexNo": 483
       }
     ]
   },
@@ -7830,11 +11207,18 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "palkia",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "palkia-origin",
         "types": ["Water", "Dragon"],
-        "name": "Origin Form Palkia"
+        "name": "Origin Form Palkia",
+        "pokedexNo": 484
       }
     ]
   },
@@ -7849,6 +11233,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "heatran",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7859,6 +11249,12 @@ var pokedex = [
     "abilities": [["Slow Start", "false"]],
     "gender": "Genderless",
     "sprite": "regigigas",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7872,11 +11268,18 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "giratina",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "giratina-origin",
         "types": ["Ghost", "Dragon"],
-        "name": "Origin Form Giratina"
+        "name": "Origin Form Giratina",
+        "pokedexNo": 487
       }
     ]
   },
@@ -7888,6 +11291,12 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "0:100",
     "sprite": "cresselia",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7898,6 +11307,12 @@ var pokedex = [
     "abilities": [["Hydration", "false"]],
     "gender": "Genderless",
     "sprite": "phione",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": true,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7908,6 +11323,12 @@ var pokedex = [
     "abilities": [["Hydration", "false"]],
     "gender": "Genderless",
     "sprite": "manaphy",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": true,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7918,6 +11339,12 @@ var pokedex = [
     "abilities": [["Bad Dreams", "false"]],
     "gender": "Genderless",
     "sprite": "darkrai",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": true,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -7928,11 +11355,18 @@ var pokedex = [
     "abilities": [["Natural Cure", "false"]],
     "gender": "Genderless",
     "sprite": "shaymin",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": true,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "shaymin-sky",
         "types": ["Grass", "Flying"],
-        "name": "Sky Form Shaymin"
+        "name": "Sky Form Shaymin",
+        "pokedexNo": 492
       }
     ]
   },
@@ -7944,91 +11378,114 @@ var pokedex = [
     "abilities": [["Multitype", "false"]],
     "gender": "Genderless",
     "sprite": "arceus",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": true,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "arceus-bug",
         "types": ["Bug"],
-        "name": "Bug Type Arceus"
+        "name": "Bug Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-dark",
         "types": ["Dark"],
-        "name": "Dark Type Arceus"
+        "name": "Dark Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-dragon",
         "types": ["Dragon"],
-        "name": "Dragon Type Arceus"
+        "name": "Dragon Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-electric",
         "types": ["Electric"],
-        "name": "Electric Type Arceus"
+        "name": "Electric Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-fairy",
         "types": ["Fairy"],
-        "name": "Fairy Type Arceus"
+        "name": "Fairy Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-fighting",
         "types": ["Fighting"],
-        "name": "Fighting Type Arceus"
+        "name": "Fighting Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-fire",
         "types": ["Fire"],
-        "name": "Fire Type Arceus"
+        "name": "Fire Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-flying",
         "types": ["Flying"],
-        "name": "Flying Type Arceus"
+        "name": "Flying Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-ghost",
         "types": ["Ghost"],
-        "name": "Ghost Type Arceus"
+        "name": "Ghost Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-grass",
         "types": ["Grass"],
-        "name": "Grass Type Arceus"
+        "name": "Grass Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-ground",
         "types": ["Ground"],
-        "name": "Ground Type Arceus"
+        "name": "Ground Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-ice",
         "types": ["Ice"],
-        "name": "Ice Type Arceus"
+        "name": "Ice Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-poison",
         "types": ["Poison"],
-        "name": "Poison Type Arceus"
+        "name": "Poison Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-psychic",
         "types": ["Psychic"],
-        "name": "Psychic Type Arceus"
+        "name": "Psychic Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-rock",
         "types": ["Rock"],
-        "name": "Rock Type Arceus"
+        "name": "Rock Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-steel",
         "types": ["Steel"],
-        "name": "Steel Type Arceus"
+        "name": "Steel Type Arceus",
+        "pokedexNo": 493
       },
       {
         "sprite": "arceus-water",
         "types": ["Water"],
-        "name": "Water Type Arceus"
+        "name": "Water Type Arceus",
+        "pokedexNo": 493
       }
     ]
   },
@@ -8040,19 +11497,31 @@ var pokedex = [
     "abilities": [["Victory Star", "false"]],
     "gender": "Genderless",
     "sprite": "victini",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": true,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 495,
     "name": "Snivy",
     "types": ["Grass"],
-    "evolutions": ["Servine"],
+    "evolutions": ["Servine", "Serperior"],
     "abilities": [
       ["Overgrow", "false"],
       ["Contrary", "true"]
     ],
     "gender": "87.5:12.5",
     "sprite": "snivy",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8066,6 +11535,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "servine",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8079,19 +11554,31 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "serperior",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 498,
     "name": "Tepig",
     "types": ["Fire"],
-    "evolutions": ["Pignite"],
+    "evolutions": ["Pignite", "Emboar"],
     "abilities": [
       ["Blaze", "false"],
       ["Thick Fat", "true"]
     ],
     "gender": "87.5:12.5",
     "sprite": "tepig",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8105,6 +11592,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "pignite",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8118,19 +11611,31 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "emboar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 501,
     "name": "Oshawott",
     "types": ["Water"],
-    "evolutions": ["Dewott"],
+    "evolutions": ["Dewott", "Samurott", "Hisuian Samurott"],
     "abilities": [
       ["Torrent", "false"],
       ["Shell Armor", "true"]
     ],
     "gender": "87.5:12.5",
     "sprite": "oshawott",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8144,6 +11649,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "dewott",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8157,6 +11668,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "samurott",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8170,6 +11687,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "samurott-hisui",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8184,6 +11707,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "patrat",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8198,13 +11727,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "watchog",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 506,
     "name": "Lillipup",
     "types": ["Normal"],
-    "evolutions": ["Herdier"],
+    "evolutions": ["Herdier", "Stoutland"],
     "abilities": [
       ["Vital Spirit", "false"],
       ["Pickup", "false"],
@@ -8212,6 +11747,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "lillipup",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8226,6 +11767,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "herdier",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8240,6 +11787,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "stoutland",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8254,6 +11807,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "purrloin",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8268,6 +11827,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "liepard",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8281,6 +11846,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "pansage",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8294,6 +11865,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "simisage",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8307,6 +11884,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "pansear",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8320,6 +11903,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "simisear",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8333,6 +11922,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "panpour",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8346,6 +11941,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "simipour",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8360,6 +11961,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "munna",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8374,13 +11981,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "musharna",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 519,
     "name": "Pidove",
     "types": ["Normal", "Flying"],
-    "evolutions": ["Tranquill"],
+    "evolutions": ["Tranquill", "Unfezant"],
     "abilities": [
       ["Big Pecks", "false"],
       ["Super Luck", "false"],
@@ -8388,6 +12001,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "pidove",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8402,6 +12021,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "tranquill",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8416,6 +12041,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "unfezant",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8430,6 +12061,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "blitzle",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8444,13 +12081,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "zebstrika",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 524,
     "name": "Roggenrola",
     "types": ["Rock"],
-    "evolutions": ["Boldore"],
+    "evolutions": ["Boldore", "Gigalith"],
     "abilities": [
       ["Sturdy", "false"],
       ["Weak Armor", "false"],
@@ -8458,6 +12101,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "roggenrola",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8472,6 +12121,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "boldore",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8486,6 +12141,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "gigalith",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8500,6 +12161,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "woobat",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8514,6 +12181,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "swoobat",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8528,6 +12201,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "drilbur",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8542,6 +12221,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "excadrill",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8556,11 +12241,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "audino",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "audino-mega",
         "types": ["Normal", "Fairy"],
-        "name": "Mega Audino"
+        "name": "Mega Audino",
+        "pokedexNo": 531
       }
     ]
   },
@@ -8568,7 +12260,7 @@ var pokedex = [
     "pokedexNo": 532,
     "name": "Timburr",
     "types": ["Fighting"],
-    "evolutions": ["Gurdurr"],
+    "evolutions": ["Gurdurr", "Conkeldurr"],
     "abilities": [
       ["Guts", "false"],
       ["Sheer Force", "false"],
@@ -8576,6 +12268,12 @@ var pokedex = [
     ],
     "gender": "75:25",
     "sprite": "timburr",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8590,6 +12288,12 @@ var pokedex = [
     ],
     "gender": "75:25",
     "sprite": "gurdurr",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8604,13 +12308,19 @@ var pokedex = [
     ],
     "gender": "75:25",
     "sprite": "conkeldurr",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 535,
     "name": "Tympole",
     "types": ["Water"],
-    "evolutions": ["Palpitoad"],
+    "evolutions": ["Palpitoad", "Seismitoad"],
     "abilities": [
       ["Swift Swim", "false"],
       ["Hydration", "false"],
@@ -8618,6 +12328,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "tympole",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8632,6 +12348,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "palpitoad",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8646,6 +12368,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "seismitoad",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8660,6 +12388,12 @@ var pokedex = [
     ],
     "gender": "100:0",
     "sprite": "throh",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8674,13 +12408,19 @@ var pokedex = [
     ],
     "gender": "100:0",
     "sprite": "sawk",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 540,
     "name": "Sewaddle",
     "types": ["Bug", "Grass"],
-    "evolutions": ["Swadloon"],
+    "evolutions": ["Swadloon", "Leavanny"],
     "abilities": [
       ["Swarm", "false"],
       ["Chlorophyll", "false"],
@@ -8688,6 +12428,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "sewaddle",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8702,6 +12448,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "swadloon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8716,13 +12468,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "leavanny",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 543,
     "name": "Venipede",
     "types": ["Bug", "Poison"],
-    "evolutions": ["Whirlipede"],
+    "evolutions": ["Whirlipede", "Scolipede"],
     "abilities": [
       ["Poison Point", "false"],
       ["Swarm", "false"],
@@ -8730,6 +12488,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "venipede",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8744,6 +12508,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "whirlipede",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8758,6 +12528,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "scolipede",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8772,6 +12548,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "cottonee",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8786,6 +12568,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "whimsicott",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8800,20 +12588,12 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "petilil",
-    "forms": []
-  },
-  {
-    "pokedexNo": 549,
-    "name": "Lilligant",
-    "types": ["Grass"],
-    "evolutions": [],
-    "abilities": [
-      ["Chlorophyll", "false"],
-      ["Own Tempo", "false"],
-      ["Leaf Guard", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "lilligant",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8828,6 +12608,32 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "lilligant-hisui",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 549,
+    "name": "Lilligant",
+    "types": ["Grass"],
+    "evolutions": [],
+    "abilities": [
+      ["Chlorophyll", "false"],
+      ["Own Tempo", "false"],
+      ["Leaf Guard", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "lilligant",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8842,6 +12648,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "basculin",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8856,13 +12668,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "basculin-blue-striped",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 550,
     "name": "White Striped Basculin",
     "types": ["Water"],
-    "evolutions": ["Basculegion"],
+    "evolutions": ["Male Basculegion", "Female Basculegion"],
     "abilities": [
       ["Reckless", "false"],
       ["Adaptability", "false"],
@@ -8870,13 +12688,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "basculin-white-striped",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 551,
     "name": "Sandile",
     "types": ["Ground", "Dark"],
-    "evolutions": ["Krokorok"],
+    "evolutions": ["Krokorok", "Krookodile"],
     "abilities": [
       ["Intimidate", "false"],
       ["Moxie", "false"],
@@ -8884,6 +12708,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "sandile",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8898,6 +12728,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "krokorok",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8912,6 +12748,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "krookodile",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8925,6 +12767,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "darumaka",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8938,6 +12786,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "darumaka-galar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -8951,11 +12805,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "darmanitan",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "darmanitan-zen",
         "types": ["Fire", "Fighting"],
-        "name": "Zen Mode Darmanitan"
+        "name": "Zen Mode Darmanitan",
+        "pokedexNo": 555
       }
     ]
   },
@@ -8970,11 +12831,18 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "darmanitan-galar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "darmanitan-galar-zen",
         "types": ["Ice", "Fire"],
-        "name": "Galarian Zen Mode Darmanitan"
+        "name": "Galarian Zen Mode Darmanitan",
+        "pokedexNo": 555
       }
     ]
   },
@@ -8990,6 +12858,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "maractus",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9004,6 +12878,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "dwebble",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9018,6 +12898,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "crustle",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9032,6 +12918,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "scraggy",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9046,6 +12938,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "scrafty",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9060,6 +12958,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "sigilyph",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9070,6 +12974,12 @@ var pokedex = [
     "abilities": [["Mummy", "false"]],
     "gender": "50:50",
     "sprite": "yamask",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9080,6 +12990,12 @@ var pokedex = [
     "abilities": [["Wandering Spirit", "false"]],
     "gender": "50:50",
     "sprite": "yamask-galar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9090,6 +13006,12 @@ var pokedex = [
     "abilities": [["Mummy", "false"]],
     "gender": "50:50",
     "sprite": "cofagrigus",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9104,6 +13026,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "tirtouga",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9118,6 +13046,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "carracosta",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9128,6 +13062,12 @@ var pokedex = [
     "abilities": [["Defeatist", "false"]],
     "gender": "87.5:12.5",
     "sprite": "archen",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9138,6 +13078,12 @@ var pokedex = [
     "abilities": [["Defeatist", "false"]],
     "gender": "87.5:12.5",
     "sprite": "archeops",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9152,6 +13098,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "trubbish",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9166,23 +13118,20 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "garbodor",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "garbodor-gmax",
         "types": ["Poison"],
-        "name": "Gigantamax Garbodor"
+        "name": "Gigantamax Garbodor",
+        "pokedexNo": 569
       }
     ]
-  },
-  {
-    "pokedexNo": 570,
-    "name": "Zorua",
-    "types": ["Dark"],
-    "evolutions": ["Zoroark"],
-    "abilities": [["Illusion", "false"]],
-    "gender": "87.5:12.5",
-    "sprite": "zorua",
-    "forms": []
   },
   {
     "pokedexNo": 570,
@@ -9192,6 +13141,28 @@ var pokedex = [
     "abilities": [["Illusion", "false"]],
     "gender": "87.5:12.5",
     "sprite": "zorua-hisui",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 570,
+    "name": "Zorua",
+    "types": ["Dark"],
+    "evolutions": ["Zoroark"],
+    "abilities": [["Illusion", "false"]],
+    "gender": "87.5:12.5",
+    "sprite": "zorua",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9202,6 +13173,12 @@ var pokedex = [
     "abilities": [["Illusion", "false"]],
     "gender": "87.5:12.5",
     "sprite": "zoroark",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9212,6 +13189,12 @@ var pokedex = [
     "abilities": [["Illusion", "false"]],
     "gender": "87.5:12.5",
     "sprite": "zoroark-hisui",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9226,6 +13209,12 @@ var pokedex = [
     ],
     "gender": "25:75",
     "sprite": "minccino",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9240,13 +13229,19 @@ var pokedex = [
     ],
     "gender": "25:75",
     "sprite": "cinccino",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 574,
     "name": "Gothita",
     "types": ["Psychic"],
-    "evolutions": ["Gothorita"],
+    "evolutions": ["Gothorita", "Gothitelle"],
     "abilities": [
       ["Frisk", "false"],
       ["Competitive", "false"],
@@ -9254,6 +13249,12 @@ var pokedex = [
     ],
     "gender": "25:75",
     "sprite": "gothita",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9268,6 +13269,12 @@ var pokedex = [
     ],
     "gender": "25:75",
     "sprite": "gothorita",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9282,13 +13289,19 @@ var pokedex = [
     ],
     "gender": "25:75",
     "sprite": "gothitelle",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 577,
     "name": "Solosis",
     "types": ["Psychic"],
-    "evolutions": ["Duosion"],
+    "evolutions": ["Duosion", "Reuniclus"],
     "abilities": [
       ["Overcoat", "false"],
       ["Magic Guard", "false"],
@@ -9296,6 +13309,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "solosis",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9310,6 +13329,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "duosion",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9324,6 +13349,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "reuniclus",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9338,6 +13369,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "ducklett",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9352,13 +13389,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "swanna",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 582,
     "name": "Vanillite",
     "types": ["Ice"],
-    "evolutions": ["Vanillish"],
+    "evolutions": ["Vanillish", "Vanilluxe"],
     "abilities": [
       ["Ice Body", "false"],
       ["Snow Cloak", "false"],
@@ -9366,6 +13409,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "vanillite",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9380,6 +13429,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "vanillish",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9394,13 +13449,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "vanilluxe",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 585,
     "name": "Deerling",
     "types": ["Normal", "Grass"],
-    "evolutions": [],
+    "evolutions": ["Sawsbuck"],
     "abilities": [
       ["Chlorophyll", "false"],
       ["Sap Sipper", "false"],
@@ -9408,26 +13469,36 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "deerling",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "deerling-autumn",
         "types": ["Normal", "Grass"],
-        "name": "Autumn Form Deerling"
+        "name": "Autumn Form Deerling",
+        "pokedexNo": 585
       },
       {
         "sprite": "deerling-winter",
         "types": ["Normal", "Grass"],
-        "name": "Winter Form Deerling"
+        "name": "Winter Form Deerling",
+        "pokedexNo": 585
       },
       {
         "sprite": "deerling-spring",
         "types": ["Normal", "Grass"],
-        "name": "Spring Form Deerling"
+        "name": "Spring Form Deerling",
+        "pokedexNo": 585
       },
       {
         "sprite": "deerling-summer",
         "types": ["Normal", "Grass"],
-        "name": "Summer Form Deerling"
+        "name": "Summer Form Deerling",
+        "pokedexNo": 585
       }
     ]
   },
@@ -9443,26 +13514,36 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "sawsbuck",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "sawsbuck-autumn",
         "types": ["Normal", "Grass"],
-        "name": "Autumn Form Sawsbuck"
+        "name": "Autumn Form Sawsbuck",
+        "pokedexNo": 586
       },
       {
         "sprite": "sawsbuck-winter",
         "types": ["Normal", "Grass"],
-        "name": "Winter Form Sawsbuck"
+        "name": "Winter Form Sawsbuck",
+        "pokedexNo": 586
       },
       {
         "sprite": "sawsbuck-spring",
         "types": ["Normal", "Grass"],
-        "name": "Spring Form Sawsbuck"
+        "name": "Spring Form Sawsbuck",
+        "pokedexNo": 586
       },
       {
         "sprite": "sawsbuck-summer",
         "types": ["Normal", "Grass"],
-        "name": "Summer Form Sawsbuck"
+        "name": "Summer Form Sawsbuck",
+        "pokedexNo": 586
       }
     ]
   },
@@ -9477,6 +13558,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "emolga",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9491,6 +13578,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "karrablast",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9505,6 +13598,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "escavalier",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9518,6 +13617,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "foongus",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9531,6 +13636,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "amoonguss",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9545,6 +13656,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "frillish",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9559,6 +13676,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "jellicent",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9573,6 +13696,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "alomomola",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9587,6 +13716,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "joltik",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9601,6 +13736,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "galvantula",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9611,6 +13752,12 @@ var pokedex = [
     "abilities": [["Iron Barbs", "false"]],
     "gender": "50:50",
     "sprite": "ferroseed",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9624,13 +13771,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "ferrothorn",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 599,
     "name": "Klink",
     "types": ["Steel"],
-    "evolutions": ["Klang"],
+    "evolutions": ["Klang", "Klinklang"],
     "abilities": [
       ["Plus", "false"],
       ["Minus", "false"],
@@ -9638,6 +13791,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "klink",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9652,6 +13811,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "klang",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9666,16 +13831,28 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "klinklang",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 602,
     "name": "Tynamo",
     "types": ["Electric"],
-    "evolutions": ["Eelektrik"],
+    "evolutions": ["Eelektrik", "Eelektross"],
     "abilities": [["Levitate", "false"]],
     "gender": "50:50",
     "sprite": "tynamo",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9686,6 +13863,12 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "50:50",
     "sprite": "eelektrik",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9696,6 +13879,12 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "50:50",
     "sprite": "eelektross",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9710,6 +13899,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "elgyem",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9724,13 +13919,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "beheeyem",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 607,
     "name": "Litwick",
     "types": ["Ghost", "Fire"],
-    "evolutions": ["Lampent"],
+    "evolutions": ["Lampent", "Chandelure"],
     "abilities": [
       ["Flash Fire", "false"],
       ["Flame Body", "false"],
@@ -9738,6 +13939,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "litwick",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9752,6 +13959,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "lampent",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9766,13 +13979,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "chandelure",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 610,
     "name": "Axew",
     "types": ["Dragon"],
-    "evolutions": ["Fraxure"],
+    "evolutions": ["Fraxure", "Haxorus"],
     "abilities": [
       ["Rivalry", "false"],
       ["Mold Breaker", "false"],
@@ -9780,6 +13999,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "axew",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9794,6 +14019,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "fraxure",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9808,6 +14039,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "haxorus",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9822,6 +14059,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "cubchoo",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9836,6 +14079,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "beartic",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9846,6 +14095,12 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "Genderless",
     "sprite": "cryogonal",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9860,6 +14115,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "shelmet",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9874,6 +14135,28 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "accelgor",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 618,
+    "name": "Galarian Stunfisk",
+    "types": ["Ground", "Steel"],
+    "evolutions": [],
+    "abilities": [["Mimicry", "false"]],
+    "gender": "50:50",
+    "sprite": "stunfisk-galar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9888,16 +14171,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "stunfisk",
-    "forms": []
-  },
-  {
-    "pokedexNo": 618,
-    "name": "Galarian Stunfisk",
-    "types": ["Ground", "Steel"],
-    "evolutions": [],
-    "abilities": [["Mimicry", "false"]],
-    "gender": "50:50",
-    "sprite": "stunfisk-galar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9912,6 +14191,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "mienfoo",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9926,6 +14211,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "mienshao",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9940,6 +14231,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "druddigon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9954,6 +14251,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "golett",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9968,13 +14271,19 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "golurk",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 624,
     "name": "Pawniard",
     "types": ["Dark", "Steel"],
-    "evolutions": ["Bisharp"],
+    "evolutions": ["Bisharp", "Kingambit"],
     "abilities": [
       ["Defiant", "false"],
       ["Inner Focus", "false"],
@@ -9982,6 +14291,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "pawniard",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -9996,6 +14311,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "bisharp",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10010,6 +14331,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "bouffalant",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10024,20 +14351,12 @@ var pokedex = [
     ],
     "gender": "100:0",
     "sprite": "rufflet",
-    "forms": []
-  },
-  {
-    "pokedexNo": 628,
-    "name": "Braviary",
-    "types": ["Normal", "Flying"],
-    "evolutions": [],
-    "abilities": [
-      ["Keen Eye", "false"],
-      ["Sheer Force", "false"],
-      ["Defiant", "true"]
-    ],
-    "gender": "100:0",
-    "sprite": "braviary",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10052,6 +14371,32 @@ var pokedex = [
     ],
     "gender": "100:0",
     "sprite": "braviary-hisui",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 628,
+    "name": "Braviary",
+    "types": ["Normal", "Flying"],
+    "evolutions": [],
+    "abilities": [
+      ["Keen Eye", "false"],
+      ["Sheer Force", "false"],
+      ["Defiant", "true"]
+    ],
+    "gender": "100:0",
+    "sprite": "braviary",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10066,6 +14411,12 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "vullaby",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10080,6 +14431,12 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "mandibuzz",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10094,6 +14451,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "heatmor",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10108,16 +14471,28 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "durant",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 633,
     "name": "Deino",
     "types": ["Dark", "Dragon"],
-    "evolutions": ["Zweilous"],
+    "evolutions": ["Zweilous", "Hydreigon"],
     "abilities": [["Hustle", "false"]],
     "gender": "50:50",
     "sprite": "deino",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10128,6 +14503,12 @@ var pokedex = [
     "abilities": [["Hustle", "false"]],
     "gender": "50:50",
     "sprite": "zweilous",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10138,6 +14519,12 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "50:50",
     "sprite": "hydreigon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10151,6 +14538,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "larvesta",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10164,6 +14557,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "volcarona",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10174,6 +14573,12 @@ var pokedex = [
     "abilities": [["Justified", "false"]],
     "gender": "Genderless",
     "sprite": "cobalion",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10184,6 +14589,12 @@ var pokedex = [
     "abilities": [["Justified", "false"]],
     "gender": "Genderless",
     "sprite": "terrakion",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10194,6 +14605,12 @@ var pokedex = [
     "abilities": [["Justified", "false"]],
     "gender": "Genderless",
     "sprite": "virizion",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10207,11 +14624,18 @@ var pokedex = [
     ],
     "gender": "100:0",
     "sprite": "tornadus",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "tornadus-therian",
         "types": ["Flying"],
-        "name": "Therian Form Tornadus"
+        "name": "Therian Form Tornadus",
+        "pokedexNo": 641
       }
     ]
   },
@@ -10226,11 +14650,18 @@ var pokedex = [
     ],
     "gender": "100:0",
     "sprite": "thundurus",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "thundurus-therian",
         "types": ["Electric", "Flying"],
-        "name": "Therian Form Thundurus"
+        "name": "Therian Form Thundurus",
+        "pokedexNo": 642
       }
     ]
   },
@@ -10242,6 +14673,12 @@ var pokedex = [
     "abilities": [["Turboblaze", "false"]],
     "gender": "Genderless",
     "sprite": "reshiram",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10252,6 +14689,12 @@ var pokedex = [
     "abilities": [["Teravolt", "false"]],
     "gender": "Genderless",
     "sprite": "zekrom",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10265,11 +14708,18 @@ var pokedex = [
     ],
     "gender": "100:0",
     "sprite": "landorus",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "landorus-therian",
         "types": ["Ground", "Flying"],
-        "name": "Therian Form Landorus"
+        "name": "Therian Form Landorus",
+        "pokedexNo": 645
       }
     ]
   },
@@ -10281,16 +14731,24 @@ var pokedex = [
     "abilities": [["Pressure", "false"]],
     "gender": "Genderless",
     "sprite": "kyurem",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "kyurem-black",
         "types": ["Dragon", "Ice"],
-        "name": "Kyurem Black"
+        "name": "Kyurem Black",
+        "pokedexNo": 646
       },
       {
         "sprite": "kyurem-white",
         "types": ["Dragon", "Ice"],
-        "name": "Kyurem White"
+        "name": "Kyurem White",
+        "pokedexNo": 646
       }
     ]
   },
@@ -10302,11 +14760,18 @@ var pokedex = [
     "abilities": [["Justified", "false"]],
     "gender": "Genderless",
     "sprite": "keldeo",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": true,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "keldeo-resolute",
         "types": ["Water", "Fighting"],
-        "name": "Resolute Form Keldeo"
+        "name": "Resolute Form Keldeo",
+        "pokedexNo": 647
       }
     ]
   },
@@ -10318,11 +14783,18 @@ var pokedex = [
     "abilities": [["Serene Grace", "false"]],
     "gender": "Genderless",
     "sprite": "meloetta",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": true,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "meloetta-pirouette",
         "types": ["Normal", "Fighting"],
-        "name": "Piroette Form Meloetta"
+        "name": "Piroette Form Meloetta",
+        "pokedexNo": 648
       }
     ]
   },
@@ -10334,26 +14806,36 @@ var pokedex = [
     "abilities": [["Download", "false"]],
     "gender": "Genderless",
     "sprite": "genesect",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": true,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "genesect-burn",
         "types": ["Normal", "Fighting"],
-        "name": "Burn Drive Genesect"
+        "name": "Burn Drive Genesect",
+        "pokedexNo": 649
       },
       {
         "sprite": "genesect-chill",
         "types": ["Normal", "Fighting"],
-        "name": "Chill Drive Genesect"
+        "name": "Chill Drive Genesect",
+        "pokedexNo": 649
       },
       {
         "sprite": "genesect-douse",
         "types": ["Normal", "Fighting"],
-        "name": "Douse Drive Genesect"
+        "name": "Douse Drive Genesect",
+        "pokedexNo": 649
       },
       {
         "sprite": "genesect-shock",
         "types": ["Normal", "Fighting"],
-        "name": "Shock Drive Genesect"
+        "name": "Shock Drive Genesect",
+        "pokedexNo": 649
       }
     ]
   },
@@ -10361,13 +14843,19 @@ var pokedex = [
     "pokedexNo": 650,
     "name": "Chespin",
     "types": ["Grass"],
-    "evolutions": ["Quilladin"],
+    "evolutions": ["Quilladin", "Chesnaught"],
     "abilities": [
       ["Overgrow", "false"],
       ["Bulletproof", "true"]
     ],
     "gender": "87.5:12.5",
     "sprite": "chespin",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10381,6 +14869,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "quilladin",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10394,19 +14888,31 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "chesnaught",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 653,
     "name": "Fennekin",
     "types": ["Fire"],
-    "evolutions": ["Braixen"],
+    "evolutions": ["Braixen", "Delphox"],
     "abilities": [
       ["Blaze", "false"],
       ["Magician", "true"]
     ],
     "gender": "87.5:12.5",
     "sprite": "fennekin",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10420,6 +14926,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "braixen",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10433,19 +14945,31 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "delphox",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 656,
     "name": "Froakie",
     "types": ["Water"],
-    "evolutions": ["Frogadier"],
+    "evolutions": ["Frogadier", "Greninja"],
     "abilities": [
       ["Torrent", "false"],
       ["Protean", "true"]
     ],
     "gender": "87.5:12.5",
     "sprite": "froakie",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10459,6 +14983,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "frogadier",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10472,6 +15002,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "greninja",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10486,6 +15022,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "bunnelby",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10500,19 +15042,31 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "diggersby",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 661,
     "name": "Fletchling",
     "types": ["Normal", "Flying"],
-    "evolutions": ["Fletchinder"],
+    "evolutions": ["Fletchinder", "Talonflame"],
     "abilities": [
       ["Big Pecks", "false"],
       ["Gale Wings", "true"]
     ],
     "gender": "50:50",
     "sprite": "fletchling",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10526,6 +15080,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "fletchinder",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10539,13 +15099,41 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "talonflame",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 664,
     "name": "Scatterbug",
     "types": ["Bug"],
-    "evolutions": ["Spewpa"],
+    "evolutions": [
+      "Spewpa",
+      "Archipelago Pattern Vivillon",
+      "Continental Pattern Vivillon",
+      "Elegant Pattern Vivillon",
+      "Fancy Pattern Vivillon",
+      "Garden Pattern Vivillon",
+      "High Plains Pattern Vivillon",
+      "Icy Snow Pattern Vivillon",
+      "Jungle Pattern Vivillon",
+      "Marine Pattern Vivillon",
+      "Meadow Pattern Vivillon",
+      "Modern Pattern Vivillon",
+      "Monsoon Pattern Vivillon",
+      "Ocean Pattern Vivillon",
+      "Poké Ball Pattern Vivillon",
+      "Polar Pattern Vivillon",
+      "River Pattern Vivillon",
+      "Sandstorm Pattern Vivillon",
+      "Savanna Pattern Vivillon",
+      "Sun Pattern Vivillon",
+      "Tundra Pattern Vivillon"
+    ],
     "abilities": [
       ["Shield Dust", "false"],
       ["Compound Eyes", "false"],
@@ -10553,6 +15141,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "scatterbug",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10566,7 +15160,7 @@ var pokedex = [
       "Fancy Pattern Vivillon",
       "Garden Pattern Vivillon",
       "High Plains Pattern Vivillon",
-      "Ice Snow Pattern Vivillon",
+      "Icy Snow Pattern Vivillon",
       "Jungle Pattern Vivillon",
       "Marine Pattern Vivillon",
       "Meadow Pattern Vivillon",
@@ -10587,20 +15181,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "spewpa",
-    "forms": []
-  },
-  {
-    "pokedexNo": 666,
-    "name": "Archipelago Pattern Vivillon",
-    "types": ["Bug", "Flying"],
-    "evolutions": [],
-    "abilities": [
-      ["Shield Dust", "false"],
-      ["Compound Eyes", "false"],
-      ["Friend Guard", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "vivillon-archipelago",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10615,160 +15201,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "vivillon-continental",
-    "forms": []
-  },
-  {
-    "pokedexNo": 666,
-    "name": "Elegant Pattern Vivillon",
-    "types": ["Bug", "Flying"],
-    "evolutions": [],
-    "abilities": [
-      ["Shield Dust", "false"],
-      ["Compound Eyes", "false"],
-      ["Friend Guard", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "vivillon-elegant",
-    "forms": []
-  },
-  {
-    "pokedexNo": 666,
-    "name": "Fancy Pattern Vivillon",
-    "types": ["Bug", "Flying"],
-    "evolutions": [],
-    "abilities": [
-      ["Shield Dust", "false"],
-      ["Compound Eyes", "false"],
-      ["Friend Guard", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "vivillon-fancy",
-    "forms": []
-  },
-  {
-    "pokedexNo": 666,
-    "name": "Garden Pattern Vivillon",
-    "types": ["Bug", "Flying"],
-    "evolutions": [],
-    "abilities": [
-      ["Shield Dust", "false"],
-      ["Compound Eyes", "false"],
-      ["Friend Guard", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "vivillon-garden",
-    "forms": []
-  },
-  {
-    "pokedexNo": 666,
-    "name": "High Plains Pattern Vivillon",
-    "types": ["Bug", "Flying"],
-    "evolutions": [],
-    "abilities": [
-      ["Shield Dust", "false"],
-      ["Compound Eyes", "false"],
-      ["Friend Guard", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "vivillon-high-plains",
-    "forms": []
-  },
-  {
-    "pokedexNo": 666,
-    "name": "Icy Snow Pattern Vivillon",
-    "types": ["Bug", "Flying"],
-    "evolutions": [],
-    "abilities": [
-      ["Shield Dust", "false"],
-      ["Compound Eyes", "false"],
-      ["Friend Guard", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "vivillon-icy-snow",
-    "forms": []
-  },
-  {
-    "pokedexNo": 666,
-    "name": "Jungle Pattern Vivillon",
-    "types": ["Bug", "Flying"],
-    "evolutions": [],
-    "abilities": [
-      ["Shield Dust", "false"],
-      ["Compound Eyes", "false"],
-      ["Friend Guard", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "vivillon-jungle",
-    "forms": []
-  },
-  {
-    "pokedexNo": 666,
-    "name": "Marine Pattern Vivillon",
-    "types": ["Bug", "Flying"],
-    "evolutions": [],
-    "abilities": [
-      ["Shield Dust", "false"],
-      ["Compound Eyes", "false"],
-      ["Friend Guard", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "vivillon-marine",
-    "forms": []
-  },
-  {
-    "pokedexNo": 666,
-    "name": "Meadow Pattern Vivillon",
-    "types": ["Bug", "Flying"],
-    "evolutions": [],
-    "abilities": [
-      ["Shield Dust", "false"],
-      ["Compound Eyes", "false"],
-      ["Friend Guard", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "vivillon",
-    "forms": []
-  },
-  {
-    "pokedexNo": 666,
-    "name": "Modern Pattern Vivillon",
-    "types": ["Bug", "Flying"],
-    "evolutions": [],
-    "abilities": [
-      ["Shield Dust", "false"],
-      ["Compound Eyes", "false"],
-      ["Friend Guard", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "vivillon-modern",
-    "forms": []
-  },
-  {
-    "pokedexNo": 666,
-    "name": "Monsoon Pattern Vivillon",
-    "types": ["Bug", "Flying"],
-    "evolutions": [],
-    "abilities": [
-      ["Shield Dust", "false"],
-      ["Compound Eyes", "false"],
-      ["Friend Guard", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "vivillon-monsoon",
-    "forms": []
-  },
-  {
-    "pokedexNo": 666,
-    "name": "Ocean Pattern Vivillon",
-    "types": ["Bug", "Flying"],
-    "evolutions": [],
-    "abilities": [
-      ["Shield Dust", "false"],
-      ["Compound Eyes", "false"],
-      ["Friend Guard", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "vivillon-ocean",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10783,34 +15221,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "vivillon-poke-ball",
-    "forms": []
-  },
-  {
-    "pokedexNo": 666,
-    "name": "Polar Pattern Vivillon",
-    "types": ["Bug", "Flying"],
-    "evolutions": [],
-    "abilities": [
-      ["Shield Dust", "false"],
-      ["Compound Eyes", "false"],
-      ["Friend Guard", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "vivillon-polar",
-    "forms": []
-  },
-  {
-    "pokedexNo": 666,
-    "name": "River Pattern Vivillon",
-    "types": ["Bug", "Flying"],
-    "evolutions": [],
-    "abilities": [
-      ["Shield Dust", "false"],
-      ["Compound Eyes", "false"],
-      ["Friend Guard", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "vivillon-river",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10825,6 +15241,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "vivillon-sandstorm",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10839,11 +15261,17 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "vivillon-savanna",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 666,
-    "name": "Sun Pattern Vivillon",
+    "name": "Icy Snow Pattern Vivillon",
     "types": ["Bug", "Flying"],
     "evolutions": [],
     "abilities": [
@@ -10852,7 +15280,73 @@ var pokedex = [
       ["Friend Guard", "true"]
     ],
     "gender": "50:50",
-    "sprite": "vivillon-sun",
+    "sprite": "vivillon-icy-snow",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 666,
+    "name": "Polar Pattern Vivillon",
+    "types": ["Bug", "Flying"],
+    "evolutions": [],
+    "abilities": [
+      ["Shield Dust", "false"],
+      ["Compound Eyes", "false"],
+      ["Friend Guard", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "vivillon-polar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 666,
+    "name": "Elegant Pattern Vivillon",
+    "types": ["Bug", "Flying"],
+    "evolutions": [],
+    "abilities": [
+      ["Shield Dust", "false"],
+      ["Compound Eyes", "false"],
+      ["Friend Guard", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "vivillon-elegant",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 666,
+    "name": "Marine Pattern Vivillon",
+    "types": ["Bug", "Flying"],
+    "evolutions": [],
+    "abilities": [
+      ["Shield Dust", "false"],
+      ["Compound Eyes", "false"],
+      ["Friend Guard", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "vivillon-marine",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10867,6 +15361,232 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "vivillon-tundra",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 666,
+    "name": "Ocean Pattern Vivillon",
+    "types": ["Bug", "Flying"],
+    "evolutions": [],
+    "abilities": [
+      ["Shield Dust", "false"],
+      ["Compound Eyes", "false"],
+      ["Friend Guard", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "vivillon-ocean",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 666,
+    "name": "Fancy Pattern Vivillon",
+    "types": ["Bug", "Flying"],
+    "evolutions": [],
+    "abilities": [
+      ["Shield Dust", "false"],
+      ["Compound Eyes", "false"],
+      ["Friend Guard", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "vivillon-fancy",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 666,
+    "name": "Garden Pattern Vivillon",
+    "types": ["Bug", "Flying"],
+    "evolutions": [],
+    "abilities": [
+      ["Shield Dust", "false"],
+      ["Compound Eyes", "false"],
+      ["Friend Guard", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "vivillon-garden",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 666,
+    "name": "Monsoon Pattern Vivillon",
+    "types": ["Bug", "Flying"],
+    "evolutions": [],
+    "abilities": [
+      ["Shield Dust", "false"],
+      ["Compound Eyes", "false"],
+      ["Friend Guard", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "vivillon-monsoon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 666,
+    "name": "Archipelago Pattern Vivillon",
+    "types": ["Bug", "Flying"],
+    "evolutions": [],
+    "abilities": [
+      ["Shield Dust", "false"],
+      ["Compound Eyes", "false"],
+      ["Friend Guard", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "vivillon-archipelago",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 666,
+    "name": "Sun Pattern Vivillon",
+    "types": ["Bug", "Flying"],
+    "evolutions": [],
+    "abilities": [
+      ["Shield Dust", "false"],
+      ["Compound Eyes", "false"],
+      ["Friend Guard", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "vivillon-sun",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 666,
+    "name": "High Plains Pattern Vivillon",
+    "types": ["Bug", "Flying"],
+    "evolutions": [],
+    "abilities": [
+      ["Shield Dust", "false"],
+      ["Compound Eyes", "false"],
+      ["Friend Guard", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "vivillon-high-plains",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 666,
+    "name": "Jungle Pattern Vivillon",
+    "types": ["Bug", "Flying"],
+    "evolutions": [],
+    "abilities": [
+      ["Shield Dust", "false"],
+      ["Compound Eyes", "false"],
+      ["Friend Guard", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "vivillon-jungle",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 666,
+    "name": "Meadow Pattern Vivillon",
+    "types": ["Bug", "Flying"],
+    "evolutions": [],
+    "abilities": [
+      ["Shield Dust", "false"],
+      ["Compound Eyes", "false"],
+      ["Friend Guard", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "vivillon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 666,
+    "name": "Modern Pattern Vivillon",
+    "types": ["Bug", "Flying"],
+    "evolutions": [],
+    "abilities": [
+      ["Shield Dust", "false"],
+      ["Compound Eyes", "false"],
+      ["Friend Guard", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "vivillon-modern",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 666,
+    "name": "River Pattern Vivillon",
+    "types": ["Bug", "Flying"],
+    "evolutions": [],
+    "abilities": [
+      ["Shield Dust", "false"],
+      ["Compound Eyes", "false"],
+      ["Friend Guard", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "vivillon-river",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10881,6 +15601,12 @@ var pokedex = [
     ],
     "gender": "12.5:87.5",
     "sprite": "litleo",
+    "genderDifference": true,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10895,97 +15621,107 @@ var pokedex = [
     ],
     "gender": "12.5:87.5",
     "sprite": "pyroar",
-    "forms": []
-  },
-  {
-    "pokedexNo": 669,
-    "name": "Blue Flower Flabébé",
-    "types": ["Fairy"],
-    "evolutions": ["Blue Flower Floette"],
-    "abilities": [
-      ["Flower Veil", "false"],
-      ["Symbiosis", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "flabebe-blue",
-    "forms": []
-  },
-  {
-    "pokedexNo": 669,
-    "name": "Orange Flower Flabébé",
-    "types": ["Fairy"],
-    "evolutions": ["Orange Flower Floette"],
-    "abilities": [
-      ["Flower Veil", "false"],
-      ["Symbiosis", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "flabebe-orange",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 669,
     "name": "Red Flower Flabébé",
     "types": ["Fairy"],
-    "evolutions": ["Red Flower Floette"],
+    "evolutions": ["Red Flower Floette", "Red Flower Florges"],
     "abilities": [
       ["Flower Veil", "false"],
       ["Symbiosis", "true"]
     ],
     "gender": "0:100",
     "sprite": "flabebe",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 669,
     "name": "White Flower Flabébé",
     "types": ["Fairy"],
-    "evolutions": ["White Flower Floette"],
+    "evolutions": ["White Flower Floette", "White Flower Florges"],
     "abilities": [
       ["Flower Veil", "false"],
       ["Symbiosis", "true"]
     ],
     "gender": "0:100",
     "sprite": "flabebe-white",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 669,
     "name": "Yellow Flower Flabébé",
     "types": ["Fairy"],
-    "evolutions": ["Yellow Flower Floette"],
+    "evolutions": ["Yellow Flower Floette", "Yellow Flower Florges"],
     "abilities": [
       ["Flower Veil", "false"],
       ["Symbiosis", "true"]
     ],
     "gender": "0:100",
     "sprite": "flabebe-yellow",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
-    "pokedexNo": 670,
-    "name": "Blue Flower Floette",
+    "pokedexNo": 669,
+    "name": "Orange Flower Flabébé",
     "types": ["Fairy"],
-    "evolutions": ["Blue Flower Florges"],
+    "evolutions": ["Orange Flower Floette", "Orange Flower Florges"],
     "abilities": [
       ["Flower Veil", "false"],
       ["Symbiosis", "true"]
     ],
     "gender": "0:100",
-    "sprite": "floette-blue",
+    "sprite": "flabebe-orange",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
-    "pokedexNo": 670,
-    "name": "Orange Flower Floette",
+    "pokedexNo": 669,
+    "name": "Blue Flower Flabébé",
     "types": ["Fairy"],
-    "evolutions": ["Orange Flower Florges"],
+    "evolutions": ["Blue Flower Floette", "Blue Flower Florges"],
     "abilities": [
       ["Flower Veil", "false"],
       ["Symbiosis", "true"]
     ],
     "gender": "0:100",
-    "sprite": "floette-orange",
+    "sprite": "flabebe-blue",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -10999,19 +15735,12 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "floette",
-    "forms": []
-  },
-  {
-    "pokedexNo": 670,
-    "name": "White Flower Floette",
-    "types": ["Fairy"],
-    "evolutions": ["White Flower Florges"],
-    "abilities": [
-      ["Flower Veil", "false"],
-      ["Symbiosis", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "floette-white",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11025,6 +15754,69 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "floette-yellow",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 670,
+    "name": "Blue Flower Floette",
+    "types": ["Fairy"],
+    "evolutions": ["Blue Flower Florges"],
+    "abilities": [
+      ["Flower Veil", "false"],
+      ["Symbiosis", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "floette-blue",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 670,
+    "name": "White Flower Floette",
+    "types": ["Fairy"],
+    "evolutions": ["White Flower Florges"],
+    "abilities": [
+      ["Flower Veil", "false"],
+      ["Symbiosis", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "floette-white",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 670,
+    "name": "Orange Flower Floette",
+    "types": ["Fairy"],
+    "evolutions": ["Orange Flower Florges"],
+    "abilities": [
+      ["Flower Veil", "false"],
+      ["Symbiosis", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "floette-orange",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11038,6 +15830,12 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "florges-blue",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11051,19 +15849,12 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "florges-orange",
-    "forms": []
-  },
-  {
-    "pokedexNo": 671,
-    "name": "Red Flower Florges",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Flower Veil", "false"],
-      ["Symbiosis", "true"]
-    ],
-    "gender": "0:100",
-    "sprite": "florges",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11077,6 +15868,31 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "florges-white",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 671,
+    "name": "Red Flower Florges",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Flower Veil", "false"],
+      ["Symbiosis", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "florges",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11090,6 +15906,12 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "florges-yellow",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11103,6 +15925,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "skiddo",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11116,6 +15944,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "gogoat",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11130,6 +15964,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "pancham",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11144,6 +15984,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "pangoro",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11154,52 +16000,68 @@ var pokedex = [
     "abilities": [["Fur Coat", "false"]],
     "gender": "50:50",
     "sprite": "furfrou",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "furfrou-dandy",
         "types": ["Normal"],
-        "name": "Furfrou Dandy Trim"
+        "name": "Furfrou Dandy Trim",
+        "pokedexNo": 676
       },
       {
         "sprite": "furfrou-debutante",
         "types": ["Normal"],
-        "name": "Furfrou Debutante Trim"
+        "name": "Furfrou Debutante Trim",
+        "pokedexNo": 676
       },
       {
         "sprite": "furfrou-diamond",
         "types": ["Normal"],
-        "name": "Furfrou Diamond Trim"
+        "name": "Furfrou Diamond Trim",
+        "pokedexNo": 676
       },
       {
         "sprite": "furfrou-heart",
         "types": ["Normal"],
-        "name": "Furfrou Heart Trim"
+        "name": "Furfrou Heart Trim",
+        "pokedexNo": 676
       },
       {
         "sprite": "furfrou-kabuki",
         "types": ["Normal"],
-        "name": "Furfrou Kabuki Trim"
+        "name": "Furfrou Kabuki Trim",
+        "pokedexNo": 676
       },
       {
         "sprite": "furfrou-la-reine",
         "types": ["Normal"],
-        "name": "Furfrou La Reine Trim"
+        "name": "Furfrou La Reine Trim",
+        "pokedexNo": 676
       },
       {
         "sprite": "furfrou-matron",
         "types": ["Normal"],
-        "name": "Furfrou Matron Trim"
+        "name": "Furfrou Matron Trim",
+        "pokedexNo": 676
       },
       {
         "sprite": "furfrou-pharaoh",
         "types": ["Normal"],
-        "name": "Furfrou Pharaoh Trim"
+        "name": "Furfrou Pharaoh Trim",
+        "pokedexNo": 676
       },
       {
         "sprite": "furfrou-star",
         "types": ["Normal"],
-        "name": "Furfrou Star Trim"
-      }]
+        "name": "Furfrou Star Trim",
+        "pokedexNo": 676
+      }
+    ]
   },
   {
     "pokedexNo": 677,
@@ -11213,20 +16075,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "espurr",
-    "forms": []
-  },
-  {
-    "pokedexNo": 678,
-    "name": "Male Meowstic",
-    "types": ["Psychic"],
-    "evolutions": [],
-    "abilities": [
-      ["Keen Eye", "false"],
-      ["Infiltrator", "false"],
-      ["Prankster", "true"]
-    ],
-    "gender": "100:0",
-    "sprite": "meowstic",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11241,16 +16095,48 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "meowstic-f",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 678,
+    "name": "Male Meowstic",
+    "types": ["Psychic"],
+    "evolutions": [],
+    "abilities": [
+      ["Keen Eye", "false"],
+      ["Infiltrator", "false"],
+      ["Prankster", "true"]
+    ],
+    "gender": "100:0",
+    "sprite": "meowstic",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 679,
     "name": "Honedge",
     "types": ["Steel", "Ghost"],
-    "evolutions": ["Doublade"],
+    "evolutions": ["Doublade", "Aegislash"],
     "abilities": [["No Guard", "false"]],
     "gender": "50:50",
     "sprite": "honedge",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11261,6 +16147,12 @@ var pokedex = [
     "abilities": [["No Guard", "false"]],
     "gender": "50:50",
     "sprite": "doublade",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11271,11 +16163,18 @@ var pokedex = [
     "abilities": [["Stance Change", "false"]],
     "gender": "50:50",
     "sprite": "aegislash",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "aegislash-blade",
         "types": ["Steel", "Ghost"],
-        "name": "Blade Form Aegislash"
+        "name": "Blade Form Aegislash",
+        "pokedexNo": 681
       }
     ]
   },
@@ -11290,6 +16189,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "spritzee",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11303,6 +16208,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "aromatisse",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11316,6 +16227,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "swirlix",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11329,6 +16246,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "slurpuff",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11343,6 +16266,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "inkay",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11357,6 +16286,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "malamar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11371,6 +16306,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "binacle",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11385,6 +16326,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "barbaracle",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11399,6 +16346,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "skrelp",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11413,6 +16366,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "dragalge",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11423,6 +16382,12 @@ var pokedex = [
     "abilities": [["Mega Launcher", "false"]],
     "gender": "50:50",
     "sprite": "clauncher",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11433,6 +16398,12 @@ var pokedex = [
     "abilities": [["Mega Launcher", "false"]],
     "gender": "50:50",
     "sprite": "clawitzer",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11447,6 +16418,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "helioptile",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11461,6 +16438,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "heliolisk",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11474,6 +16457,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "tyrunt",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11487,6 +16476,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "tyrantrum",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11500,6 +16495,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "amaura",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11513,6 +16514,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "aurorus",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11526,6 +16533,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "sylveon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11540,6 +16553,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "hawlucha",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11554,6 +16573,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "dedenne",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11567,13 +16592,19 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "carbink",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 704,
     "name": "Goomy",
     "types": ["Dragon"],
-    "evolutions": ["Sliggoo", "Hisuian Sliggoo"],
+    "evolutions": ["Sliggoo", "Hisuian Sliggoo", "Goodra", "Hisuian Goodra"],
     "abilities": [
       ["Sap Sipper", "false"],
       ["Hydration", "false"],
@@ -11581,20 +16612,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "goomy",
-    "forms": []
-  },
-  {
-    "pokedexNo": 705,
-    "name": "Sliggoo",
-    "types": ["Dragon"],
-    "evolutions": ["Goodra"],
-    "abilities": [
-      ["Sap Sipper", "false"],
-      ["Hydration", "false"],
-      ["Gooey", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "sliggoo",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11609,20 +16632,32 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "sliggoo-hisui",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
-    "pokedexNo": 706,
-    "name": "Goodra",
+    "pokedexNo": 705,
+    "name": "Sliggoo",
     "types": ["Dragon"],
-    "evolutions": [],
+    "evolutions": ["Goodra"],
     "abilities": [
       ["Sap Sipper", "false"],
       ["Hydration", "false"],
       ["Gooey", "true"]
     ],
     "gender": "50:50",
-    "sprite": "goodra",
+    "sprite": "sliggoo",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11637,6 +16672,32 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "goodra-hisui",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 706,
+    "name": "Goodra",
+    "types": ["Dragon"],
+    "evolutions": [],
+    "abilities": [
+      ["Sap Sipper", "false"],
+      ["Hydration", "false"],
+      ["Gooey", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "goodra",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11650,6 +16711,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "klefki",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11664,6 +16731,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "phantump",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11678,6 +16751,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "trevenant",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11692,6 +16771,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "pumpkaboo",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11706,6 +16791,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "gourgeist",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11720,20 +16811,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "bergmite",
-    "forms": []
-  },
-  {
-    "pokedexNo": 713,
-    "name": "Avalugg",
-    "types": ["Ice"],
-    "evolutions": [],
-    "abilities": [
-      ["Own Tempo", "false"],
-      ["Ice Body", "false"],
-      ["Sturdy", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "avalugg",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11748,6 +16831,32 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "avalugg-hisui",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 713,
+    "name": "Avalugg",
+    "types": ["Ice"],
+    "evolutions": [],
+    "abilities": [
+      ["Own Tempo", "false"],
+      ["Ice Body", "false"],
+      ["Sturdy", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "avalugg",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11762,6 +16871,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "noibat",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11776,6 +16891,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "noivern",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11786,6 +16907,12 @@ var pokedex = [
     "abilities": [["Fairy Aura", "false"]],
     "gender": "Genderless",
     "sprite": "xerneas",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11796,6 +16923,12 @@ var pokedex = [
     "abilities": [["Dark Aura", "false"]],
     "gender": "Genderless",
     "sprite": "yveltal",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11806,21 +16939,30 @@ var pokedex = [
     "abilities": [["Aura Break", "false"]],
     "gender": "Genderless",
     "sprite": "zygarde",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "zygarde-10",
         "types": ["Dragon", "Ground"],
-        "name": "10% Form Zygarde"
+        "name": "10% Form Zygarde",
+        "pokedexNo": 718
       },
       {
         "sprite": "zygarde-50",
         "types": ["Dragon", "Ground"],
-        "name": "50% Form Zygarde"
+        "name": "50% Form Zygarde",
+        "pokedexNo": 718
       },
       {
         "sprite": "zygarde-complete",
         "types": ["Dragon", "Ground"],
-        "name": "Complete Form Zygarde"
+        "name": "Complete Form Zygarde",
+        "pokedexNo": 718
       }
     ]
   },
@@ -11832,11 +16974,18 @@ var pokedex = [
     "abilities": [["Clear Body", "false"]],
     "gender": "Genderless",
     "sprite": "diancie",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": true,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "diancie-mega",
         "types": ["Rock", "Fairy"],
-        "name": "Mega Diancie"
+        "name": "Mega Diancie",
+        "pokedexNo": 719
       }
     ]
   },
@@ -11848,11 +16997,18 @@ var pokedex = [
     "abilities": [["Magician", "false"]],
     "gender": "Genderless",
     "sprite": "hoopa",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": true,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "hoopa-unbound",
         "types": ["Psychic", "Dark"],
-        "name": "Hoopa Unbound"
+        "name": "Hoopa Unbound",
+        "pokedexNo": 720
       }
     ]
   },
@@ -11864,19 +17020,31 @@ var pokedex = [
     "abilities": [["Water Absorb", "false"]],
     "gender": "Genderless",
     "sprite": "volcanion",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": true,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 722,
     "name": "Rowlet",
     "types": ["Grass", "Flying"],
-    "evolutions": ["Dartrix"],
+    "evolutions": ["Dartrix", "Decidueye", "Hisuian Decidueye"],
     "abilities": [
       ["Overgrow", "false"],
       ["Long Reach", "true"]
     ],
     "gender": "87.5:12.5",
     "sprite": "rowlet",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11890,19 +17058,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "dartrix",
-    "forms": []
-  },
-  {
-    "pokedexNo": 724,
-    "name": "Decidueye",
-    "types": ["Grass", "Ghost"],
-    "evolutions": [],
-    "abilities": [
-      ["Overgrow", "false"],
-      ["Long Reach", "true"]
-    ],
-    "gender": "87.5:12.5",
-    "sprite": "decidueye",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11916,19 +17077,50 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "decidueye-hisui",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 724,
+    "name": "Decidueye",
+    "types": ["Grass", "Ghost"],
+    "evolutions": [],
+    "abilities": [
+      ["Overgrow", "false"],
+      ["Long Reach", "true"]
+    ],
+    "gender": "87.5:12.5",
+    "sprite": "decidueye",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 725,
     "name": "Litten",
     "types": ["Fire"],
-    "evolutions": ["Torracat"],
+    "evolutions": ["Torracat", "Incineroar"],
     "abilities": [
       ["Blaze", "false"],
       ["Intimidate", "true"]
     ],
     "gender": "87.5:12.5",
     "sprite": "litten",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11942,6 +17134,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "torracat",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11955,19 +17153,31 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "incineroar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 728,
     "name": "Popplio",
     "types": ["Water"],
-    "evolutions": ["Brionne"],
+    "evolutions": ["Brionne", "Primarina"],
     "abilities": [
       ["Torrent", "false"],
       ["Liquid Voice", "true"]
     ],
     "gender": "87.5:12.5",
     "sprite": "popplio",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11981,6 +17191,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "brionne",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -11994,13 +17210,19 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "primarina",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 731,
     "name": "Pikipek",
     "types": ["Normal", "Flying"],
-    "evolutions": ["Trumbeak"],
+    "evolutions": ["Trumbeak", "Toucannon"],
     "abilities": [
       ["Keen Eye", "false"],
       ["Skill Link", "false"],
@@ -12008,6 +17230,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "pikipek",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12022,6 +17250,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "trumbeak",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12036,6 +17270,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "toucannon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12050,6 +17290,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "yungoos",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12064,16 +17310,28 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "gumshoos",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 736,
     "name": "Grubbin",
     "types": ["Bug"],
-    "evolutions": ["Charjabug"],
+    "evolutions": ["Charjabug", "Vikavolt"],
     "abilities": [["Swarm", "false"]],
     "gender": "50:50",
     "sprite": "grubbin",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12084,6 +17342,12 @@ var pokedex = [
     "abilities": [["Battery", "false"]],
     "gender": "50:50",
     "sprite": "charjabug",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12094,6 +17358,12 @@ var pokedex = [
     "abilities": [["Levitate", "false"]],
     "gender": "50:50",
     "sprite": "vikavolt",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12108,6 +17378,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "crabrawler",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12122,47 +17398,54 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "crabominable",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 741,
-    "name": "Baile Style Oricorio",
+    "name": "Oricorio",
     "types": ["Fire", "Flying"],
     "evolutions": [],
     "abilities": [["Dancer", "false"]],
     "gender": "25:75",
     "sprite": "oricorio",
-    "forms": []
-  },
-  {
-    "pokedexNo": 741,
-    "name": "Pa'u Style Oricorio",
-    "types": ["Fire", "Flying"],
-    "evolutions": [],
-    "abilities": [["Dancer", "false"]],
-    "gender": "25:75",
-    "sprite": "oricorio-pau",
-    "forms": []
-  },
-  {
-    "pokedexNo": 741,
-    "name": "Pom-Pom Style Oricorio",
-    "types": ["Fire", "Flying"],
-    "evolutions": [],
-    "abilities": [["Dancer", "false"]],
-    "gender": "25:75",
-    "sprite": "oricorio-pom-pom",
-    "forms": []
-  },
-  {
-    "pokedexNo": 741,
-    "name": "Sensu Style Oricorio",
-    "types": ["Fire", "Flying"],
-    "evolutions": [],
-    "abilities": [["Dancer", "false"]],
-    "gender": "25:75",
-    "sprite": "oricorio-sensu",
-    "forms": []
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "oricorio",
+        "types": ["Fire", "Flying"],
+        "name": "Baile Style Oricorio",
+        "pokedexNo": 741
+      },
+      {
+        "sprite": "oricorio-pom-pom",
+        "name": "Pom-Pom Style Oricorio",
+        "types": ["Electric", "Flying"],
+        "pokedexNo": 741
+      },
+      {
+        "sprite": "oricorio-pau",
+        "name": "Pa'u Style Oricorio",
+        "types": ["Psychic", "Flying"],
+        "pokedexNo": 741
+      },
+      {
+        "sprite": "oricorio-sensu",
+        "name": "Sensu Style Oricorio",
+        "pokedexNo": 741,
+        "types": ["Ghost", "Flying"]
+      }
+    ]
   },
   {
     "pokedexNo": 742,
@@ -12176,6 +17459,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "cutiefly",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12190,6 +17479,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "ribombee",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12208,34 +17503,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "rockruff",
-    "forms": []
-  },
-  {
-    "pokedexNo": 745,
-    "name": "Midday Form Lycanroc",
-    "types": ["Rock"],
-    "evolutions": [],
-    "abilities": [
-      ["Keen Eye", "false"],
-      ["Sand Rush", "false"],
-      ["Steadfast", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "lycanroc",
-    "forms": []
-  },
-  {
-    "pokedexNo": 745,
-    "name": "Midnight Form Lycanroc",
-    "types": ["Rock"],
-    "evolutions": [],
-    "abilities": [
-      ["Keen Eye", "false"],
-      ["Sand Rush", "false"],
-      ["Steadfast", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "lycanroc-midnight",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12250,6 +17523,52 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "lycanroc-dusk",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 745,
+    "name": "Midday Form Lycanroc",
+    "types": ["Rock"],
+    "evolutions": [],
+    "abilities": [
+      ["Keen Eye", "false"],
+      ["Sand Rush", "false"],
+      ["Steadfast", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "lycanroc",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 745,
+    "name": "Midnight Form Lycanroc",
+    "types": ["Rock"],
+    "evolutions": [],
+    "abilities": [
+      ["Keen Eye", "false"],
+      ["Sand Rush", "false"],
+      ["Steadfast", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "lycanroc-midnight",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12260,11 +17579,18 @@ var pokedex = [
     "abilities": [["Schooling", "false"]],
     "gender": "50:50",
     "sprite": "wishiwashi",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "wishiwashi-school",
         "types": ["Water"],
-        "name": "School Form Wishiwashi"
+        "name": "School Form Wishiwashi",
+        "pokedexNo": 746
       }
     ]
   },
@@ -12280,6 +17606,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "mareanie",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12294,6 +17626,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "toxapex",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12308,6 +17646,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "mudbray",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12322,6 +17666,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "mudsdale",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12335,6 +17685,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "dewpider",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12348,6 +17704,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "araquanid",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12361,6 +17723,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "fomantis",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12374,6 +17742,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "lurantis",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12388,6 +17762,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "morelull",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12402,6 +17782,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "shiinotic",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12415,6 +17801,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "salandit",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12428,6 +17820,12 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "salazzle",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12442,6 +17840,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "stufful",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12456,13 +17860,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "bewear",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 761,
     "name": "Bounsweet",
     "types": ["Grass"],
-    "evolutions": ["Steenee"],
+    "evolutions": ["Steenee", "Tsareena"],
     "abilities": [
       ["Leaf Guard", "false"],
       ["Oblivious", "false"],
@@ -12470,6 +17880,12 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "bounsweet",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12484,6 +17900,12 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "steenee",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12498,6 +17920,12 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "tsareena",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12512,6 +17940,12 @@ var pokedex = [
     ],
     "gender": "25:75",
     "sprite": "comfey",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12526,6 +17960,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "oranguru",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12539,6 +17979,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "passimian",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12549,6 +17995,12 @@ var pokedex = [
     "abilities": [["Wimp Out", "false"]],
     "gender": "50:50",
     "sprite": "wimpod",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12559,6 +18011,12 @@ var pokedex = [
     "abilities": [["Emergency Exit", "false"]],
     "gender": "50:50",
     "sprite": "golisopod",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12572,6 +18030,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "sandygast",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12585,6 +18049,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "palossand",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12598,6 +18068,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "pyukumuku",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12608,6 +18084,12 @@ var pokedex = [
     "abilities": [["Battle Armor", "false"]],
     "gender": "Genderless",
     "sprite": "type-null",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12618,155 +18100,114 @@ var pokedex = [
     "abilities": [["Rks System", "false"]],
     "gender": "Genderless",
     "sprite": "silvally",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "silvally-bug",
         "types": ["Bug"],
-        "name": "Bug Type Silvally"
+        "name": "Bug Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-dark",
         "types": ["Dark"],
-        "name": "Dark Type Silvally"
+        "name": "Dark Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-dragon",
         "types": ["Dragon"],
-        "name": "Dragon Type Silvally"
+        "name": "Dragon Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-electric",
         "types": ["Electric"],
-        "name": "Electric Type Silvally"
+        "name": "Electric Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-fairy",
         "types": ["Fairy"],
-        "name": "Fairy Type Silvally"
+        "name": "Fairy Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-fighting",
         "types": ["Fighting"],
-        "name": "Fighting Type Silvally"
+        "name": "Fighting Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-fire",
         "types": ["Fire"],
-        "name": "Fire Type Silvally"
+        "name": "Fire Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-flying",
         "types": ["Flying"],
-        "name": "Flying Type Silvally"
+        "name": "Flying Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-ghost",
         "types": ["Ghost"],
-        "name": "Ghost Type Silvally"
+        "name": "Ghost Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-grass",
         "types": ["Grass"],
-        "name": "Grass Type Silvally"
+        "name": "Grass Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-ground",
         "types": ["Ground"],
-        "name": "Ground Type Silvally"
+        "name": "Ground Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-ice",
         "types": ["Ice"],
-        "name": "Ice Type Silvally"
+        "name": "Ice Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-poison",
         "types": ["Poison"],
-        "name": "Poison Type Silvally"
+        "name": "Poison Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-psychic",
         "types": ["Psychic"],
-        "name": "Psychic Type Silvally"
+        "name": "Psychic Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-rock",
         "types": ["Rock"],
-        "name": "Rock Type Silvally"
+        "name": "Rock Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-steel",
         "types": ["Steel"],
-        "name": "Steel Type Silvally"
+        "name": "Steel Type Silvally",
+        "pokedexNo": 773
       },
       {
         "sprite": "silvally-water",
         "types": ["Water"],
-        "name": "Water Type Silvally"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 774,
-    "name": "Minior Blue Core",
-    "types": ["Rock", "Flying"],
-    "evolutions": [],
-    "abilities": [["Shields Down", "false"]],
-    "gender": "Genderless",
-    "sprite": "minior-blue",
-    "forms": [
-      {
-        "sprite": "minior-blue-meteor",
-        "types": ["Rock", "Flying"],
-        "name": "Minior Meteor Form"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 774,
-    "name": "Minior Green Core",
-    "types": ["Rock", "Flying"],
-    "evolutions": [],
-    "abilities": [["Shields Down", "false"]],
-    "gender": "Genderless",
-    "sprite": "minior-green",
-    "forms": [
-      {
-        "sprite": "minior-green-meteor",
-        "types": ["Rock", "Flying"],
-        "name": "Minior Meteor Form"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 774,
-    "name": "Minior Indigo Core",
-    "types": ["Rock", "Flying"],
-    "evolutions": [],
-    "abilities": [["Shields Down", "false"]],
-    "gender": "Genderless",
-    "sprite": "minior-indigo",
-    "forms": [
-      {
-        "sprite": "minior-indigo-meteor",
-        "types": ["Rock", "Flying"],
-        "name": "Minior Meteor Form"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 774,
-    "name": "Minior Orange Core",
-    "types": ["Rock", "Flying"],
-    "evolutions": [],
-    "abilities": [["Shields Down", "false"]],
-    "gender": "Genderless",
-    "sprite": "minior-orange",
-    "forms": [
-      {
-        "sprite": "minior-orange-meteor",
-        "types": ["Rock", "Flying"],
-        "name": "Minior Meteor Form"
+        "name": "Water Type Silvally",
+        "pokedexNo": 773
       }
     ]
   },
@@ -12778,11 +18219,18 @@ var pokedex = [
     "abilities": [["Shields Down", "false"]],
     "gender": "Genderless",
     "sprite": "minior-red",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "minior-red-meteor",
         "types": ["Rock", "Flying"],
-        "name": "Minior Meteor Form"
+        "name": "Minior Meteor Form",
+        "pokedexNo": 774
       }
     ]
   },
@@ -12794,11 +18242,110 @@ var pokedex = [
     "abilities": [["Shields Down", "false"]],
     "gender": "Genderless",
     "sprite": "minior-violet",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "minior-violet-meteor",
         "types": ["Rock", "Flying"],
-        "name": "Minior Meteor Form"
+        "name": "Minior Meteor Form",
+        "pokedexNo": 774
+      }
+    ]
+  },
+  {
+    "pokedexNo": 774,
+    "name": "Minior Indigo Core",
+    "types": ["Rock", "Flying"],
+    "evolutions": [],
+    "abilities": [["Shields Down", "false"]],
+    "gender": "Genderless",
+    "sprite": "minior-indigo",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "minior-indigo-meteor",
+        "types": ["Rock", "Flying"],
+        "name": "Minior Meteor Form",
+        "pokedexNo": 774
+      }
+    ]
+  },
+  {
+    "pokedexNo": 774,
+    "name": "Minior Orange Core",
+    "types": ["Rock", "Flying"],
+    "evolutions": [],
+    "abilities": [["Shields Down", "false"]],
+    "gender": "Genderless",
+    "sprite": "minior-orange",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "minior-orange-meteor",
+        "types": ["Rock", "Flying"],
+        "name": "Minior Meteor Form",
+        "pokedexNo": 774
+      }
+    ]
+  },
+  {
+    "pokedexNo": 774,
+    "name": "Minior Blue Core",
+    "types": ["Rock", "Flying"],
+    "evolutions": [],
+    "abilities": [["Shields Down", "false"]],
+    "gender": "Genderless",
+    "sprite": "minior-blue",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "minior-blue-meteor",
+        "types": ["Rock", "Flying"],
+        "name": "Minior Meteor Form",
+        "pokedexNo": 774
+      }
+    ]
+  },
+  {
+    "pokedexNo": 774,
+    "name": "Minior Green Core",
+    "types": ["Rock", "Flying"],
+    "evolutions": [],
+    "abilities": [["Shields Down", "false"]],
+    "gender": "Genderless",
+    "sprite": "minior-green",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "minior-green-meteor",
+        "types": ["Rock", "Flying"],
+        "name": "Minior Meteor Form",
+        "pokedexNo": 774
       }
     ]
   },
@@ -12810,11 +18357,18 @@ var pokedex = [
     "abilities": [["Shields Down", "false"]],
     "gender": "Genderless",
     "sprite": "minior-yellow",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "minior-yellow-meteor",
         "types": ["Rock", "Flying"],
-        "name": "Minior Meteor Form"
+        "name": "Minior Meteor Form",
+        "pokedexNo": 774
       }
     ]
   },
@@ -12826,6 +18380,12 @@ var pokedex = [
     "abilities": [["Comatose", "false"]],
     "gender": "50:50",
     "sprite": "komala",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12836,6 +18396,12 @@ var pokedex = [
     "abilities": [["Shell Armor", "false"]],
     "gender": "50:50",
     "sprite": "turtonator",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12850,6 +18416,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "togedemaru",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12860,6 +18432,12 @@ var pokedex = [
     "abilities": [["Disguise", "false"]],
     "gender": "50:50",
     "sprite": "mimikyu",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12874,6 +18452,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "bruxish",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12888,6 +18472,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "drampa",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12898,13 +18488,19 @@ var pokedex = [
     "abilities": [["Steelworker", "false"]],
     "gender": "Genderless",
     "sprite": "dhelmise",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 782,
     "name": "Jangmo-o",
     "types": ["Dragon"],
-    "evolutions": ["Hakamo-o"],
+    "evolutions": ["Hakamo-o", "Kommo-o"],
     "abilities": [
       ["Bulletproof", "false"],
       ["Soundproof", "false"],
@@ -12912,6 +18508,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "jangmo-o",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12926,6 +18528,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "hakamo-o",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12940,6 +18548,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "kommo-o",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12953,6 +18567,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "tapu-koko",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12966,6 +18586,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "tapu-lele",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12979,6 +18605,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "tapu-bulu",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -12992,16 +18624,28 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "tapu-fini",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 789,
     "name": "Cosmog",
     "types": ["Psychic"],
-    "evolutions": ["Cosmoem"],
+    "evolutions": ["Cosmoem", "Solgaleo", "Lunala"],
     "abilities": [["Unaware", "false"]],
     "gender": "Genderless",
     "sprite": "cosmog",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13012,6 +18656,12 @@ var pokedex = [
     "abilities": [["Sturdy", "false"]],
     "gender": "Genderless",
     "sprite": "cosmoem",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13022,6 +18672,12 @@ var pokedex = [
     "abilities": [["Full Metal Body", "false"]],
     "gender": "Genderless",
     "sprite": "solgaleo",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13032,6 +18688,12 @@ var pokedex = [
     "abilities": [["Shadow Shield", "false"]],
     "gender": "Genderless",
     "sprite": "lunala",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13042,6 +18704,12 @@ var pokedex = [
     "abilities": [["Beast Boost", "false"]],
     "gender": "Genderless",
     "sprite": "nihilego",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": true,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13052,6 +18720,12 @@ var pokedex = [
     "abilities": [["Beast Boost", "false"]],
     "gender": "Genderless",
     "sprite": "buzzwole",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": true,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13062,6 +18736,12 @@ var pokedex = [
     "abilities": [["Beast Boost", "false"]],
     "gender": "Genderless",
     "sprite": "pheromosa",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": true,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13072,6 +18752,12 @@ var pokedex = [
     "abilities": [["Beast Boost", "false"]],
     "gender": "Genderless",
     "sprite": "xurkitree",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": true,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13082,6 +18768,12 @@ var pokedex = [
     "abilities": [["Beast Boost", "false"]],
     "gender": "Genderless",
     "sprite": "celesteela",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": true,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13092,6 +18784,12 @@ var pokedex = [
     "abilities": [["Beast Boost", "false"]],
     "gender": "Genderless",
     "sprite": "kartana",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": true,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13102,6 +18800,12 @@ var pokedex = [
     "abilities": [["Beast Boost", "false"]],
     "gender": "Genderless",
     "sprite": "guzzlord",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": true,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13112,21 +18816,30 @@ var pokedex = [
     "abilities": [["Prism Armor", "false"]],
     "gender": "Genderless",
     "sprite": "necrozma",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "necrozma-dawn",
         "types": ["Psychic", "Ghost"],
-        "name": "Dawn Wings Necrozma"
+        "name": "Dawn Wings Necrozma",
+        "pokedexNo": 800
       },
       {
         "sprite": "necrozma-dusk",
         "types": ["Psychic", "Steel"],
-        "name": "Dusk Mane Necrozma"
+        "name": "Dusk Mane Necrozma",
+        "pokedexNo": 800
       },
       {
         "sprite": "necrozma-ultra",
         "types": ["Psychic", "Dragon"],
-        "name": "Ultra Necrozma"
+        "name": "Ultra Necrozma",
+        "pokedexNo": 800
       }
     ]
   },
@@ -13138,11 +18851,18 @@ var pokedex = [
     "abilities": [["Soul Heart", "false"]],
     "gender": "Genderless",
     "sprite": "magearna",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": true,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "magearna-original",
         "types": ["Steel", "Fairy"],
-        "name": "Original Form Magearna"
+        "name": "Original Form Magearna",
+        "pokedexNo": 800
       }
     ]
   },
@@ -13154,6 +18874,12 @@ var pokedex = [
     "abilities": [["Technician", "false"]],
     "gender": "Genderless",
     "sprite": "marshadow",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": true,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13164,6 +18890,12 @@ var pokedex = [
     "abilities": [["Beast Boost", "false"]],
     "gender": "Genderless",
     "sprite": "poipole",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": true,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13174,6 +18906,12 @@ var pokedex = [
     "abilities": [["Beast Boost", "false"]],
     "gender": "Genderless",
     "sprite": "naganadel",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": true,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13184,6 +18922,12 @@ var pokedex = [
     "abilities": [["Beast Boost", "false"]],
     "gender": "Genderless",
     "sprite": "stakataka",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": true,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13194,6 +18938,12 @@ var pokedex = [
     "abilities": [["Beast Boost", "false"]],
     "gender": "Genderless",
     "sprite": "blacephalon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": true,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13204,6 +18954,12 @@ var pokedex = [
     "abilities": [["Volt Absorb", "false"]],
     "gender": "Genderless",
     "sprite": "zeraora",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": true,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13214,6 +18970,12 @@ var pokedex = [
     "abilities": [["Magnet Pull", "false"]],
     "gender": "Genderless",
     "sprite": "meltan",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": true,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13224,11 +18986,18 @@ var pokedex = [
     "abilities": [["Iron Fist", "false"]],
     "gender": "Genderless",
     "sprite": "melmetal",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": true,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "melmetal-gmax",
         "types": ["Steel"],
-        "name": "Gigantamax Melmetal"
+        "name": "Gigantamax Melmetal",
+        "pokedexNo": 809
       }
     ]
   },
@@ -13236,13 +19005,19 @@ var pokedex = [
     "pokedexNo": 810,
     "name": "Grookey",
     "types": ["Grass"],
-    "evolutions": ["Thwackey"],
+    "evolutions": ["Thwackey", "Rillaboom"],
     "abilities": [
       ["Overgrow", "false"],
       ["Grassy-surge", "true"]
     ],
     "gender": "87.5:12.5",
     "sprite": "grookey",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13256,6 +19031,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "thwackey",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13269,11 +19050,18 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "rillaboom",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "rillaboom-gmax",
         "types": ["Grass"],
-        "name": "Gigantamax Rillaboom"
+        "name": "Gigantamax Rillaboom",
+        "pokedexNo": 812
       }
     ]
   },
@@ -13281,13 +19069,19 @@ var pokedex = [
     "pokedexNo": 813,
     "name": "Scorbunny",
     "types": ["Fire"],
-    "evolutions": ["Raboot"],
+    "evolutions": ["Raboot", "Cinderace"],
     "abilities": [
       ["Blaze", "false"],
       ["Libero", "true"]
     ],
     "gender": "87.5:12.5",
     "sprite": "scorbunny",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13301,6 +19095,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "raboot",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13314,11 +19114,18 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "cinderace",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "cinderace-gmax",
         "types": ["Fire"],
-        "name": "Gigantamax Cinderace"
+        "name": "Gigantamax Cinderace",
+        "pokedexNo": 815
       }
     ]
   },
@@ -13326,13 +19133,19 @@ var pokedex = [
     "pokedexNo": 816,
     "name": "Sobble",
     "types": ["Water"],
-    "evolutions": ["Drizzile"],
+    "evolutions": ["Drizzile", "Inteleon"],
     "abilities": [
       ["Torrent", "false"],
       ["Sniper", "true"]
     ],
     "gender": "87.5:12.5",
     "sprite": "sobble",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13346,6 +19159,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "drizzile",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13359,11 +19178,18 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "inteleon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "inteleon-gmax",
         "types": ["Water"],
-        "name": "Gigantamax Inteleon"
+        "name": "Gigantamax Inteleon",
+        "pokedexNo": 818
       }
     ]
   },
@@ -13378,6 +19204,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "skwovet",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13391,13 +19223,19 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "greedent",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 821,
     "name": "Rookidee",
     "types": ["Flying"],
-    "evolutions": ["Corvisquire"],
+    "evolutions": ["Corvisquire", "Corviknight"],
     "abilities": [
       ["Keen-eye", "false"],
       ["Unnerve", "false"],
@@ -13405,6 +19243,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "rookidee",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13419,6 +19263,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "corvisquire",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13433,11 +19283,18 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "corviknight",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "corviknight-gmax",
         "types": ["Flying", "Steel"],
-        "name": "Gigantamax Corviknight"
+        "name": "Gigantamax Corviknight",
+        "pokedexNo": 823
       }
     ]
   },
@@ -13445,7 +19302,7 @@ var pokedex = [
     "pokedexNo": 824,
     "name": "Blipbug",
     "types": ["Bug"],
-    "evolutions": ["Dottler"],
+    "evolutions": ["Dottler", "Orbeetle"],
     "abilities": [
       ["Swarm", "false"],
       ["Compound-eyes", "false"],
@@ -13453,6 +19310,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "blipbug",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13467,6 +19330,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "dottler",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13481,11 +19350,18 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "orbeetle",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "orbeetle-gmax",
         "types": ["Bug", "Psychic"],
-        "name": "Gigantamax Orbeetle"
+        "name": "Gigantamax Orbeetle",
+        "pokedexNo": 826
       }
     ]
   },
@@ -13501,6 +19377,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "nickit",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13515,6 +19397,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "thievul",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13529,6 +19417,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "gossifleur",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13543,6 +19437,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "eldegoss",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13557,6 +19457,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "wooloo",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13571,6 +19477,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "dubwool",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13585,6 +19497,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "chewtle",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13599,11 +19517,18 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "drednaw",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "drednaw-gmax",
         "types": ["Water", "Rock"],
-        "name": "Gigantamax Drednaw"
+        "name": "Gigantamax Drednaw",
+        "pokedexNo": 834
       }
     ]
   },
@@ -13618,6 +19543,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "yamper",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13631,13 +19562,19 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "boltund",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 837,
     "name": "Rolycoly",
     "types": ["Rock"],
-    "evolutions": ["Carkol"],
+    "evolutions": ["Carkol", "Coalossal"],
     "abilities": [
       ["Steam-engine", "false"],
       ["Heatproof", "false"],
@@ -13645,6 +19582,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "rolycoly",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13659,6 +19602,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "carkol",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13673,11 +19622,18 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "coalossal",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "coalossal-gmax",
         "types": ["Rock", "Fire"],
-        "name": "Gigantamax Coalossal"
+        "name": "Gigantamax Coalossal",
+        "pokedexNo": 839
       }
     ]
   },
@@ -13693,6 +19649,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "applin",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13707,11 +19669,18 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "flapple",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "flapple-gmax",
         "types": ["Grass", "Dragon"],
-        "name": "Gigantamax Flapple"
+        "name": "Gigantamax Flapple",
+        "pokedexNo": 841
       }
     ]
   },
@@ -13727,11 +19696,18 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "appletun",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "appletun-gmax",
         "types": ["Grass", "Dragon"],
-        "name": "Gigantamax Appletun"
+        "name": "Gigantamax Appletun",
+        "pokedexNo": 842
       }
     ]
   },
@@ -13747,6 +19723,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "silicobra",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13761,11 +19743,18 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "sandaconda",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "sandaconda-gmax",
         "types": ["Ground"],
-        "name": "Gigantamax Sandaconda"
+        "name": "Gigantamax Sandaconda",
+        "pokedexNo": 844
       }
     ]
   },
@@ -13777,6 +19766,12 @@ var pokedex = [
     "abilities": [["Gulp-missile", "false"]],
     "gender": "50.0:50.0",
     "sprite": "cramorant",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13790,6 +19785,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "arrokuda",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13803,6 +19804,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "barraskewda",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13817,6 +19824,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "toxel",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13831,11 +19844,18 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "toxtricity",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "toxtricity-gmax",
         "types": ["Electric", "Poison"],
-        "name": "Gigantamax Toxtricity"
+        "name": "Gigantamax Toxtricity",
+        "pokedexNo": 849
       }
     ]
   },
@@ -13851,11 +19871,18 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "toxtricity-low-key",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "toxtricity-gmax",
         "types": ["Electric", "Poison"],
-        "name": "Gigantamax Toxtricity"
+        "name": "Gigantamax Toxtricity",
+        "pokedexNo": 849
       }
     ]
   },
@@ -13871,6 +19898,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "sizzlipede",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13885,11 +19918,18 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "centiskorch",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "centiskorch-gmax",
         "types": ["Fire", "Bug"],
-        "name": "Gigantamax Centiskorch"
+        "name": "Gigantamax Centiskorch",
+        "pokedexNo": 851
       }
     ]
   },
@@ -13904,6 +19944,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "clobbopus",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13917,19 +19963,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "grapploct",
-    "forms": []
-  },
-  {
-    "pokedexNo": 854,
-    "name": "Sinistea Phony Form",
-    "types": ["Ghost"],
-    "evolutions": ["Polteageist Phony Form"],
-    "abilities": [
-      ["Weak-armor", "false"],
-      ["Cursed-body", "true"]
-    ],
-    "gender": "Genderless",
-    "sprite": "sinistea",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13943,6 +19982,31 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "sinistea-antique",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 854,
+    "name": "Sinistea Phony Form",
+    "types": ["Ghost"],
+    "evolutions": ["Polteageist Phony Form"],
+    "abilities": [
+      ["Weak-armor", "false"],
+      ["Cursed-body", "true"]
+    ],
+    "gender": "Genderless",
+    "sprite": "sinistea",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13956,6 +20020,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "polteageist",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13969,20 +20039,32 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "polteageist-antique",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 856,
     "name": "Hatenna",
     "types": ["Psychic"],
-    "evolutions": ["Hattrem"],
+    "evolutions": ["Hattrem", "Hatterene"],
     "abilities": [
       ["Healer", "false"],
       ["Anticipation", "false"],
       ["Magic-bounce", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "hatenna",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -13995,8 +20077,14 @@ var pokedex = [
       ["Anticipation", "false"],
       ["Magic-bounce", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "hattrem",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -14009,13 +20097,20 @@ var pokedex = [
       ["Anticipation", "false"],
       ["Magic-bounce", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "hatterene",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "hatterene-gmax",
         "types": ["Psychic", "Fairy"],
-        "name": "Gigantamax Hatterene"
+        "name": "Gigantamax Hatterene",
+        "pokedexNo": 858
       }
     ]
   },
@@ -14023,14 +20118,20 @@ var pokedex = [
     "pokedexNo": 859,
     "name": "Impidimp",
     "types": ["Dark", "Fairy"],
-    "evolutions": ["Morgrem"],
+    "evolutions": ["Morgrem", "Grimmsnarl"],
     "abilities": [
       ["Prankster", "false"],
       ["Frisk", "false"],
       ["Pickpocket", "true"]
     ],
-    "gender": "100.0:0.0",
+    "gender": "100:0",
     "sprite": "impidimp",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -14043,8 +20144,14 @@ var pokedex = [
       ["Frisk", "false"],
       ["Pickpocket", "true"]
     ],
-    "gender": "100.0:0.0",
+    "gender": "100:0",
     "sprite": "morgrem",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -14057,13 +20164,20 @@ var pokedex = [
       ["Frisk", "false"],
       ["Pickpocket", "true"]
     ],
-    "gender": "100.0:0.0",
+    "gender": "100:0",
     "sprite": "grimmsnarl",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "grimmsnarl-gmax",
         "types": ["Dark", "Fairy"],
-        "name": "Gigantamax Grimmsnarl"
+        "name": "Gigantamax Grimmsnarl",
+        "pokedexNo": 861
       }
     ]
   },
@@ -14079,6 +20193,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "obstagoon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -14093,6 +20213,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "perrserker",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -14106,6 +20232,12 @@ var pokedex = [
     ],
     "gender": "25.0:75.0",
     "sprite": "cursola",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -14119,6 +20251,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "sirfetchd",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -14133,6 +20271,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "mr-rime",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -14143,6 +20287,12 @@ var pokedex = [
     "abilities": [["Wandering-spirit", "false"]],
     "gender": "50.0:50.0",
     "sprite": "runerigus",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -14218,199 +20368,15 @@ var pokedex = [
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "milcery",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Caramel Swirl Berry Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-caramel-swirl-berry",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Caramel Swirl Clover Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-caramel-swirl-clover",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Caramel Swirl Flower Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-caramel-swirl-flower",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Caramel Swirl Love Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-caramel-swirl-love",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Caramel Swirl Ribbon Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-caramel-swirl-ribbon",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Caramel Swirl Star Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-caramel-swirl-star",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Caramel Swirl Strawberry Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-caramel-swirl-strawberry",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Lemon Cream Berry Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-lemon-cream-berry",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Lemon Cream Clover Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-lemon-cream-clover",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Lemon Cream Flower Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-lemon-cream-flower",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
   },
   {
     "pokedexNo": 869,
@@ -14421,184 +20387,20 @@ var pokedex = [
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-lemon-cream-love",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "alcremie-gmax",
         "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Lemon Cream Ribbon Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-lemon-cream-ribbon",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Lemon Cream Star Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-lemon-cream-star",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Lemon Cream Strawberry Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-lemon-cream-strawberry",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Matcha Cream Berry Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-matcha-cream-berry",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Matcha Cream Clover Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-matcha-cream-clover",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Matcha Cream Flower Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-matcha-cream-flower",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Matcha Cream Love Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-matcha-cream-love",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Matcha Cream Ribbon Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-matcha-cream-ribbon",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Matcha Cream Star Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-matcha-cream-star",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
       }
     ]
   },
@@ -14611,13 +20413,20 @@ var pokedex = [
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-matcha-cream-strawberry",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "alcremie-gmax",
         "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
       }
     ]
   },
@@ -14630,279 +20439,20 @@ var pokedex = [
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-mint-cream-berry",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "alcremie-gmax",
         "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Mint Cream Clover Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-mint-cream-clover",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Mint Cream Flower Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-mint-cream-flower",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Mint Cream Love Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-mint-cream-love",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Mint Cream Ribbon Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-mint-cream-ribbon",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Mint Cream Star Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-mint-cream-star",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Mint Cream Strawberry Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-mint-cream-strawberry",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Rainbow Swirl Berry Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-rainbow-swirl-berry",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Rainbow Swirl Clover Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-rainbow-swirl-clover",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Rainbow Swirl Flower Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-rainbow-swirl-flower",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Rainbow Swirl Love Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-rainbow-swirl-love",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Rainbow Swirl Ribbon Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-rainbow-swirl-ribbon",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Rainbow Swirl Star Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-rainbow-swirl-star",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Rainbow Swirl Strawberry Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-rainbow-swirl-strawberry",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Ruby Cream Berry Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-ruby-cream-berry",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
       }
     ]
   },
@@ -14915,51 +20465,20 @@ var pokedex = [
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-ruby-cream-clover",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "alcremie-gmax",
         "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Ruby Cream Flower Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-ruby-cream-flower",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Ruby Cream Love Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-ruby-cream-love",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
       }
     ]
   },
@@ -14972,51 +20491,20 @@ var pokedex = [
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-ruby-cream-ribbon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "alcremie-gmax",
         "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Ruby Cream Star Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-ruby-cream-star",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Ruby Cream Strawberry Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-ruby-cream-strawberry",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
       }
     ]
   },
@@ -15029,355 +20517,20 @@ var pokedex = [
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-ruby-swirl-berry",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "alcremie-gmax",
         "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Ruby Swirl Clover Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-ruby-swirl-clover",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Ruby Swirl Flower Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-ruby-swirl-flower",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Ruby Swirl Love Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-ruby-swirl-love",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Ruby Swirl Ribbon Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-ruby-swirl-ribbon",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Ruby Swirl Star Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-ruby-swirl-star",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Ruby Swirl Strawberry Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-ruby-swirl-strawberry",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Salted Cream Berry Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-salted-cream-berry",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Salted Cream Clover Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-salted-cream-clover",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Salted Cream Flower Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-salted-cream-flower",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Salted Cream Love Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-salted-cream-love",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Salted Cream Ribbon Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-salted-cream-ribbon",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Salted Cream Star Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-salted-cream-star",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Salted Cream Strawberry Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-salted-cream-strawberry",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Vanilla Cream Berry Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-vanilla-cream-berry",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Vanilla Cream Clover Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-vanilla-cream-clover",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Vanilla Cream Flower Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-vanilla-cream-flower",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Vanilla Cream Love Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-vanilla-cream-love",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
-      }
-    ]
-  },
-  {
-    "pokedexNo": 869,
-    "name": "Vanilla Cream Ribbon Alcremie",
-    "types": ["Fairy"],
-    "evolutions": [],
-    "abilities": [
-      ["Sweet-veil", "false"],
-      ["Aroma-veil", "true"]
-    ],
-    "gender": "0.0:100.0",
-    "sprite": "alcremie-vanilla-cream-ribbon",
-    "forms": [
-      {
-        "sprite": "alcremie-gmax",
-        "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
       }
     ]
   },
@@ -15390,13 +20543,540 @@ var pokedex = [
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-vanilla-cream-star",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "alcremie-gmax",
         "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Matcha Cream Berry Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-matcha-cream-berry",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Matcha Cream Clover Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-matcha-cream-clover",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Ruby Cream Strawberry Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-ruby-cream-strawberry",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Ruby Swirl Flower Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-ruby-swirl-flower",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Caramel Swirl Clover Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-caramel-swirl-clover",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Matcha Cream Ribbon Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-matcha-cream-ribbon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Salted Cream Love Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-salted-cream-love",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Lemon Cream Flower Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-lemon-cream-flower",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Lemon Cream Strawberry Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-lemon-cream-strawberry",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Ruby Swirl Star Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-ruby-swirl-star",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Salted Cream Berry Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-salted-cream-berry",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Caramel Swirl Flower Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-caramel-swirl-flower",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Lemon Cream Clover Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-lemon-cream-clover",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Vanilla Cream Clover Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-vanilla-cream-clover",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Matcha Cream Flower Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-matcha-cream-flower",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Mint Cream Clover Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-mint-cream-clover",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Mint Cream Love Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-mint-cream-love",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Rainbow Swirl Ribbon Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-rainbow-swirl-ribbon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Rainbow Swirl Star Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-rainbow-swirl-star",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Ruby Swirl Clover Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-ruby-swirl-clover",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
       }
     ]
   },
@@ -15409,13 +21089,930 @@ var pokedex = [
       ["Sweet-veil", "false"],
       ["Aroma-veil", "true"]
     ],
-    "gender": "0.0:100.0",
+    "gender": "0:100",
     "sprite": "alcremie-vanilla-cream-strawberry",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "alcremie-gmax",
         "types": ["Fairy"],
-        "name": "Gigantamax Alcremie"
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Matcha Cream Star Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-matcha-cream-star",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Salted Cream Strawberry Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-salted-cream-strawberry",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Caramel Swirl Star Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-caramel-swirl-star",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Mint Cream Flower Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-mint-cream-flower",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Salted Cream Clover Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-salted-cream-clover",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Mint Cream Strawberry Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-mint-cream-strawberry",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Ruby Swirl Love Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-ruby-swirl-love",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Salted Cream Flower Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-salted-cream-flower",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Vanilla Cream Flower Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-vanilla-cream-flower",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Caramel Swirl Ribbon Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-caramel-swirl-ribbon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Caramel Swirl Strawberry Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-caramel-swirl-strawberry",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Lemon Cream Star Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-lemon-cream-star",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Rainbow Swirl Clover Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-rainbow-swirl-clover",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Rainbow Swirl Flower Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-rainbow-swirl-flower",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Rainbow Swirl Love Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-rainbow-swirl-love",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Ruby Cream Flower Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-ruby-cream-flower",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Ruby Cream Star Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-ruby-cream-star",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Salted Cream Ribbon Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-salted-cream-ribbon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Vanilla Cream Ribbon Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-vanilla-cream-ribbon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Mint Cream Star Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-mint-cream-star",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Rainbow Swirl Strawberry Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-rainbow-swirl-strawberry",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Ruby Cream Berry Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-ruby-cream-berry",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Vanilla Cream Love Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-vanilla-cream-love",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Ruby Cream Love Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-ruby-cream-love",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Caramel Swirl Berry Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-caramel-swirl-berry",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Caramel Swirl Love Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-caramel-swirl-love",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Lemon Cream Ribbon Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-lemon-cream-ribbon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Matcha Cream Love Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-matcha-cream-love",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Mint Cream Ribbon Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-mint-cream-ribbon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Rainbow Swirl Berry Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-rainbow-swirl-berry",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Salted Cream Star Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-salted-cream-star",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Vanilla Cream Berry Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-vanilla-cream-berry",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Lemon Cream Berry Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-lemon-cream-berry",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Ruby Swirl Ribbon Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-ruby-swirl-ribbon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
+      }
+    ]
+  },
+  {
+    "pokedexNo": 869,
+    "name": "Ruby Swirl Strawberry Alcremie",
+    "types": ["Fairy"],
+    "evolutions": [],
+    "abilities": [
+      ["Sweet-veil", "false"],
+      ["Aroma-veil", "true"]
+    ],
+    "gender": "0:100",
+    "sprite": "alcremie-ruby-swirl-strawberry",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "alcremie-gmax",
+        "types": ["Fairy"],
+        "name": "Gigantamax Alcremie",
+        "pokedexNo": 869
       }
     ]
   },
@@ -15430,6 +22027,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "falinks",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -15443,6 +22046,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "pincurchin",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -15456,6 +22065,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "snom",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -15469,6 +22084,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "frosmoth",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -15479,6 +22100,12 @@ var pokedex = [
     "abilities": [["Power-spot", "false"]],
     "gender": "50.0:50.0",
     "sprite": "stonjourner",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -15489,11 +22116,18 @@ var pokedex = [
     "abilities": [["Ice-face", "false"]],
     "gender": "50.0:50.0",
     "sprite": "eiscue",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "eiscue-noice",
         "types": ["Ice"],
-        "name": "Noice Face Eiscue"
+        "name": "Noice Face Eiscue",
+        "pokedexNo": 875
       }
     ]
   },
@@ -15509,6 +22143,12 @@ var pokedex = [
     ],
     "gender": "100:0",
     "sprite": "indeedee",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -15523,6 +22163,12 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "indeedee-f",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -15533,11 +22179,18 @@ var pokedex = [
     "abilities": [["Hunger-switch", "false"]],
     "gender": "50.0:50.0",
     "sprite": "morpeko",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "morpeko-hangry",
         "types": ["Electric", "Dark"],
-        "name": "Hangry Mode Morpeko"
+        "name": "Hangry Mode Morpeko",
+        "pokedexNo": 877
       }
     ]
   },
@@ -15552,6 +22205,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "cufant",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -15565,11 +22224,18 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "copperajah",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "copperajah-gmax",
         "types": ["Steel"],
-        "name": "Gigantamax Copperajah"
+        "name": "Gigantamax Copperajah",
+        "pokedexNo": 879
       }
     ]
   },
@@ -15585,6 +22251,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "dracozolt",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -15599,6 +22271,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "arctozolt",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -15613,6 +22291,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "dracovish",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -15627,13 +22311,19 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "arctovish",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 884,
     "name": "Duraludon",
     "types": ["Steel", "Dragon"],
-    "evolutions": [],
+    "evolutions": ["Archaludon"],
     "abilities": [
       ["Light-metal", "false"],
       ["Heavy-metal", "false"],
@@ -15641,11 +22331,18 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "duraludon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "duraludon-gmax",
         "types": ["Steel", "Dragon"],
-        "name": "Gigantamax Duraludon"
+        "name": "Gigantamax Duraludon",
+        "pokedexNo": 884
       }
     ]
   },
@@ -15653,7 +22350,7 @@ var pokedex = [
     "pokedexNo": 885,
     "name": "Dreepy",
     "types": ["Dragon", "Ghost"],
-    "evolutions": ["Drakloak"],
+    "evolutions": ["Drakloak", "Dragapult"],
     "abilities": [
       ["Clear-body", "false"],
       ["Infiltrator", "false"],
@@ -15661,6 +22358,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "dreepy",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -15675,6 +22378,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "drakloak",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -15689,6 +22398,12 @@ var pokedex = [
     ],
     "gender": "50.0:50.0",
     "sprite": "dragapult",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -15699,11 +22414,18 @@ var pokedex = [
     "abilities": [["Intrepid-sword", "false"]],
     "gender": "Genderless",
     "sprite": "zacian",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "zacian-crowned",
         "types": ["Fairy", "Steel"],
-        "name": "Crowned Sword Zacian"
+        "name": "Crowned Sword Zacian",
+        "pokedexNo": 888
       }
     ]
   },
@@ -15715,11 +22437,18 @@ var pokedex = [
     "abilities": [["Dauntless-shield", "false"]],
     "gender": "Genderless",
     "sprite": "zamazenta",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "zamazenta-crowned",
         "types": ["Fighting", "Steel"],
-        "name": "Crowned Shield Zamazenta"
+        "name": "Crowned Shield Zamazenta",
+        "pokedexNo": 889
       }
     ]
   },
@@ -15731,6 +22460,12 @@ var pokedex = [
     "abilities": [["Pressure", "false"]],
     "gender": "Genderless",
     "sprite": "eternatus",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -15741,23 +22476,13 @@ var pokedex = [
     "abilities": [["Inner-focus", "false"]],
     "gender": "87.5:12.5",
     "sprite": "kubfu",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
-  },
-  {
-    "pokedexNo": 892,
-    "name": "Single Strike Urshifu",
-    "types": ["Fighting", "Dark"],
-    "evolutions": [],
-    "abilities": [["Unseen-fist", "false"]],
-    "gender": "87.5:12.5",
-    "sprite": "urshifu-single-strike",
-    "forms": [
-      {
-        "sprite": "urshifu-single-strike-gmax",
-        "types": ["Fighting", "Dark"],
-        "name": "Gigantamax Single Strike Urshifu"
-      }
-    ]
   },
   {
     "pokedexNo": 892,
@@ -15767,11 +22492,41 @@ var pokedex = [
     "abilities": [["Unseen-fist", "false"]],
     "gender": "87.5:12.5",
     "sprite": "urshifu-rapid-strike",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "urshifu-rapid-strike-gmax",
         "types": ["Fighting", "Water"],
-        "name": "Gigantamax Rapid Strike Urshifu"
+        "name": "Gigantamax Rapid Strike Urshifu",
+        "pokedexNo": 892
+      }
+    ]
+  },
+  {
+    "pokedexNo": 892,
+    "name": "Single Strike Urshifu",
+    "types": ["Fighting", "Dark"],
+    "evolutions": [],
+    "abilities": [["Unseen-fist", "false"]],
+    "gender": "87.5:12.5",
+    "sprite": "urshifu-single-strike",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "urshifu-single-strike-gmax",
+        "types": ["Fighting", "Dark"],
+        "name": "Gigantamax Single Strike Urshifu",
+        "pokedexNo": 892
       }
     ]
   },
@@ -15783,11 +22538,18 @@ var pokedex = [
     "abilities": [["Leaf-guard", "false"]],
     "gender": "Genderless",
     "sprite": "zarude",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": true,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "zarude-dada",
         "types": ["Dark", "Grass"],
-        "name": "Dada Form Zarude"
+        "name": "Dada Form Zarude",
+        "pokedexNo": 893
       }
     ]
   },
@@ -15799,6 +22561,12 @@ var pokedex = [
     "abilities": [["Transistor", "false"]],
     "gender": "Genderless",
     "sprite": "regieleki",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -15809,6 +22577,12 @@ var pokedex = [
     "abilities": [["Dragons-maw", "false"]],
     "gender": "Genderless",
     "sprite": "regidrago",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -15819,6 +22593,12 @@ var pokedex = [
     "abilities": [["Chilling-neigh", "false"]],
     "gender": "Genderless",
     "sprite": "glastrier",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -15829,6 +22609,12 @@ var pokedex = [
     "abilities": [["Grim-neigh", "false"]],
     "gender": "Genderless",
     "sprite": "spectrier",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -15839,16 +22625,24 @@ var pokedex = [
     "abilities": [["Unnerve", "false"]],
     "gender": "Genderless",
     "sprite": "calyrex",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "calyrex-ice-rider",
         "types": ["Psychic", "Ice"],
-        "name": "Ice Ride Calyrex"
+        "name": "Ice Ride Calyrex",
+        "pokedexNo": 898
       },
       {
         "sprite": "calyrex-shadow-rider",
         "types": ["Psychic", "Ghost"],
-        "name": "Shadow Ride Calyrex"
+        "name": "Shadow Ride Calyrex",
+        "pokedexNo": 898
       }
     ]
   },
@@ -15864,6 +22658,12 @@ var pokedex = [
     ],
     "gender": "50.2:49.2",
     "sprite": "wyrdeer",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -15878,6 +22678,12 @@ var pokedex = [
     ],
     "gender": "50.2:49.2",
     "sprite": "kleavor",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -15892,6 +22698,12 @@ var pokedex = [
     ],
     "gender": "50.2:49.2",
     "sprite": "ursaluna",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -15906,6 +22718,12 @@ var pokedex = [
     ],
     "gender": "100:0",
     "sprite": "basculegion",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -15920,6 +22738,12 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "basculegion-f",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -15933,6 +22757,12 @@ var pokedex = [
     ],
     "gender": "50.2:49.8",
     "sprite": "sneasler",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -15947,6 +22777,12 @@ var pokedex = [
     ],
     "gender": "50.2:49.8",
     "sprite": "overqwil",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -15960,11 +22796,18 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "enamorus",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "enamorus-therian",
         "types": ["Fairy", "Flying"],
-        "name": "Therian Form Enamorus"
+        "name": "Therian Form Enamorus",
+        "pokedexNo": 905
       }
     ]
   },
@@ -15972,13 +22815,19 @@ var pokedex = [
     "pokedexNo": 906,
     "name": "Sprigatito",
     "types": ["Grass"],
-    "evolutions": ["Floragato"],
+    "evolutions": ["Floragato", "Meowscarada"],
     "abilities": [
       ["Overgrow", "false"],
       ["Protean", "true"]
     ],
     "gender": "87.5:12.5",
     "sprite": "sprigatito",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -15992,6 +22841,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "floragato",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16005,19 +22860,31 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "meowscarada",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 909,
     "name": "Fuecoco",
     "types": ["Fire"],
-    "evolutions": ["Crocalor"],
+    "evolutions": ["Crocalor", "Skeledirge"],
     "abilities": [
       ["Blaze", "false"],
       ["Unaware", "true"]
     ],
     "gender": "87.5:12.5",
     "sprite": "fuecoco",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16031,6 +22898,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "crocalor",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16044,19 +22917,31 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "skeledirge",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 912,
     "name": "Quaxly",
     "types": ["Water"],
-    "evolutions": ["Quaxwell"],
+    "evolutions": ["Quaxwell", "Quaquaval"],
     "abilities": [
       ["Torrent", "false"],
       ["Moxie", "true"]
     ],
     "gender": "87.5:12.5",
     "sprite": "quaxly",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16070,6 +22955,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "quaxwell",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16083,6 +22974,12 @@ var pokedex = [
     ],
     "gender": "87.5:12.5",
     "sprite": "quaquaval",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16097,6 +22994,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "lechonk",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16111,6 +23014,12 @@ var pokedex = [
     ],
     "gender": "100:0",
     "sprite": "oinkologne",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16125,6 +23034,12 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "oinkologne-f",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16138,6 +23053,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "tarountula",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16151,6 +23072,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "spidops",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16164,6 +23091,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "nymble",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16177,13 +23110,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "lokix",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 921,
     "name": "Pawmi",
     "types": ["Electric"],
-    "evolutions": ["Pawmo"],
+    "evolutions": ["Pawmo", "Pawmot"],
     "abilities": [
       ["Static", "false"],
       ["Natural Cure", "false"],
@@ -16191,6 +23130,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "pawmi",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16205,6 +23150,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "pawmo",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16219,6 +23170,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "pawmot",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16233,6 +23190,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "tandemaus",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16247,6 +23210,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "moushold",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16261,6 +23230,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "moushold-four",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16274,6 +23249,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "fidough",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16287,19 +23268,31 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "dachsbun",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 928,
     "name": "Smoliv",
     "types": ["Grass", "Normal"],
-    "evolutions": ["Dolliv"],
+    "evolutions": ["Dolliv", "Arboliva"],
     "abilities": [
       ["Early Bird", "false"],
       ["Harvest", "true"]
     ],
     "gender": "50:50",
     "sprite": "smoliv",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16313,6 +23306,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "dolliv",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16326,20 +23325,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "arboliva",
-    "forms": []
-  },
-  {
-    "pokedexNo": 931,
-    "name": "Green Plumage Squawkabilly",
-    "types": ["Normal", "Flying"],
-    "evolutions": [],
-    "abilities": [
-      ["Intimidate", "false"],
-      ["Hustle", "false"],
-      ["Guts", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "squawkabilly-green",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16354,6 +23345,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "squawkabilly-blue",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16368,6 +23365,32 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "squawkabilly-yellow",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 931,
+    "name": "Green Plumage Squawkabilly",
+    "types": ["Normal", "Flying"],
+    "evolutions": [],
+    "abilities": [
+      ["Intimidate", "false"],
+      ["Hustle", "false"],
+      ["Guts", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "squawkabilly-green",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16382,13 +23405,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "squawkabilly-white",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 932,
     "name": "Nacli",
     "types": ["Rock"],
-    "evolutions": ["Naclstack"],
+    "evolutions": ["Naclstack", "Garganacl"],
     "abilities": [
       ["Purifying Salt", "false"],
       ["Sturdy", "false"],
@@ -16396,6 +23425,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "nacli",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16410,6 +23445,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "naclstack",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16424,6 +23465,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "garganacl",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16437,6 +23484,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "charcadet",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16450,6 +23503,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "armarouge",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16463,6 +23522,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "ceruledge",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16477,6 +23542,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "tadbulb",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16491,6 +23562,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "bellibolt",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16505,6 +23582,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "wattrel",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16519,6 +23602,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "kilowattrel",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16533,6 +23622,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "maschiff",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16547,6 +23642,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "mabosstiff",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16561,6 +23662,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "shroodle",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16575,6 +23682,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "grafaiai",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16588,6 +23701,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "bramblin",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16601,6 +23720,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "brambleghast",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16611,6 +23736,12 @@ var pokedex = [
     "abilities": [["Mycelium Might", "false"]],
     "gender": "50:50",
     "sprite": "toedscool",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16621,6 +23752,12 @@ var pokedex = [
     "abilities": [["Mycelium Might", "false"]],
     "gender": "50:50",
     "sprite": "toedscruel",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16635,6 +23772,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "klawf",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16649,6 +23792,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "capsakid",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16663,6 +23812,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "scovillain",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16676,6 +23831,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "rellor",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16689,6 +23850,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "rabsca",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16703,6 +23870,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "flittle",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16717,13 +23890,19 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "espathra",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
     "pokedexNo": 957,
     "name": "Tinkatink",
     "types": ["Fairy", "Steel"],
-    "evolutions": ["Tinkatuff"],
+    "evolutions": ["Tinkatuff", "Tinkaton"],
     "abilities": [
       ["Mold Breaker", "false"],
       ["Own Tempo", "false"],
@@ -16731,6 +23910,12 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "tinkatink",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16745,6 +23930,12 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "tinkatuff",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16759,6 +23950,12 @@ var pokedex = [
     ],
     "gender": "0:100",
     "sprite": "tinkaton",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16773,6 +23970,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "wiglett",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16787,6 +23990,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "wugtrio",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16801,6 +24010,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "bombirdier",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16811,6 +24026,12 @@ var pokedex = [
     "abilities": [["Water Veil", "false"]],
     "gender": "50:50",
     "sprite": "finizen",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16821,11 +24042,18 @@ var pokedex = [
     "abilities": [["Zero to Hero", "false"]],
     "gender": "50:50",
     "sprite": "palafin",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "palafin-hero",
         "types": ["Water"],
-        "name": "Hero Form Palafin"
+        "name": "Hero Form Palafin",
+        "pokedexNo": 964
       }
     ]
   },
@@ -16840,6 +24068,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "varoom",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16853,6 +24087,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "revavroom",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16866,6 +24106,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "cyclizar",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16879,6 +24125,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "orthworm",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16892,6 +24144,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "glimmet",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16905,6 +24163,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "glimmora",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16918,6 +24182,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "greavard",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16931,6 +24201,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "houndstone",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16945,6 +24221,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "flamigo",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16959,6 +24241,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "cetoddle",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16973,6 +24261,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "cetitan",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -16986,6 +24280,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "veluza",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17000,6 +24300,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "dodonzo",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17013,19 +24319,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "tatsugiri-curly",
-    "forms": []
-  },
-  {
-    "pokedexNo": 978,
-    "name": "Droopy Form Tatsugiri",
-    "types": ["Dragon", "Water"],
-    "evolutions": [],
-    "abilities": [
-      ["Commander", "false"],
-      ["Storm Drain", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "tatsugiri-droopy",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17039,6 +24338,31 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "tatsugiri-stretchy",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 978,
+    "name": "Droopy Form Tatsugiri",
+    "types": ["Dragon", "Water"],
+    "evolutions": [],
+    "abilities": [
+      ["Commander", "false"],
+      ["Storm Drain", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "tatsugiri-droopy",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17053,6 +24377,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "annihilape",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17067,6 +24397,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "clodsire",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17081,20 +24417,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "farigiraf",
-    "forms": []
-  },
-  {
-    "pokedexNo": 982,
-    "name": "Two-Segment Form Dudunsparce",
-    "types": ["Normal"],
-    "evolutions": [],
-    "abilities": [
-      ["Serene Grace", "false"],
-      ["Run Away", "false"],
-      ["Rattled", "true"]
-    ],
-    "gender": "50:50",
-    "sprite": "dudunsparce-two",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17109,6 +24437,32 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "dudunsparce-three",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 982,
+    "name": "Two-Segment Form Dudunsparce",
+    "types": ["Normal"],
+    "evolutions": [],
+    "abilities": [
+      ["Serene Grace", "false"],
+      ["Run Away", "false"],
+      ["Rattled", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "dudunsparce-two",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17123,6 +24477,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "kingambit",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17133,6 +24493,12 @@ var pokedex = [
     "abilities": [["Protosynthesis", "false"]],
     "gender": "Genderless",
     "sprite": "great-tusk",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": true,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17143,6 +24509,12 @@ var pokedex = [
     "abilities": [["Protosynthesis", "false"]],
     "gender": "Genderless",
     "sprite": "scream-tail",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": true,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17153,6 +24525,12 @@ var pokedex = [
     "abilities": [["Protosynthesis", "false"]],
     "gender": "Genderless",
     "sprite": "brute-bonnet",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": true,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17163,6 +24541,12 @@ var pokedex = [
     "abilities": [["Protosynthesis", "false"]],
     "gender": "Genderless",
     "sprite": "flutter-mane",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": true,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17173,6 +24557,12 @@ var pokedex = [
     "abilities": [["Protosynthesis", "false"]],
     "gender": "Genderless",
     "sprite": "slither-wing",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": true,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17183,6 +24573,12 @@ var pokedex = [
     "abilities": [["Protosynthesis", "false"]],
     "gender": "Genderless",
     "sprite": "sandy-shocks",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": true,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17193,6 +24589,12 @@ var pokedex = [
     "abilities": [["Quark Drive", "false"]],
     "gender": "Genderless",
     "sprite": "iron-treads",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": true,
     "forms": []
   },
   {
@@ -17203,6 +24605,12 @@ var pokedex = [
     "abilities": [["Quark Drive", "false"]],
     "gender": "Genderless",
     "sprite": "iron-bundle",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": true,
     "forms": []
   },
   {
@@ -17213,6 +24621,12 @@ var pokedex = [
     "abilities": [["Quark Drive", "false"]],
     "gender": "Genderless",
     "sprite": "iron-hands",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": true,
     "forms": []
   },
   {
@@ -17223,6 +24637,12 @@ var pokedex = [
     "abilities": [["Quark Drive", "false"]],
     "gender": "Genderless",
     "sprite": "iron-jugulis",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": true,
     "forms": []
   },
   {
@@ -17233,6 +24653,12 @@ var pokedex = [
     "abilities": [["Quark Drive", "false"]],
     "gender": "Genderless",
     "sprite": "iron-moth",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": true,
     "forms": []
   },
   {
@@ -17243,19 +24669,31 @@ var pokedex = [
     "abilities": [["Quark Drive", "false"]],
     "gender": "Genderless",
     "sprite": "iron-thorns",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": true,
     "forms": []
   },
   {
     "pokedexNo": 996,
     "name": "Frigibax",
     "types": ["Dragon", "Ice"],
-    "evolutions": ["Arctibax"],
+    "evolutions": ["Arctibax", "Baxcalibur"],
     "abilities": [
       ["Thermal Exchange", "false"],
       ["Ice Body", "true"]
     ],
     "gender": "50:50",
     "sprite": "frigibax",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17269,6 +24707,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "arctibax",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17282,16 +24726,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "baxcalibur",
-    "forms": []
-  },
-  {
-    "pokedexNo": 999,
-    "name": "Chest Form Gimmighoul",
-    "types": ["Ghost"],
-    "evolutions": ["Gholdengo"],
-    "abilities": [["Rattled", "false"]],
-    "gender": "Genderless",
-    "sprite": "gimmighoul-chest",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17302,6 +24742,28 @@ var pokedex = [
     "abilities": [["Run Away", "false"]],
     "gender": "Genderless",
     "sprite": "gimmighoul-roaming",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 999,
+    "name": "Chest Form Gimmighoul",
+    "types": ["Ghost"],
+    "evolutions": ["Gholdengo"],
+    "abilities": [["Rattled", "false"]],
+    "gender": "Genderless",
+    "sprite": "gimmighoul-chest",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17312,6 +24774,12 @@ var pokedex = [
     "abilities": [["Good as Gold", "false"]],
     "gender": "Genderless",
     "sprite": "gholdengo",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17322,6 +24790,12 @@ var pokedex = [
     "abilities": [["Tablets of Ruin", "false"]],
     "gender": "Genderless",
     "sprite": "wo-chien",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17332,6 +24806,12 @@ var pokedex = [
     "abilities": [["Sword of Ruin", "false"]],
     "gender": "Genderless",
     "sprite": "chien-pao",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17342,6 +24822,12 @@ var pokedex = [
     "abilities": [["Vessel of Ruin", "false"]],
     "gender": "Genderless",
     "sprite": "ting-lu",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17352,6 +24838,12 @@ var pokedex = [
     "abilities": [["Beads of Ruin", "false"]],
     "gender": "Genderless",
     "sprite": "chi-yu",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17362,6 +24854,12 @@ var pokedex = [
     "abilities": [["Protosynthesis", "false"]],
     "gender": "Genderless",
     "sprite": "roaring-moon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": true,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17372,6 +24870,12 @@ var pokedex = [
     "abilities": [["Quark Drive", "false"]],
     "gender": "Genderless",
     "sprite": "iron-valiant",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": true,
     "forms": []
   },
   {
@@ -17382,6 +24886,12 @@ var pokedex = [
     "abilities": [["Orichalcum Pulse", "false"]],
     "gender": "Genderless",
     "sprite": "koraidon",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17392,6 +24902,12 @@ var pokedex = [
     "abilities": [["Hadron Engine", "false"]],
     "gender": "Genderless",
     "sprite": "miraidon",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17402,6 +24918,12 @@ var pokedex = [
     "abilities": [["Protosynthesis", "false"]],
     "gender": "Genderless",
     "sprite": "walking-wake",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": true,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17412,13 +24934,19 @@ var pokedex = [
     "abilities": [["Quark Drive", "false"]],
     "gender": "Genderless",
     "sprite": "iron-leaves",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": true,
     "forms": []
   },
   {
     "pokedexNo": 1011,
     "name": "Dipplin",
     "types": ["Grass", "Dragon"],
-    "evolutions": [],
+    "evolutions": ["Hydrapple"],
     "abilities": [
       ["Supersweet Syrup", "false"],
       ["Gluttony", "false"],
@@ -17426,6 +24954,12 @@ var pokedex = [
     ],
     "gender": "50:50",
     "sprite": "dipplin",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17439,6 +24973,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "poltchageist",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17452,19 +24992,12 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "poltchageist-masterpiece",
-    "forms": []
-  },
-  {
-    "pokedexNo": 1013,
-    "name": "Sinistcha Unremarkable Form",
-    "types": ["Grass", "Ghost"],
-    "evolutions": [],
-    "abilities": [
-      ["Hospitality", "false"],
-      ["Heatproof", "true"]
-    ],
-    "gender": "Genderless",
-    "sprite": "sinistcha",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17478,6 +25011,31 @@ var pokedex = [
     ],
     "gender": "Genderless",
     "sprite": "sinistcha-masterpiece",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 1013,
+    "name": "Sinistcha Unremarkable Form",
+    "types": ["Grass", "Ghost"],
+    "evolutions": [],
+    "abilities": [
+      ["Hospitality", "false"],
+      ["Heatproof", "true"]
+    ],
+    "gender": "Genderless",
+    "sprite": "sinistcha",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17491,6 +25049,12 @@ var pokedex = [
     ],
     "gender": "100:0",
     "sprite": "okidogi",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17504,6 +25068,12 @@ var pokedex = [
     ],
     "gender": "100:0",
     "sprite": "munkidori",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17517,6 +25087,12 @@ var pokedex = [
     ],
     "gender": "100:0",
     "sprite": "fezandipiti",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": []
   },
   {
@@ -17527,30 +25103,190 @@ var pokedex = [
     "abilities": [],
     "gender": "0:100",
     "sprite": "ogerpon",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
     "forms": [
       {
         "sprite": "ogerpon-teal-mask",
         "types": ["Grass"],
-        "name": "Ogerpon Teal Mask"
+        "name": "Ogerpon Teal Mask",
+        "pokedexNo": 1017
       },
       {
         "sprite": "ogerpon-wellspring-mask",
         "types": ["Grass", "Water"],
-        "name": "Ogerpon Wellspring Mask"
+        "name": "Ogerpon Wellspring Mask",
+        "pokedexNo": 1017
       },
       {
         "sprite": "ogerpon-heartflame-mask",
         "types": ["Grass", "Fire"],
-        "name": "Ogerpon Heartflame Mask"
+        "name": "Ogerpon Heartflame Mask",
+        "pokedexNo": 1017
       },
       {
         "sprite": "ogerpon-cornerstone-mask",
         "types": ["Grass", "Rock"],
-        "name": "Ogerpon Cornerstone Mask"
+        "name": "Ogerpon Cornerstone Mask",
+        "pokedexNo": 1017
       }
     ]
+  },
+  {
+    "pokedexNo": 1018,
+    "name": "Archaludon",
+    "types": ["Steel", "Dragon"],
+    "evolutions": [],
+    "abilities": [
+      ["Stamina", "false"],
+      ["Sturdy", "false"],
+      ["Stalwart", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "archaludon",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 1018,
+    "name": "Hydrapple",
+    "types": ["Grass", "Dragon"],
+    "evolutions": [],
+    "abilities": [
+      ["Supersweet Syrup", "false"],
+      ["Regenerator", "false"],
+      ["Sticky Hold", "true"]
+    ],
+    "gender": "50:50",
+    "sprite": "hydrapple",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 1020,
+    "name": "Gouging Fire",
+    "types": ["Fire", "Dragon"],
+    "evolutions": [],
+    "abilities": [["Protosynthesis", "false"]],
+    "gender": "Genderless",
+    "sprite": "gouging-fire",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": true,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 1021,
+    "name": "Raging Bolt",
+    "types": ["Electric", "Dragon"],
+    "evolutions": [],
+    "abilities": [["Protosynthesis", "false"]],
+    "gender": "Genderless",
+    "sprite": "raging-bolt",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": true,
+    "futureParadox": false,
+    "forms": []
+  },
+  {
+    "pokedexNo": 1022,
+    "name": "Iron Boulder",
+    "types": ["Rock", "Psychic"],
+    "evolutions": [],
+    "abilities": [["Quark Drive", "false"]],
+    "gender": "Genderless",
+    "sprite": "iron-boulder",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": true,
+    "forms": []
+  },
+  {
+    "pokedexNo": 1023,
+    "name": "Iron Crown",
+    "types": ["Steel", "Psychic"],
+    "evolutions": [],
+    "abilities": [["Quark Drive", "false"]],
+    "gender": "Genderless",
+    "sprite": "iron-crown",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": true,
+    "forms": []
+  },
+  {
+    "pokedexNo": 1024,
+    "name": "Terapagos",
+    "types": ["Normal"],
+    "evolutions": [],
+    "abilities": [["Tera Shift", "false"]],
+    "gender": "50:50",
+    "sprite": "terapagos",
+    "genderDifference": false,
+    "legendary": true,
+    "mythical": false,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": [
+      {
+        "sprite": "terapagos-terastal",
+        "types": ["Normal"],
+        "name": "Terastal Form Terapagos",
+        "pokedexNo": 1024
+      },
+      {
+        "sprite": "terapagos-stellar",
+        "types": ["Normal"],
+        "name": "Stellar Form Terapagos",
+        "pokedexNo": 1024
+      }
+    ]
+  },
+  {
+    "pokedexNo": 1025,
+    "name": "Pecharunt",
+    "types": ["Poison", "Ghost"],
+    "evolutions": [],
+    "abilities": [["Poison Puppeteer", "false"]],
+    "gender": "Genderless",
+    "sprite": "pecharunt",
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": true,
+    "ultraBeast": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "forms": []
   }
 ]
+
 
 
 const { copyFile } = require("fs").promises;
@@ -17560,7 +25296,7 @@ const inputDirPath = resolve(__dirname, "_input");
 const outputDirPath = resolve(__dirname, "_output");
 
 async function renameImage(key) {
-  const inputFilePath = `${inputDirPath}/180px-Sprite_${key["pokedexNo"].toString().padStart(4, '0')}_Paldea_chromatique_EV.png`;
+  const inputFilePath = `${inputDirPath}/180px-Sprite_${key["pokedexNo"].toString().padStart(4, '0')}_Paldea_EV.png`;
   const outputFilePath = `${outputDirPath}/${key["sprite"]}-paldea.png`;
 
   try {
