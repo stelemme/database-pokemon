@@ -25288,7 +25288,6 @@ var pokedex = [
 ]
 
 
-
 const { copyFile } = require("fs").promises;
 const { resolve } = require("path");
 
@@ -25296,8 +25295,9 @@ const inputDirPath = resolve(__dirname, "_input");
 const outputDirPath = resolve(__dirname, "_output");
 
 async function renameImage(key) {
-  const inputFilePath = `${inputDirPath}/180px-Sprite_${key["pokedexNo"].toString().padStart(4, '0')}_Paldea_EV.png`;
-  const outputFilePath = `${outputDirPath}/${key["sprite"]}-paldea.png`;
+  //const inputFilePath = `${inputDirPath}/${key["pokedexNo"].toString().padStart(4, '0')}_Paldea_EV.png`;
+  const inputFilePath = `${inputDirPath}/${key["pokedexNo"]}.gif`;
+  const outputFilePath = `${outputDirPath}/${key["sprite"]}-f.png`;
 
   try {
     // Copy the file from _input to _output

@@ -8,22 +8,30 @@ def change_canvas(input_dir_path, output_dir_path, max_size=56):
         image = Image.open(f)
         
         if hasattr(image, 'n_frames') and image.n_frames > 1:
+            # Handle animated images (GIFs, etc.)
             frames = []
             durations = []
 
             for frame in ImageSequence.Iterator(image):
                 original_width, original_height = frame.size
 
-                new_frame = Image.new("RGBA", (max_size, max_size), (0, 0, 0, 0))
+                # Determine canvas size
+                canvas_width = max(max_size, original_width)
+                canvas_height = max(max_size, original_height)
 
-                offset_x = (max_size - original_width) // 2
-                offset_y = (max_size - original_height) // 2
+                # Create a new canvas
+                new_frame = Image.new("RGBA", (canvas_width, canvas_height), (0, 0, 0, 0))
 
+                offset_x = (canvas_width - original_width) // 2
+                offset_y = (canvas_height - original_height) // 2
+
+                # Paste original frame onto the new canvas
                 new_frame.paste(frame, (offset_x, offset_y))
 
                 frames.append(new_frame)
                 durations.append(frame.info.get('duration', 0))
 
+            # Save as animated PNG
             frames[0].save(
                 f'{output_dir_path}/{filename[:-3] + "png"}',
                 save_all=True,
@@ -32,15 +40,23 @@ def change_canvas(input_dir_path, output_dir_path, max_size=56):
                 loop=image.info.get('loop', 0),
             )
         else:
-            new_image = Image.new("RGBA", (max_size, max_size), (0, 0, 0, 0))
-
+            # Handle single-frame images
             original_width, original_height = image.size
 
-            offset_x = (max_size - original_width) // 2
-            offset_y = (max_size - original_height) // 2
+            # Determine canvas size
+            canvas_width = max(max_size, original_width)
+            canvas_height = max(max_size, original_height)
 
+            # Create a new canvas
+            new_image = Image.new("RGBA", (canvas_width, canvas_height), (0, 0, 0, 0))
+
+            offset_x = (canvas_width - original_width) // 2
+            offset_y = (canvas_height - original_height) // 2
+
+            # Paste original image onto the new canvas
             new_image.paste(image, (offset_x, offset_y))
 
+            # Save the image
             new_image.save(f'{output_dir_path}/{filename[:-3] + "png"}')
 
 def check_max_size(input_dir_path):
@@ -77,4 +93,5 @@ output_path = "_output/"
 original_width, original_height = check_max_size(input_path)
 max_size = max(int(original_height), int(original_width))
 
-change_canvas(input_path, output_path, max_size=1000)
+# Call the function with the modified logic
+change_canvas(input_path, output_path, max_size=90)
