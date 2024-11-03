@@ -23,7 +23,7 @@ def change_canvas(input_dir_path, output_dir_path, max_size=56):
                 new_frame = Image.new("RGBA", (canvas_width, canvas_height), (0, 0, 0, 0))
 
                 offset_x = (canvas_width - original_width) // 2
-                offset_y = (canvas_height - original_height) // 2
+                offset_y = (canvas_height - original_height)
 
                 # Paste original frame onto the new canvas
                 new_frame.paste(frame, (offset_x, offset_y))
@@ -51,7 +51,7 @@ def change_canvas(input_dir_path, output_dir_path, max_size=56):
             new_image = Image.new("RGBA", (canvas_width, canvas_height), (0, 0, 0, 0))
 
             offset_x = (canvas_width - original_width) // 2
-            offset_y = (canvas_height - original_height) // 2
+            offset_y = (canvas_height - original_height) 
 
             # Paste original image onto the new canvas
             new_image.paste(image, (offset_x, offset_y))
@@ -94,4 +94,4 @@ original_width, original_height = check_max_size(input_path)
 max_size = max(int(original_height), int(original_width))
 
 # Call the function with the modified logic
-change_canvas(input_path, output_path, max_size=96)
+change_canvas(input_path, output_path, max_size=56)
