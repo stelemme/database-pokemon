@@ -1330,8 +1330,6 @@
           "Unown X",
           "Unown Y",
           "Unown Z",
-          "Unown !",
-          "Unown ?",
           "Wobbuffet",
           "Girafarig",
           "Pineco",
@@ -1855,8 +1853,6 @@
           "Unown X",
           "Unown Y",
           "Unown Z",
-          "Unown !",
-          "Unown ?",
           "Wobbuffet",
           "Girafarig",
           "Pineco",
@@ -2380,8 +2376,6 @@
           "Unown X",
           "Unown Y",
           "Unown Z",
-          "Unown !",
-          "Unown ?",
           "Wobbuffet",
           "Girafarig",
           "Pineco",
@@ -15407,7 +15401,7 @@
               "sprite": "contest-memory-ribbon"
           },
           {
-              "name": "Contest Memory Ribbon 2",
+              "name": "Contest Memory Ribbon (Gold)",
               "sprite": "contest-memory-ribbon-2"
           },
           {
@@ -15423,7 +15417,7 @@
               "sprite": "battle-memory-ribbon"
           },
           {
-              "name": "Battle Memory Ribbon 2",
+              "name": "Battle Memory Ribbon (Gold)",
               "sprite": "battle-memory-ribbon-2"
           },
           {
@@ -16707,7 +16701,7 @@
               "sprite": "contest-memory-ribbon"
           },
           {
-              "name": "Contest Memory Ribbon 2",
+              "name": "Contest Memory Ribbon (Gold)",
               "sprite": "contest-memory-ribbon-2"
           },
           {
@@ -16723,7 +16717,7 @@
               "sprite": "battle-memory-ribbon"
           },
           {
-              "name": "Battle Memory Ribbon 2",
+              "name": "Battle Memory Ribbon (Gold)",
               "sprite": "battle-memory-ribbon-2"
           },
           {
@@ -18007,7 +18001,7 @@
               "sprite": "contest-memory-ribbon"
           },
           {
-              "name": "Contest Memory Ribbon 2",
+              "name": "Contest Memory Ribbon (Gold)",
               "sprite": "contest-memory-ribbon-2"
           },
           {
@@ -18023,7 +18017,7 @@
               "sprite": "battle-memory-ribbon"
           },
           {
-              "name": "Battle Memory Ribbon 2",
+              "name": "Battle Memory Ribbon (Gold)",
               "sprite": "battle-memory-ribbon-2"
           },
           {
@@ -19337,7 +19331,7 @@
               "sprite": "contest-memory-ribbon"
           },
           {
-              "name": "Contest Memory Ribbon 2",
+              "name": "Contest Memory Ribbon (Gold)",
               "sprite": "contest-memory-ribbon-2"
           },
           {
@@ -19353,7 +19347,7 @@
               "sprite": "battle-memory-ribbon"
           },
           {
-              "name": "Battle Memory Ribbon 2",
+              "name": "Battle Memory Ribbon (Gold)",
               "sprite": "battle-memory-ribbon-2"
           },
           {
