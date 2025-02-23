@@ -1,18 +1,22 @@
 [
   {
     "user": "Stef",
-    "colorMode": "light"
+    "nickname": "t-loc",
+    "favoritePokemon": "Bulbasaur"
   },
   {
     "user": "Korneel",
-    "colorMode": "light"
+    "nickname": "chorneef",
+    "favoritePokemon": "Bulbasaur"
   },
   {
     "user": "Joaquin",
-    "colorMode": "light"
+    "nickname": "kwakquin",
+    "favoritePokemon": "Bulbasaur"
   },
   {
     "user": "Simon",
-    "colorMode": "light"
+    "nickname": "siwob",
+    "favoritePokemon": "Bulbasaur"
   }
 ]
