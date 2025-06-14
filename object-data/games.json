@@ -2124,6 +2124,13 @@
             },
             {
                 "categories": [],
+                "name": "Odd Egg",
+                "odds": 100,
+                "rolls": 14,
+                "countable": true
+            },
+            {
+                "categories": [],
                 "name": "Perfect IV Breeding (Ditto)",
                 "odds": 64,
                 "rolls": 1,
