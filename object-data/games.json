@@ -2125,8 +2125,8 @@
             {
                 "categories": [],
                 "name": "Odd Egg",
-                "odds": 100,
-                "rolls": 14,
+                "odds": 7.142857142857143,
+                "rolls": 1,
                 "countable": true
             },
             {
@@ -2136,6 +2136,7 @@
                 "rolls": 1,
                 "countable": true
             },
+            {},
             {
                 "categories": [],
                 "name": "Perfect IV Breeding (Other)",
