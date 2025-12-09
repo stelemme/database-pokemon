@@ -1,0 +1,498 @@
+{
+  "Route 201 (Sinnoh)": {
+    "x": 0.138,
+    "y": 0.873
+  },
+  "Route 202 (Sinnoh)": {
+    "x": 0.185,
+    "y": 0.831
+  },
+  "Route 203 (Sinnoh)": {
+    "x": 0.235,
+    "y": 0.749
+  },
+  "Route 204 (Sinnoh)": {
+    "x": 0.185,
+    "y": 0.689
+  },
+  "Route 205 (Sinnoh)": {
+    "x": 0.218,
+    "y": 0.575
+  },
+  "Route 206 (Sinnoh)": {
+    "x": 0.314,
+    "y": 0.613
+  },
+  "Route 207 (Sinnoh)": {
+    "x": 0.329,
+    "y": 0.709
+  },
+  "Route 208 (Sinnoh)": {
+    "x": 0.425,
+    "y": 0.709
+  },
+  "Route 209 (Sinnoh)": {
+    "x": 0.572,
+    "y": 0.705
+  },
+  "Route 210 (Sinnoh)": {
+    "x": 0.574,
+    "y": 0.486
+  },
+  "Route 211 (Sinnoh)": {
+    "x": 0.381,
+    "y": 0.458
+  },
+  "Route 212 (Sinnoh)": {
+    "x": 0.479,
+    "y": 0.871
+  },
+  "Route 213 (Sinnoh)": {
+    "x": 0.703,
+    "y": 0.856
+  },
+  "Route 214 (Sinnoh)": {
+    "x": 0.736,
+    "y": 0.667
+  },
+  "Route 215 (Sinnoh)": {
+    "x": 0.639,
+    "y": 0.542
+  },
+  "Route 216 (Sinnoh)": {
+    "x": 0.348,
+    "y": 0.291
+  },
+  "Route 217 (Sinnoh)": {
+    "x": 0.314,
+    "y": 0.189
+  },
+  "Route 218 (Sinnoh)": {
+    "x": 0.103,
+    "y": 0.749
+  },
+  "Route 219 (Sinnoh)": {
+    "x": 0.185,
+    "y": 0.917
+  },
+  "Route 220 (Sinnoh)": {
+    "x": 0.201,
+    "y": 0.958
+  },
+  "Route 221 (Sinnoh)": {
+    "x": 0.265,
+    "y": 0.959
+  },
+  "Route 222 (Sinnoh)": {
+    "x": 0.798,
+    "y": 0.791
+  },
+  "Route 223 (Sinnoh)": {
+    "x": 0.866,
+    "y": 0.644
+  },
+  "Route 224 (Sinnoh)": {
+    "x": 0.915,
+    "y": 0.457
+  },
+  "Route 225 (Sinnoh)": {
+    "x": 0.639,
+    "y": 0.255
+  },
+  "Route 226 (Sinnoh)": {
+    "x": 0.737,
+    "y": 0.209
+  },
+  "Route 227 (Sinnoh)": {
+    "x": 0.768,
+    "y": 0.152
+  },
+  "Route 228 (Sinnoh)": {
+    "x": 0.801,
+    "y": 0.256
+  },
+  "Route 229 (Sinnoh)": {
+    "x": 0.817,
+    "y": 0.333
+  },
+  "Route 230 (Sinnoh)": {
+    "x": 0.738,
+    "y": 0.333
+  },
+  "Acuity Lakefront": {
+    "x": 0.333,
+    "y": 0.066
+  },
+  "Amity Square": {
+    "x": 0.493,
+    "y": 0.628
+  },
+  "Battle Arcade (Sinnoh)": {
+    "x": 0.669,
+    "y": 0.291
+  },
+  "Battle Castle (Sinnoh)": {
+    "x": 0.669,
+    "y": 0.291
+  },
+  "Battle Factory (Sinnoh)": {
+    "x": 0.669,
+    "y": 0.291
+  },
+  "Battle Frontier (Sinnoh)": {
+    "x": 0.669,
+    "y": 0.291
+  },
+  "Battle Hall (Sinnoh)": {
+    "x": 0.669,
+    "y": 0.291
+  },
+  "Battle Tower (Sinnoh)": {
+    "x": 0.669,
+    "y": 0.291
+  },
+  "Battleground": {
+    "x": 0.671,
+    "y": 0.208
+  },
+  "Café Cabin": {
+    "x": 0.574,
+    "y": 0.521
+  },
+  "Canalave City": {
+    "x": 0.055,
+    "y": 0.73
+  },
+  "Canalave Library": {
+    "x": 0.055,
+    "y": 0.73
+  },
+  "Celestic Town": {
+    "x": 0.481,
+    "y": 0.457
+  },
+  "Contest Hall": {
+    "x": 0.493,
+    "y": 0.687
+  },
+  "Distortion World": {
+    "x": 0.411,
+    "y": 0.581
+  },
+  "Eterna City": {
+    "x": 0.317,
+    "y": 0.46
+  },
+  "Eterna Condominiums": {
+    "x": 0.317,
+    "y": 0.46
+  },
+  "Eterna Forest": {
+    "x": 0.234,
+    "y": 0.478
+  },
+  "Fight Area": {
+    "x": 0.656,
+    "y": 0.333
+  },
+  "Floaroma Meadow": {
+    "x": 0.185,
+    "y": 0.585
+  },
+  "Floaroma Town": {
+    "x": 0.185,
+    "y": 0.62
+  },
+  "Flower Paradise": {
+    "x": 0.93,
+    "y": 0.035
+  },
+  "Fuego Ironworks": {
+    "x": 0.185,
+    "y": 0.542
+  },
+  "Fullmoon Island": {
+    "x": 0.055,
+    "y": 0.124
+  },
+  "Great Marsh": {
+    "x": 0.623,
+    "y": 0.797
+  },
+  "Hall of Origin": {
+    "x": 0.411,
+    "y": 0.581
+  },
+  "Hallowed Tower": {
+    "x": 0.572,
+    "y": 0.705
+  },
+  "Hearthome City": {
+    "x": 0.493,
+    "y": 0.687
+  },
+  "Hotel Grand Lake": {
+    "x": 0.719,
+    "y": 0.814
+  },
+  "Iceberg Ruins (Sinnoh)": {
+    "x": 0.411,
+    "y": 0.292
+  },
+  "Iron Island": {
+    "x": 0.12,
+    "y": 0.416
+  },
+  "Iron Ruins (Sinnoh)": {
+    "x": 0.12,
+    "y": 0.416
+  },
+  "Jubilife City": {
+    "x": 0.169,
+    "y": 0.77
+  },
+  "Jubilife TV": {
+    "x": 0.169,
+    "y": 0.77
+  },
+  "Lake Acuity": {
+    "x": 0.333,
+    "y": 0.066
+  },
+  "Lake Valor": {
+    "x": 0.718,
+    "y": 0.771
+  },
+  "Lake Verity": {
+    "x": 0.072,
+    "y": 0.856
+  },
+  "Lost Tower": {
+    "x": 0.572,
+    "y": 0.705
+  },
+  "Maniac Tunnel": {
+    "x": 0.667,
+    "y": 0.625
+  },
+  "Mount Coronet": {
+    "x": 0.412,
+    "y": 0.527
+  },
+  "Newmoon Island": {
+    "x": 0.152,
+    "y": 0.124
+  },
+  "Old Chateau": {
+    "x": 0.234,
+    "y": 0.478
+  },
+  "Oreburgh City": {
+    "x": 0.314,
+    "y": 0.752
+  },
+  "Oreburgh Gate": {
+    "x": 0.244,
+    "y": 0.75
+  },
+  "Oreburgh Mine": {
+    "x": 0.314,
+    "y": 0.827
+  },
+  "Oreburgh Mining Museum": {
+    "x": 0.314,
+    "y": 0.752
+  },
+  "Pal Park": {
+    "x": 0.315,
+    "y": 0.958
+  },
+  "Pastoria City": {
+    "x": 0.623,
+    "y": 0.852
+  },
+  "Pick a Peck of Colors Flower Shop": {
+    "x": 0.185,
+    "y": 0.62
+  },
+  "Poffin House": {
+    "x": 0.493,
+    "y": 0.687
+  },
+  "Poké Mart": {
+    "x": 0,
+    "y": 0
+  },
+  "Pokémon Center": {
+    "x": 0,
+    "y": 0
+  },
+   "Pokémon Day Care": {
+    "x": 0.572,
+    "y": 0.625
+  },
+  "Pokémon League (Sinnoh)": {
+    "x": 0.866,
+    "y": 0.5
+  },
+  "Pokémon Mansion (Sinnoh)": {
+    "x": 0.477,
+    "y": 0.768
+  },
+   "Pokémon News Press": {
+    "x": 0.59,
+    "y": 0.625
+  },
+  "Pokétch Company": {
+    "x": 0.169,
+    "y": 0.77
+  },
+  "Rad Rickshaw's Cycle Shop": {
+    "x": 0.317,
+    "y": 0.46
+  },
+  "Ravaged Path": {
+    "x": 0.185,
+    "y": 0.689
+  },
+  "Resort Area": {
+    "x": 0.833,
+    "y": 0.375
+  },
+  "Ribbon Syndicate": {
+    "x": 0.833,
+    "y": 0.375
+  },
+  "Rock Peak Ruins (Sinnoh)": {
+    "x": 0.801,
+    "y": 0.21
+  },
+  "Rotom's Room": {
+    "x": 0.317,
+    "y": 0.46
+  },
+  "S.S. Sinnoh": {
+    "x": 0.38,
+    "y": 0.086
+  },
+  "Sandgem Town": {
+    "x": 0.185,
+    "y": 0.875
+  },
+  "Seabreak Path": {
+    "x": 0.93,
+    "y": 0.238
+  },
+  "Secret Base": {
+    "x": 0,
+    "y": 0
+  },
+  "Sendoff Spring": {
+    "x": 0.781,
+    "y": 0.686
+  },
+  "Seven Stars Restaurant": {
+    "x": 0.719,
+    "y": 0.814
+  },
+  "Snowpoint City": {
+    "x": 0.38,
+    "y": 0.064
+  },
+  "Snowpoint Temple": {
+    "x": 0.38,
+    "y": 0.042
+  },
+  "Solaceon Ruins": {
+    "x": 0.608,
+    "y": 0.625
+  },
+  "Solaceon Town": {
+    "x": 0.59,
+    "y": 0.625
+  },
+  "Spear Pillar": {
+    "x": 0.411,
+    "y": 0.581
+  },
+  "Spring Path": {
+    "x": 0.781,
+    "y": 0.686
+  },
+  "Stark Mountain": {
+    "x": 0.768,
+    "y": 0.082
+  },
+  "Sunyshore City": {
+    "x": 0.882,
+    "y": 0.772
+  },
+  "Sunyshore Market": {
+    "x": 0.882,
+    "y": 0.772
+  },
+  "Survival Area": {
+    "x": 0.671,
+    "y": 0.208
+  },
+  "Team Galactic Eterna Building": {
+    "x": 0.317,
+    "y": 0.46
+  },
+  "Team Galactic HQ": {
+    "x": 0.72,
+    "y": 0.561
+  },
+  "Trainers' School (Sinnoh)": {
+    "x": 0.169,
+    "y": 0.77
+  },
+  "Trophy Garden": {
+    "x": 0.477,
+    "y": 0.768
+  },
+  "Turnback Cave": {
+    "x": 0.781,
+    "y": 0.633
+  },
+  "Twinleaf Town": {
+    "x": 0.12,
+    "y": 0.917
+  },
+  "Valley Windworks": {
+    "x": 0.247,
+    "y": 0.624
+  },
+  "Valor Lakefront": {
+    "x": 0.718,
+    "y": 0.771
+  },
+  "Veilstone City": {
+    "x": 0.72,
+    "y": 0.561
+  },
+  "Veilstone Department Store": {
+    "x": 0.72,
+    "y": 0.561
+  },
+  "Veilstone Game Corner": {
+    "x": 0.72,
+    "y": 0.561
+  },
+  "Verity Lakefront": {
+    "x": 0.072,
+    "y": 0.856
+  },
+    "Victory Road (Sinnoh)": {
+    "x": 0.866,
+    "y": 0.541
+  },
+  "Vista Lighthouse": {
+    "x": 0.882,
+    "y": 0.772
+  },
+  "Wayward Cave": {
+    "x": 0.314,
+    "y": 0.55
+  }
+}
