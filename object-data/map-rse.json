@@ -1,0 +1,462 @@
+{
+  "Route 101 (Hoenn)": {
+    "x": 0.171,
+    "y": 0.63
+  },
+  "Route 102 (Hoenn)": {
+    "x": 0.124,
+    "y": 0.578
+  },
+  "Route 103 (Hoenn)": {
+    "x": 0.223,
+    "y": 0.527
+  },
+  "Route 104 (Hoenn)": {
+    "x": 0.046,
+    "y": 0.512
+  },
+  "Route 105 (Hoenn)": {
+    "x": 0.046,
+    "y": 0.679
+  },
+  "Route 106 (Hoenn)": {
+    "x": 0.077,
+    "y": 0.779
+  },
+  "Route 107 (Hoenn)": {
+    "x": 0.169,
+    "y": 0.83
+  },
+  "Route 108 (Hoenn)": {
+    "x": 0.25,
+    "y": 0.83
+  },
+  "Route 109 (Hoenn)": {
+    "x": 0.295,
+    "y": 0.78
+  },
+  "Route 110 (Hoenn)": {
+    "x": 0.295,
+    "y": 0.527
+  },
+  "Route 111 (Hoenn)": {
+    "x": 0.295,
+    "y": 0.251
+  },
+  "Route 112 (Hoenn)": {
+    "x": 0.246,
+    "y": 0.276
+  },
+  "Route 113 (Hoenn)": {
+    "x": 0.212,
+    "y": 0.125
+  },
+  "Route 114 (Hoenn)": {
+    "x": 0.077,
+    "y": 0.176
+  },
+  "Route 115 (Hoenn)": {
+    "x": 0.046,
+    "y": 0.276
+  },
+  "Route 116 (Hoenn)": {
+    "x": 0.124,
+    "y": 0.377
+  },
+  "Route 117 (Hoenn)": {
+    "x": 0.232,
+    "y": 0.428
+  },
+  "Route 118 (Hoenn)": {
+    "x": 0.373,
+    "y": 0.428
+  },
+  "Route 119 (Hoenn)": {
+    "x": 0.389,
+    "y": 0.276
+  },
+  "Route 120 (Hoenn)": {
+    "x": 0.451,
+    "y": 0.201
+  },
+  "Route 121 (Hoenn)": {
+    "x": 0.529,
+    "y": 0.276
+  },
+  "Route 122 (Hoenn)": {
+    "x": 0.545,
+    "y": 0.352
+  },
+  "Route 123 (Hoenn)": {
+    "x": 0.467,
+    "y": 0.428
+  },
+  "Route 124 (Hoenn)": {
+    "x": 0.716,
+    "y": 0.327
+  },
+  "Route 125 (Hoenn)": {
+    "x": 0.81,
+    "y": 0.301
+  },
+  "Route 126 (Hoenn)": {
+    "x": 0.716,
+    "y": 0.478
+  },
+  "Route 127 (Hoenn)": {
+    "x": 0.793,
+    "y": 0.478
+  },
+  "Route 128 (Hoenn)": {
+    "x": 0.806,
+    "y": 0.578
+  },
+  "Route 129 (Hoenn)": {
+    "x": 0.806,
+    "y": 0.629
+  },
+  "Route 130 (Hoenn)": {
+    "x": 0.73,
+    "y": 0.629
+  },
+  "Route 131 (Hoenn)": {
+    "x": 0.636,
+    "y": 0.629
+  },
+  "Route 132 (Hoenn)": {
+    "x": 0.529,
+    "y": 0.629
+  },
+  "Route 133 (Hoenn)": {
+    "x": 0.451,
+    "y": 0.629
+  },
+  "Route 134 (Hoenn)": {
+    "x": 0.358,
+    "y": 0.629
+  },
+  "Abandoned Ship": {
+    "x": 0.25,
+    "y": 0.805
+  },
+  "Altering Cave": {
+    "x": 0.248,
+    "y": 0.527
+  },
+  "Ancient Tomb": {
+    "x": 0.44,
+    "y": 0.201
+  },
+  "Artisan Cave": {
+    "x": 0.731,
+    "y": 0.747
+  },
+  "Battle Arena": {
+    "x": 0.731,
+    "y": 0.747
+  },
+  "Battle Dome": {
+    "x": 0.731,
+    "y": 0.747
+  },
+  "Battle Factory (Hoenn)": {
+    "x": 0.731,
+    "y": 0.747
+  },
+  "Battle Frontier (Hoenn)": {
+    "x": 0.731,
+    "y": 0.747
+  },
+  "Battle Palace": {
+    "x": 0.731,
+    "y": 0.747
+  },
+  "Battle Pike": {
+    "x": 0.731,
+    "y": 0.747
+  },
+  "Battle Pyramid": {
+    "x": 0.731,
+    "y": 0.747
+  },
+  "Battle Tent": {
+    "x": 0.731,
+    "y": 0.747
+  },
+  "Battle Tower (Hoenn)": {
+    "x": 0.731,
+    "y": 0.747
+  },
+  "Birth Island": {
+    "x": 0,
+    "y": 0
+  },
+  "Cave of Origin": {
+    "x": 0.7,
+    "y": 0.453
+  },
+  "Contest Hall": {
+    "x": 0,
+    "y": 0
+  },
+  "Cove Lily Motel": {
+    "x": 0.623,
+    "y": 0.276
+  },
+  "Desert Ruins": {
+    "x": 0.295,
+    "y": 0.301
+  },
+  "Desert Underpass": {
+    "x": 0.093,
+    "y": 0.125
+  },
+  "Devon Corporation": {
+    "x": 0.046,
+    "y": 0.402
+  },
+  "Dewford Town": {
+    "x": 0.108,
+    "y": 0.83
+  },
+  "Ever Grande City": {
+    "x": 0.886,
+    "y": 0.554
+  },
+  "Fallarbor Town": {
+    "x": 0.1395,
+    "y": 0.125
+  },
+  "Faraway Island": {
+    "x": 0,
+    "y": 0
+  },
+  "Fiery Path": {
+    "x": 0.256,
+    "y": 0.2335
+  },
+  "Fortree City": {
+    "x": 0.42,
+    "y": 0.125
+  },
+  "Granite Cave": {
+    "x": 0.077,
+    "y": 0.805
+  },
+  "Island Cave": {
+    "x": 0.046,
+    "y": 0.63
+  },
+  "Jagged Pass": {
+    "x": 0.236,
+    "y": 0.242
+  },
+  "Lavaridge Town": {
+    "x": 0.202,
+    "y": 0.276
+  },
+  "Lilycove City": {
+    "x": 0.623,
+    "y": 0.276
+  },
+  "Lilycove Department Store": {
+    "x": 0.623,
+    "y": 0.276
+  },
+  "Lilycove Museum": {
+    "x": 0.623,
+    "y": 0.276
+  },
+  "Littleroot Town": {
+    "x": 0.171,
+    "y": 0.679
+  },
+  "Magma Hideout": {
+    "x": 0.236,
+    "y": 0.225
+  },
+  "Marine Cave": {
+    "x": 0.046,
+    "y": 0.679
+  },
+  "Mauville City": {
+    "x": 0.311,
+    "y": 0.428
+  },
+  "Mauville Game Corner": {
+    "x": 0.311,
+    "y": 0.428
+  },
+  "Meteor Falls": {
+    "x": 0.0625,
+    "y": 0.226
+  },
+  "Mirage Island": {
+    "x": 0.73,
+    "y": 0.605
+  },
+  "Mirage Tower": {
+    "x": 0.295,
+    "y": 0.201
+  },
+  "Mossdeep City": {
+    "x": 0.81,
+    "y": 0.377
+  },
+  "Mossdeep Space Center": {
+    "x": 0.81,
+    "y": 0.377
+  },
+  "Mt. Chimney": {
+    "x": 0.246,
+    "y": 0.208
+  },
+  "Mt. Pyre": {
+    "x": 0.545,
+    "y": 0.352
+  },
+  "Navel Rock": {
+    "x": 0,
+    "y": 0
+  },
+  "New Mauville": {
+    "x": 0.295,
+    "y": 0.477
+  },
+  "Oceanic Museum": {
+    "x": 0.295,
+    "y": 0.653
+  },
+  "Oldale Town": {
+    "x": 0.171,
+    "y": 0.578
+  },
+  "Pacifidlog Town": {
+    "x": 0.576,
+    "y": 0.629
+  },
+  "Petalburg City": {
+    "x": 0.077,
+    "y": 0.578
+  },
+  "Petalburg Woods": {
+    "x": 0.046,
+    "y": 0.541
+  },
+  "Poké Mart": {
+    "x": 0,
+    "y": 0
+  },
+  "Pokémon Center": {
+    "x": 0,
+    "y": 0
+  },
+  "Pokémon Day Care": {
+    "x": 0.2645,
+    "y": 0.428
+  },
+  "Pokémon Trainers' School": {
+    "x": 0.046,
+    "y": 0.402
+  },
+  "Pretty Petal flower shop": {
+    "x": 0.046,
+    "y": 0.483
+  },
+  "Rustboro City": {
+    "x": 0.046,
+    "y": 0.402
+  },
+  "Rusturf Tunnel": {
+    "x": 0.124,
+    "y": 0.353
+  },
+  "Rydel's Cycles": {
+    "x": 0.311,
+    "y": 0.428
+  },
+  "S.S. Tidal": {
+    "x": 0.623,
+    "y": 0.276
+  },
+  "Safari Zone (Hoenn)": {
+    "x": 0.529,
+    "y": 0.226
+  },
+  "Scorched Slab": {
+    "x": 0.451,
+    "y": 0.125
+  },
+  "Seafloor Cavern": {
+    "x": 0.763,
+    "y": 0.578
+  },
+  "Sealed Chamber": {
+    "x": 0.389,
+    "y": 0.629
+  },
+  "Seaside Cycling Road": {
+    "x": 0.295,
+    "y": 0.527
+  },
+  "Secret Base": {
+    "x": 0,
+    "y": 0
+  },
+  "Shoal Cave": {
+    "x": 0.794,
+    "y": 0.301
+  },
+  "Sky Pillar": {
+    "x": 0.636,
+    "y": 0.578
+  },
+  "Slateport City": {
+    "x": 0.295,
+    "y": 0.653
+  },
+  "Sootopolis City": {
+    "x": 0.7,
+    "y": 0.478
+  },
+  "Southern Island": {
+    "x": 0.421,
+    "y": 0.834
+  },
+  "Stern's Shipyard": {
+    "x": 0.295,
+    "y": 0.653
+  },
+  "Team Aqua Hideout": {
+    "x": 0.6385,
+    "y": 0.276
+  },
+  "Terra Cave": {
+    "x": 0.373,
+    "y": 0.402
+  },
+  "Trainer Hill": {
+    "x": 0.295,
+    "y": 0.352
+  },
+  "Trick House": {
+    "x": 0.295,
+    "y": 0.577
+  },
+  "Underwater": {
+    "x": 0,
+    "y": 0
+  },
+  "Verdanturf Town": {
+    "x": 0.171,
+    "y": 0.428
+  },
+  "Victory Road (Hoenn)": {
+    "x": 0.886,
+    "y": 0.529
+  },
+  "Weather Institute": {
+    "x": 0.389,
+    "y": 0.176
+  }
+}
