@@ -1,0 +1,543 @@
+{
+  "Route 1 (Kanto)": {
+    "x": 0.699,
+    "y": 0.614
+  },
+  "Route 2 (Kanto)": {
+    "x": 0.699,
+    "y": 0.414
+  },
+  "Route 3 (Kanto)": {
+    "x": 0.757,
+    "y": 0.255
+  },
+  "Route 4 (Kanto)": {
+    "x": 0.829,
+    "y": 0.255
+  },
+  "Route 5 (Kanto)": {
+    "x": 0.876,
+    "y": 0.365
+  },
+  "Route 6 (Kanto)": {
+    "x": 0.876,
+    "y": 0.531
+  },
+  "Route 7 (Kanto)": {
+    "x": 0.854,
+    "y": 0.475
+  },
+  "Route 8 (Kanto)": {
+    "x": 0.931,
+    "y": 0.475
+  },
+  "Route 9 (Kanto)": {
+    "x": 0.934,
+    "y": 0.31
+  },
+  "Route 10 (Kanto)": {
+    "x": 0.964,
+    "y": 0.414
+  },
+  "Route 11 (Kanto)": {
+    "x": 0.942,
+    "y": 0.586
+  },
+  "Route 12 (Kanto)": {
+    "x": 0.964,
+    "y": 0.593
+  },
+  "Route 13 (Kanto)": {
+    "x": 0.942,
+    "y": 0.697
+  },
+  "Route 14 (Kanto)": {
+    "x": 0.92,
+    "y": 0.772
+  },
+  "Route 15 (Kanto)": {
+    "x": 0.878,
+    "y": 0.807
+  },
+  "Route 16 (Kanto)": {
+    "x": 0.776,
+    "y": 0.531
+  },
+  "Route 17 (Kanto)": {
+    "x": 0.765,
+    "y": 0.669
+  },
+  "Route 18 (Kanto)": {
+    "x": 0.776,
+    "y": 0.807
+  },
+  "Route 19 (Kanto)": {
+    "x": 0.809,
+    "y": 0.889
+  },
+  "Route 20 (Kanto)": {
+    "x": 0.75,
+    "y": 0.917
+  },
+  "Route 21 (Kanto)": {
+    "x": 0.699,
+    "y": 0.807
+  },
+  "Route 22 (Kanto)": {
+    "x": 0.641,
+    "y": 0.531
+  },
+  "Route 23 (Kanto)": {
+    "x": 0,
+    "y": 0
+  },
+  "Route 24 (Kanto)": {
+    "x": 0.898,
+    "y": 0.192
+  },
+  "Route 25 (Kanto)": {
+    "x": 0.931,
+    "y": 0.145
+  },
+  "Route 26 (Kanto)": {
+    "x": 0.6105,
+    "y": 0.663
+  },
+  "Route 27 (Kanto)": {
+    "x": 0.536,
+    "y": 0.752
+  },
+  "Route 28 (Kanto)": {
+    "x": 0.577,
+    "y": 0.531
+  },
+  "Route 29 (Johto)": {
+    "x": 0.4115,
+    "y": 0.752
+  },
+  "Route 30 (Johto)": {
+    "x": 0.367,
+    "y": 0.636
+  },
+  "Route 31 (Johto)": {
+    "x": 0.348,
+    "y": 0.531
+  },
+  "Route 32 (Johto)": {
+    "x": 0.301,
+    "y": 0.677
+  },
+  "Route 33 (Johto)": {
+    "x": 0.301,
+    "y": 0.855
+  },
+  "Route 34 (Johto)": {
+    "x": 0.2345,
+    "y": 0.787
+  },
+  "Route 35 (Johto)": {
+    "x": 0.2345,
+    "y": 0.551
+  },
+  "Route 36 (Johto)": {
+    "x": 0.257,
+    "y": 0.476
+  },
+  "Route 37 (Johto)": {
+    "x": 0.257,
+    "y": 0.428
+  },
+  "Route 38 (Johto)": {
+    "x": 0.199,
+    "y": 0.366
+  },
+  "Route 39 (Johto)": {
+    "x": 0.1685,
+    "y": 0.393
+  },
+  "Route 40 (Johto)": {
+    "x": 0.1465,
+    "y": 0.566
+  },
+  "Route 41 (Johto)": {
+    "x": 0.135,
+    "y": 0.669
+  },
+  "Route 42 (Johto)": {
+    "x": 0.282,
+    "y": 0.366
+  },
+  "Route 43 (Johto)": {
+    "x": 0.345,
+    "y": 0.284
+  },
+  "Route 44 (Johto)": {
+    "x": 0.39,
+    "y": 0.366
+  },
+  "Route 45 (Johto)": {
+    "x": 0.4335,
+    "y": 0.552
+  },
+  "Route 46 (Johto)": {
+    "x": 0.4115,
+    "y": 0.696
+  },
+  "Route 47 (Johto)": {
+    "x": 0.058,
+    "y": 0.724
+  },
+  "Route 48 (Johto)": {
+    "x": 0.047,
+    "y": 0.642
+  },
+  "Azalea Town": {
+    "x": 0.258,
+    "y": 0.863
+  },
+  "Battle Arcade (Kanto)": {
+    "x": 0.135,
+    "y": 0.449
+  },
+  "Battle Castle (Kanto)": {
+    "x": 0.135,
+    "y": 0.449
+  },
+  "Battle Factory (Kanto)": {
+    "x": 0.135,
+    "y": 0.449
+  },
+  "Battle Frontier (Kanto)": {
+    "x": 0.135,
+    "y": 0.449
+  },
+  "Battle Hall (Kanto)": {
+    "x": 0.135,
+    "y": 0.449
+  },
+  "Battle Tower (Kanto)": {
+    "x": 0.135,
+    "y": 0.449
+  },
+  "Bell Tower": {
+    "x": 0.257,
+    "y": 0.31
+  },
+  "Bellchime Trail": {
+    "x": 0.257,
+    "y": 0.31
+  },
+  "Blackthorn City": {
+    "x": 0.4445,
+    "y": 0.339
+  },
+  "Burned Tower": {
+    "x": 0.2345,
+    "y": 0.31
+  },
+  "Celadon City": {
+    "x": 0.82,
+    "y": 0.504
+  },
+  "Celadon Condominiums": {
+    "x": 0.82,
+    "y": 0.504
+  },
+  "Celadon Department Store": {
+    "x": 0.82,
+    "y": 0.504
+  },
+  "Celadon Game Corner": {
+    "x": 0.82,
+    "y": 0.504
+  },
+  "Cerulean Cave": {
+    "x": 0.876,
+    "y": 0.256
+  },
+  "Cerulean City": {
+    "x": 0.8865,
+    "y": 0.283
+  },
+  "Cherrygrove City": {
+    "x": 0.356,
+    "y": 0.752
+  },
+  "Cianwood City": {
+    "x": 0.102,
+    "y": 0.669
+  },
+  "Cinnabar Island": {
+    "x": 0.699,
+    "y": 0.917
+  },
+  "Cliff Cave": {
+    "x": 0.068,
+    "y": 0.752
+  },
+  "Cliff Edge Gate": {
+    "x": 0.079,
+    "y": 0.699
+  },
+  "Dark Cave": {
+    "x": 0.4115,
+    "y": 0.641
+  },
+  "Diglett's Cave": {
+    "x": 0.699,
+    "y": 0.31
+  },
+  "Dragon's Den": {
+    "x": 0.434,
+    "y": 0.31
+  },
+  "Ecruteak City": {
+    "x": 0.2455,
+    "y": 0.339
+  },
+  "Embedded Tower": {
+    "x": 0.048,
+    "y": 0.752
+  },
+  "Fighting Dojo": {
+    "x": 0.8865,
+    "y": 0.448
+  },
+  "Frontier Access": {
+    "x": 0.135,
+    "y": 0.449
+  },
+  "Fuchsia City": {
+    "x": 0.82,
+    "y": 0.78
+  },
+  "Glitter Lighthouse": {
+    "x": 0.1905,
+    "y": 0.532
+  },
+  "Goldenrod City": {
+    "x": 0.212,
+    "y": 0.669
+  },
+  "Goldenrod Department Store": {
+    "x": 0.212,
+    "y": 0.669
+  },
+  "Goldenrod Game Corner": {
+    "x": 0.212,
+    "y": 0.669
+  },
+  "Goldenrod Radio Tower": {
+    "x": 0.212,
+    "y": 0.669
+  },
+  "Goldenrod Tunnel": {
+    "x": 0.212,
+    "y": 0.669
+  },
+  "House of Memories": {
+    "x": 0.964,
+    "y": 0.476
+  },
+  "Ice Path": {
+    "x": 0.456,
+    "y": 0.31
+  },
+  "Ilex Forest": {
+    "x": 0.2345,
+    "y": 0.8615
+  },
+  "Indigo Plateau": {
+    "x": 0.6105,
+    "y": 0.421
+  },
+  "Kanto Power Plant": {
+    "x": 0.964,
+    "y": 0.365
+  },
+  "Lake of Rage": {
+    "x": 0.345,
+    "y": 0.1725
+  },
+  "Lavender Town": {
+    "x": 0.964,
+    "y": 0.476
+  },
+  "Magnet Train": {
+    "x": 0.212,
+    "y": 0.669
+  },
+  "Mahogany Town": {
+    "x": 0.345,
+    "y": 0.366
+  },
+  "Moomoo Farm": {
+    "x": 0.1685,
+    "y": 0.366
+  },
+  "Mt. Moon": {
+    "x": 0.787,
+    "y": 0.255
+  },
+  "Mt. Moon Square": {
+    "x": 0.787,
+    "y": 0.255
+  },
+  "Mt. Mortar": {
+    "x": 0.301,
+    "y": 0.366
+  },
+  "Mt. Silver": {
+    "x": 0.5445,
+    "y": 0.531
+  },
+  "National Park": {
+    "x": 0.224,
+    "y": 0.4485
+  },
+  "New Bark Town": {
+    "x": 0.455,
+    "y": 0.752
+  },
+  "Olivine City": {
+    "x": 0.179,
+    "y": 0.504
+  },
+  "Pal Park": {
+    "x": 0.81,
+    "y": 0.752
+  },
+  "Pallet Town": {
+    "x": 0.699,
+    "y": 0.696
+  },
+  "Pewter City": {
+    "x": 0.7095,
+    "y": 0.228
+  },
+  "Pewter Museum of Science": {
+    "x": 0.7095,
+    "y": 0.228
+  },
+  "Poké Mart": {
+    "x": 0,
+    "y": 0
+  },
+  "Pokéathlon Dome": {
+    "x": 0.224,
+    "y": 0.4485
+  },
+  "Pokémon Center": {
+    "x": 0,
+    "y": 0
+  },
+  "Pokémon Day Care": {
+    "x": 0.2345,
+    "y": 0.755
+  },
+  "Pokémon League Reception Gate": {
+    "x": 0.6105,
+    "y": 0.533
+  },
+  "Pokémon Tower": {
+    "x": 0.964,
+    "y": 0.476
+  },
+  "Professor Oak's Laboratory": {
+    "x": 0.699,
+    "y": 0.696
+  },
+  "Rock Tunnel": {
+    "x": 0.964,
+    "y": 0.31
+  },
+  "Rotom's Room": {
+    "x": 0.8865,
+    "y": 0.448
+  },
+  "Ruins of Alph": {
+    "x": 0.279,
+    "y": 0.559
+  },
+  "S.S. Aqua": {
+    "x": 0.179,
+    "y": 0.586
+  },
+  "Safari Zone (Johto)": {
+    "x": 0.047,
+    "y": 0.5585
+  },
+  "Safari Zone Gate": {
+    "x": 0.047,
+    "y": 0.5585
+  },
+  "Saffron City": {
+    "x": 0.8865,
+    "y": 0.448
+  },
+  "Sea Cottage": {
+    "x": 0.964,
+    "y": 0.145
+  },
+  "Seafoam Islands": {
+    "x": 0.7655,
+    "y": 0.917
+  },
+  "Silph Co.": {
+    "x": 0.8865,
+    "y": 0.448
+  },
+  "Sinjoh Ruins": {
+    "x": 0,
+    "y": 0
+  },
+  "Slowpoke Well": {
+    "x": 0.279,
+    "y": 0.863
+  },
+  "Sprout Tower": {
+    "x": 0.3235,
+    "y": 0.476
+  },
+  "Team Rocket HQ": {
+    "x": 0.345,
+    "y": 0.366
+  },
+  "Tohjo Falls": {
+    "x": 0.5,
+    "y": 0.752
+  },
+  "Underground Path": {
+    "x": 0.8865,
+    "y": 0.448
+  },
+  "Union Cave": {
+    "x": 0.301,
+    "y": 0.807
+  },
+  "Vermilion City": {
+    "x": 0.8865,
+    "y": 0.613
+  },
+  "Victory Road (Kanto)": {
+    "x": 0.6105,
+    "y": 0.502
+  },
+  "Violet City": {
+    "x": 0.312,
+    "y": 0.505
+  },
+  "Viridian City": {
+    "x": 0.6875,
+    "y": 0.504
+  },
+  "Viridian Forest": {
+    "x": 0.699,
+    "y": 0.366
+  },
+  "Whirl Islands": {
+    "x": 0.1465,
+    "y": 0.697
+  }
+}
+
