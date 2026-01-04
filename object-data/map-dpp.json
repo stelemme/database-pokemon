@@ -1,18 +1,18 @@
 {
   "Route 201 (Sinnoh)": {
     "x": 0.138,
-    "y": 0.873
+    "y": 0.875
   },
   "Route 202 (Sinnoh)": {
-    "x": 0.185,
+    "x": 0.186,
     "y": 0.831
   },
   "Route 203 (Sinnoh)": {
     "x": 0.235,
-    "y": 0.749
+    "y": 0.75
   },
   "Route 204 (Sinnoh)": {
-    "x": 0.185,
+    "x": 0.186,
     "y": 0.689
   },
   "Route 205 (Sinnoh)": {
@@ -33,7 +33,7 @@
   },
   "Route 209 (Sinnoh)": {
     "x": 0.572,
-    "y": 0.705
+    "y": 0.709
   },
   "Route 210 (Sinnoh)": {
     "x": 0.574,
@@ -45,7 +45,7 @@
   },
   "Route 212 (Sinnoh)": {
     "x": 0.479,
-    "y": 0.871
+    "y": 0.875
   },
   "Route 213 (Sinnoh)": {
     "x": 0.703,
@@ -69,10 +69,10 @@
   },
   "Route 218 (Sinnoh)": {
     "x": 0.103,
-    "y": 0.749
+    "y": 0.75
   },
   "Route 219 (Sinnoh)": {
-    "x": 0.185,
+    "x": 0.186,
     "y": 0.917
   },
   "Route 220 (Sinnoh)": {
@@ -196,11 +196,11 @@
     "y": 0.333
   },
   "Floaroma Meadow": {
-    "x": 0.185,
+    "x": 0.186,
     "y": 0.585
   },
   "Floaroma Town": {
-    "x": 0.185,
+    "x": 0.186,
     "y": 0.62
   },
   "Flower Paradise": {
@@ -208,7 +208,7 @@
     "y": 0.035
   },
   "Fuego Ironworks": {
-    "x": 0.185,
+    "x": 0.186,
     "y": 0.542
   },
   "Fullmoon Island": {
@@ -225,14 +225,14 @@
   },
   "Hallowed Tower": {
     "x": 0.572,
-    "y": 0.705
+    "y": 0.709
   },
   "Hearthome City": {
     "x": 0.493,
     "y": 0.687
   },
   "Hotel Grand Lake": {
-    "x": 0.719,
+    "x": 0.718,
     "y": 0.814
   },
   "Iceberg Ruins (Sinnoh)": {
@@ -269,14 +269,14 @@
   },
   "Lost Tower": {
     "x": 0.572,
-    "y": 0.705
+    "y": 0.709
   },
   "Maniac Tunnel": {
     "x": 0.667,
     "y": 0.625
   },
   "Mount Coronet": {
-    "x": 0.412,
+    "x": 0.411,
     "y": 0.527
   },
   "Newmoon Island": {
@@ -289,7 +289,7 @@
   },
   "Oreburgh City": {
     "x": 0.314,
-    "y": 0.752
+    "y": 0.75
   },
   "Oreburgh Gate": {
     "x": 0.244,
@@ -301,7 +301,7 @@
   },
   "Oreburgh Mining Museum": {
     "x": 0.314,
-    "y": 0.752
+    "y": 0.75
   },
   "Pal Park": {
     "x": 0.315,
@@ -312,7 +312,7 @@
     "y": 0.852
   },
   "Pick a Peck of Colors Flower Shop": {
-    "x": 0.185,
+    "x": 0.186,
     "y": 0.62
   },
   "Poffin House": {
@@ -327,7 +327,7 @@
     "x": 0,
     "y": 0
   },
-   "Pokémon Day Care": {
+  "Pokémon Day Care": {
     "x": 0.572,
     "y": 0.625
   },
@@ -339,7 +339,7 @@
     "x": 0.477,
     "y": 0.768
   },
-   "Pokémon News Press": {
+  "Pokémon News Press": {
     "x": 0.59,
     "y": 0.625
   },
@@ -352,7 +352,7 @@
     "y": 0.46
   },
   "Ravaged Path": {
-    "x": 0.185,
+    "x": 0.186,
     "y": 0.689
   },
   "Resort Area": {
@@ -376,7 +376,7 @@
     "y": 0.086
   },
   "Sandgem Town": {
-    "x": 0.185,
+    "x": 0.186,
     "y": 0.875
   },
   "Seabreak Path": {
@@ -392,7 +392,7 @@
     "y": 0.686
   },
   "Seven Stars Restaurant": {
-    "x": 0.719,
+    "x": 0.718,
     "y": 0.814
   },
   "Snowpoint City": {
@@ -483,7 +483,7 @@
     "x": 0.072,
     "y": 0.856
   },
-    "Victory Road (Sinnoh)": {
+  "Victory Road (Sinnoh)": {
     "x": 0.866,
     "y": 0.541
   },
@@ -496,3 +496,4 @@
     "y": 0.55
   }
 }
+
