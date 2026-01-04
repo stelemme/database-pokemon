@@ -1,0 +1,400 @@
+{
+  "Route 1 (Unova)": {
+    "x": 0.906,
+    "y": 0.881
+  },
+  "Route 2 (Unova)": {
+    "x": 0.902,
+    "y": 0.761
+  },
+  "Route 3 (Unova)": {
+    "x": 0.841,
+    "y": 0.702
+  },
+  "Route 4 (Unova)": {
+    "x": 0.5155,
+    "y": 0.69
+  },
+  "Route 5 (Unova)": {
+    "x": 0.468,
+    "y": 0.5415
+  },
+  "Route 6 (Unova)": {
+    "x": 0.223,
+    "y": 0.471
+  },
+  "Route 7 (Unova)": {
+    "x": 0.223,
+    "y": 0.328
+  },
+  "Route 8 (Unova)": {
+    "x": 0.34,
+    "y": 0.256
+  },
+  "Route 9 (Unova)": {
+    "x": 0.468,
+    "y": 0.256
+  },
+  "Route 10 (Unova)": {
+    "x": 0,
+    "y": 0
+  },
+  "Route 11 (Unova)": {
+    "x": 0.562,
+    "y": 0.256
+  },
+  "Route 12 (Unova)": {
+    "x": 0.691,
+    "y": 0.256
+  },
+  "Route 13 (Unova)": {
+    "x": 0.808,
+    "y": 0.328
+  },
+  "Route 14 (Unova)": {
+    "x": 0.808,
+    "y": 0.471
+  },
+  "Route 15 (Unova)": {
+    "x": 0.691,
+    "y": 0.5415
+  },
+  "Route 16 (Unova)": {
+    "x": 0.562,
+    "y": 0.5415
+  },
+  "Route 17 (Unova)": {
+    "x": 0.8515,
+    "y": 0.94
+  },
+  "Route 18 (Unova)": {
+    "x": 0.808,
+    "y": 0.94
+  },
+  "Route 19 (Unova)": {
+    "x": 0.0545,
+    "y": 0.788
+  },
+  "Route 20 (Unova)": {
+    "x": 0.199,
+    "y": 0.7555
+  },
+  "Route 21 (Unova)": {
+    "x": 0.918,
+    "y": 0.274
+  },
+  "Route 22 (Unova)": {
+    "x": 0.859,
+    "y": 0.2145
+  },
+  "Route 23 (Unova)": {
+    "x": 0.7655,
+    "y": 0.155
+  },
+  "Abundant Shrine": {
+    "x": 0.77,
+    "y": 0.459
+  },
+  "Abyssal Ruins": {
+    "x": 0.9455,
+    "y": 0.3745
+  },
+  "Accumula Town": {
+    "x": 0.906,
+    "y": 0.822
+  },
+  "Anville Town": {
+    "x": 0.028,
+    "y": 0.179
+  },
+  "Battle Subway": {
+    "x": 0.5155,
+    "y": 0.5415
+  },
+  "Big Stadium and Small Court": {
+    "x": 0.5155,
+    "y": 0.5415
+  },
+  "Black City": {
+    "x": 0.742,
+    "y": 0.5415
+  },
+  "Castelia City": {
+    "x": 0.5155,
+    "y": 0.774
+  },
+  "Celestial Tower": {
+    "x": 0.211,
+    "y": 0.297
+  },
+  "Chargestone Cave": {
+    "x": 0.164,
+    "y": 0.476
+  },
+  "Desert Resort": {
+    "x": 0.481,
+    "y": 0.619
+  },
+  "Dragonspiral Tower": {
+    "x": 0.258,
+    "y": 0.184
+  },
+  "Dreamyard": {
+    "x": 0.934,
+    "y": 0.702
+  },
+  "Driftveil City": {
+    "x": 0.289,
+    "y": 0.5415
+  },
+  "Driftveil Drawbridge": {
+    "x": 0.406,
+    "y": 0.529
+  },
+  "Entralink": {
+    "x": 0.516,
+    "y": 0.399
+  },
+  "Giant Chasm": {
+    "x": 0.813,
+    "y": 0.2145
+  },
+  "Icirrus City": {
+    "x": 0.289,
+    "y": 0.256
+  },
+  "Lacunosa Town": {
+    "x": 0.742,
+    "y": 0.256
+  },
+  "Liberty Garden": {
+    "x": 0.289,
+    "y": 0.862
+  },
+  "Lostlorn Forest": {
+    "x": 0.5705,
+    "y": 0.5
+  },
+  "Marvelous Bridge": {
+    "x": 0.625,
+    "y": 0.529
+  },
+  "Mistralton Cave": {
+    "x": 0.25,
+    "y": 0.423
+  },
+  "Mistralton City": {
+    "x": 0.156,
+    "y": 0.399
+  },
+  "Moor of Icirrus": {
+    "x": 0.344,
+    "y": 0.214
+  },
+  "N's Castle": {
+    "x": 0.711,
+    "y": 0.036
+  },
+  "Nacrene City": {
+    "x": 0.793,
+    "y": 0.702
+  },
+  "Nimbasa City": {
+    "x": 0.5155,
+    "y": 0.5415
+  },
+  "Nuvema Town": {
+    "x": 0.906,
+    "y": 0.94
+  },
+  "Opelucid City": {
+    "x": 0.5155,
+    "y": 0.256
+  },
+  "P2 Laboratory": {
+    "x": 0.836,
+    "y": 0.899
+  },
+  "Passerby Analytics HQ": {
+    "x": 0.5155,
+    "y": 0.774
+  },
+  "Pinwheel Forest": {
+    "x": 0.758,
+    "y": 0.744
+  },
+  "Poké Mart": {
+    "x": 0,
+    "y": 0
+  },
+  "Poké Transfer Lab": {
+    "x": 0.6915,
+    "y": 0.5
+  },
+  "Pokémon Center": {
+    "x": 0,
+    "y": 0
+  },
+  "Pokémon Day Care": {
+    "x": 0.857,
+    "y": 0.702
+  },
+  "Pokémon League (Unova)": {
+    "x": 0.664,
+    "y": 0.0895
+  },
+  "Relic Castle": {
+    "x": 0.4495,
+    "y": 0.619
+  },
+  "Royal Unova": {
+    "x": 0.5155,
+    "y": 0.774
+  },
+  "Shopping Mall Nine": {
+    "x": 0.468,
+    "y": 0.236
+  },
+  "Skyarrow Bridge": {
+    "x": 0.627,
+    "y": 0.726
+  },
+  "Striaton City": {
+    "x": 0.89,
+    "y": 0.702
+  },
+  "Tubeline Bridge": {
+    "x": 0.406,
+    "y": 0.2435
+  },
+  "Twist Mountain": {
+    "x": 0.281,
+    "y": 0.327
+  },
+  "Undella Bay": {
+    "x": 0.905,
+    "y": 0.356
+  },
+  "Undella Town": {
+    "x": 0.875,
+    "y": 0.399
+  },
+  "Unity Tower": {
+    "x": 0.3865,
+    "y": 0.935
+  },
+  "Victory Road (Unova)": {
+    "x": 0.7185,
+    "y": 0.095
+  },
+  "Village Bridge": {
+    "x": 0.625,
+    "y": 0.2435
+  },
+  "Wellspring Cave": {
+    "x": 0.84,
+    "y": 0.655
+  },
+  "White Forest": {
+    "x": 0.742,
+    "y": 0.5415
+  },
+  "Aspertia City": {
+    "x": 0.0545,
+    "y": 0.911
+  },
+  "Black Tower": {
+    "x": 0.742,
+    "y": 0.5415
+  },
+  "Castelia Sewers": {
+    "x": 0.61,
+    "y": 0.851
+  },
+  "Cave of Being": {
+    "x": 0.16,
+    "y": 0.822
+  },
+  "Clay Tunnel": {
+    "x": 0.281,
+    "y": 0.459
+  },
+  "Floccesy Ranch": {
+    "x": 0.16,
+    "y": 0.703
+  },
+  "Floccesy Town": {
+    "x": 0.129,
+    "y": 0.7555
+  },
+  "Humilau City": {
+    "x": 0.918,
+    "y": 0.2145
+  },
+  "Join Avenue": {
+    "x": 0.5155,
+    "y": 0.619
+  },
+  "Lentimas Town": {
+    "x": 0.7305,
+    "y": 0.399
+  },
+  "Marine Tube": {
+    "x": 0.984,
+    "y": 0.318
+  },
+  "Nature Preserve": {
+    "x": 0,
+    "y": 0
+  },
+  "Plasma Frigate": {
+    "x": 0.867,
+    "y": 0.899
+  },
+  "Pledge Grove": {
+    "x": 0.129,
+    "y": 0.703
+  },
+  "Pokémon World Tournament": {
+    "x": 0.3005,
+    "y": 0.612
+  },
+  "Pokéstar Studios": {
+    "x": 0.25,
+    "y": 0.6845
+  },
+  "Relic Passage": {
+    "x": 0.4105,
+    "y": 0.7025
+  },
+  "Reversal Mountain": {
+    "x": 0.805,
+    "y": 0.399
+  },
+  "Seaside Cave": {
+    "x": 0.918,
+    "y": 0.3155
+  },
+  "Strange House": {
+    "x": 0.7735,
+    "y": 0.352
+  },
+  "Underground Ruins": {
+    "x": 0.281,
+    "y": 0.459
+  },
+  "Virbank City": {
+    "x": 0.2695,
+    "y": 0.7555
+  },
+  "Virbank Complex": {
+    "x": 0.25,
+    "y": 0.822
+  },
+  "White Treehollow": {
+    "x": 0.742,
+    "y": 0.5415
+  }
+}
+
+
