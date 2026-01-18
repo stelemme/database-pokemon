@@ -769,7 +769,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 20,
@@ -805,7 +805,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 20,
@@ -1041,7 +1041,24 @@
     ],
     "gender": "50:50",
     "sprite": "raichu",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "raichu-mega-x",
+        "types": [
+          "Electric"
+        ],
+        "name": "Mega Raichu X",
+        "pokedexNo": 26
+      },
+            {
+        "sprite": "raichu-mega-y",
+        "types": [
+          "Electric"
+        ],
+        "name": "Mega Raichu Y",
+        "pokedexNo": 26
+      }
+    ],
     "genderDifference": true,
     "legendary": false,
     "mythical": false,
@@ -1078,7 +1095,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 27,
@@ -1145,7 +1162,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 28,
@@ -1177,7 +1194,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 28,
@@ -1493,7 +1510,17 @@
     ],
     "gender": "25:75",
     "sprite": "clefable",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "clefable-mega",
+        "types": [
+          "Fairy",
+          "Flying"
+        ],
+        "name": "Mega Clefable",
+        "pokedexNo": 36
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -1535,7 +1562,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 37,
@@ -1600,7 +1627,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 38,
@@ -2100,7 +2127,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 51,
@@ -2136,7 +2163,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 51,
@@ -2208,7 +2235,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 52,
@@ -2291,7 +2318,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 53,
@@ -2326,7 +2353,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 53,
@@ -2546,7 +2573,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 58,
@@ -2619,7 +2646,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 59,
@@ -3097,7 +3124,17 @@
     ],
     "gender": "50:50",
     "sprite": "victreebel",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "victreebel-mega",
+        "types": [
+          "Grass",
+          "Poison"
+        ],
+        "name": "Mega Victreebel",
+        "pokedexNo": 71
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -3258,7 +3295,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 75,
@@ -3296,7 +3333,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 75,
@@ -3370,7 +3407,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 76,
@@ -3480,7 +3517,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 78,
@@ -3516,7 +3553,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 78,
@@ -3589,7 +3626,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 79,
@@ -3710,7 +3747,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 81,
@@ -3861,7 +3898,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 84,
@@ -4083,7 +4120,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 89,
@@ -4154,7 +4191,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 90,
@@ -4564,7 +4601,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 100,
@@ -4637,7 +4674,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 101,
@@ -4771,7 +4808,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 104,
@@ -4845,7 +4882,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 105,
@@ -5045,7 +5082,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 110,
@@ -5478,7 +5515,17 @@
     ],
     "gender": "Genderless",
     "sprite": "starmie",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "starmie-mega",
+        "types": [
+          "Water",
+          "Psychic"
+        ],
+        "name": "Mega Starmie",
+        "pokedexNo": 121
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -5561,7 +5608,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 123,
@@ -5817,7 +5864,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 128,
@@ -5853,7 +5900,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 128,
@@ -5889,7 +5936,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 129,
@@ -6491,7 +6538,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 144,
@@ -6583,7 +6630,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 146,
@@ -6643,7 +6690,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 147,
@@ -6733,7 +6780,17 @@
     ],
     "gender": "50:50",
     "sprite": "dragonite",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "dragonite-mega",
+        "types": [
+          "Dragon",
+          "Flying"
+        ],
+        "name": "Mega Dragonite",
+        "pokedexNo": 149
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -6907,7 +6964,17 @@
     ],
     "gender": "87.5:12.5",
     "sprite": "meganium",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "meganium-mega",
+        "types": [
+          "Grass",
+          "Fairy"
+        ],
+        "name": "Mega Meganium",
+        "pokedexNo": 154
+      }
+    ],
     "genderDifference": true,
     "legendary": false,
     "mythical": false,
@@ -7017,7 +7084,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 157,
@@ -7137,7 +7204,17 @@
     ],
     "gender": "87.5:12.5",
     "sprite": "feraligatr",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "feraligatr-mega",
+        "types": [
+          "Water",
+          "Dragon"
+        ],
+        "name": "Mega Feraligatr",
+        "pokedexNo": 160
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -8389,7 +8466,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 194,
@@ -8599,7 +8676,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 199,
@@ -8691,7 +8768,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 201,
@@ -8718,7 +8795,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 201,
@@ -8745,7 +8822,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 201,
@@ -8772,7 +8849,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 201,
@@ -8826,7 +8903,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 201,
@@ -8853,7 +8930,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 201,
@@ -8880,7 +8957,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 201,
@@ -8907,7 +8984,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 201,
@@ -8934,7 +9011,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 201,
@@ -8961,7 +9038,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 201,
@@ -8988,7 +9065,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 201,
@@ -9015,7 +9092,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 201,
@@ -9042,7 +9119,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 201,
@@ -9069,7 +9146,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 201,
@@ -9096,7 +9173,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 201,
@@ -9123,7 +9200,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 201,
@@ -9150,7 +9227,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 201,
@@ -9177,7 +9254,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 201,
@@ -9204,7 +9281,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 201,
@@ -9231,7 +9308,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 201,
@@ -9258,7 +9335,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 201,
@@ -9285,7 +9362,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 201,
@@ -9312,7 +9389,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 201,
@@ -9339,7 +9416,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 201,
@@ -9366,7 +9443,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 201,
@@ -9393,7 +9470,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 201,
@@ -9420,7 +9497,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 202,
@@ -9822,7 +9899,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 212,
@@ -9988,7 +10065,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 215,
@@ -10284,7 +10361,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 222,
@@ -10491,7 +10568,17 @@
     ],
     "gender": "50:50",
     "sprite": "skarmory",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "skarmory-mega",
+        "types": [
+          "Steel",
+          "Flying"
+        ],
+        "name": "Mega Skarmory",
+        "pokedexNo": 227
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -11774,7 +11861,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 263,
@@ -11884,7 +11971,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 265,
@@ -15206,7 +15293,17 @@
     ],
     "gender": "50:50",
     "sprite": "chimecho",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "chimecho-mega",
+        "types": [
+          "Psychic",
+          "Steel"
+        ],
+        "name": "Mega Chimecho",
+        "pokedexNo": 358
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -15248,6 +15345,15 @@
           "Dark"
         ],
         "name": "Mega Absol",
+        "pokedexNo": 359
+      },
+      {
+        "sprite": "absol-mega-z",
+        "types": [
+          "Dark",
+          "Ghost"
+        ],
+        "name": "Mega Absol Z",
         "pokedexNo": 359
       }
     ],
@@ -16628,7 +16734,17 @@
     ],
     "gender": "50:50",
     "sprite": "staraptor",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "staraptor-mega",
+        "types": [
+          "Fighting",
+          "Flying"
+        ],
+        "name": "Mega Staraptor",
+        "pokedexNo": 398
+      }
+    ],
     "genderDifference": true,
     "legendary": false,
     "mythical": false,
@@ -17507,7 +17623,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 422,
@@ -17580,7 +17696,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 423,
@@ -18403,6 +18519,14 @@
         ],
         "name": "Mega Garchomp",
         "pokedexNo": 445
+      },
+      {
+        "sprite": "garchomp-mega-z",
+        "types": [
+          "Dragon"
+        ],
+        "name": "Mega Garchomp Z",
+        "pokedexNo": 445
       }
     ],
     "genderDifference": true,
@@ -18522,6 +18646,15 @@
           "Steel"
         ],
         "name": "Mega Lucario",
+        "pokedexNo": 448
+      },
+      {
+        "sprite": "lucario-mega-z",
+        "types": [
+          "Fighting",
+          "Steel"
+        ],
+        "name": "Mega Lucario Z",
         "pokedexNo": 448
       }
     ],
@@ -19567,7 +19700,15 @@
     ],
     "gender": "0:100",
     "sprite": "froslass",
-    "forms": [],
+    "forms": [      {
+        "sprite": "froslass-mega",
+        "types": [
+          "Ice",
+          "Ghost"
+        ],
+        "name": "Mega Froslass",
+        "pokedexNo": 478
+      }],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -19838,7 +19979,17 @@
     ],
     "gender": "50:50",
     "sprite": "heatran",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "heatran-mega",
+        "types": [
+          "Fire",
+          "Steel"
+        ],
+        "name": "Mega Heatran",
+        "pokedexNo": 485
+      }
+    ],
     "genderDifference": false,
     "legendary": true,
     "mythical": false,
@@ -20015,7 +20166,16 @@
     ],
     "gender": "Genderless",
     "sprite": "darkrai",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "darkrai-mega",
+        "types": [
+          "Dark"
+        ],
+        "name": "Mega Darkrai",
+        "pokedexNo": 491
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": true,
@@ -20442,7 +20602,17 @@
     ],
     "gender": "87.5:12.5",
     "sprite": "emboar",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "emboar-mega",
+        "types": [
+          "Fire",
+          "Fighting"
+        ],
+        "name": "Mega Emboar",
+        "pokedexNo": 500
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -20552,7 +20722,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 503,
@@ -21534,7 +21704,17 @@
     ],
     "gender": "50:50",
     "sprite": "excadrill",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "excadrill-mega",
+        "types": [
+          "Ground",
+          "Steel"
+        ],
+        "name": "Mega Excadrill",
+        "pokedexNo": 530
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -22097,7 +22277,17 @@
     ],
     "gender": "50:50",
     "sprite": "scolipede",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "scolipede-mega",
+        "types": [
+          "Bug",
+          "Poison"
+        ],
+        "name": "Mega Scolipede",
+        "pokedexNo": 545
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -22289,7 +22479,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 550,
@@ -22359,7 +22549,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 550,
@@ -22397,7 +22587,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 551,
@@ -22543,7 +22733,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 554,
@@ -22617,7 +22807,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 555,
@@ -22832,7 +23022,17 @@
     ],
     "gender": "50:50",
     "sprite": "scrafty",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "scrafty-mega",
+        "types": [
+          "Dark",
+          "Fighting"
+        ],
+        "name": "Mega Scrafty",
+        "pokedexNo": 560
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -22907,7 +23107,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 562,
@@ -23235,7 +23435,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 571,
@@ -23290,7 +23490,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 572,
@@ -24517,7 +24717,16 @@
     ],
     "gender": "50:50",
     "sprite": "eelektross",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "eelektross-mega",
+        "types": [
+          "Electric"
+        ],
+        "name": "Mega Eelektross",
+        "pokedexNo": 604
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -24702,7 +24911,17 @@
     ],
     "gender": "50:50",
     "sprite": "chandelure",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "chandelure-mega",
+        "types": [
+          "Ghost",
+          "Fire"
+        ],
+        "name": "Mega Chandelure",
+        "pokedexNo": 609
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -25020,7 +25239,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 618,
@@ -25228,7 +25447,17 @@
     ],
     "gender": "Genderless",
     "sprite": "golurk",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "golurk-mega",
+        "types": [
+          "Ground",
+          "Ghost"
+        ],
+        "name": "Mega Golurk",
+        "pokedexNo": 623
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -25424,7 +25653,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 628,
@@ -26302,7 +26531,17 @@
     ],
     "gender": "87.5:12.5",
     "sprite": "chesnaught",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "chesnaught-mega",
+        "types": [
+          "Grass",
+          "Fighting"
+        ],
+        "name": "Mega Chesnaught",
+        "pokedexNo": 652
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -26401,7 +26640,17 @@
     ],
     "gender": "87.5:12.5",
     "sprite": "delphox",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "delphox-mega",
+        "types": [
+          "Fire",
+          "Psychic"
+        ],
+        "name": "Mega Delphox",
+        "pokedexNo": 655
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -26500,7 +26749,17 @@
     ],
     "gender": "87.5:12.5",
     "sprite": "greninja",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "greninja-mega",
+        "types": [
+          "Water",
+          "Dark"
+        ],
+        "name": "Mega Greninja",
+        "pokedexNo": 658
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -26828,7 +27087,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 666,
@@ -26864,7 +27123,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 666,
@@ -26900,7 +27159,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 666,
@@ -26936,7 +27195,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 666,
@@ -26972,7 +27231,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 666,
@@ -27008,7 +27267,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 666,
@@ -27044,7 +27303,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 666,
@@ -27080,7 +27339,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 666,
@@ -27116,7 +27375,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 666,
@@ -27152,7 +27411,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 666,
@@ -27188,7 +27447,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 666,
@@ -27260,7 +27519,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 666,
@@ -27296,7 +27555,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 666,
@@ -27332,7 +27591,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 666,
@@ -27368,7 +27627,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 666,
@@ -27404,7 +27663,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 666,
@@ -27440,7 +27699,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 666,
@@ -27476,7 +27735,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 666,
@@ -27512,7 +27771,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 667,
@@ -27577,8 +27836,18 @@
     ],
     "gender": "12.5:87.5",
     "sprite": "pyroar",
-    "forms": [],
-    "genderDifference": false,
+    "forms": [
+      {
+        "sprite": "pyroar-mega",
+        "types": [
+          "Fire",
+          "Normal"
+        ],
+        "name": "Mega Pyroar",
+        "pokedexNo": 668
+      }
+    ],
+    "genderDifference": true,
     "legendary": false,
     "mythical": false,
     "ultraBeast": false,
@@ -27620,7 +27889,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 669,
@@ -27654,7 +27923,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 669,
@@ -27688,7 +27957,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 669,
@@ -27756,7 +28025,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 670,
@@ -27789,7 +28058,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 670,
@@ -27822,7 +28091,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 670,
@@ -27855,7 +28124,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 670,
@@ -27921,7 +28190,43 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
+  },
+  {
+    "pokedexNo": 670,
+    "name": "Eternal Flower Floette",
+    "types": [
+      "Fairy"
+    ],
+    "maxEvolutions": 0,
+    "evolutions": [],
+    "abilities": [
+      [
+        "Flower Veil",
+        "false"
+      ]
+    ],
+    "gender": "0:100",
+    "sprite": "floette-eternal",
+    "forms": [
+      {
+        "sprite": "floette-mega",
+        "types": [
+          "Fairy"
+        ],
+        "name": "Mega Floette",
+        "pokedexNo": 670
+      }
+    ],
+    "genderDifference": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "starter": false,
+    "fossil": false,
+    "pastParadox": false,
+    "futureParadox": false,
+    "baseForm": false
   },
   {
     "pokedexNo": 671,
@@ -27952,7 +28257,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 671,
@@ -27983,7 +28288,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 671,
@@ -28045,7 +28350,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 671,
@@ -28076,7 +28381,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 672,
@@ -28377,7 +28682,16 @@
     ],
     "gender": "0:100",
     "sprite": "meowstic-f",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "meowstic-mega",
+        "types": [
+          "Psychic"
+        ],
+        "name": "Mega Meowstic",
+        "pokedexNo": 678
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -28386,7 +28700,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 678,
@@ -28412,7 +28726,16 @@
     ],
     "gender": "100:0",
     "sprite": "meowstic",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "meowstic-mega",
+        "types": [
+          "Psychic"
+        ],
+        "name": "Mega Meowstic",
+        "pokedexNo": 678
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -28713,7 +29036,17 @@
     ],
     "gender": "50:50",
     "sprite": "malamar",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "malamar-mega",
+        "types": [
+          "Dark",
+          "Psychic"
+        ],
+        "name": "Mega Malamar",
+        "pokedexNo": 687
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -28787,7 +29120,15 @@
     ],
     "gender": "50:50",
     "sprite": "barbaracle",
-    "forms": [],
+    "forms": [      {
+        "sprite": "barbaracle-mega",
+        "types": [
+          "Rock",
+          "Fighting"
+        ],
+        "name": "Mega Barbaracle",
+        "pokedexNo": 689
+      }],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -28861,7 +29202,17 @@
     ],
     "gender": "50:50",
     "sprite": "dragalge",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "dragalge-mega",
+        "types": [
+          "Poison",
+          "Dragon"
+        ],
+        "name": "Mega Dragalge",
+        "pokedexNo": 691
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -29190,7 +29541,17 @@
     ],
     "gender": "50:50",
     "sprite": "hawlucha",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "hawlucha-mega",
+        "types": [
+          "Fighting",
+          "Flying"
+        ],
+        "name": "Mega Hawlucha",
+        "pokedexNo": 701
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -29382,7 +29743,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 706,
@@ -29418,7 +29779,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 706,
@@ -29707,7 +30068,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 713,
@@ -29916,6 +30277,15 @@
           "Ground"
         ],
         "name": "Complete Form Zygarde",
+        "pokedexNo": 718
+      },
+      {
+        "sprite": "zygarde-mega",
+        "types": [
+          "Dragon",
+          "Ground"
+        ],
+        "name": "Mega Zygarde",
         "pokedexNo": 718
       }
     ],
@@ -30166,7 +30536,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 725,
@@ -30701,7 +31071,17 @@
     ],
     "gender": "50:50",
     "sprite": "crabominable",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "crabominable-mega",
+        "types": [
+          "Fighting",
+          "Ice"
+        ],
+        "name": "Mega Crabominable",
+        "pokedexNo": 740
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -30923,7 +31303,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 745,
@@ -30993,7 +31373,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 746,
@@ -31780,7 +32160,17 @@
     ],
     "gender": "50:50",
     "sprite": "golisopod",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "golisopod-mega",
+        "types": [
+          "Bug",
+          "Steel"
+        ],
+        "name": "Mega Golisopod",
+        "pokedexNo": 768
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -32155,7 +32545,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 774,
@@ -32193,7 +32583,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 774,
@@ -32231,7 +32621,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 774,
@@ -32269,7 +32659,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 774,
@@ -32307,7 +32697,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 774,
@@ -32345,7 +32735,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 775,
@@ -32527,7 +32917,17 @@
     ],
     "gender": "50:50",
     "sprite": "drampa",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "drampa-mega",
+        "types": [
+          "Normal",
+          "Dragon"
+        ],
+        "name": "Mega Drampa",
+        "pokedexNo": 780
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -33199,6 +33599,24 @@
         ],
         "name": "Original Form Magearna",
         "pokedexNo": 800
+      },
+      {
+        "sprite": "magearna-mega",
+        "types": [
+          "Steel",
+          "Fairy"
+        ],
+        "name": "Mega Magearna",
+        "pokedexNo": 800
+      },
+      {
+        "sprite": "magearna-mega-original",
+        "types": [
+          "Steel",
+          "Fairy"
+        ],
+        "name": "Mega Magearna Original Form",
+        "pokedexNo": 800
       }
     ],
     "genderDifference": false,
@@ -33368,7 +33786,16 @@
     ],
     "gender": "Genderless",
     "sprite": "zeraora",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "zeraora-mega",
+        "types": [
+          "Electric"
+        ],
+        "name": "Mega Zeraora",
+        "pokedexNo": 807
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": true,
@@ -34992,7 +35419,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 850,
@@ -35206,7 +35633,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 855,
@@ -35237,7 +35664,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 855,
@@ -35844,7 +36271,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -35884,7 +36311,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -35924,7 +36351,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -35964,7 +36391,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -36004,7 +36431,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -36044,7 +36471,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -36084,7 +36511,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -36124,7 +36551,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -36164,7 +36591,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -36204,7 +36631,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -36244,7 +36671,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -36284,7 +36711,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -36324,7 +36751,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -36364,7 +36791,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -36404,7 +36831,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -36444,7 +36871,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -36484,7 +36911,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -36524,7 +36951,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -36564,7 +36991,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -36604,7 +37031,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -36644,7 +37071,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -36684,7 +37111,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -36724,7 +37151,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -36764,7 +37191,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -36804,7 +37231,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -36844,7 +37271,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -36884,7 +37311,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -36924,7 +37351,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -36964,7 +37391,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -37004,7 +37431,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -37084,7 +37511,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -37124,7 +37551,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -37164,7 +37591,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -37204,7 +37631,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -37244,7 +37671,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -37284,7 +37711,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -37324,7 +37751,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -37364,7 +37791,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -37404,7 +37831,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -37444,7 +37871,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -37484,7 +37911,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -37524,7 +37951,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -37564,7 +37991,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -37604,7 +38031,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -37644,7 +38071,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -37684,7 +38111,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -37724,7 +38151,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -37764,7 +38191,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -37804,7 +38231,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -37844,7 +38271,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -37884,7 +38311,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -37924,7 +38351,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -37964,7 +38391,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -38004,7 +38431,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -38044,7 +38471,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -38084,7 +38511,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -38124,7 +38551,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -38164,7 +38591,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -38204,7 +38631,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -38244,7 +38671,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -38284,7 +38711,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 869,
@@ -38324,7 +38751,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 870,
@@ -38346,7 +38773,16 @@
     ],
     "gender": "Genderless",
     "sprite": "falinks",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "falinks-mega",
+        "types": [
+          "Fighting"
+        ],
+        "name": "Mega Falinks",
+        "pokedexNo": 870
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -38587,7 +39023,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 877,
@@ -39211,7 +39647,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 893,
@@ -39584,7 +40020,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 903,
@@ -40099,7 +40535,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 917,
@@ -40412,7 +40848,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 925,
@@ -40684,7 +41120,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 931,
@@ -40720,7 +41156,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 931,
@@ -40756,7 +41192,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 932,
@@ -41479,7 +41915,17 @@
     ],
     "gender": "50:50",
     "sprite": "scovillain",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "scovillain-mega",
+        "types": [
+          "Grass",
+          "Fire"
+        ],
+        "name": "Mega Scovillain",
+        "pokedexNo": 952
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -42097,7 +42543,17 @@
     ],
     "gender": "50:50",
     "sprite": "glimmora",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "glimmora-mega",
+        "types": [
+          "Rock",
+          "Poison"
+        ],
+        "name": "Mega Glimmora",
+        "pokedexNo": 970
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -42336,7 +42792,7 @@
       ]
     ],
     "gender": "50:50",
-    "sprite": "dodonzo",
+    "sprite": "dondozo",
     "forms": [],
     "genderDifference": false,
     "legendary": false,
@@ -42369,7 +42825,17 @@
     ],
     "gender": "50:50",
     "sprite": "tatsugiri-droopy",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "tatsugiri-mega-droopy",
+        "types": [
+          "Dragon",
+          "Water"
+        ],
+        "name": "Mega Tatsugiri Droopy Form",
+        "pokedexNo": 978
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -42378,7 +42844,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 978,
@@ -42401,7 +42867,17 @@
     ],
     "gender": "50:50",
     "sprite": "tatsugiri-curly",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "tatsugiri-mega-curly",
+        "types": [
+          "Dragon",
+          "Water"
+        ],
+        "name": "Mega Tatsugiri Curly Form",
+        "pokedexNo": 978
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -42433,7 +42909,17 @@
     ],
     "gender": "50:50",
     "sprite": "tatsugiri-stretchy",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "tatsugiri-mega-stretchy",
+        "types": [
+          "Dragon",
+          "Water"
+        ],
+        "name": "Mega Tatsugiri Stretchy Form",
+        "pokedexNo": 978
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -42442,7 +42928,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 979,
@@ -42585,7 +43071,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 982,
@@ -43084,7 +43570,17 @@
     ],
     "gender": "50:50",
     "sprite": "baxcalibur",
-    "forms": [],
+    "forms": [
+      {
+        "sprite": "baxcalibur-mega",
+        "types": [
+          "Dragon",
+          "Ice"
+        ],
+        "name": "Mega Baxcalibur",
+        "pokedexNo": 998
+      }
+    ],
     "genderDifference": false,
     "legendary": false,
     "mythical": false,
@@ -43151,7 +43647,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 1000,
@@ -43565,7 +44061,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 1013,
@@ -43629,7 +44125,7 @@
     "fossil": false,
     "pastParadox": false,
     "futureParadox": false,
-    "baseForm": true
+    "baseForm": false
   },
   {
     "pokedexNo": 1014,
