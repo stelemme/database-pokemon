@@ -11462,7 +11462,7 @@
             "White Forest"
         ],
         "shinyCharm": false,
-        "dir": "gen-5",
+        "dir": "gen-5-bw",
         "methods": [
             {
                 "name": "Breeding",
@@ -12444,7 +12444,7 @@
             "White Forest"
         ],
         "shinyCharm": false,
-        "dir": "gen-5",
+        "dir": "gen-5-bw",
         "methods": [
             {
                 "name": "Breeding",
@@ -13453,7 +13453,7 @@
             "White Treehollow"
         ],
         "shinyCharm": true,
-        "dir": "gen-5",
+        "dir": "gen-5-b2w2",
         "methods": [
             {
                 "name": "Breeding",
@@ -14466,7 +14466,7 @@
             "White Treehollow"
         ],
         "shinyCharm": true,
-        "dir": "gen-5",
+        "dir": "gen-5-b2w2",
         "methods": [
             {
                 "name": "Breeding",
@@ -30840,7 +30840,6 @@
             "Dark Type Arceus",
             "Dragon Type Arceus",
             "Electric Type Arceus",
-            "Fairy Type Arceus",
             "Fighting Type Arceus",
             "Fire Type Arceus",
             "Flying Type Arceus",
@@ -32042,7 +32041,6 @@
             "Dark Type Arceus",
             "Dragon Type Arceus",
             "Electric Type Arceus",
-            "Fairy Type Arceus",
             "Fighting Type Arceus",
             "Fire Type Arceus",
             "Flying Type Arceus",
